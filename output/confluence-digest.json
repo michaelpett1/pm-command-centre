@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-04-17T07:00:00.000Z",
+  "date": "17/04/2026",
+  "covers_date": "15/04/2026",
+  "ai_overview": "Confluence activity for 15 April 2026 was dominated by significant progress on the Rollcard project, including the finalisation of social media launch content, homepage copy decks, and critical technical pivots regarding KYC and CIP solutions due to integration timelines. Product management should specifically note the new 'Agent & Automation Projects' roadmap for the Commercial Team and the release of the BetSyn Feature Matrix and Sprint 7 release notes for Bookies. Key technical documentation was also established for 'Eve,' the Group's affiliate management platform, covering data models and onboarding procedures. Mike should prioritize reviewing the 'Rollcard Project Sync' and 'Finance Requirements' pages to understand the LexisNexis integration risks and treasury reporting needs. Additionally, the 'Weekly Report' for GDC Core highlights ongoing content pipeline issues in the Finnish market that may require product-level intervention.",
+  "stats": {
+    "total_pages": 50,
+    "active_spaces": 7,
+    "pages_created": 41,
+    "pages_updated": 9,
+    "meaningful_pages": 26
+  },
+  "highlights": [
+    {
+      "title": "04/15 – Recap of your meeting with gochisel.com (GDC | Galileo | CRB | Weekly Project Sync)",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "summary": "CIP Solution Pivot: the team is pivoting away from Galileo's CIP solution for launch due to timeline constraints. Covers alpha testing, fraud review, Galileo portal/G-Analytics access, bank and card embossing updates, and MobileWatt Wallets launch.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596132877/04+15+Recap+of+your+meeting+with+gochisel.com",
+      "type": "highlight"
+    },
+    {
+      "title": "04/10 – Recap of your meeting with gochisel.com (Rollcard Project Sync)",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "summary": "KYC vendor risk: LexisNexis has an unacceptable 6–8 week integration timeline; team actively sourcing alternatives to avoid launch delays. Also covers new Windstar Casino partnership opportunity, metal card order, and AML policy deadline.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596165682/04+10+Recap+of+your+meeting+with+gochisel.com+Rollcard+Project+Sync",
+      "type": "highlight"
+    },
+    {
+      "title": "Agent & Automation Projects — Build Roadmap",
+      "space": "Commercial Team",
+      "author": "Michael Rasile",
+      "summary": "Updated sequenced build roadmap for agent and automation projects where every layer feeds the next. Covers Claude Code setup, Confluence API token creation, and a staged automation strategy.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6572441655/Agent+Automation+Projects+Build+Roadmap",
+      "type": "highlight"
+    },
+    {
+      "title": "Release Notes - BDC - Bookies - Sprint 7 CY 2026 - Apr 15",
+      "space": "Bookies POD",
+      "author": "Elijah Basore",
+      "summary": "Sprint 7 release notes including addition of an Author Tip block for quick contextual guidance within articles.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/BOOK/pages/6595772705/Release+Notes+-+BDC+-+Bookies+-+Sprint+7+CY+2026+-+Apr+15",
+      "type": "highlight"
+    },
+    {
+      "title": "Weekly Report - w/c 14 April 2026",
+      "space": "GDC Core",
+      "author": "Dan Smullen",
+      "summary": "Senior Director Group SEO weekly report: Finnish market content pipeline issues flagged by Patrick Kivirikko, UK/CA markets challenging for outreach. Multiple workstreams active.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6596001919/Weekly+Report+-+w+c+14+April+2026",
+      "type": "highlight"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Offer Creation/Edit",
+      "space": "Adtech",
+      "author": "Leon Masson",
+      "action": "created",
+      "timestamp": "2026-04-15T23:30:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6595739771/Offer+Creation+Edit",
+      "summary": "Explains the three main Eve task types: offer creation, offer edit, and deal update. Provides guidance on identifying which applies and the downstream risks of choosing incorrectly."
+    },
+    {
+      "title": "Onboarding Index",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:48:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6596001794/Onboarding+Index",
+      "summary": "Welcome index for Eve, GDC Group's affiliate marketing management platform. Links to all developer documentation: architecture overview, local setup, codebase guides."
+    },
+    {
+      "title": "Data Model Relationship",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:42:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6595641779/Data+Model+Relationship",
+      "summary": "Documents how core Eve database tables relate to each other. The Wizard entry point creates Brand, BrandProduct, SiteBrandProduct, OperatorDeal, and Offer in sequence; all tables use soft deletes."
+    },
+    {
+      "title": "Code Procedure",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:37:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6595641756/Code+Procedure",
+      "summary": "Day-to-day working procedures for Eve: branch naming, ticket lifecycle, PR process, and deployment. GitHub Actions CI runs automatically on PRs targeting main and feature branches."
+    },
+    {
+      "title": "Project Setup",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:36:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6595740060/Project+Setup",
+      "summary": "Step-by-step guide to running Eve locally from scratch: database import, Sail setup, environment configuration. Composer and PHP run inside Sail — no local install required."
+    },
+    {
+      "title": "Tech Stack",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:36:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6596001826/Tech+Stack",
+      "summary": "Eve is a Laravel 11 PHP application (gandalf-app) managing affiliate programs, brands, operator deals, sites, and offers across GDC's ad-tech portfolio. Uses Tailwind CSS 3."
+    },
+    {
+      "title": "Scheduled Commands - Break down and Info",
+      "space": "Adtech",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-04-15T21:14:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6595641719/Scheduled+Commands+-+Break+down+and+Info",
+      "summary": "Documents every scheduled Artisan command in the Eve application: schedule, technical background, criticality to live system, and Sentry monitoring status. All commands in routes/console.php."
+    },
+    {
+      "title": "BetSyn Feature Matrix",
+      "space": "Bookies POD",
+      "author": "Elijah Basore",
+      "action": "updated",
+      "timestamp": "2026-04-15T19:16:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/BOOK/pages/6592432220/BetSyn+Feature+Matrix",
+      "summary": "Free vs Premium feature comparison table for BetSyn."
+    },
+    {
+      "title": "Release Notes - BDC - Bookies - Sprint 7 CY 2026 - Apr 15",
+      "space": "Bookies POD",
+      "author": "Elijah Basore",
+      "action": "created",
+      "timestamp": "2026-04-15T19:01:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/BOOK/pages/6595772705/Release+Notes+-+BDC+-+Bookies+-+Sprint+7+CY+2026+-+Apr+15",
+      "summary": "Sprint 7 release notes: addition of an Author Tip block for quick contextual guidance within articles."
+    },
+    {
+      "title": "Agent & Automation Projects — Build Roadmap",
+      "space": "Commercial Team",
+      "author": "Michael Rasile",
+      "action": "updated",
+      "timestamp": "2026-04-15T04:07:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6572441655/Agent+Automation+Projects+Build+Roadmap",
+      "summary": "Sequenced build roadmap for agent and automation projects where each layer feeds the next. Includes Claude Code installation, authentication, and Confluence API token setup as completed foundational stages."
+    },
+    {
+      "title": "Daily Action Items — Week of March 14–18, 2026",
+      "space": "Commercial Team",
+      "author": "Michael Rasile",
+      "action": "updated",
+      "timestamp": "2026-04-15T22:20:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6562449371/Daily+Action+Items+Week+of+March+14+18+2026",
+      "summary": "Outstanding action items: Everflow past-due invoice for Rollcard account at risk of closure, and follow-up needed on bet365 March CPAs (January also still processing)."
+    },
+    {
+      "title": "Weekly Report - w/c 14 April 2026",
+      "space": "GDC Core",
+      "author": "Dan Smullen",
+      "action": "created",
+      "timestamp": "2026-04-15T07:58:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6596001919/Weekly+Report+-+w+c+14+April+2026",
+      "summary": "Group SEO weekly report: Finnish market content pipeline issues flagged, UK/CA outreach response rates challenging. Spend vs budget tracking with multiple workstreams active."
+    },
+    {
+      "title": "Sprint Summary — Freebets — Week of 14 April 2026",
+      "space": "OGX",
+      "author": "Marius Stefan Hrebenciuc",
+      "action": "created",
+      "timestamp": "2026-04-15T07:20:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/XTGG/pages/6596067366/Sprint+Summary+Freebets+Week+of+14+April+2026",
+      "summary": "Sprint summary for Freebets week of 14 April 2026. RGB-2647 (Log In - Email Templates & Email Settings) In Review at Medium priority."
+    },
+    {
+      "title": "Sprint Summary — Kasinot — Week of 14 April 2026",
+      "space": "OGX",
+      "author": "Marius Stefan Hrebenciuc",
+      "action": "created",
+      "timestamp": "2026-04-15T07:19:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/XTGG/pages/6596165779/Sprint+Summary+Kasinot+Week+of+14+April+2026",
+      "summary": "First sprint summary for Kasinot. No Kasinot-specific tickets currently queued for next sprint."
+    },
+    {
+      "title": "Sprint Summary — Vedonlyonti — Week of 14 April 2026",
+      "space": "OGX",
+      "author": "Marius Stefan Hrebenciuc",
+      "action": "created",
+      "timestamp": "2026-04-15T07:19:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/XTGG/pages/6596132931/Sprint+Summary+Vedonlyonti+Week+of+14+April+2026",
+      "summary": "Active sprint summary for Vedonlyonti week of 14 April 2026, including cross-site tickets."
+    },
+    {
+      "title": "Sprint Summary — Nettikasinot — Week of 14 April 2026",
+      "space": "OGX",
+      "author": "Marius Stefan Hrebenciuc",
+      "action": "updated",
+      "timestamp": "2026-04-15T07:19:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/XTGG/pages/6596165728/Sprint+Summary+Nettikasinot+Week+of+14+April+2026",
+      "summary": "Sprint summary for Nettikasinot week of 14 April 2026."
+    },
+    {
+      "title": "Sprint Summary — WhichBingo — Week of 14 April 2026",
+      "space": "OGX",
+      "author": "Marius Stefan Hrebenciuc",
+      "action": "created",
+      "timestamp": "2026-04-15T07:18:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/XTGG/pages/6596034631/Sprint+Summary+WhichBingo+Week+of+14+April+2026",
+      "summary": "Active sprint summary for WhichBingo week of 14 April 2026. RGB-2820 (All Sites) in Code Review."
+    },
+    {
+      "title": "04/13 Rollcard Weekly Status",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "updated",
+      "timestamp": "2026-04-15T03:41:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596165641/04+13+Rollcard+Weekly+Status",
+      "summary": "Weekly status update for Rollcard project as of 13 April 2026."
+    },
+    {
+      "title": "04/10 – Recap of your meeting with gochisel.com (Rollcard Project Sync)",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-04-15T02:49:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596165682/04+10+Recap+of+your+meeting+with+gochisel.com+Rollcard+Project+Sync",
+      "summary": "Meeting recap (10 April): KYC vendor LexisNexis has unacceptable 6–8 week timeline; team sourcing alternatives. New Windstar Casino partnership, metal card order, and AML policy deadline also discussed."
+    },
+    {
+      "title": "04/10 – Recap of your meeting with gochisel.com (CRB Open DD Items)",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-04-15T02:49:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596165661/04+10+Recap+of+your+meeting+with+gochisel.com+CRB+Open+DD+Items",
+      "summary": "Meeting recap (10 April): compliance walkthrough requirements for CRB open DD items. Live sandbox demo of customer onboarding journey planned to provide early feedback and prevent launch delays."
+    },
+    {
+      "title": "04/15 – Recap of your meeting with gochisel.com (GDC | Galileo | CRB | Weekly Project Sync)",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-04-15T02:49:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596132877/04+15+Recap+of+your+meeting+with+gochisel.com",
+      "summary": "Meeting recap (15 April, 31 min): pivoting from Galileo's CIP solution due to timeline constraints. Alpha testing, fraud review, Galileo portal access, bank and card embossing updates, and MobileWatt Wallets launch."
+    },
+    {
+      "title": "04/15 – Meeting assets for Rollcard: Finance Requirements",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-04-15T02:48:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6596034569/04+15+Meeting+assets+for+Rollcard+Finance+Requirements+next+steps+are+ready",
+      "summary": "Galileo financial reporting implementation: data feeds review (5 synthetic data files from Chris Raulli), reporting requirements, affiliate vendor payments, system admin, and alpha testing phase planning."
+    },
+    {
+      "title": "Additional Social Content and Copy (Posts: 6-20)",
+      "space": "Rollcard",
+      "author": "Christine Doh",
+      "action": "updated",
+      "timestamp": "2026-04-15T22:03:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6557368717/Additional+Social+Content+and+Copy+Posts+6-20",
+      "summary": "Social media content and copy for Rollcard launch posts 6-20."
+    },
+    {
+      "title": "Homepage Copy Deck",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "updated",
+      "timestamp": "2026-04-15T20:12:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6571098145/Homepage+Copy+Deck",
+      "summary": "Homepage copy: H1 'The high-limit card for high-roller action', H2 positioning Rollcard as purpose-built for savvy bettors. Full menu structure including Card Management dropdown."
+    },
+    {
+      "title": "Social Content and Copy for Launch (Posts 1-5)",
+      "space": "Rollcard",
+      "author": "Christine Doh",
+      "action": "updated",
+      "timestamp": "2026-04-15T19:44:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6545245019/Social+Content+and+Copy+for+Launch+Posts+1-5",
+      "summary": "Launch social content posts 1-5. Strategy: direct and informative with 'Join' CTA. LinkedIn copy introduces Rollcard as the high-limit debit card for savvy bettors."
+    },
+    {
+      "title": "Additional Social Content and Copy (Posts: 21-31)",
+      "space": "Rollcard",
+      "author": "Christine Doh",
+      "action": "updated",
+      "timestamp": "2026-04-15T19:19:00",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6560842933/Additional+Social+Content+and+Copy+Posts+21-31",
+      "summary": "Post-launch social content (posts 21-31) educating on Rollcard features. Post #21: 'Your Money. At Your Discretion.' with approved compliance language."
+    }
+  ],
+  "spaces": [
+    { "name": "Adtech", "key": "Adtech", "activity_count": 7, "color": "blue" },
+    { "name": "Bookies POD", "key": "BOOK", "activity_count": 2, "color": "amber" },
+    { "name": "Commercial Team", "key": "AMT", "activity_count": 2, "color": "purple" },
+    { "name": "GDC Core", "key": "GDCC", "activity_count": 1, "color": "emerald" },
+    { "name": "OGX", "key": "XTGG", "activity_count": 5, "color": "cyan" },
+    { "name": "Rollcard", "key": "PDL2", "activity_count": 9, "color": "rose" }
+  ]
+}
