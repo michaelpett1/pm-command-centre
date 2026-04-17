@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-04-17T15:00:00.000+0100",
+  "date": "17/04/2026",
+  "report_type": "afternoon",
+  "notes": [
+    "Morning report (report-morning.json) not found — all items treated as current; no delta comparison available.",
+    "Confluence CQL search returned 400 — Confluence data unavailable for this run.",
+    "knowledge/ files (preferences.md, team.md, projects-active.md) not yet present in repo."
+  ],
+  "action_items": [
+    {
+      "action": "Share logo information from EVE on GDCU-8840 (Instagram Headers Widget) — Chloe Christie explicitly tagged you to provide this before tracking can be updated by Vic",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
+    },
+    {
+      "action": "Review Figma prototype for Learning Hub imagery on GDCU-8736 — Ciara Carroll tagged you, Carlos Blauth, Chloe Christie and Joshua Smith for sign-off",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+    },
+    {
+      "action": "Respond in #gdc-product-led-growth to Ciara Carroll's question: how should the new login/sign-up text style be handled at design-system scale? She and Jessica Dordevic are waiting on direction before building guidelines",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "💬"
+    },
+    {
+      "action": "Review GDCU-8801 (Oplist Redesign CA/FR Casino Page) — currently In Product, Ciara Carroll tagged you for sign-off; ticket has been bouncing between Done and In Product",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "👀",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
+    },
+    {
+      "action": "Review GDCU-8881 (Iceland Author Image Fixes) — moved to In Product today by Ciara Carroll; needs product sign-off before release",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🇮🇸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8881"
+    },
+    {
+      "action": "Review GDCU-8830 (Fix image carousel display issue) — moved to In Product today by Kelvin Yee; needs product sign-off",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830"
+    },
+    {
+      "action": "Track GDCU-8875 (HOTFIX: Add phone number to email confirmation form) — High priority, now In QA with Kelvin Yee; confirm release timeline",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🚨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8875"
+    },
+    {
+      "action": "Unblock GDCU-8619 (Operator List Redesign) — status shows Blocked; Ciara Carroll is assignee; understand what is blocking and clear the path",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🚫",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
+    },
+    {
+      "action": "Confirm GDCU-8880 (Ace Tips Module) criteria — Ciara Carroll noted in #gdc-product-design-pod that you created this ticket today with design system file criteria; verify it has enough detail for design to proceed",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🤖",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8880"
+    },
+    {
+      "action": "Note positive: GDCU-8406 (hreflang fix for Slots Games Pages) shipped to Done today — Sanja Budic delivered",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8406"
+    },
+    {
+      "action": "Note positive: GDCU-8792 (Cloudflare Bot Management) advanced to In QA today — high priority item progressing",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
+    }
+  ],
+  "needs_input": [
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Ciara tagged Mike directly in a comment today: 'Figma prototype for Learning Hub imagery shared for review.' Waiting on Mike's approval before this can progress."
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Ciara previously tagged Mike, Diana Thurmann, Chloe Christie and Joshua Smith for review. Ticket has moved between Done and In Product — needs a definitive sign-off or rejection from Mike."
+    },
+    {
+      "key": "GDCU-8881",
+      "summary": "Iceland Author Image Fixes",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "NEW today — moved to In Product this afternoon. UX fix for Iceland launch author images; product review required before it can be closed out."
+    },
+    {
+      "key": "GDCU-8830",
+      "summary": "Fix image carousel display issue on site page",
+      "assignee": "Kelvin Yee",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "NEW today — Kelvin moved this to In Product. Carousel display fix needs product sign-off to close the loop on the site container update work."
+    },
+    {
+      "key": "GDCU-8619",
+      "summary": "Operator List Redesign",
+      "assignee": "Ciara Carroll",
+      "status": "Blocked",
+      "priority": "Medium",
+      "context": "Flagged as Blocked (priority field). No recent comment activity visible — Mike needs to check what is blocking Ciara and intervene or reprioritise."
+    },
+    {
+      "key": "GDCU-8840",
+      "summary": "🔥 Instagram Headers Widget",
+      "assignee": "Unassigned",
+      "status": "Backlog",
+      "priority": "Medium",
+      "context": "Chloe Christie explicitly asked Mike to share logo information from EVE so the ticket can proceed. Victoria Dadson also needs to update for tracking once that's done. Direct blocker sitting with Mike."
+    }
+  ]
+}
