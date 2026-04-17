@@ -1,0 +1,754 @@
+{
+  "generated_at": "2026-04-17T00:00:00.000+0100",
+  "sprint": {
+    "name": "GDCU Sprint8Q2",
+    "total": 41,
+    "stats": {
+      "in_progress": 13,
+      "in_qa": 2,
+      "in_product": 2,
+      "backlog": 24,
+      "done": 0
+    }
+  },
+  "columns": {
+    "in_progress": [
+      {
+        "key": "GDCU-8814",
+        "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8810",
+        "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8792",
+        "summary": "Implement Cloudflare Bot Management",
+        "assignee": "Sanja Budic",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8856",
+        "summary": "Fixes for Iceland Launch",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8733",
+        "summary": "Apply Feedback to the Learning Hub",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8476",
+        "summary": "Design for Publish Screen",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8803",
+        "summary": "Implement Sign In/Registration Modal Redesign",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8548",
+        "summary": "🔥 Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8406",
+        "summary": "Fix hreflang implementation for Slots Games Pages",
+        "assignee": "Sanja Budic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8846",
+        "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8823",
+        "summary": "New Global Strategy Hub/Sub Hub Refinements",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8830",
+        "summary": "Fix image carousel display issue on site page",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8512",
+        "summary": "Always On Betting Tips Page",
+        "assignee": "Miguel Migneco",
+        "priority": "Medium",
+        "flags": []
+      }
+    ],
+    "in_qa": [
+      {
+        "key": "GDCU-8627",
+        "summary": "Bottom Navigation Bar - Mobile",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8807",
+        "summary": "Set Up Dynamic Content API (Cloudflare Workers + D1 + GDC Admin Panel)",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      }
+    ],
+    "in_product": [
+      {
+        "key": "GDCU-8736",
+        "summary": "Share/Create Imagery for the Learning Hub",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8801",
+        "summary": "Oplist Redesign on CA/FR Casino Page",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      }
+    ],
+    "done": []
+  },
+  "ticket_movements": [
+    {
+      "key": "GDCU-8814",
+      "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-16T17:23:46.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-04-16T16:38:29.000+0100",
+      "actor": "Ciara Carroll"
+    },
+    {
+      "key": "GDCU-8871",
+      "summary": "🔥 Free to Play App POC v2",
+      "from": "In Progress",
+      "to": "To Do",
+      "timestamp": "2026-04-16T13:08:34.000+0100",
+      "actor": "Carlos Blauth"
+    },
+    {
+      "key": "GDCU-8825",
+      "summary": "GDC Regression Testing GDCU Sprint 7",
+      "from": "In Progress",
+      "to": "Done",
+      "timestamp": "2026-04-16T11:54:28.000+0100",
+      "actor": "Unassigned"
+    },
+    {
+      "key": "GDCU-8826",
+      "summary": "Automation Bug Fixing and Refactoring Sprint 7",
+      "from": "In Progress",
+      "to": "Done",
+      "timestamp": "2026-04-16T11:53:58.000+0100",
+      "actor": "Unassigned"
+    },
+    {
+      "key": "GDCU-8829",
+      "summary": "Remove \"Recommended Slots\" Structural Override from Bonus Hub Pages",
+      "from": "Backlog",
+      "to": "Cancelled",
+      "timestamp": "2026-04-16T10:52:59.000+0100",
+      "actor": "Unassigned"
+    },
+    {
+      "key": "GDCU-8808",
+      "summary": "Connect App to Dynamic Content API + Slot Games API Migration + Carousel Fix",
+      "from": "Backlog",
+      "to": "Cancelled",
+      "timestamp": "2026-04-16T09:24:21.000+0100",
+      "actor": "Unassigned"
+    },
+    {
+      "key": "GDCU-8695",
+      "summary": "Add Game and Software Provider Names for Slot Game Tiles",
+      "from": "In Progress",
+      "to": "Done",
+      "timestamp": "2026-04-16T09:15:07.000+0100",
+      "actor": "Jessica Dordevic"
+    },
+    {
+      "key": "GDCU-8846",
+      "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+      "from": "In Product",
+      "to": "In Progress",
+      "timestamp": "2026-04-16T08:58:12.000+0100",
+      "actor": "Chloe Christie"
+    },
+    {
+      "key": "GDCU-8856",
+      "summary": "Fixes for Iceland Launch",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-15T18:46:18.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8859",
+      "summary": "Create HTML Embed Codes for HPC Page",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-04-15T16:33:51.000+0100",
+      "actor": "Jessica Dordevic"
+    },
+    {
+      "key": "GDCU-8864",
+      "summary": "Create Guidelines for HTML Embed Components",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-04-15T16:33:18.000+0100",
+      "actor": "Jessica Dordevic"
+    },
+    {
+      "key": "GDCU-8740",
+      "summary": "Increase site content container max-width to 1200px+ and test across page types",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-04-15T16:32:26.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8740",
+      "summary": "Increase site content container max-width to 1200px+ and test across page types",
+      "from": "In QA",
+      "to": "In Product",
+      "timestamp": "2026-04-15T16:21:35.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8740",
+      "summary": "Increase site content container max-width to 1200px+ and test across page types",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-15T16:19:49.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8846",
+      "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-04-15T14:33:13.000+0100",
+      "actor": "Ciara Carroll"
+    },
+    {
+      "key": "GDCU-8740",
+      "summary": "Increase site content container max-width to 1200px+ and test across page types",
+      "from": "In Product",
+      "to": "In Progress",
+      "timestamp": "2026-04-15T11:59:38.000+0100",
+      "actor": "Harden Thomas Wallace"
+    },
+    {
+      "key": "GDCU-8858",
+      "summary": "News articles in the sidebar are not clickable",
+      "from": "Backlog",
+      "to": "Cancelled",
+      "timestamp": "2026-04-15T11:46:13.000+0100",
+      "actor": "Unassigned"
+    },
+    {
+      "key": "GDCU-8406",
+      "summary": "Fix hreflang implementation for Slots Games Pages",
+      "from": "In QA",
+      "to": "In Progress",
+      "timestamp": "2026-04-15T11:44:14.000+0100",
+      "actor": "Sanja Budic"
+    },
+    {
+      "key": "GDCU-8660",
+      "summary": "🔥 Iceland Smoke Testing",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-04-15T10:34:39.000+0100",
+      "actor": "Shane McGrath"
+    },
+    {
+      "key": "GDCU-8805",
+      "summary": "Integrate Cosmo Spins Unity Game to Free to Play App",
+      "from": "In QA",
+      "to": "Done",
+      "timestamp": "2026-04-15T10:14:17.000+0100",
+      "actor": "Carlos Blauth"
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "from": "Done",
+      "to": "In Product",
+      "timestamp": "2026-04-15T09:59:04.000+0100",
+      "actor": "Ciara Carroll"
+    }
+  ],
+  "recent_comments": [
+    {
+      "key": "GDCU-8834",
+      "summary": "Implement Fixes for Cool Tones Update",
+      "author": "Ciara Carroll",
+      "created": "2026-04-16T17:52:18.000+0100",
+      "mentions_mike": false,
+      "body": "Figma design reference shared for FAQ component styling."
+    },
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "author": "Ciara Carroll",
+      "created": "2026-04-16T16:38:08.000+0100",
+      "mentions_mike": true,
+      "body": "@Michael Butlin @Mike Pett @Carlos Blauth @Chloe Christie @Joshua Smith — Figma prototype for Learning Hub imagery shared for review."
+    },
+    {
+      "key": "GDCU-8840",
+      "summary": "🔥 Instagram Headers Widget",
+      "author": "Chloe Christie",
+      "created": "2026-04-16T16:27:03.000+0100",
+      "mentions_mike": true,
+      "body": "@Mike Pett to share logo information from EVE and @Victoria Dadson to update ticket in relation to tracking. Thanks both"
+    },
+    {
+      "key": "GDCU-8824",
+      "summary": "Apply a Flag for End of Cosmo Spins Game",
+      "author": "Chloe Christie",
+      "created": "2026-04-16T16:51:42.000+0100",
+      "mentions_mike": false,
+      "body": "@Victoria Dadson to add a ticket for GA tracking for the above"
+    },
+    {
+      "key": "GDCU-8856",
+      "summary": "Fixes for Iceland Launch",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-04-16T17:20:18.000+0100",
+      "mentions_mike": false,
+      "body": "Breadcrumb fix applied. @Lucas van Bilderbeek Fixed."
+    },
+    {
+      "key": "GDCU-8846",
+      "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+      "author": "Ciara Carroll",
+      "created": "2026-04-16T10:46:30.000+0100",
+      "mentions_mike": false,
+      "body": "Feedback from Josh Kerr: needs rethinking from perspective of someone who doesn't know what Cosmo Spins is — message clearer, less 'gaming' feel."
+    },
+    {
+      "key": "GDCU-8824",
+      "summary": "Apply a Flag for End of Cosmo Spins Game",
+      "author": "Shaun Cronin",
+      "created": "2026-04-16T10:14:42.000+0100",
+      "mentions_mike": false,
+      "body": "Do we need a flag at the end of slot tournament spins to push people towards Cosmo?"
+    },
+    {
+      "key": "GDCU-8829",
+      "summary": "Remove \"Recommended Slots\" Structural Override from Bonus Hub Pages",
+      "author": "Chloe Christie",
+      "created": "2026-04-16T10:53:21.000+0100",
+      "mentions_mike": false,
+      "body": "Cancelled as was fixed by @Harden Thomas Wallace already @Joshua Smith"
+    },
+    {
+      "key": "GDCU-8825",
+      "summary": "GDC Regression Testing GDCU Sprint 7",
+      "author": "Automation for Jira",
+      "created": "2026-04-16T11:54:31.000+0100",
+      "mentions_mike": false,
+      "body": "The linked issue GDCU-8825 has been resolved"
+    },
+    {
+      "key": "GDCU-8826",
+      "summary": "Automation Bug Fixing and Refactoring Sprint 7",
+      "author": "Automation for Jira",
+      "created": "2026-04-16T11:54:01.000+0100",
+      "mentions_mike": false,
+      "body": "The linked issue GDCU-8826 has been resolved"
+    },
+    {
+      "key": "GDCU-8808",
+      "summary": "Connect App to Dynamic Content API + Slot Games API Migration + Carousel Fix",
+      "author": "Chloe Christie",
+      "created": "2026-04-16T09:24:16.000+0100",
+      "mentions_mike": false,
+      "body": "Cancelled as was covered in GDCU-8807 @Gabriel Cornoiu @Kelvin Yee @Joshua Smith"
+    },
+    {
+      "key": "GDCU-8856",
+      "summary": "Fixes for Iceland Launch",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-04-15T19:33:29.000+0100",
+      "mentions_mike": false,
+      "body": "@Shane McGrath Issue is resolved by adding the image to origins under the name 'Authors - Gambling.com Editorial Team - 100px' and then running a publish."
+    },
+    {
+      "key": "GDCU-8856",
+      "summary": "Fixes for Iceland Launch",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-04-15T18:46:19.000+0100",
+      "mentions_mike": false,
+      "body": "Sections mentioned have been hidden as requested. Articles were left as-is, other geos such as AU currently exist with similar situations. Will investigate this further. FYI @Chloe Christie"
+    },
+    {
+      "key": "GDCU-8846",
+      "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+      "author": "Ciara Carroll",
+      "created": "2026-04-15T12:27:05.000+0100",
+      "mentions_mike": true,
+      "body": "Update coming per feedback from @Josh Kerr @Roy Coughlan @Reece Moffatt @Dean Ryan @Mike Pett"
+    },
+    {
+      "key": "GDCU-8864",
+      "summary": "Create Guidelines for HTML Embed Components",
+      "author": "Chloe Christie",
+      "created": "2026-04-15T12:20:08.000+0100",
+      "mentions_mike": true,
+      "body": "Document created and shared by @Jessica Dordevic, reviewed by @Ciara Carroll @Mike Pett already"
+    },
+    {
+      "key": "GDCU-8858",
+      "summary": "News articles in the sidebar are not clickable",
+      "author": "Joshua Smith",
+      "created": "2026-04-15T11:46:32.000+0100",
+      "mentions_mike": false,
+      "body": "Kelvin did a quick fix that will go with release v_167"
+    },
+    {
+      "key": "GDCU-8834",
+      "summary": "Implement Fixes for Cool Tones Update",
+      "author": "Shane McGrath",
+      "created": "2026-04-15T11:40:25.000+0100",
+      "mentions_mike": false,
+      "body": "Double checking — should toast messages be white now?"
+    },
+    {
+      "key": "GDCU-8834",
+      "summary": "Implement Fixes for Cool Tones Update",
+      "author": "Shane McGrath",
+      "created": "2026-04-15T11:35:17.000+0100",
+      "mentions_mike": false,
+      "body": "Background colour needs to be removed from copy/paste"
+    },
+    {
+      "key": "GDCU-8660",
+      "summary": "🔥 Iceland Smoke Testing",
+      "author": "Automation for Jira",
+      "created": "2026-04-15T10:34:42.000+0100",
+      "mentions_mike": false,
+      "body": "The linked issue has been resolved"
+    },
+    {
+      "key": "GDCU-8859",
+      "summary": "Create HTML Embed Codes for HPC Page",
+      "author": "Jessica Dordevic",
+      "created": "2026-04-15T10:43:14.000+0100",
+      "mentions_mike": true,
+      "body": "@Ciara Carroll @Jessica Dordevic @Mike Pett @Gabi Vinkovic @Diana Thurmann @Joshua Smith — embed codes link shared"
+    },
+    {
+      "key": "GDCU-8805",
+      "summary": "Integrate Cosmo Spins Unity Game to Free to Play App",
+      "author": "Automation for Jira",
+      "created": "2026-04-15T10:14:20.000+0100",
+      "mentions_mike": false,
+      "body": "The linked issue has been resolved"
+    },
+    {
+      "key": "GDCU-8834",
+      "summary": "Implement Fixes for Cool Tones Update",
+      "author": "Shane McGrath",
+      "created": "2026-04-15T10:55:29.000+0100",
+      "mentions_mike": false,
+      "body": "These type of buttons should be white — similar to Show/More/Less on oplists."
+    }
+  ],
+  "mike_mentions": [
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "author": "Ciara Carroll",
+      "created": "2026-04-16T16:38:08.000+0100",
+      "body": "@Michael Butlin @Mike Pett @Carlos Blauth @Chloe Christie @Joshua Smith — Figma prototype for Learning Hub imagery shared for review."
+    },
+    {
+      "key": "GDCU-8840",
+      "summary": "🔥 Instagram Headers Widget",
+      "author": "Chloe Christie",
+      "created": "2026-04-16T16:27:03.000+0100",
+      "body": "@Mike Pett to share logo information from EVE and @Victoria Dadson to update ticket in relation to tracking. Thanks both"
+    },
+    {
+      "key": "GDCU-8846",
+      "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+      "author": "Ciara Carroll",
+      "created": "2026-04-15T12:27:05.000+0100",
+      "body": "Update coming per feedback from @Josh Kerr @Roy Coughlan @Reece Moffatt @Dean Ryan @Mike Pett"
+    },
+    {
+      "key": "GDCU-8864",
+      "summary": "Create Guidelines for HTML Embed Components",
+      "author": "Chloe Christie",
+      "created": "2026-04-15T12:20:08.000+0100",
+      "body": "Document created and shared by @Jessica Dordevic, reviewed by @Ciara Carroll @Mike Pett already"
+    },
+    {
+      "key": "GDCU-8859",
+      "summary": "Create HTML Embed Codes for HPC Page",
+      "author": "Jessica Dordevic",
+      "created": "2026-04-15T10:43:14.000+0100",
+      "body": "@Ciara Carroll @Jessica Dordevic @Mike Pett @Gabi Vinkovic @Diana Thurmann @Joshua Smith — embed codes link shared"
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "author": "Ciara Carroll",
+      "created": "2026-04-06T16:44:48.000+0100",
+      "body": "@Mike Pett @Diana Thurmann @Chloe Christie @Joshua Smith — review request"
+    }
+  ],
+  "upcoming_backlog": [
+    {
+      "key": "GDCU-8874",
+      "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8789",
+      "summary": "ACE AI - Embedded Betslips",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8045",
+      "summary": "🔥 Dev support and implementation for Stable Stars game",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-7706",
+      "summary": "🔥 Integrate with 'generic styling' option on components",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-7612",
+      "summary": "Identify most common publishing errors appearing troubleshooting channel",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-7573",
+      "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-7068",
+      "summary": "GDC Email Brand Guidelines",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-6988",
+      "summary": "GDC Regression Bugs 2025 — Manual & Automation",
+      "priority": "High",
+      "status": "In Progress",
+      "assignee": "Robin John"
+    },
+    {
+      "key": "GDCU-5312",
+      "summary": "Core Web Vitals 2.0",
+      "priority": "High",
+      "status": "In Progress",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-4960",
+      "summary": "Dynamic Sub Primary Oplist",
+      "priority": "High",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8876",
+      "summary": "Implement Fixes for Site Container Update",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8868",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8865",
+      "summary": "Add Game and Software Provider Names for Slot Game Tiles",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8861",
+      "summary": "Scrolling Brand Card List with Images",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8857",
+      "summary": "Ace AI Additional Football Coverage",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8855",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8854",
+      "summary": "The arrow button on the Geo selector doesn't collapse when clicked",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8853",
+      "summary": "GDC New Content Shortcode/Component Creation",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8852",
+      "summary": "Ace Assistant Widget/Shortcode",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8851",
+      "summary": "Comparison cards with tabs",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8850",
+      "summary": "Content Grids and Scrolling Content Blocks Widget/Shortcodes",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8849",
+      "summary": "Experts Carousel Shortcode",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8848",
+      "summary": "Jump links widget",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8847",
+      "summary": "Display rev share operator list to users marked as VIP in ktag",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8845",
+      "summary": "Update all red links to blue across the website",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8843",
+      "summary": "Add text for unavailable products on US homepage op lists",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8839",
+      "summary": "AB Testing for UK Tenancy Removal",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8837",
+      "summary": "Ace AI Assistant event tracking",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8828",
+      "summary": "gambling.com/games improvements",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    },
+    {
+      "key": "GDCU-8827",
+      "summary": "Search Result not working fine on GDC Austria",
+      "priority": "Medium",
+      "status": "Backlog",
+      "assignee": "Unassigned"
+    }
+  ]
+}
