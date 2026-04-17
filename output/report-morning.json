@@ -1,0 +1,394 @@
+{
+  "generated_at": "2026-04-17T07:00:00.000+01:00",
+  "date": "17/04/2026",
+  "report_type": "morning",
+  "calendar": {
+    "today": [
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3pwURMGAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
+        "title": "Project",
+        "time": "11:40 BST",
+        "duration": "80 min",
+        "status": "busy",
+        "attendees": [],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Solo working block organised by Mike — no external attendees. Likely a dedicated focus or planning session.",
+        "discussion_topics": [],
+        "prep_notes": "Use this block to action in-product reviews: GDCU-8736 (Learning Hub imagery, Figma prototype awaiting your review) and GDCU-8801 (CA/FR oplist redesign). Also a good slot to follow up on the ACE AI daily reports issue flagged by Shane McGrath."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAKm22qgAAA=",
+        "title": "Prism CMS - Demo",
+        "time": "14:00 BST",
+        "duration": "30 min",
+        "status": "busy",
+        "attendees": [
+          "Gabriel Cornoiu",
+          "Dan Smullen",
+          "Dean Ryan",
+          "Diana Thurmann",
+          "Michael Butlin",
+          "Mike Pett"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Gabriel Cornoiu demos his new Prism CMS — a headless CMS built to feed AI-generated apps, tools, and GDC pages. He wants the group to see it in action and share feedback.",
+        "discussion_topics": [
+          "Prism CMS capabilities and architecture overview",
+          "Potential use cases: AI-generated content, tools, and GDC page feeds",
+          "Relationship to GDCU-8807 (Dynamic Content API with Cloudflare Workers + D1) — recently completed by Kelvin Yee",
+          "Fit within the current GDC roadmap and upcoming sprint backlog"
+        ],
+        "prep_notes": "Gabriel flagged in #gdc-pdmt (Apr 13) that he wants to refine Prism CMS further and discussed organising a dev session with Kelvin and Carlos. GDCU-8807 (Dynamic Content API) was completed this sprint — consider whether Prism CMS extends or overlaps that work. Come prepared with questions on roadmap fit, particularly for backlog tickets GDCU-8789 (ACE AI Embedded Betslips) and GDCU-8852 (Ace Assistant Widget). No Confluence agenda page found."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3pwURMGAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "title": "GDCU Assemble 💥 Standup",
+        "time": "14:30 BST",
+        "duration": "30 min",
+        "status": "busy",
+        "attendees": [
+          "Chloe Christie",
+          "Harden Thomas Wallace",
+          "Kelvin Yee",
+          "Shalini Kumar",
+          "Eoin McCarthy",
+          "Carlos Blauth",
+          "Robin John",
+          "Ionut Neculcea",
+          "Shane McGrath",
+          "Gabriel Cornoiu",
+          "Istivan Spiteri",
+          "Sander Persons",
+          "Nebojsa Stanic",
+          "Novica Vukobratovic",
+          "Sanja Budic",
+          "Miguel Migneco",
+          "Jessica Dordevic",
+          "Milan Nikolic",
+          "Mike Pett",
+          "Joshua Smith",
+          "Ciara Carroll",
+          "Victoria Dadson"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Daily GDCU pod standup. First standup of Sprint 8Q2 — 41 tickets in scope, 13 in progress. Good opportunity to surface blockers and confirm hotfix priority for GDCU-8875.",
+        "discussion_topics": [
+          "Sprint 8Q2 kick-off: 41 tickets, 13 in progress, 2 in QA, 2 in product",
+          "GDCU-8875 (hotfix: phone number on email landing page) — Chloe flagged as today's priority in #gdc-pod",
+          "GDCU-8548 🔥 (Sign-in trigger for Cosmo Spins) — flagged/blocked, assigned to Novica Vukobratovic",
+          "GDCU-8406 (hreflang fix for Slots pages) — reverted from In QA to In Progress by Sanja Budic",
+          "GDCU-8814 (XML Sitemaps missing 6,000+ URLs) — just pulled into sprint by Harden, high priority",
+          "ACE AI daily reports not generating since Saturday — Shane tagged Mike and Carlos in #gdc-pod",
+          "Sign-in bug on articles after sign out/sign in — Shane reported Apr 16 evening"
+        ],
+        "prep_notes": "Sprint 7 closed with 141 SP completed (Chloe announced in #gdc-pod Apr 16). Ciara has 7 carry-over tickets — agreed with Chloe to push slot tickets to next sprint. GDCU-8871 (Free to Play App POC v2) was moved back to To Do by Carlos — may need context. GDCU-8829 and GDCU-8808 were cancelled yesterday. Related Jira tickets: GDCU-8736, GDCU-8801 both in product awaiting your review."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3pqB7_4AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACeKp0AAAAEA==",
+        "title": "Mike / Colin 1.1",
+        "time": "15:00 BST",
+        "duration": "45 min",
+        "status": "busy",
+        "attendees": [
+          "Colin Brannigan",
+          "Mike Pett"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Weekly 1:1 with SVP Colin Brannigan. Colin has been closely watching the design system direction following Bruno's AI design system demo, and has asked pointed questions about prioritisation.",
+        "discussion_topics": [
+          "Design system direction — Bruno's AI design system vs Ciara's Forge build; Mike's vision for component library ownership reducing design bottleneck",
+          "Sprint 8Q2 start and velocity: 141 SP delivered in Sprint 7, 41 tickets in Sprint 8Q2",
+          "Iceland launch: smoke testing passed, fixes still In Progress (GDCU-8856)",
+          "Cosmo Spins Spring Ad Campaign (GDCU-8846): Josh Kerr requested a rethink — less 'gaming feel', clearer message for users unfamiliar with Cosmo",
+          "Operator list redesign (GDCU-8619): currently blocked; CA/FR oplist (GDCU-8801): In Product"
+        ],
+        "prep_notes": "In your DM with Colin (Apr 16), he asked whether to pause everything and focus solely on the design system — you explained the vision clearly (component library ownership model, specialist projects still owned by design). Come prepared to reinforce this. Colin is watching it closely. Also be ready to give a brief update on Iceland post-launch status and Cosmo Spins campaign. No Confluence agenda found for this meeting."
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "action": "Share logo information from EVE for GDCU-8840 (Instagram Headers Widget) — Chloe Christie tagged you directly in Jira: '@Mike Pett to share logo information from EVE'",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🔴",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
+    },
+    {
+      "action": "Investigate ACE AI daily reports not generating since Saturday — Shane McGrath tagged you and Carlos in #gdc-pod (Apr 16)",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "🤖",
+      "url": "https://gdcgroup.slack.com/archives/G01DVQ3859D"
+    },
+    {
+      "action": "Confirm GDCU-8875 (hotfix: phone number on email landing page) is picked up today — Chloe flagged as a priority hotfix in #gdc-pod (Apr 16 16:47 BST)",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8875"
+    },
+    {
+      "action": "Review and approve GDCU-8736 (Learning Hub imagery) — Ciara tagged you in Jira for Figma prototype review; moved to In Product yesterday",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+    },
+    {
+      "action": "Unblock GDCU-8619 (Operator List Redesign) — marked Blocked/In Product, Ciara Carroll is assignee and awaiting direction on design iterations",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🚫",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
+    },
+    {
+      "action": "Sign off on CA/FR oplist approach for GDCU-8801 — Chloe asked in #gdc-product-design-pod: A/B test or full implementation? Ciara said straight implementation but needs your confirmation",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
+    },
+    {
+      "action": "Investigate sign-in bug on articles after sign-out — Shane McGrath reported in #gdc-pod (Apr 16 19:53 BST): sign-in breaks on second attempt on article pages",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🐛",
+      "url": "https://gdcgroup.slack.com/archives/G01DVQ3859D"
+    },
+    {
+      "action": "Follow up with Vic Dadson on rewards engagement metrics — active DM discussion Apr 16 about best proxy for measuring rewards engagement (account creation vs actual engagement with points system)",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "📊"
+    },
+    {
+      "action": "Confirm direction for Cosmo Spins Spring Ad Campaign (GDCU-8846) — Josh Kerr requested rethink: clearer message, less 'gaming feel' for users unfamiliar with Cosmo Spins",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🎰",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846"
+    },
+    {
+      "action": "Chase responses on scrolling T&Cs hybrid solution — raised in #gdc-pdmt (Apr 14): static T&Cs required for Bet365 compliance. Eoin (technical effort) and Ciara (design implications) have not yet replied",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "📋",
+      "url": "https://gdcgroup.slack.com/archives/C05RRK62Z6X"
+    },
+    {
+      "action": "Review refer-a-friend usage data on IUJs — Mike asked in #gdc-pod (Apr 16 10:37 BST): 'how many users have used the refer a friend programme on the IUJs?' — check if a response came back",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "👥",
+      "url": "https://gdcgroup.slack.com/archives/G01DVQ3859D"
+    }
+  ],
+  "needs_input": [
+    {
+      "key": "GDCU-8840",
+      "summary": "🔥 Instagram Headers Widget",
+      "assignee": "Unassigned",
+      "status": "In Progress",
+      "priority": "High (🔥 flagged)",
+      "context": "Chloe Christie tagged Mike directly in Jira comments (Apr 16): '@Mike Pett to share logo information from EVE and @Victoria Dadson to update ticket in relation to tracking.' Ticket cannot progress until Mike shares the EVE logo information."
+    },
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Moved to In Product by Ciara Carroll on Apr 16. Ciara tagged Mike in Jira: 'Figma prototype for Learning Hub imagery shared for review.' Awaiting Mike's product sign-off before implementation can proceed."
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Moved back from Done to In Product on Apr 15 by Ciara. Mike is a named stakeholder. Chloe asked in #gdc-product-design-pod (Apr 15) whether this needs A/B testing first or can go to full implementation — Ciara said straight implementation but Mike's explicit sign-off is needed."
+    },
+    {
+      "key": "GDCU-8619",
+      "summary": "Operator List Redesign",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Blocked",
+      "context": "Flagged as 'Blocked' priority while sitting in In Product status. Ticket requires 3 distinct mobile-first grid-format operator list design iterations. Mike is a named stakeholder. No recent comments — appears stalled and needs direction from Mike to unblock."
+    }
+  ],
+  "jira": {
+    "blocked": [
+      {
+        "key": "GDCU-8548",
+        "summary": "🔥 Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
+        "assignee": "Novica Vukobratovic",
+        "status": "In Progress",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8619",
+        "summary": "Operator List Redesign",
+        "assignee": "Ciara Carroll",
+        "status": "In Product",
+        "priority": "Blocked",
+        "flags": []
+      }
+    ],
+    "needs_input": [
+      {
+        "key": "GDCU-8801",
+        "summary": "Oplist Redesign on CA/FR Casino Page",
+        "assignee": "Ciara Carroll",
+        "status": "In Product",
+        "priority": "Medium"
+      },
+      {
+        "key": "GDCU-8736",
+        "summary": "Share/Create Imagery for the Learning Hub",
+        "assignee": "Ciara Carroll",
+        "status": "In Product",
+        "priority": "Medium"
+      }
+    ],
+    "completed_48h": [
+      {
+        "key": "GDCU-8864",
+        "summary": "Create Guidelines for HTML Embed Components",
+        "assignee": "Jessica Dordevic",
+        "completed_at": "2026-04-15T16:33:21+01:00"
+      },
+      {
+        "key": "GDCU-8859",
+        "summary": "Create HTML Embed Codes for HPC Page (DE)",
+        "assignee": "Jessica Dordevic",
+        "completed_at": "2026-04-15T16:33:54+01:00"
+      },
+      {
+        "key": "GDCU-8826",
+        "summary": "Automation Bug Fixing and Refactoring Sprint 7",
+        "assignee": "Unassigned",
+        "completed_at": "2026-04-16T11:54:01+01:00"
+      },
+      {
+        "key": "GDCU-8825",
+        "summary": "GDC Regression Testing GDCU Sprint 7",
+        "assignee": "Unassigned",
+        "completed_at": "2026-04-16T11:54:31+01:00"
+      },
+      {
+        "key": "GDCU-8805",
+        "summary": "Integrate Cosmo Spins Unity Game to Free to Play App",
+        "assignee": "Carlos Blauth",
+        "completed_at": "2026-04-15T10:14:20+01:00"
+      },
+      {
+        "key": "GDCU-8740",
+        "summary": "Increase site content container max-width to 1200px+",
+        "assignee": "Harden Thomas Wallace",
+        "completed_at": "2026-04-15T16:32:30+01:00"
+      },
+      {
+        "key": "GDCU-8695",
+        "summary": "Add Game and Software Provider Names for Slot Game Tiles",
+        "assignee": "Jessica Dordevic",
+        "completed_at": "2026-04-16T09:15:10+01:00"
+      },
+      {
+        "key": "GDCU-8660",
+        "summary": "🔥 Iceland Smoke Testing",
+        "assignee": "Shane McGrath",
+        "completed_at": "2026-04-15T10:34:39+01:00"
+      }
+    ],
+    "status_changes": [
+      {
+        "key": "GDCU-8814",
+        "summary": "News Articles Missing from XML Sitemaps (6,000+ URLs, 23+ markets)",
+        "from": "Backlog",
+        "to": "In Progress",
+        "timestamp": "2026-04-16T17:23:46+01:00",
+        "actor": "Harden Thomas Wallace"
+      },
+      {
+        "key": "GDCU-8736",
+        "summary": "Share/Create Imagery for the Learning Hub",
+        "from": "In Progress",
+        "to": "In Product",
+        "timestamp": "2026-04-16T16:38:29+01:00",
+        "actor": "Ciara Carroll"
+      },
+      {
+        "key": "GDCU-8871",
+        "summary": "🔥 Free to Play App POC v2",
+        "from": "In Progress",
+        "to": "To Do",
+        "timestamp": "2026-04-16T13:08:34+01:00",
+        "actor": "Carlos Blauth"
+      },
+      {
+        "key": "GDCU-8846",
+        "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
+        "from": "In Product",
+        "to": "In Progress",
+        "timestamp": "2026-04-16T08:58:12+01:00",
+        "actor": "Chloe Christie"
+      },
+      {
+        "key": "GDCU-8856",
+        "summary": "Fixes for Iceland Launch",
+        "from": "Backlog",
+        "to": "In Progress",
+        "timestamp": "2026-04-15T18:46:18+01:00",
+        "actor": "Harden Thomas Wallace"
+      },
+      {
+        "key": "GDCU-8801",
+        "summary": "Oplist Redesign on CA/FR Casino Page",
+        "from": "Done",
+        "to": "In Product",
+        "timestamp": "2026-04-15T09:59:04+01:00",
+        "actor": "Ciara Carroll"
+      },
+      {
+        "key": "GDCU-8406",
+        "summary": "Fix hreflang implementation for Slots Games Pages",
+        "from": "In QA",
+        "to": "In Progress",
+        "timestamp": "2026-04-15T11:44:14+01:00",
+        "actor": "Sanja Budic"
+      }
+    ],
+    "stats": {
+      "completed": 8,
+      "status_changes": 7,
+      "blocked": 2
+    }
+  }
+}
