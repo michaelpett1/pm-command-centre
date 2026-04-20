@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-04-17T17:10:00+01:00",
+  "date": "17/04/2026",
+  "report_type": "evening",
+  "achievements": [
+    {
+      "description": "GDCU-8875 [HOTFIX] Add phone number field to UK email confirmation form page — deployed as hotfix by Kelvin Yee. Field is mandatory and captured on form submission.",
+      "source": "Jira (GDCU-8875) + #gdc-pod Slack",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8881 Iceland Author Image Fixes completed by Ciara Carroll — resolves author image display issues on GDC Iceland following last week's launch.",
+      "source": "Jira (GDCU-8881)",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8406 Fix hreflang implementation for Slots Games Pages completed by Sanja Budic — hreflang cluster now covers 12 markets (UK, IE, IN, NZ, IT, SE, NL, NO, RO, AT, GR, DE).",
+      "source": "Jira (GDCU-8406)",
+      "category": "completed"
+    },
+    {
+      "description": "Login modal hotfix deployed by Harden Wallace — fixed sign-in bug on articles where second sign-in attempt failed after sign-out. Also addressed article card sizing issues at xxl breakpoint. Full release confirmed complete.",
+      "source": "#gdc-pod Slack",
+      "category": "completed"
+    },
+    {
+      "description": "Cool tones background update merged — Ciara Carroll updated design system FAQ component guidelines with padding recommendations (10–16px containers, 10px corner radius) and shared Figma reference for dev.",
+      "source": "#gdc-product-led-growth Slack",
+      "category": "update"
+    },
+    {
+      "description": "New design system text style surfaced from login/signup redesign — Ciara flagged an undocumented dimmer variant of gdc-light-blue used in the sign-in/register modal that needs guidelines defining when/how it's used.",
+      "source": "#gdc-product-led-growth Slack (GDCU-8803)",
+      "category": "update"
+    },
+    {
+      "description": "Image carousel shortcode implementation discussion in #gdc-pod — Joshua Smith and Eoin McCarthy confirmed Origins image naming convention (e.g. image=\"starburst\") for the GDCU-8836 shortcode. Gabriel Cornoiu to weigh in.",
+      "source": "#gdc-pod Slack (GDCU-8836)",
+      "category": "decision"
+    },
+    {
+      "description": "Iceland post-launch SEO progress: AccuRanker tracking configured, GA4 and GSC live, backlink outreach initiated, content gap analysis underway. Icelandic freelancer search for localisation QA unsuccessful — DeepL translation quality concerns flagged.",
+      "source": "Confluence (GDC Iceland Post Launch Tasks Meeting — 16 Apr)",
+      "category": "update"
+    },
+    {
+      "description": "Week 17 Tech SEO Report published by Mattias Hagman — directional call flagged as 'Caution' due to exit clicks under pressure from active attack on IT property. Covers 21–27 April forecast.",
+      "source": "Confluence (Week 17 Tech SEO Report)",
+      "category": "update"
+    },
+    {
+      "description": "Nordics Team Sprint Planning for 20–26 April published by Damjan Jugovic Spajic — Norway, Sweden, Finland, Denmark content sprint tasks documented.",
+      "source": "Confluence (Nordics Team Sprint Planning: Apr 20–26)",
+      "category": "update"
+    },
+    {
+      "description": "Commercial team end-of-week updates filed (17/04/2026) — Pragmatic Play Jelly Express campaign stats pulled, commercial pipeline updates submitted by team leads.",
+      "source": "Confluence (AMT Weekly Updates 17/04/2026)",
+      "category": "update"
+    }
+  ],
+  "meeting_summaries": [
+    {
+      "title": "GDC Iceland Post Launch Tasks Meeting",
+      "time": "2026-04-16 (notes updated 17/04)",
+      "summary": "Post-launch tasks meeting for GDC Iceland (gambling.com/is). Attended by Alexandru-Daniel Vasile and Lucas van Bilderbeek. Focused on SEO and content maturation tasks following the 15 April launch. GA4 and GSC both live. AccuRanker tracking set up but needs fine-tuning once query data matures. Backlink outreach has started. Icelandic localisation QA was attempted but no suitable freelancer found on Fiverr — concerns remain about DeepL translation quality. Internal links work in progress (GS2-191). Gameshub Iceland exists for IS version; EN version is WIP with Alex.",
+      "decisions": [
+        "AccuRanker tracking will be fine-tuned once more GSC query data is available",
+        "Backlink outreach strategy informed by competitor backlink analysis — ongoing",
+        "No Icelandic freelancer available for localisation QA; relying on DeepL for now",
+        "Pavle to assist with setting internal links (GS2-191)"
+      ],
+      "action_items_from_meeting": [
+        "Lucas van Bilderbeek: Update bonus page (EN version), review and input needed",
+        "Alex Vasile: Complete Gameshub Iceland EN version (WIP)",
+        "Team: Review GSC query data once available to determine optimisation tasks",
+        "Team: Fine-tune AccuRanker tracking when more data available"
+      ]
+    }
+  ],
+  "action_points": [
+    {
+      "action": "Respond to Ciara in #gdc-product-led-growth re: design system text style for login/signup modal — needs decision on when/how the dimmer gdc-light-blue variant is used across the design system and how it should be documented in guidelines.",
+      "source": "#gdc-product-led-growth Slack (2026-04-17 12:36)",
+      "priority": "high",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.slack.com/archives/C0AE981E1EJ/p1776425762301009",
+      "carry_over": false
+    },
+    {
+      "action": "Share logo information from EVE for GDCU-8840 Instagram Headers Widget — Chloe Christie has explicitly tagged Mike to provide this. Also nudge Vic Dadson to update ticket for tracking.",
+      "source": "Jira GDCU-8840 comment (Chloe Christie, 2026-04-16)",
+      "priority": "high",
+      "emoji": "📸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840",
+      "carry_over": false
+    },
+    {
+      "action": "Review Learning Hub imagery Figma prototype (GDCU-8736 — in In Product). Ciara Carroll has shared Figma prototype and tagged Mike for sign-off. Ticket is blocked on this review.",
+      "source": "Jira GDCU-8736 comment (Ciara Carroll, 2026-04-16)",
+      "priority": "high",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736",
+      "carry_over": false
+    },
+    {
+      "action": "Review and sign off Oplist Redesign on CA/FR Casino Page (GDCU-8801 — in In Product). Ciara Carroll tagged Mike in a review request in early April; still awaiting sign-off.",
+      "source": "Jira GDCU-8801 (Ciara Carroll, 2026-04-06)",
+      "priority": "medium",
+      "emoji": "📋",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801",
+      "carry_over": true
+    },
+    {
+      "action": "Follow up on Cosmo Spins Spring Ad Creative (GDCU-8846) — Josh Kerr gave feedback that the creative needs rethinking from perspective of someone who doesn't know Cosmo Spins; message needs to be clearer, less 'gaming' feel. Ciara is reworking. Confirm direction.",
+      "source": "Jira GDCU-8846 comments (Ciara Carroll / Chloe Christie, 2026-04-16)",
+      "priority": "medium",
+      "emoji": "🎰",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846",
+      "carry_over": false
+    },
+    {
+      "action": "Escalate or prioritise GDCU-8548 🔥 (flagged) — Update Sign In to Trigger After User Tries to Spin on Cosmo Spins. Ticket is flagged and still In Progress (Novica Vukobratovic). Confirm sprint commitment and unblock if needed.",
+      "source": "Jira GDCU-8548 (flagged ticket)",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548",
+      "carry_over": true
+    },
+    {
+      "action": "Resolve GDCU-8871 Free to Play App POC v2 moved back to To Do — Carlos Blauth moved it from In Progress to To Do yesterday. Understand what blocked this and whether it's scheduled for next sprint.",
+      "source": "Jira GDCU-8871 ticket movement (2026-04-16)",
+      "priority": "medium",
+      "emoji": "📱",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8871",
+      "carry_over": false
+    },
+    {
+      "action": "Assign GDCU-8874 Page Bloat — reduce HTML payload across all markets (CookieYes, SSR operator list, VWO, inline scripts). High priority, currently unassigned in backlog. Consider for Sprint 9.",
+      "source": "Jira GDCU-8874 backlog",
+      "priority": "medium",
+      "emoji": "⚡",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8874",
+      "carry_over": false
+    },
+    {
+      "action": "Confirm image naming convention for GDCU-8836 Image Carousel Shortcode — Josh/Eoin agreed on Origins naming (e.g. image=\"starburst\"). Ensure Gabriel Cornoiu has confirmed and Nebojsa can proceed with implementation.",
+      "source": "#gdc-pod Slack (2026-04-17 12:22)",
+      "priority": "low",
+      "emoji": "🔧",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8836",
+      "carry_over": false
+    },
+    {
+      "action": "Review Week 17 Tech SEO Report — Mattias flagged 'Caution' directional call due to exit clicks under pressure from active attack on IT property. Understand scope and if product action is required.",
+      "source": "Confluence (Week 17 Tech SEO Report, 2026-04-17)",
+      "priority": "medium",
+      "emoji": "📉",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6598688817",
+      "carry_over": false
+    },
+    {
+      "action": "Prepare for Monday GDC Weekly Sync with Colin Brannigan — review sprint progress, Jira status (3 tickets Done today, 2 in In Product, 1 flagged), Iceland post-launch status, and have a view on revenue trends/performance decline themes raised in last SMT.",
+      "source": "Outlook Calendar (2026-04-21 10:00–11:30 BST)",
+      "priority": "high",
+      "emoji": "📅",
+      "carry_over": false
+    },
+    {
+      "action": "Note: GDCU Assemble Standup on Monday (14:30–15:00 BST) clashes with your afternoon annual leave (from 13:00 BST). Decide whether to attend or delegate to Chloe Christie.",
+      "source": "Outlook Calendar (annual leave + standup conflict)",
+      "priority": "medium",
+      "emoji": "⚠️",
+      "carry_over": false
+    }
+  ],
+  "calendar": {
+    "next_working_day": [
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACeKp0CAAAEA==",
+        "title": "Mike/Jess Catch Up",
+        "time": "09:15–09:45 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": ["jessica.dordevic@gdcgroup.com"],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Recurring 1:1 between Mike and Jessica Dordevic (direct report, UX Designer). Zoom meeting (Meeting ID: 899 0775 9614).",
+        "discussion_topics": [
+          "GDCU-8476 Design for Publish Screen — still In Progress, any blockers?",
+          "GDCU-8736 Learning Hub imagery Figma prototype — Mike to have reviewed before this call and provide sign-off or feedback",
+          "Jess's workload for Sprint 8 Q2 remaining tickets"
+        ],
+        "prep_notes": "Review GDCU-8476 and GDCU-8736 status before this call. Jess owns the Learning Hub imagery (GDCU-8736) design — confirm if Figma prototype is ready for handoff or if further iteration is needed. Check if Jess has capacity given slim remaining sprint work."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACcDzOTwAAEA==",
+        "title": "GDC Weekly Sync",
+        "time": "10:00–11:30 BST",
+        "duration": "90 min",
+        "status": "confirmed",
+        "attendees": [
+          "colin.brannigan@gdcgroup.com",
+          "dan.smullen@gdcgroup.com",
+          "dean.ryan@gdcgroup.com",
+          "michael.butlin@gdcgroup.com",
+          "diana.thurmann@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "diarmuid.nolan@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Recurring senior management team weekly sync hosted by Colin Brannigan (Mike's manager). Covers product, engineering, content, and commercial updates. Zoom (Colin Brannigan's personal room). Based on 14 Apr SMT, recurring themes include revenue performance, AI content strategy, and platform initiatives.",
+        "discussion_topics": [
+          "Sprint 8 Q2 progress — 3 tickets completed today (GDCU-8875 hotfix, GDCU-8406 hreflang, GDCU-8881 Iceland); 2 in In Product; 1 flagged",
+          "Week 17 Tech SEO 'Caution' directional call — exit clicks under pressure, active IT property attack",
+          "Iceland post-launch status — author image fixes done, SEO maturation underway, localisation QA concern",
+          "Revenue/performance trends — March at ~$2m, -10% MoM, performance continuing to decline",
+          "Page bloat (GDCU-8874) — high priority, unassigned; candidate for Sprint 9 prioritisation",
+          "Free to Play App POC v2 (GDCU-8871) moved back to To Do — sprint impact to discuss"
+        ],
+        "prep_notes": "Come prepared with a clean Sprint 8 Q2 status summary: Done (3 today + prior), In Progress (13), In QA (2), In Product (2). Know your position on FTP App POC v2 regression. Review Week 17 Tech SEO report and be ready to comment on IT property attack impact on product. Have a view on page bloat priority for Sprint 9."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
+        "title": "Project (Personal Working Block)",
+        "time": "11:40–13:00 BST",
+        "duration": "80 min",
+        "status": "confirmed",
+        "attendees": [],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Personal focus block with no attendees. Immediately follows the GDC Weekly Sync. Ends at start of afternoon annual leave at 13:00 BST.",
+        "discussion_topics": [],
+        "prep_notes": "Use this block to action any follow-ups from the GDC Weekly Sync before afternoon leave begins. Good time to clear GDCU-8736 and GDCU-8801 In Product reviews."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "title": "GDCU Assemble 💥 Standup",
+        "time": "14:30–15:00 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "Harden.Wallace@gdcgroup.com",
+          "kelvin.yee@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "carlos.blauth@gdcgroup.com",
+          "robin.john@gdcgroup.com",
+          "ionut.neculcea@gdcgroup.com",
+          "shane.mcgrath@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "istivan.spiteri@gdcgroup.com",
+          "sander.persons@gdcgroup.com",
+          "nebojsa.stanic@gdcgroup.com",
+          "novica.vukobratovic@gdcgroup.com",
+          "sanja.budic@gdcgroup.com",
+          "miguel.migneco@gdcgroup.com",
+          "jessica.dordevic@gdcgroup.com",
+          "milan.nikolic@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Full GDCU team daily standup. 22 attendees. Zoom: https://gdcgroup.zoom.us/j/4789482034. ⚠️ CONFLICT: This standup at 14:30–15:00 BST falls within your afternoon annual leave (from 13:00 BST on 21 Apr). Decision needed.",
+        "discussion_topics": [
+          "⚠️ Conflict with afternoon annual leave — confirm attendance or delegate",
+          "Sprint 8 Q2 board status post-Friday completions",
+          "GDCU-8548 flagged ticket — sign-in trigger after Cosmo Spins (Novica) — get status update",
+          "GDCU-8871 FTP App POC v2 regression to To Do — Carlos to explain",
+          "GDCU-8840 Instagram Headers Widget — Mike to confirm if EVE logo info shared"
+        ],
+        "prep_notes": "⚠️ You have afternoon annual leave on Monday from 13:00 BST. This standup is at 14:30 BST. Decide whether to attend (returning for 30 mins) or delegate attendance to Chloe Christie or Gabriel Cornoiu. If attending, keep to quick status check — no new decisions needed in standup."
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-04-17T15:30:00+01:00",
+  "date": "17/04/2026",
+  "report_type": "afternoon",
+  "notes": [
+    "No morning report (report-morning.json) found — all items treated as current; no delta comparison available.",
+    "Confluence CQL returned 0 results — no GDCU pages modified today.",
+    "Slack date-filter searches returned no results; channels read directly by ID instead.",
+    "knowledge/ files (preferences.md, team.md, projects-active.md) not yet present in repo."
+  ],
+  "action_items": [
+    {
+      "action": "Share EVE logo information for Instagram Headers Widget (GDCU-8840) — Chloe Christie explicitly tagged you in Jira: '@Mike Pett to share logo information from EVE'; Victoria Dadson is waiting to update tracking once done",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
+    },
+    {
+      "action": "Review and sign off GDCU-8875 [HOTFIX] phone number field on UK email confirmation form — HIGH priority, confirmed In Product at 14:07 today (Kelvin Yee); Chloe flagged as sprint priority in #gdc-pod yesterday",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🚨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8875"
+    },
+    {
+      "action": "Review Learning Hub imagery Figma prototype on GDCU-8736 — Ciara tagged you directly in Jira (Apr 16 16:38): 'Figma prototype for Learning Hub imagery shared for review'; awaiting your sign-off",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+    },
+    {
+      "action": "Review GDCU-8881 Iceland Author Image Fixes — NEW today, arrived In Product at 13:01 (Ciara Carroll); post-Iceland-launch UX cleanup; needs product sign-off to close",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🇮🇸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8881"
+    },
+    {
+      "action": "Review GDCU-8830 image carousel fix — moved In Progress to In Product today at 13:53 (Kelvin Yee); duplicate carousel ID bug fixed on MX casino page; needs product verification",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🎠",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830"
+    },
+    {
+      "action": "Review GDCU-8801 Oplist Redesign CA/FR Casino Page — In Product since 15 Apr; outstanding review request from Ciara; Chloe confirmed via DM no A/B test required — straight implementation",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🃏",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
+    },
+    {
+      "action": "Finalise rewards engagement metric definition with Vic Dadson — DM thread from yesterday unresolved; agreed to chat at 11 but no conclusion visible; new vs engaged users distinction still open",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "📊"
+    },
+    {
+      "action": "Respond to Ciara Carroll's DM (today 13:17) about creating a design system tracker ticket — she proposed adding a ticket 'same as casinos to track the work'",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🎨"
+    },
+    {
+      "action": "Investigate ACE AI daily reports outage — Shane McGrath flagged in #gdc-pod that no Slack reports have been generated since Saturday",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🤖"
+    },
+    {
+      "action": "Unblock GDCU-8619 Operator List Redesign — flagged Blocked; Ciara has delivered 3 mobile-first grid iterations; awaiting product direction decision before dev can scope",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "⛔",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
+    },
+    {
+      "action": "Verify GDCU-8880 (Ace Tips Module + design system file for AI agent) — Ciara confirmed in #gdc-product-design-pod today at 11:52 that ticket was created per your discussion; check it has enough detail",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8880"
+    },
+    {
+      "action": "Positive: GDCU-8406 (hreflang fix for Slots Games Pages) shipped Done today — Sanja Budic delivered",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "🟢",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8406"
+    },
+    {
+      "action": "Positive: GDCU-8792 (Cloudflare Bot Management) advanced to In QA today — high priority item progressing well",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "🟢",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
+    }
+  ],
+  "needs_input": [
+    {
+      "key": "GDCU-8875",
+      "summary": "[HOTFIX] Add phone number to Email confirmation form page (UK)",
+      "assignee": "Kelvin Yee",
+      "status": "In Product",
+      "priority": "High",
+      "context": "NEW today — landed In Product at 14:07. Chloe Christie requested as sprint priority in #gdc-pod. Mandatory phone field on UK email landing form. Stakeholders: Corey Cunningham, Chloe Christie, Eoin McCarthy. Needs product sign-off to ship as hotfix."
+    },
+    {
+      "key": "GDCU-8881",
+      "summary": "Iceland Author Image Fixes",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "NEW today — arrived In Product at 13:01. Post-Iceland-launch UX fix for author images. Stakeholders: Joshua Smith, Chloe Christie. Quick review needed to close out Iceland launch cleanup."
+    },
+    {
+      "key": "GDCU-8830",
+      "summary": "Fix image carousel display issue on site page",
+      "assignee": "Kelvin Yee",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Moved In Progress to In Product today at 13:53. Root cause: duplicate carousel IDs prevented second carousel mounting on MX casino page (8 carousels on page). Fix applied; needs product spot-check before release."
+    },
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Ciara tagged Mike directly in Jira comment (Apr 16 16:38): 'Figma prototype for Learning Hub imagery shared for review.' In Product since yesterday. Imagery for Learning Hub tiles (inc. new Myth Buster tile) ready for approval."
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Mike is a named stakeholder with outstanding review request. In Product since Apr 15. UX designs for CA/FR oplist redesign (refine cards, search, filter, compare). Chloe confirmed via DM: straight implementation, no A/B test required."
+    },
+    {
+      "key": "GDCU-8840",
+      "summary": "Instagram Headers Widget",
+      "assignee": "Unassigned",
+      "status": "In Progress",
+      "priority": "Medium",
+      "context": "Direct blocker sitting with Mike — Chloe Christie explicitly asked in a Jira comment for Mike to share logo information from EVE. Victoria Dadson cannot update the tracking ticket until this is done."
+    },
+    {
+      "key": "GDCU-8619",
+      "summary": "Operator List Redesign (UK)",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Blocked",
+      "context": "3 distinct mobile-first grid iterations delivered by Ciara. Flagged Blocked — awaiting product decision on preferred visual direction before dev scoping can begin. Needs a direction call to unblock."
+    }
+  ]
+}
