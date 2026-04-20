@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-04-20T09:15:00.000Z",
+  "date": "20/04/2026",
+  "covers_date": "19/04/2026",
+  "ai_overview": "Yesterday's activity was concentrated on data integrity and content automation, with Vic Dadson leading an audit of GA/GTM tracking to resolve parameter mismatches for the 888 operator. A significant milestone was reached as Dan Smullen successfully deployed the high-priority automated news agent for Spotlight.Vegas, marking the completion of a key content automation goal. While the majority of the technical and product teams reported no activity, Diana Thurmann maintained strategic momentum by documenting the latest international market coordination for non-English regions. You should follow up with Vic regarding the specific operators and page types currently underperforming to determine if these are technical tracking issues or broader product risks. Additionally, it would be worth reviewing the initial output of the new news agent to ensure it meets the expected quality standards for the Vegas platform.",
+  "sections": [
+    {
+      "name": "My Reports",
+      "key": "reports",
+      "people": [
+        {
+          "name": "Vic Dadson",
+          "initials": "VD",
+          "color": "green",
+          "activity": "medium",
+          "summary": "Focused on auditing GA/GTM tracking and exploring engagement data for oplists to ensure data accuracy across the platform. Currently investigating underperformance for specific operators and page types, while preparing to fix tracking parameter mismatches for the 888 operator. Supplementary: Posted GDC Weekly Report (14 Apr) in #gdc-weekly-reports noting significant organic search decline (-19.4% sessions, -20.9% exit clicks) driven by paid campaign shifts across UK, US, Canada and Italy — a related context to the tracking audit.",
+          "flags": []
+        },
+        {
+          "name": "Jessica Dordevic",
+          "initials": "JD",
+          "color": "pink",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Supplementary: Jira ticket GDCU-8879 ([UX] Create Genesis Brand Carousel Component Card) is assigned to her and in To Do status. Last seen in Slack on 16 Apr in #gdc-pod raising a card styling concern regarding aspect ratio differences between design and production for the slot game tiles.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Miguel Migneco",
+          "initials": "MM",
+          "color": "blue",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Jira stakeholder on GDCU-8851 (Comparison Cards with Tabs), which was updated this morning.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Ciara Carroll",
+          "initials": "CC",
+          "color": "purple",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 17 Apr in #gdc-product-design-pod confirming a new Ace tips module ticket (GDCU-8880) with design system file criteria was created. Also active 16-17 Apr in #gdc-product-led-growth working on design system updates aligned with the cool-tone background change.",
+          "flags": ["no-activity"]
+        }
+      ]
+    },
+    {
+      "name": "POs",
+      "key": "pos",
+      "people": [
+        {
+          "name": "Josh Smith",
+          "initials": "JS",
+          "color": "amber",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 17 Apr in #gdc-core posting the full Delivery Cycle 7 release summary (DC7 closed with 141 SP completed, featuring Cosmo Spins spring reskin, US state prediction filter, Iceland smoke testing, oplist ribbon A/B test, and 1200px+ container rollout). Also active in #gdc-pod 17 Apr clarifying image carousel shortcode implementation with Nebojsa.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Chloe Christie",
+          "initials": "CH",
+          "color": "rose",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 16 Apr in #gdc-pod confirming DC7 closed with 141 SP and flagging a hotfix needed for a phone number field on an email landing page (GDCU-8875). Also active 15-16 Apr in #6amigos sharing DC8 planned high-priority tickets. Jira stakeholder on 5 new Ace AI sport coverage tickets (Basketball, NHL, Horse Racing, MLB, NFL) created this morning; also stakeholder on GDCU-8715 Ace AI Tennis which carries a Blocked priority flag.",
+          "flags": ["no-activity"]
+        }
+      ]
+    },
+    {
+      "name": "Developers",
+      "key": "developers",
+      "people": [
+        {
+          "name": "Carlos Blauth",
+          "initials": "CB",
+          "color": "sky",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 16 Apr in #gdc-pod responding to a query about ACE AI daily reports (no changes from his side). Jira stakeholder on 5 new Ace AI sport coverage tickets (Basketball, NHL, Horse Racing, MLB, NFL) and the Blocked Tennis tips ticket (GDCU-8715) created/updated this morning.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Eoin McCarthy",
+          "initials": "EM",
+          "color": "emerald",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Jira stakeholder on GDCU-8851 (Comparison Cards with Tabs, Backlog) and 5 new Ace AI sport coverage tickets. Also stakeholder on the Blocked Tennis tips ticket (GDCU-8715).",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Harden Wallace",
+          "initials": "HW",
+          "color": "violet",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Kelvin Yee",
+          "initials": "KY",
+          "color": "orange",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Milan Nikolic",
+          "initials": "MN",
+          "color": "teal",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Noted as being on annual leave in recent planning discussions (referenced by Gabriel Cornoiu in #gdc-pdmt on 13 Apr).",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Nebojsa Stanic",
+          "initials": "NS",
+          "color": "cyan",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Novica Vukobratovic",
+          "initials": "NV",
+          "color": "indigo",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 16 Apr in #gdc-pod querying whether the 1200px+ page width container changes were correctly applied following the DC7 release.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Sanja Budic",
+          "initials": "SB",
+          "color": "fuchsia",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 8 Apr in #gdc-deep-link-betslip-project testing the deep links API for ACE embedded betslip, noting API response times consistently above 5 seconds. Jira stakeholder on 5 new Ace AI sport coverage tickets and GDCU-8715 (Blocked Tennis tips).",
+          "flags": ["no-activity"]
+        }
+      ]
+    },
+    {
+      "name": "QAs",
+      "key": "qas",
+      "people": [
+        {
+          "name": "Robin John",
+          "initials": "RJ",
+          "color": "lime",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Shane McGrath",
+          "initials": "SM",
+          "color": "yellow",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 16 Apr in #gdc-pod reporting a Sign In bug on article pages (sign-in fails on repeat after sign-out) and noting ACE AI daily reports had not been generated since the previous Saturday. Also contributed feedback to #prism-cms-feedback in late March covering several CMS UX issues.",
+          "flags": ["no-activity"]
+        }
+      ]
+    },
+    {
+      "name": "Senior Stakeholders",
+      "key": "seniors",
+      "people": [
+        {
+          "name": "Dean Ryan",
+          "initials": "DR",
+          "color": "slate",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 15 Apr in #gdc-f2p-apps providing strategic direction for the free-to-play mobile app, recommending it be restructured as a 'Cosmo App' with a slots library and free spins offers focus.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Michael Butlin",
+          "initials": "MB",
+          "color": "stone",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours.",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Dan Smullen",
+          "initials": "DS",
+          "color": "zinc",
+          "activity": "medium",
+          "summary": "Successfully built and deployed a high-priority automated news agent for the Spotlight.Vegas platform. The task was completed without any reported blockers, marking the finalization of a key content automation priority. No supplementary Slack or Jira activity found for Apr 19.",
+          "flags": []
+        },
+        {
+          "name": "Gabriel Cornoiu",
+          "initials": "GC",
+          "color": "teal",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 14-15 Apr in #gdc-pdmt coordinating planning sessions, reviewing the April Delivery Plan, and discussing developer capacity with Milan on AL. Also active in #gdc-f2p-apps managing mobile app feedback. Jira stakeholder on 5 new Ace AI sport coverage tickets and GDCU-8715 (Blocked Tennis tips).",
+          "flags": ["no-activity"]
+        },
+        {
+          "name": "Diana Thurmann",
+          "initials": "DT",
+          "color": "sky",
+          "activity": "low",
+          "summary": "Focused on international market coordination by documenting the latest non-English Country Leads meeting. Activity was limited to this strategic alignment, with no specific product builds or blockers noted. Supplementary: Earlier in the week (16 Apr) she announced the Iceland geo launch in #core-division, crediting the Product, Commercial, and Genesis teams for the cross-team effort.",
+          "flags": ["low-activity"]
+        },
+        {
+          "name": "Colin Brannigan",
+          "initials": "CB",
+          "color": "gray",
+          "activity": "none",
+          "summary": "No activity in the last 24 hours. Last active 17 Apr in #core-division-leads announcing that the Finance report is now the single source of truth for revenue data, with the commercial report being discontinued. Also active 13 Apr issuing a division-wide call to improve AI-generated content quality, emphasising high-agency ownership of output.",
+          "flags": ["no-activity"]
+        }
+      ]
+    }
+  ]
+}
