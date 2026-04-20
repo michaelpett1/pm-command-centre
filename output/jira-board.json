@@ -1,19 +1,26 @@
 {
-  "generated_at": "2026-04-20T00:00:00.000Z",
-  "date": "20/04/2026",
+  "generated_at": "2026-04-17T13:05:00+01:00",
+  "date": "17/04/2026",
   "sprint": {
-    "name": "Sprint 8",
+    "name": "GDCU Sprint8Q2",
     "total": 42
   },
   "stats": {
     "in_progress": 11,
     "in_qa": 6,
     "in_product": 4,
-    "backlog": 18,
-    "done": 3
+    "backlog": 21,
+    "done": 0
   },
   "columns": {
     "in_progress": [
+      {
+        "key": "GDCU-8814",
+        "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "High",
+        "flags": []
+      },
       {
         "key": "GDCU-8810",
         "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
@@ -22,37 +29,9 @@
         "flags": []
       },
       {
-        "key": "GDCU-8842",
-        "summary": "Integrate Genesis Content Layouts",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8803",
-        "summary": "Implement Sign In/Registration Modal Redesign",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8714",
-        "summary": "Ace AI - Full Football Coverage (Tips)",
+        "key": "GDCU-7030",
+        "summary": "Migrate Sitemap Submission to Google's Submit API",
         "assignee": "Sanja Budic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8840",
-        "summary": "Instagram Headers Widget",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Medium",
-        "flags": ["flagged"]
-      },
-      {
-        "key": "GDCU-8862",
-        "summary": "Add Logic for Offer Terms for a Brand to be Static or Scrollable",
-        "assignee": "Kelvin Yee",
         "priority": "Medium",
         "flags": []
       },
@@ -78,6 +57,27 @@
         "flags": []
       },
       {
+        "key": "GDCU-8476",
+        "summary": "Design for Publish Screen",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8803",
+        "summary": "Implement Sign In/Registration Modal Redesign",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8548",
+        "summary": "Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
         "key": "GDCU-8846",
         "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
         "assignee": "Ciara Carroll",
@@ -94,17 +94,24 @@
     ],
     "in_qa": [
       {
-        "key": "GDCU-8814",
-        "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "High",
-        "flags": []
-      },
-      {
         "key": "GDCU-8792",
         "summary": "Implement Cloudflare Bot Management",
         "assignee": "Sanja Budic",
         "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8875",
+        "summary": "Add phone number to Email conformation form page",
+        "assignee": "Kelvin Yee",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8406",
+        "summary": "Fix hreflang implementation for Slots Games Pages",
+        "assignee": "Sanja Budic",
+        "priority": "Medium",
         "flags": []
       },
       {
@@ -113,13 +120,6 @@
         "assignee": "Kelvin Yee",
         "priority": "Medium",
         "flags": []
-      },
-      {
-        "key": "GDCU-8548",
-        "summary": "Update Sign In to Trigger After User Tries to Spin on Cosmo Spins",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Medium",
-        "flags": ["flagged"]
       },
       {
         "key": "GDCU-8627",
@@ -138,15 +138,15 @@
     ],
     "in_product": [
       {
-        "key": "GDCU-8476",
-        "summary": "Design for Publish Screen",
-        "assignee": "Jessica Dordevic",
+        "key": "GDCU-8881",
+        "summary": "Iceland Author Image Fixes",
+        "assignee": "Ciara Carroll",
         "priority": "Medium",
         "flags": []
       },
       {
         "key": "GDCU-8830",
-        "summary": "Fix Image Carousel Display Issue on Site Page",
+        "summary": "Fix image carousel display issue on site page",
         "assignee": "Kelvin Yee",
         "priority": "Medium",
         "flags": []
@@ -166,54 +166,210 @@
         "flags": []
       }
     ],
-    "done": [
-      {
-        "key": "GDCU-8875",
-        "summary": "Add Phone Number to Email Confirmation Form Page",
-        "assignee": "Kelvin Yee",
-        "priority": "High",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8881",
-        "summary": "Iceland Author Image Fixes",
-        "assignee": "Ciara Carroll",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8406",
-        "summary": "Fix hreflang Implementation for Slots Games Pages",
-        "assignee": "Sanja Budic",
-        "priority": "Medium",
-        "flags": []
-      }
-    ]
+    "done": []
   },
-  "comments": [],
-  "ticket_movements": [],
+  "comments": [
+    {
+      "ticket_key": "GDCU-8881",
+      "ticket_summary": "Iceland Author Image Fixes",
+      "author": "Ciara Carroll",
+      "text": "Author Details: Gambling.com Editorial Team - 'Profile Image' Updated — Iceland author images now set in Genesis.",
+      "timestamp": "2026-04-17T12:56:35.799+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8406",
+      "ticket_summary": "Fix hreflang implementation for Slots Games Pages",
+      "author": "Sanja Budic",
+      "text": "@Sandeep Kumar this should be fixed now, can you check it please? https://qa6.gambling.com/",
+      "timestamp": "2026-04-17T11:53:54.710+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8792",
+      "ticket_summary": "Implement Cloudflare Bot Management",
+      "author": "Sanja Budic",
+      "text": "QA will be done by @Victoria Dadson. Test runs on IN. If GA4 results look good tomorrow we can proceed.",
+      "timestamp": "2026-04-17T11:44:55.586+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8875",
+      "ticket_summary": "Add phone number to Email conformation form page",
+      "author": "Kelvin Yee",
+      "text": "Ticket completed and released. Phone number field added.",
+      "timestamp": "2026-04-17T11:08:13.695+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8830",
+      "ticket_summary": "Fix image carousel display issue on site page",
+      "author": "Shane McGrath",
+      "text": "QA Complete. Verified 8 image carousels are showing now.",
+      "timestamp": "2026-04-17T10:47:42.896+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8830",
+      "ticket_summary": "Fix image carousel display issue on site page",
+      "author": "Kelvin Yee",
+      "text": "@Shane McGrath @Robin John — please review the image carousel fix.",
+      "timestamp": "2026-04-17T09:38:52.160+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8823",
+      "ticket_summary": "New Global Strategy Hub / Sub Hub Refinements",
+      "author": "Kelvin Yee",
+      "text": "@Shane McGrath @Robin John — Ready for QA review.",
+      "timestamp": "2026-04-17T09:28:28.528+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8834",
+      "ticket_summary": "Implement Fixes for Cool Tones Update",
+      "author": "Ciara Carroll",
+      "text": "Figma DS design link: https://www.figma.com/design/tv4qY8lj7ZAxj6wuefWsjw/GDC-Design-System?node-id=490-5509",
+      "timestamp": "2026-04-16T17:52:18.899+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8856",
+      "ticket_summary": "Fixes for Iceland Launch",
+      "author": "Lucas van Bilderbeek",
+      "text": "Breadcrumb still mentions 'Guides' instead of the correct Icelandic term. Screenshot attached.",
+      "timestamp": "2026-04-16T17:25:34.989+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8840",
+      "ticket_summary": "Instagram Headers Widget",
+      "author": "Chloe Christie",
+      "text": "@Mike Pett to share logo information from EVE and @Victoria Dadson to review once available.",
+      "timestamp": "2026-04-16T16:27:03.292+0100",
+      "mentions_mike": true
+    }
+  ],
+  "ticket_movements": [
+    {
+      "key": "GDCU-8881",
+      "summary": "Iceland Author Image Fixes",
+      "assignee": "Ciara Carroll",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-04-17T13:00:55.203+0100"
+    },
+    {
+      "key": "GDCU-8881",
+      "summary": "Iceland Author Image Fixes",
+      "assignee": "Ciara Carroll",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-17T12:56:58.229+0100"
+    },
+    {
+      "key": "GDCU-8406",
+      "summary": "Fix hreflang implementation for Slots Games Pages",
+      "assignee": "Sanja Budic",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-17T11:54:12.648+0100"
+    },
+    {
+      "key": "GDCU-8792",
+      "summary": "Implement Cloudflare Bot Management",
+      "assignee": "Sanja Budic",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-17T11:45:19.741+0100"
+    },
+    {
+      "key": "GDCU-8875",
+      "summary": "Add phone number to Email conformation form page",
+      "assignee": "Kelvin Yee",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-17T11:08:34.376+0100"
+    },
+    {
+      "key": "GDCU-8830",
+      "summary": "Fix image carousel display issue on site page",
+      "assignee": "Kelvin Yee",
+      "from": "In QA",
+      "to": "In Product",
+      "timestamp": "2026-04-17T10:47:45.133+0100"
+    },
+    {
+      "key": "GDCU-8830",
+      "summary": "Fix image carousel display issue on site page",
+      "assignee": "Kelvin Yee",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-17T09:39:00.081+0100"
+    },
+    {
+      "key": "GDCU-8875",
+      "summary": "Add phone number to Email conformation form page",
+      "assignee": "Kelvin Yee",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-17T09:38:11.548+0100"
+    },
+    {
+      "key": "GDCU-8823",
+      "summary": "New Global Strategy Hub / Sub Hub Refinements",
+      "assignee": "Kelvin Yee",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-04-17T09:29:53.258+0100"
+    },
+    {
+      "key": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-17T08:37:10.686+0100"
+    },
+    {
+      "key": "GDCU-8814",
+      "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-16T17:23:46.154+0100"
+    },
+    {
+      "key": "GDCU-8736",
+      "summary": "Share/Create Imagery for the Learning Hub",
+      "assignee": "Ciara Carroll",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-04-16T16:38:29.970+0100"
+    },
+    {
+      "key": "GDCU-8856",
+      "summary": "Fixes for Iceland Launch",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-04-15T18:46:18.755+0100"
+    }
+  ],
   "mike_mentions": [
     {
       "ticket_key": "GDCU-8840",
       "ticket_summary": "Instagram Headers Widget",
       "author": "Chloe Christie",
-      "text": "@Mike Pett to share logo information from EVE and @Victoria Dadson to update ticket in relation to tracking. Thanks both",
+      "text": "@Mike Pett to share logo information from EVE and @Victoria Dadson to review once available.",
       "timestamp": "2026-04-16T16:27:03.292+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
-    },
-    {
-      "ticket_key": "GDCU-8714",
-      "ticket_summary": "Ace AI - Full Football Coverage (Tips)",
-      "author": "Karl O'Brien",
-      "text": "@Mike Pett I have updated the list above with leagues completed",
-      "timestamp": "2026-03-27T15:22:45.117+0000",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8714"
     }
   ],
   "upcoming_backlog": [
     {
       "key": "GDCU-8874",
-      "summary": "Page Bloat: Reduce HTML Payload Size Across All Markets — CookieYes, SSR Operator List, VWO, Inline Scripts",
+      "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -227,21 +383,21 @@
     },
     {
       "key": "GDCU-8045",
-      "summary": "Dev Support and Implementation for Stable Stars Game",
+      "summary": "Dev support and implementation for Stable Stars game",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
     },
     {
       "key": "GDCU-7706",
-      "summary": "Integrate with 'generic styling' Option on Components",
+      "summary": "Integrate with 'generic styling' option on components",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
     },
     {
       "key": "GDCU-7612",
-      "summary": "Identify Most Common Publishing Errors Appearing in Troubleshooting Channel",
+      "summary": "Identify most common publishing errors appearing in troubleshooting channel",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -262,7 +418,7 @@
     },
     {
       "key": "GDCU-6988",
-      "summary": "GDC Regression Bugs 2025 (Manual/Automation)",
+      "summary": "GDC-Regression Bugs 2025 (Manual + Automation)",
       "assignee": "Robin John",
       "priority": "High",
       "status": "In Progress"
@@ -276,51 +432,9 @@
     },
     {
       "key": "GDCU-4960",
-      "summary": "Dynamic Sub Primary Oplist",
+      "summary": "Dynamic Sub Primary oplist",
       "assignee": "Unassigned",
       "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8892",
-      "summary": "Ace AI - NFL Tips Coverage",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8891",
-      "summary": "Ace AI - MLB Tips Coverage",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8890",
-      "summary": "Ace AI - Horse Racing Tips Coverage",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8889",
-      "summary": "Ace AI - NHL Tips Coverage",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8888",
-      "summary": "Ace AI - Basketball Tips Coverage",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8882",
-      "summary": "Fix the Breadcrumbs of a Set of Deleted Hubs",
-      "assignee": "Unassigned",
-      "priority": "Medium",
       "status": "Backlog"
     },
     {
@@ -331,15 +445,22 @@
       "status": "Backlog"
     },
     {
+      "key": "GDCU-8879",
+      "summary": "Genesis Brand carousel component card",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
       "key": "GDCU-8878",
-      "summary": "Implement Oplist Redesign on Online Casinos Page (CA/FR)",
+      "summary": "Implement Oplist Redesign on Online Casinos Page - CA/FR",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8877",
-      "summary": "Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+      "summary": "Add ability to manage Phone numbers on Email Conformation Pages",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -374,7 +495,7 @@
     },
     {
       "key": "GDCU-8854",
-      "summary": "Geo Selector Arrow Button Doesn't Collapse When Clicked",
+      "summary": "The arrow button on the Geo selector doesn't collapse when clicked",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -395,14 +516,14 @@
     },
     {
       "key": "GDCU-8851",
-      "summary": "Comparison Cards with Tabs",
+      "summary": "Comparison cards with tabs",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8850",
-      "summary": "Content Grids and Scrolling Content Blocks Widget/Shortcodes",
+      "summary": "Content Grids and Scrolling Content blocks Widget/Shortcodes",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -416,7 +537,42 @@
     },
     {
       "key": "GDCU-8848",
-      "summary": "Jump Links Widget",
+      "summary": "Jump links widget",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8847",
+      "summary": "Display rev share operator list to users marked as VIP in ktag",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8845",
+      "summary": "Update all red links to blue across the website",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8843",
+      "summary": "Add text for unavailable products on US homepage op lists",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8839",
+      "summary": "AB Testing for UK Tenancy Removal",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8837",
+      "summary": "Ace AI Assistant event tracking",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
