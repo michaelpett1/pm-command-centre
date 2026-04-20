@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-04-20T14:00:00.000+01:00",
+  "date": "20/04/2026",
+  "report_type": "afternoon",
+  "morning_report_ref": "report-morning.json — 9 action items, 8 meetings",
+  "sources_checked": {
+    "jira_in_product_blocked": true,
+    "jira_sprint_updated_24h": true,
+    "jira_status_changed_today": true,
+    "slack_channels": ["gdc-product-design-pod", "gdc-product-led-growth", "gdc-pdmt", "core-product", "gdc-pod", "gdc-f2p-apps", "gdc-high-agency"],
+    "slack_dms_checked": ["Vic Dadson", "Jessica Dordevic", "Ciara Carroll", "Colin Brannigan", "Chloe Christie", "Gabriel Cornoiu"],
+    "confluence_gdcu_today": true,
+    "confluence_result": "0 pages modified in GDCU space today"
+  },
+  "action_items": [
+    {
+      "action": "GDCU-8619 Operator List Redesign is STILL Blocked — carried from morning, no resolution detected. This should have been discussed at Ciara/Mike 1:1 (09:30) and Weekly Design Team Sync (14:00). If not resolved, escalate decision to GDCU Assemble Standup (14:30) or decide direction for Ciara before EOD.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🚫",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "Share EVE logo information with Chloe Christie for GDCU-8840 (Instagram Headers Widget) — you were @mentioned by Chloe on Apr 16; ticket is still In Progress and flagged 🔥. Victoria Dadson cannot update tracking until this is done. This was raised in the Apr 17 afternoon report and remains outstanding.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "Confirm meeting with Chris (BI team) re rewards/KPI metrics has been set up — you committed to Vic Dadson on Apr 17. Mike/Vic Sync is today at 16:00 BST. If not booked, do it before that call. Vic's KPI gaps Confluence page is the reference point.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "📊",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "Review GDCU-8736 (Learning Hub Imagery — Ciara Carroll) — UPDATED: ticket moved from 'In Product' back to 'In Progress' this morning (09:23). If you reviewed and sent it back with feedback this is resolved; if not, check the current iteration status with Ciara and confirm next step.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736",
+      "morning_status": "status_changed",
+      "is_new": false,
+      "note": "Was In Product in morning report; moved to In Progress today — likely iterated following feedback"
+    },
+    {
+      "action": "GDCU-8476 (Design for Publish Screen — Jessica Dordevic) still In Product awaiting your review. Jessica had no Slack activity today — she is likely waiting on your sign-off. Could be actioned during the 11:40 Project focus block if not yet done.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🖥️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8476",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "GDCU-8830 (Fix Image Carousel Display Issue — Kelvin Yee) still In Product. Kelvin had no Slack activity today. Note: related GDCU-8836 (Create Image Carousel Shortcode — Nebojsa Stanic) moved to In QA today, indicating the component track is progressing. Review the display fix in context.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🎠",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "GDCU-8801 (Oplist Redesign CA/FR Casino Page — Ciara Carroll) still In Product. In Product since Apr 15. Ciara confirmed in Apr 17 afternoon report: Chloe confirmed no A/B test needed — straight implementation. Needs your sign-off to unblock implementation.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🃏",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "NEW — Ciara Carroll has formally kicked off the Claude × Gambling.com Design System project (GDCU-8893, 'To Do', assigned to Ciara). She announced in #gdc-product-led-growth and #gdc-pod this morning. Orion GitHub access is requested — you replied 'I've requested this from Paddy'. Confirm access is granted and ticket is scoped for Sprint 8.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8893",
+      "morning_status": "new",
+      "is_new": true
+    },
+    {
+      "action": "ACE AI daily reports still not generating since last Saturday (flagged Apr 16 by Shane McGrath in #gdc-pod). No resolution confirmed today. Raise in GDCU Assemble Standup (14:30) to get a fix ETA from Carlos Blauth or engineering.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🤖",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "NEW — Gabriel Cornoiu announced in #gdc-pdmt this morning that the PDMT meeting is being repurposed: every 3 weeks for planning sessions, other weeks as a weekly team sync. GDC PDMT is still in your calendar today at 15:00 BST. Confirm the agenda format with Gabriel given the changed structure.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🗓️",
+      "morning_status": "new",
+      "is_new": true
+    },
+    {
+      "action": "Address Josh Smith performance issue — flagged to Gabriel Cornoiu on Apr 14; 3 weeks on user flow research task with minimal visible output. If not discussed in the morning 1:1s or PDMT, decide whether to escalate. PDMT at 15:00 is the last natural opportunity today.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "👤",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6588727338/User+flow+and+Page+Hygiene+research",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "NEW — Jessica Dordevic identified a cool tones background colour mismatch in the Design System (#F3F4F6) and updated Figma variables this morning. She posted in #gdc-product-led-growth at 09:28. GDCU-8834 (Implement Fixes for Cool Tones Update) is in Backlog — check if this Figma variable change needs to flow into a dev ticket or sprint item.",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8834",
+      "morning_status": "new",
+      "is_new": true
+    },
+    {
+      "action": "Clarify Claude-assisted editor workflow with Jessica Dordevic — unresolved from Apr 14: whether editors should use Claude directly for design work vs a dev-mediated approach. Weekly Design Team Sync (14:00) was the opportunity to resolve this.",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "🤖",
+      "morning_status": "carry_forward",
+      "is_new": false
+    },
+    {
+      "action": "POSITIVE — GDCU-8814 (News Articles Missing from XML Sitemaps, 6,000+ URLs across 23+ markets) moved to Done today by Harden Wallace. HIGH priority SEO fix shipped. Monitor GSC Coverage report post-deployment. No further action needed beyond awareness.",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8814",
+      "morning_status": "new",
+      "is_new": true
+    }
+  ],
+  "needs_input": [
+    {
+      "key": "GDCU-8619",
+      "summary": "[GDC][UX] Operator List Redesign",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Blocked",
+      "context": "CARRY-FORWARD from morning. Ciara has delivered 3 distinct mobile-first grid iterations for gambling.com/uk/online-casinos. Blocked — awaiting Mike's product direction decision before dev scoping can begin. Should have been discussed at Ciara/Mike 1:1 (09:30) and Design Team Sync (14:00). If not resolved, prioritise before EOD.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
+    },
+    {
+      "key": "GDCU-8476",
+      "summary": "[GDC][Genesis][UX] Design for Publish Screen",
+      "assignee": "Jessica Dordevic",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "CARRY-FORWARD from morning. UX design for the new Genesis publish log page — success/fail states, light/dark mode, matching Balsamiq wireframes. Stakeholder: Pernilla Hansson Soares. Awaiting Mike's review before dev handoff. Jessica had no Slack activity today.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8476"
+    },
+    {
+      "key": "GDCU-8830",
+      "summary": "[GDC][DEV] Fix Image Carousel Display Issue on Site Page",
+      "assignee": "Kelvin Yee",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "CARRY-FORWARD from morning. Duplicate carousel ID bug causing second carousel to fail to mount on pages with multiple carousels (e.g. MX casino page). Fix applied — needs product spot-check before release. Related GDCU-8836 (Image Carousel Shortcode) moved to In QA today, suggesting the broader carousel component work is on track.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830"
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "[GDC][UX] Oplist Redesign on CA/FR Casino Page",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "CARRY-FORWARD from morning. CA/FR casino page oplist redesign (cards, search, filter, compare). In Product since Apr 15. No A/B test required — confirmed by Chloe Christie. Waiting on Mike's sign-off to move to implementation. Note Ciara is also blocked on GDCU-8619 and has GDCU-8893 just starting — capacity should be considered.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
+    }
+  ],
+  "today_completed": [
+    {
+      "key": "GDCU-8814",
+      "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+      "assignee": "Harden Thomas Wallace",
+      "priority": "High",
+      "note": "Critical SEO fix — monitor GSC post-deployment",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8814"
+    }
+  ],
+  "today_progressed": [
+    {
+      "key": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "from_status": "In Progress",
+      "to_status": "In QA",
+      "assignee": "Nebojsa Stanic",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8836"
+    },
+    {
+      "key": "GDCU-8803",
+      "summary": "Implement Sign In/Registration Modal Redesign",
+      "from_status": "In Progress",
+      "to_status": "In QA",
+      "assignee": "Carlos Blauth",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8803"
+    },
+    {
+      "key": "GDCU-8406",
+      "summary": "Fix hreflang Implementation for Slots Games Pages",
+      "from_status": "In QA",
+      "to_status": "Done",
+      "assignee": "Sanja Budic",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8406"
+    }
+  ],
+  "remaining_meetings_today": [
+    {
+      "title": "GDCU Assemble Standup",
+      "time": "14:30 BST",
+      "key_topics": ["GDCU-8619 Blocked status", "ACE AI daily reports outage", "Sprint 8 progress"]
+    },
+    {
+      "title": "GDC PDMT",
+      "time": "15:00 BST",
+      "key_topics": ["Revised meeting format (Gabriel's announcement)", "Josh Smith performance review", "Sprint priorities"]
+    },
+    {
+      "title": "Mike/Vic Sync",
+      "time": "16:00 BST",
+      "key_topics": ["BI meeting with Chris — confirm booked", "Rewards/KPI metrics definition", "KPI tracker gaps"]
+    }
+  ]
+}
