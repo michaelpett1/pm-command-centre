@@ -1,257 +1,138 @@
 {
-  "generated_at": "2026-04-20T07:00:00.000Z",
-  "date": "20/04/2026",
+  "generated_at": "2026-04-21T07:30:00.000Z",
+  "date": "21/04/2026",
   "report_type": "morning",
   "calendar": {
     "today": [
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACb3qWYAAAEA==",
-        "title": "Do PP Prizes",
-        "time": "08:00 BST",
-        "duration": "30 min",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACcDzOTwAAEA==",
+        "title": "GDC Weekly Sync",
+        "time": "10:00 BST",
+        "duration": "90 min",
         "status": "confirmed",
-        "attendees": [],
-        "flags": {
-          "has_direct_reports": false,
-          "has_manager": false,
-          "needs_prep": false,
-          "has_agenda": false
-        },
+        "attendees": ["Colin Brannigan","Dan Smullen","Dean Ryan","Michael Butlin","Diana Thurmann","Gabriel Cornoiu","Mike Pett","Diarmuid Nolan"],
+        "flags": {"has_direct_reports": false,"has_manager": true,"needs_prep": true,"has_agenda": false},
         "agenda_url": null,
-        "synopsis": "Solo task block to action PP Prizes work. No attendees — self-scheduled reminder.",
-        "discussion_topics": [],
-        "prep_notes": "Self-scheduled task block. No external prep required."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABwcHvdAAAEA==",
-        "title": "Ciara/Mike Sync",
-        "time": "09:30 BST",
-        "duration": "30 min",
-        "status": "confirmed",
-        "attendees": ["Ciara Carroll"],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "Weekly 1:1 with direct report Ciara Carroll (Head of Design). Recent Slack (Apr 17) shows Ciara is under pressure about deploying the design system/prototyping space to Colin Brannigan with very little time to prepare it.",
+        "synopsis": "Weekly cross-functional sync with Colin Brannigan (SVP, GDC Core) and GDC leadership team. Regular cadence covering product, platform, and team updates across the sprint.",
         "discussion_topics": [
-          "Design system / prototyping space — deployment status for Colin Brannigan",
-          "Sprint capacity — Ciara has 7 tickets this sprint; slot tickets deferred",
-          "GDCU-8619: Operator List Redesign (Blocked) — unblocking path",
-          "GDCU-8801: CA/FR Casino Page Oplist Redesign (In Product)",
-          "GDCU-8736: Learning Hub Imagery (In Product)"
+          "Sprint board status — GDCU-8814 (News Sitemaps, High) completed; GDCU-8792 (Cloudflare Bot Management, High) and GDCU-8803 (Sign-in Modal Redesign) moved to In QA",
+          "Design system progress — Ciara working on Claude Design integration (GDCU-8893); Colin asked to see WIP prototype on 17 Apr",
+          "GDCU-8619 Operator List Redesign blocked — awaiting Michael Butlin feedback since 15 Apr; Michael is on today's attendee list",
+          "GDCU-8824 Cosmo Spins Bloomreach flag — dedicated 12:00 BST sync today with CRM team to unblock"
         ],
-        "prep_notes": "On Apr 17, Ciara expressed frustration: 'I've had less than 3 days on this and one day where I'm trying to speed run over 3000 components.' Mike asked her to deploy to Colin. Go in with support not pressure — confirm status and offer cover/timeline management with Colin if needed. Also check unblocking path for GDCU-8619."
+        "prep_notes": "Colin asked Ciara to send design system WIP on 17 Apr — Ciara pushed back noting only 3 days on it and 3000+ components to refactor. Confirm status before the call and set expectations if not yet sent. Vic Dadson is on sick leave today so analytics updates will be limited. Michael Butlin attends this meeting — good opportunity to chase GDCU-8619 blocker directly. Gabriel Cornoiu restructured PDMT meeting (now planning every 3 weeks); acknowledge if it comes up."
       },
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACeKp0BwAAEA==",
-        "title": "Mike/Mig Catch Up",
-        "time": "10:30 BST",
-        "duration": "30 min",
-        "status": "confirmed",
-        "attendees": ["Miguel Migneco"],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": false,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "Weekly 1:1 with direct report Miguel Migneco. Miguel also attends the Weekly Design Team Sync and GDCU Assemble Standup later today.",
-        "discussion_topics": [
-          "Active design work and sprint progress",
-          "Any blockers or dependencies on current tickets"
-        ],
-        "prep_notes": "No urgent DM history found with Miguel. Review his current Jira assignments before the call. He will also be in Design Team Sync at 14:00 — can defer team topics to then."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
-        "title": "Project",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
+        "title": "Project (Personal Focus Block)",
         "time": "11:40 BST",
         "duration": "80 min",
         "status": "confirmed",
         "attendees": [],
-        "flags": {
-          "has_direct_reports": false,
-          "has_manager": false,
-          "needs_prep": false,
-          "has_agenda": false
-        },
+        "flags": {"has_direct_reports": false,"has_manager": false,"needs_prep": false,"has_agenda": false},
         "agenda_url": null,
-        "synopsis": "Solo focus/deep-work block with no attendees. Good window for reviewing In Product Jira tickets or preparing for afternoon meetings.",
+        "synopsis": "Mike's own focus block. Note: partially overlaps with the Bloomreach sync (12:00-12:30 BST) — external meeting takes priority.",
         "discussion_topics": [],
-        "prep_notes": "Consider using this block to review the 4 In Product tickets (GDCU-8830, 8801, 8736, 8476) and prep for PDMT at 15:00."
+        "prep_notes": "Calendar conflict: Bloomreach flags meeting (12:00-12:30 BST) falls within this block. Treat 12:00-12:30 as the Bloomreach call."
       },
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACfu-7ZgAAEA==",
-        "title": "Weekly Design Team Sync",
-        "time": "14:00 BST",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAKrfhfhAAA=",
+        "title": "Flags on Bloomreach for FTP Games",
+        "time": "12:00 BST",
         "duration": "30 min",
         "status": "confirmed",
-        "attendees": ["Miguel Migneco", "Jessica Dordevic", "Ciara Carroll"],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
+        "attendees": ["Chloe Christie","Shaun Cronin","Kelvin Yee","Joshua Smith","Mike Pett","Eoin McCarthy","Simon Merner","Saila Lehto","Ben Scrupps"],
+        "flags": {"has_direct_reports": false,"has_manager": false,"needs_prep": true,"has_agenda": false},
         "agenda_url": null,
-        "synopsis": "Weekly design team standup with all three direct reports — Miguel, Jessica, and Ciara — to review active work, share blockers, and coordinate on dependencies.",
+        "synopsis": "Sync to determine what Bloomreach can support for the Cosmo Spins end-of-game push notification flag (GDCU-8824), blocked since 20 Apr pending CRM/Bloomreach capability confirmation.",
         "discussion_topics": [
-          "GDCU-8619: Operator List Redesign (Blocked, Ciara) — unblocking path",
-          "GDCU-8801: CA/FR Casino Page Oplist Redesign (In Product, Ciara)",
-          "GDCU-8736: Learning Hub Imagery (In Product, Ciara)",
-          "GDCU-8476: Genesis Publish Screen Design (In Product, Jessica)",
-          "Design system / component library progress (Ciara)",
-          "Claude-assisted editor workflow (Jessica — unresolved discussion from Apr 14)"
+          "GDCU-8824 open questions: can Bloomreach reset the flag on their side? Should the trigger be a property or event?",
+          "Shaun Cronin scope question (raised 16 Apr): should a similar flag fire at end of slot tournament spins to cross-sell Cosmo Spins?",
+          "Delivery timeline — Chloe committed to next delivery cycle (by end of week) pending this clarification"
         ],
-        "prep_notes": "Each designer walks through their projects. Be ready to make unblocking decisions on GDCU-8619. Jessica's Apr 14 DM discussed whether editors should use Claude directly for design work vs a dev-mediated approach — may resurface. This runs back-to-back into Assemble Standup at 14:30."
+        "prep_notes": "GDCU-8824 is currently Blocked/Backlog with no assignee. Key open questions for CRM (Shaun Cronin / Simon Merner): (1) Can Bloomreach reset the flag on their side? (2) Property vs event? Come prepared to unblock immediately post-call and assign the ticket. Note Vic Dadson was asked to create a GA tracking ticket for this on 16 Apr — may be outstanding given her sick day; follow up separately."
       },
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
         "title": "GDCU Assemble Standup",
         "time": "14:30 BST",
         "duration": "30 min",
         "status": "confirmed",
-        "attendees": [
-          "Chloe Christie", "Harden Wallace", "Kelvin Yee", "Shalini Kumar",
-          "Eoin McCarthy", "Carlos Blauth", "Robin John", "Ionut Neculcea",
-          "Shane McGrath", "Gabriel Cornoiu", "Istivan Spiteri", "Sander Persons",
-          "Nebojsa Stanic", "Novica Vukobratovic", "Sanja Budic", "Miguel Migneco",
-          "Jessica Dordevic", "Milan Nikolic", "Joshua Smith", "Ciara Carroll",
-          "Victoria Dadson"
-        ],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": false,
-          "has_agenda": false
-        },
+        "attendees": ["Chloe Christie","Harden Wallace","Kelvin Yee","Shalini Kumar","Eoin McCarthy","Carlos Blauth","Robin John","Ionut Neculcea","Shane McGrath","Gabriel Cornoiu","Istivan Spiteri","Sander Persons","Nebojsa Stanic","Novica Vukobratovic","Sanja Budic","Miguel Migneco","Jessica Dordevic","Milan Nikolic","Mike Pett","Joshua Smith","Ciara Carroll","Victoria Dadson"],
+        "flags": {"has_direct_reports": true,"has_manager": false,"needs_prep": false,"has_agenda": false},
         "agenda_url": null,
-        "synopsis": "Full GDCU Assemble cross-functional standup including design, product, and engineering. Organised by Chloe Christie. Runs immediately after Weekly Design Team Sync.",
+        "synopsis": "Daily GDCU Assemble pod standup. All four direct reports (Vic Dadson, Jessica Dordevic, Ciara Carroll, Miguel Migneco) are in the invite, though Vic is on sick leave today.",
         "discussion_topics": [
-          "Sprint status across GDCU team",
-          "GDCU-8619: Blocked — flag to wider team",
-          "GDCU-8830: Image carousel bug (Kelvin Yee, In Product)"
+          "Sprint blockers — GDCU-8619 (Operator List) blocked on Michael Butlin, GDCU-8824 (Cosmo Spins flag) outcome from today's 12:00 meeting",
+          "Design system status — GDCU-8893 (Ciara) and DS component additions (Jessica working on branch)",
+          "Global Strategy Hub prototype — Miguel posted updated prototype in #gdc-product-led-growth yesterday (GDCU-8799/8823); 'Jump to' UX concern needs resolution",
+          "GDCU-8548 Cosmo Spins sign-in HOTFIX — In Product, awaiting sign-off"
         ],
-        "prep_notes": "Back-to-back with Design Team Sync. Carry over any cross-team blockers. Kelvin Yee (assignee of GDCU-8830) is in this standup — good opportunity to get a status update."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p5vw-7AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABo1e6WgAAEA==",
-        "title": "GDC PDMT",
-        "time": "15:00 BST",
-        "duration": "60 min",
-        "status": "confirmed",
-        "attendees": [
-          "Gabriel Cornoiu", "Eoin McCarthy", "Tony Iannelli",
-          "Shalini Kumar", "Ciara Carroll", "Chloe Christie", "Joshua Smith"
-        ],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "Weekly Product Development Management Team meeting organised by Gabriel Cornoiu. Attendees share highlights/blockers from last week, priorities for this week, and sprint ticket status.",
-        "discussion_topics": [
-          "Last week highlights and blockers",
-          "This week priorities for GDCU design",
-          "Sprint ticket status — no open sprint detected in Jira; clarify with Chloe/Gabriel",
-          "Josh Smith progress on user flow and page hygiene research task"
-        ],
-        "prep_notes": "Prepare a clear summary of design team sprint status. Gabriel's invite references a Confluence agenda link — none found for today; check with Gabriel. Note: Josh Smith performance concern raised privately with Gabriel on Apr 14 (3 weeks on a task with minimal progress). Decide if this warrants escalation. No open sprint in Jira — may indicate sprint planning gap."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACapvHDgAAEA==",
-        "title": "Mike/Vic Sync",
-        "time": "16:00 BST",
-        "duration": "30 min",
-        "status": "confirmed",
-        "attendees": ["Victoria Dadson"],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "Weekly 1:1 with direct report Victoria Dadson (Web Analyst). Recent discussion centred on how to accurately measure rewards engagement — new account sign-ups vs active rewards interaction.",
-        "discussion_topics": [
-          "BI team meeting with Chris — Mike committed to setting this up on Apr 17",
-          "Rewards members metrics definition (new accounts vs engaged rewards users)",
-          "KPI tracker gaps (Confluence: https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6594101669/Core+KPI+Tracker+-+KPI+gaps)"
-        ],
-        "prep_notes": "Mike said 'I'll set it up' (Apr 17) re Chris in BI team — confirm this has been actioned before the call or do it now. Review Vic's KPI gaps Confluence page. Vic's view: account creation alone isn't a reliable proxy for rewards engagement; session-based tracking is imperfect. Come prepared with a position on which metric to use."
+        "prep_notes": "Vic likely absent (sick — doctor appointment today). Note: Mike has half-day annual leave from 13:00 BST flagged in HiBob — confirm attendance at 14:30 standup. Gabriel Cornoiu also attends; useful to align on his PDMT meeting restructure announcement from yesterday."
       }
     ]
   },
   "action_items": [
     {
-      "action": "Set up meeting with Chris (BI team) re rewards/KPI metrics — committed to Vic Dadson on Apr 17, not yet confirmed",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "📊",
-      "url": null
-    },
-    {
-      "action": "Follow up with Ciara Carroll on deploying design system/prototyping space to Colin Brannigan — she's stressed about timeline, needs your support",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "🎨",
-      "url": null
-    },
-    {
-      "action": "Unblock GDCU-8619: Operator List Redesign — Ciara Carroll, priority marked Blocked, In Product",
+      "action": "Chase Michael Butlin for feedback on GDCU-8619 (Operator List Redesign) — blocked since 15 Apr. He attends GDC Weekly Sync at 10:00 — raise directly there.",
       "source": "jira",
       "priority": "high",
-      "emoji": "🚫",
+      "emoji": "🔴",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     },
     {
-      "action": "Review and sign off GDCU-8830: Fix image carousel display issue — Kelvin Yee, In Product",
+      "action": "Attend Bloomreach sync at 12:00 BST prepared with GDCU-8824 key questions: property vs event trigger, Bloomreach reset capability, slot tournament flag scope",
       "source": "jira",
-      "priority": "medium",
-      "emoji": "🖼️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830"
+      "priority": "high",
+      "emoji": "🔴",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8824"
     },
     {
-      "action": "Review and sign off GDCU-8801: Oplist Redesign CA/FR Casino Page — Ciara Carroll, In Product",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🃏",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
+      "action": "Confirm whether Ciara has sent design system WIP to Colin Brannigan (requested 17 Apr) — Ciara flagged timeline pressure; manage expectations before GDC Weekly Sync",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "🔴"
     },
     {
-      "action": "Review and sign off GDCU-8736: Imagery for Learning Hub — Ciara Carroll, In Product",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🏫",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
-    },
-    {
-      "action": "Review and sign off GDCU-8476: Genesis Publish Screen Design — Jessica Dordevic, In Product",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🖥️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8476"
-    },
-    {
-      "action": "Address Josh Smith performance issue — flagged to Gabriel Cornoiu Apr 14; 3 weeks on user flow research with minimal output. Decide on escalation path.",
+      "action": "Review Miguel Migneco's Global Strategy Hub prototype posted in #gdc-product-led-growth (20 Apr) — provide feedback on 'Jump to' design concern to unblock GDCU-8823",
       "source": "slack",
       "priority": "medium",
-      "emoji": "👤",
-      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6588727338/User+flow+and+Page+Hygiene+research"
+      "emoji": "🟡",
+      "url": "https://gdcgroup.slack.com/archives/C0AE981E1EJ/p1776697991221909"
     },
     {
-      "action": "Clarify Claude-assisted editor workflow with Jessica Dordevic — unresolved decision from Apr 14: editor self-service vs dev-mediated approach",
+      "action": "Check in with Vic Dadson post-doctor appointment — she mentioned possible short sign-off; ensure sick leave is logged in HiBob and plan analytics cover if extended",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🟡"
+    },
+    {
+      "action": "Follow up with Paddy on GitHub Orion access request for Ciara's Claude Design system project (GDCU-8893) — Mike requested on 20 Apr, pending approval",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🟡",
+      "url": "https://gdcgroup.slack.com/archives/G01DVQ3859D/p1776677105918539"
+    },
+    {
+      "action": "Assign GDCU-8834 (Implement Fixes for Cool Tones Update) — ticket created 20 Apr, currently unassigned",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🟡",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8834"
+    },
+    {
+      "action": "Chase Vic Dadson to create GA tracking ticket for Cosmo Spins flag (requested by Chloe on GDCU-8824, 16 Apr) — pending given sick day",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🟡",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8824"
+    },
+    {
+      "action": "Acknowledge Gabriel Cornoiu's PDMT meeting restructure — new cadence announced 20 Apr: planning every 3 weeks, weekly team check-in otherwise",
       "source": "slack",
       "priority": "low",
-      "emoji": "🤖",
-      "url": null
+      "emoji": "🟢",
+      "url": "https://gdcgroup.slack.com/archives/C05RRK62Z6X/p1776670613304259"
     }
   ],
   "needs_input": [
@@ -261,7 +142,31 @@
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Blocked",
-      "context": "Marked Blocked — Ciara is designing 3 distinct mobile-first grid iterations of the operator list for gambling.com/uk/online-casinos. The blocking issue needs to be identified and cleared. Stakeholders: Vic Dadson, Joshua Smith, Chloe Christie, Michael Butlin."
+      "context": "Blocked since 15 Apr awaiting feedback from Michael Butlin on design variants. Ciara posted Solutions 02 iteration; Michael commented he could not get it to work. Gabriel Cornoiu also reviewed and asked for confirmation. Chase Michael Butlin — he is in today's GDC Weekly Sync."
+    },
+    {
+      "key": "GDCU-8824",
+      "summary": "[GDC][DEV] Apply a Flag for End of Cosmo Spins Game",
+      "assignee": "Unassigned",
+      "status": "Backlog",
+      "priority": "Blocked",
+      "context": "Blocked since 20 Apr — Chloe: 'Blocked until finalised what is possible with Bloomreach.' Dedicated meeting at 12:00 BST today. Needs assigning post-unblock. GA tracking ticket also outstanding (Vic to create)."
+    },
+    {
+      "key": "GDCU-8823",
+      "summary": "[GDC][DEV] New Global Strategy Hub / Sub Hub Refinements",
+      "assignee": "Kelvin Yee",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Miguel posted updated prototype in #gdc-product-led-growth on 20 Apr. Mike flagged 'Jump to' looks out of place; Miguel explained styling is based on GDCU-8666 and posted latest build. Review and sign-off needed to unblock Kelvin."
+    },
+    {
+      "key": "GDCU-8548",
+      "summary": "[GDC][DEV][HOTFIX] Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
+      "assignee": "Novica Vukobratovic",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "HOTFIX in Product review since sprint start. Needs product sign-off to proceed to QA."
     },
     {
       "key": "GDCU-8830",
@@ -269,31 +174,23 @@
       "assignee": "Kelvin Yee",
       "status": "In Product",
       "priority": "Medium",
-      "context": "Fix is in Product awaiting review — multiple carousels on a page share duplicate DOM IDs causing the second carousel to fail to mount. Acceptance criteria clear. Needs product sign-off to proceed."
-    },
-    {
-      "key": "GDCU-8801",
-      "summary": "[GDC][UX] - Oplist Redesign on CA/FR Casino Page",
-      "assignee": "Ciara Carroll",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "Design improvements to CA/FR casino page oplist — cards, search, filter, compare function. Originated from AI Day work. In Product — awaiting Mike's review and approval to move forward."
-    },
-    {
-      "key": "GDCU-8736",
-      "summary": "[GDC][UX] Share/Create Imagery for the Learning Hub",
-      "assignee": "Ciara Carroll",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "Imagery for Learning Hub homepage tiles including a new Myth Buster tile. Stakeholders include Gabriel Cornoiu and Carlos Blauth. In Product — awaiting Mike's review."
+      "context": "In Product since 17 Apr — standard product acceptance review needed."
     },
     {
       "key": "GDCU-8476",
-      "summary": "[GDC][Genesis][UX] - Design for Publish Screen",
+      "summary": "[GDC][Genesis][UX] Design for Publish Screen",
       "assignee": "Jessica Dordevic",
       "status": "In Product",
       "priority": "Medium",
-      "context": "UX design for the new Genesis publish log page (success/fail states, light/dark mode, matching Balsamiq wireframes). Stakeholder: Pernilla Hansson Soares. In Product — awaiting Mike's review before dev handoff."
+      "context": "UX design in product review since 17 Apr. Jessica also active on DS component work — check this does not slip as she splits focus between Genesis and design system."
+    },
+    {
+      "key": "GDCU-8801",
+      "summary": "[GDC][UX] Oplist Redesign on CA/FR Casino Page",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Ciara has 7 carry-over tickets this sprint. Slot UX tickets were agreed to push but confirm this one proceeds — CA/FR oplist is separate from blocked UK operator list redesign (GDCU-8619)."
     }
   ],
   "jira": {
@@ -304,7 +201,17 @@
         "assignee": "Ciara Carroll",
         "status": "In Product",
         "priority": "Blocked",
-        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619",
+        "blocker": "Awaiting feedback from Michael Butlin since 15 Apr on design variants."
+      },
+      {
+        "key": "GDCU-8824",
+        "summary": "[GDC][DEV] Apply a Flag for End of Cosmo Spins Game",
+        "assignee": "Unassigned",
+        "status": "Backlog",
+        "priority": "Blocked",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8824",
+        "blocker": "Blocked since 20 Apr — awaiting Bloomreach capability confirmation. Meeting today at 12:00 BST to resolve."
       }
     ],
     "needs_input": [
@@ -317,36 +224,108 @@
         "url": "https://gdcgroup.atlassian.net/browse/GDCU-8830"
       },
       {
+        "key": "GDCU-8823",
+        "summary": "[GDC][DEV] New Global Strategy Hub / Sub Hub Refinements",
+        "assignee": "Kelvin Yee",
+        "status": "In Product",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8823"
+      },
+      {
         "key": "GDCU-8801",
-        "summary": "[GDC][UX] - Oplist Redesign on CA/FR Casino Page",
+        "summary": "[GDC][UX] Oplist Redesign on CA/FR Casino Page",
         "assignee": "Ciara Carroll",
         "status": "In Product",
         "priority": "Medium",
         "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
       },
       {
-        "key": "GDCU-8736",
-        "summary": "[GDC][UX] Share/Create Imagery for the Learning Hub",
-        "assignee": "Ciara Carroll",
+        "key": "GDCU-8548",
+        "summary": "[GDC][DEV][HOTFIX] Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
+        "assignee": "Novica Vukobratovic",
         "status": "In Product",
         "priority": "Medium",
-        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548"
       },
       {
         "key": "GDCU-8476",
-        "summary": "[GDC][Genesis][UX] - Design for Publish Screen",
+        "summary": "[GDC][Genesis][UX] Design for Publish Screen",
         "assignee": "Jessica Dordevic",
         "status": "In Product",
         "priority": "Medium",
         "url": "https://gdcgroup.atlassian.net/browse/GDCU-8476"
       }
     ],
-    "completed_48h": [],
-    "status_changes": [],
+    "completed_48h": [
+      {
+        "key": "GDCU-8814",
+        "summary": "[GDC][Dev] News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+        "assignee": "Harden Thomas Wallace",
+        "status": "Done",
+        "priority": "High",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8814"
+      }
+    ],
+    "status_changes": [
+      {
+        "key": "GDCU-8836",
+        "summary": "[GDC][DEV] Create an Image Carousel Shortcode",
+        "assignee": "Nebojsa Stanic",
+        "from_status": "In Progress",
+        "to_status": "In QA",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8836"
+      },
+      {
+        "key": "GDCU-8803",
+        "summary": "[GDC][DEV][ALL GEOS] Implement Sign In/Registration Modal Redesign",
+        "assignee": "Carlos Blauth",
+        "from_status": "In Progress",
+        "to_status": "In QA",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8803"
+      },
+      {
+        "key": "GDCU-8792",
+        "summary": "[GDC][DEV] Implement Cloudflare Bot Management",
+        "assignee": "Sanja Budic",
+        "from_status": "In Progress",
+        "to_status": "In QA",
+        "priority": "High",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
+      },
+      {
+        "key": "GDCU-8627",
+        "summary": "[GDC][CRO][DEV] Bottom Navigation Bar - Mobile",
+        "assignee": "Novica Vukobratovic",
+        "from_status": "Backlog",
+        "to_status": "In Progress",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8627"
+      },
+      {
+        "key": "GDCU-8870",
+        "summary": "[GDC][DEV] Investigate Performance Improvements for Page Timeouts",
+        "assignee": "Nebojsa Stanic",
+        "from_status": "Backlog",
+        "to_status": "In Progress",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8870"
+      },
+      {
+        "key": "GDCU-8840",
+        "summary": "[GDC][CRO][NZ] Instagram Headers Widget",
+        "assignee": "Novica Vukobratovic",
+        "from_status": "Backlog",
+        "to_status": "In Progress",
+        "priority": "Medium",
+        "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
+      }
+    ],
     "stats": {
-      "completed": 0,
-      "status_changes": 0,
-      "blocked": 1
+      "completed": 1,
+      "status_changes": 6,
+      "blocked": 2
     }
   }
 }
