@@ -1,0 +1,401 @@
+{
+  "generated_at": "2026-04-21T17:19:20+01:00",
+  "date": "21/04/2026",
+  "report_type": "evening",
+  "_notes": {
+    "context_files": "knowledge/preferences.md, knowledge/team.md, knowledge/projects-active.md — files not found (not yet created in repo). Morning/afternoon reports not found — Mike was on afternoon annual leave from 13:00 BST.",
+    "slack": "Private channel IDs (gdc-pod, gdc-pdmt, gdc-product-design-pod, gdc-product-led-growth, gdc-f2p-apps, gdc-high-agency, 6amigos) not discoverable via public search — Slack data sourced from gdc-core channel ID discovered via search. Partial Slack data only.",
+    "jira_changes": "Full status-change JQL result exceeded token limit; Done-today and In-Product queries read in full."
+  },
+  "achievements": [
+    {
+      "description": "🔥 HOTFIX shipped: Cosmo Spins sign-in modal now triggers when an unauthenticated user tries to spin for the first time — applied across all geos (banners, embedded, shortcodes). Long-running item unblocked.",
+      "source": "Jira GDCU-8548 (Novica Vukobratovic → Done 11:13 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "Iceland launch dev fixes fully resolved — all smoke-testing errors cleared by Harden, breadcrumb fix applied, image origins issue resolved.",
+      "source": "Jira GDCU-8856 (Harden Thomas Wallace → Done 09:45 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "Image carousel duplicate-ID bug fixed — multiple [card-carousel] shortcodes on the same page now mount correctly (e.g. MX casino page with 8 carousels).",
+      "source": "Jira GDCU-8830 (Kelvin Yee → Done 09:33 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "Design for Genesis Publish Screen completed by Jessica — covers success/failure states, light/dark mode; unblocks Helix publish-log work.",
+      "source": "Jira GDCU-8476 (Jessica Dordevic → Done 09:29 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "AT Payment Hub broken Bitcoin image fixed — missing image path resolved for gambling.com/at/online-casinos/zahlungen.",
+      "source": "Jira GDCU-8832 (Sanja Budic → Done 12:44 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "US Prediction Markets redundant breadcrumb link removed — path now correctly reads Gambling.com > Prediction Market Apps.",
+      "source": "Jira GDCU-8844 (Sanja Budic → Done 15:04 BST)",
+      "category": "completed"
+    },
+    {
+      "description": "Image Carousel Shortcode [card-carousel] moved to In Product — dev-complete, planned for Thursday release. Supports image/alt/text/link params.",
+      "source": "Jira GDCU-8836 (Nebojsa Stanic → In Product 16:33 BST)",
+      "category": "update"
+    },
+    {
+      "description": "Global Strategy Hub & Sub Hub Refinements moved to In Product — new GX global strategy + betting/casino/poker sub-hubs with pagination, planned Thursday release.",
+      "source": "Jira GDCU-8823 (Kelvin Yee → In Product today)",
+      "category": "update"
+    },
+    {
+      "description": "POC for Cloudflare D1 Redirects completed and documented in Project Helix Confluence space — validates D1 as a replacement for nginx-based redirects.",
+      "source": "Confluence — POC - Cloudflare D1 Redirects (Nemanja Cirovic, Project Helix)",
+      "category": "completed"
+    },
+    {
+      "description": "Tomorrow's Product Sync agenda published — confirms Thursday releases: table style variation, image carousel shortcode, Global Strategy Hub, redesigned Sign In/Up modal.",
+      "source": "Confluence — Agenda April 22nd 2026 (Chloe Christie, GDC Core)",
+      "category": "update"
+    }
+  ],
+  "meeting_summaries": [
+    {
+      "title": "No morning/afternoon reports available",
+      "time": "N/A",
+      "summary": "Today's morning and afternoon reports were not found in output/ — Mike was on annual leave from 13:00 BST. No meeting notes were located in Confluence for today's sessions. Jira activity and Confluence updates indicate the team operated normally in the morning.",
+      "decisions": [],
+      "action_items_from_meeting": []
+    }
+  ],
+  "action_points": [
+    {
+      "action": "Review GDCU-8836 Image Carousel Shortcode — moved to In Product today; release planned for Thursday. Check shortcode renders correctly and approve or raise feedback.",
+      "source": "Jira GDCU-8836 — In Product (Nebojsa Stanic)",
+      "priority": "high",
+      "emoji": "🎠",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8836",
+      "carry_over": false
+    },
+    {
+      "action": "Review GDCU-8823 Global Strategy Hub/Sub Hub — moved to In Product; Thursday release. Verify global hub carousels, sub-hub grid pagination, video section, navigation links.",
+      "source": "Jira GDCU-8823 — In Product (Kelvin Yee)",
+      "priority": "high",
+      "emoji": "🌐",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8823",
+      "carry_over": false
+    },
+    {
+      "action": "Share EVE logo information for GDCU-8840 Instagram Headers Widget — Chloe Christie explicitly tagged Mike to provide this so the A/B test can proceed.",
+      "source": "Jira GDCU-8840 comment (Chloe Christie, 16:27 BST)",
+      "priority": "high",
+      "emoji": "📸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840",
+      "carry_over": false
+    },
+    {
+      "action": "Review GDCU-8736 Learning Hub Imagery — Figma prototype shared by Ciara; Mike was tagged for review. Approve or feed back.",
+      "source": "Jira GDCU-8736 comment (Ciara Carroll, 16:38 BST)",
+      "priority": "medium",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736",
+      "carry_over": false
+    },
+    {
+      "action": "Review GDCU-8801 Oplist Redesign on CA/FR Casino Page — still In Product (Ciara Carroll). Provide feedback or approve to unblock.",
+      "source": "Jira GDCU-8801 — In Product",
+      "priority": "medium",
+      "emoji": "🃏",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801",
+      "carry_over": true
+    },
+    {
+      "action": "Unblock GDCU-8619 Operator List Redesign — flagged Blocked priority, sitting in In Product. Ciara Carroll assigned. Determine what is blocking and resolve.",
+      "source": "Jira GDCU-8619 — Blocked / In Product (Ciara Carroll)",
+      "priority": "high",
+      "emoji": "🚧",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619",
+      "carry_over": true
+    },
+    {
+      "action": "Confirm creative direction for GDCU-8846 Cosmo Spins Spring Ad Campaign — Josh Kerr feedback says it needs rethinking: clearer message, less 'gaming' feel. Ciara is iterating; sign off or give direction.",
+      "source": "Jira GDCU-8846 comment (Ciara Carroll + Josh Kerr feedback)",
+      "priority": "medium",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846",
+      "carry_over": true
+    },
+    {
+      "action": "Prep for Mike/Colin 1:1 (15:00 BST) — bring sprint health snapshot, GDC Data Gaps context, and any blockers to escalate.",
+      "source": "Calendar — Mike/Colin 1.1 (organizer: Colin Brannigan)",
+      "priority": "high",
+      "emoji": "👤",
+      "carry_over": false
+    },
+    {
+      "action": "Prep for GDC Data Gaps meeting (16:30 BST) — Mike organised this with Chris Raulli, Vic Dadson, Colin Brannigan, David Muler. Purpose: walk Chris through team skill gap areas Vic has identified. Prepare the gaps list.",
+      "source": "Calendar — GDC Data Gaps",
+      "priority": "high",
+      "emoji": "📊",
+      "carry_over": false
+    },
+    {
+      "action": "Confirm which features will have dev-ready designs by next Thursday — agenda item for tomorrow's Mid Week Catch-Up (Gabriel asking): Always On Betting Tips Page, Tinder Style Offer Match, ACE Betslips, ACE Assistant Widget.",
+      "source": "Confluence — Mid Week Catchup 22nd April 2026 agenda (Gabriel Cornoiu)",
+      "priority": "medium",
+      "emoji": "🎯",
+      "carry_over": false
+    },
+    {
+      "action": "Ensure GX Casino strategy articles are finished by EOD tomorrow and manual redirects are set up for EN hubs ahead of Thursday Global Strategy Hub release.",
+      "source": "Confluence — Mid Week Catchup 22nd April 2026 agenda (Chloe Christie)",
+      "priority": "high",
+      "emoji": "🔁",
+      "carry_over": false
+    }
+  ],
+  "calendar": {
+    "next_working_day": [
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3qACGNJAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACU5nLrgAAEA==",
+        "title": "Product Sync",
+        "time": "10:00–10:45 BST",
+        "duration": "45 min",
+        "status": "confirmed",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "ana.dimitrijevic@gdcgroup.com",
+          "diana.thurmann@gdcgroup.com",
+          "michael.butlin@gdcgroup.com",
+          "corey.cunningham@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "dean.ryan@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "David.Murphy@gdcgroup.com",
+          "diarmuid.nolan@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "miguel.migneco@gdcgroup.com",
+          "jessica.dordevic@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com",
+          "simon.widorson@gdcgroup.com",
+          "dan.smullen@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": true
+        },
+        "agenda_url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6600720776/Agenda+April+22nd+2026",
+        "synopsis": "Weekly product sync for the full GDC team. This week is release-heavy: table style variation already live, image carousel shortcode + Global Strategy Hub + redesigned Sign In/Up modal all going live Thursday.",
+        "discussion_topics": [
+          "Table style variation now live on qa16",
+          "New HTML snippets document for editors published",
+          "Image Carousel Shortcode [card-carousel] — Thursday release (qa check at inf2.gambling.com/shortcodes-test-page)",
+          "Global Strategy Hub — Thursday release (qa17.gambling.com/strategy)",
+          "Redesigned Sign In/Up Modal — upcoming (iuj.gambling.com/uk)"
+        ],
+        "prep_notes": "Review GDCU-8836 and GDCU-8823 In Product items before this meeting so you can confirm Thursday readiness. Direct reports Miguel, Jessica and Vic are all attending — good opportunity to align on their sprint items."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3qACGNJAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACpttqoQAAEA==",
+        "title": "Mid Week Catch-Up",
+        "time": "11:00–11:30 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "tony.iannelli@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "shane.mcgrath@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "robin.john@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": true
+        },
+        "agenda_url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6601017997/Mid+Week+Catchup+22nd+April+2026",
+        "synopsis": "Mid-week dev/product check-in. Gabriel is asking which of four features will have dev-ready designs by next Thursday. Chloe has two items: Instagram A/B test logo problem and the Strategy Hub release logistics.",
+        "discussion_topics": [
+          "Design readiness by next Thursday: Always On Betting Tips Page, Tinder Style Offer Match widget, ACE Betslips, ACE Assistant Widget",
+          "Instagram Headers A/B test (GDCU-8840) — no logos yet; decision needed on whether UX finds existing Origins logos vs. new dedicated tickets",
+          "Strategy Hub Thursday release checklist: GX Casino strategy articles finished EOD today, dev removes localised hubs/articles, manual redirects for EN hubs to GX"
+        ],
+        "prep_notes": "Come with a view on which of the four features are design-ready. Know your position on the Instagram logo approach (reuse existing Origins asset vs. new ticket). Be ready to confirm the Strategy Hub release gate."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3qACGNJAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
+        "title": "Project (focus block)",
+        "time": "11:40–13:00 BST",
+        "duration": "80 min",
+        "status": "confirmed",
+        "attendees": [],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Personal focus/work block organised by Mike. No other attendees.",
+        "discussion_topics": [],
+        "prep_notes": "Good window to complete In Product reviews (GDCU-8836, GDCU-8823) and send EVE logo info for GDCU-8840."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAKrfhfiAAA=",
+        "title": "Hygiene research review so far",
+        "time": "14:00–14:30 BST",
+        "duration": "30 min",
+        "status": "tentative",
+        "attendees": [
+          "joshua.smith@gdcgroup.com",
+          "michael.pett@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "1:1 with Joshua Smith to review hygiene research findings. Status is tentative on Mike's calendar — confirm attendance.",
+        "discussion_topics": [
+          "Review of hygiene research findings to date",
+          "Next steps / priorities from the research"
+        ],
+        "prep_notes": "Check if Josh has shared any pre-read material. Confirm you're attending (marked tentative). Agenda doc linked via Zoom meeting notes."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3qACGNJAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "title": "GDCU Assemble 💥 Standup",
+        "time": "14:30–15:00 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "Harden.Wallace@gdcgroup.com",
+          "kelvin.yee@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "carlos.blauth@gdcgroup.com",
+          "robin.john@gdcgroup.com",
+          "ionut.neculcea@gdcgroup.com",
+          "shane.mcgrath@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "nebojsa.stanic@gdcgroup.com",
+          "novica.vukobratovic@gdcgroup.com",
+          "sanja.budic@gdcgroup.com",
+          "miguel.migneco@gdcgroup.com",
+          "jessica.dordevic@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Daily full-team standup. With 6 tickets completed today and two items freshly In Product (GDCU-8836, GDCU-8823), expect Thursday release plan to be discussed.",
+        "discussion_topics": [
+          "Status updates across sprint tickets",
+          "Confirm Thursday release readiness",
+          "Any new blockers"
+        ],
+        "prep_notes": "Know the status of In Product items — you may be asked to sign off or confirm timing at standup."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3qACGNJAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACeKp0AAAAEA==",
+        "title": "Mike / Colin 1:1",
+        "time": "15:00–15:45 BST",
+        "duration": "45 min",
+        "status": "confirmed",
+        "attendees": [
+          "colin.brannigan@gdcgroup.com",
+          "michael.pett@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Weekly 1:1 with manager Colin Brannigan. Good slot to raise the GDC Data Gaps topic (which follows immediately after) and share sprint health.",
+        "discussion_topics": [
+          "Sprint 8 Q2 health — 6 tickets completed today, strong shipping momentum",
+          "Thursday release plan: Carousel shortcode, Global Strategy Hub, Sign In/Up modal",
+          "GDCU-8619 Operator List Redesign — Blocked, needs visibility",
+          "GDC Data Gaps — preview before the 16:30 meeting with Chris Raulli"
+        ],
+        "prep_notes": "Prepare a concise sprint snapshot. Raise the Blocked status of GDCU-8619. Preview the data gaps conversation so Colin is aligned before the Chris Raulli call."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACapvHDgAAEA==",
+        "title": "Mike/Vic Sync",
+        "time": "16:00–16:30 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "michael.pett@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "1:1 with direct report Victoria Dadson. Likely to cover GA tracking (Vic was tagged on GDCU-8824 for tracking ticket), GDCU-8840 Instagram Widget tracking, and the upcoming GDC Data Gaps meeting.",
+        "discussion_topics": [
+          "GA tracking ticket for GDCU-8824 (Apply Flag for End of Cosmo Spins Game) — Chloe tagged Vic",
+          "Tracking update for GDCU-8840 Instagram Headers Widget",
+          "GDC Data Gaps — align on what Vic has identified as skill gaps before the 16:30 call"
+        ],
+      "prep_notes": "Review what Vic was tagged on this week (GDCU-8840 tracking, GDCU-8824 tracking). Ensure you both have the same framing for the data gaps conversation with Chris Raulli immediately after."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAKrfhfkAAA=",
+        "title": "GDC Data Gaps",
+        "time": "16:30–17:00 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "michael.pett@gdcgroup.com",
+          "christopher.raulli@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com",
+          "colin.brannigan@gdcgroup.com",
+          "david.muleropino@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Mike-organised call to walk Chris Raulli through team skill gaps that Vic has identified. Goal is to get Chris's direction on how to address them. Both Colin (manager) and Vic (direct report) attending.",
+        "discussion_topics": [
+          "Walk Chris through skill gaps identified by Vic in current GDC team structure",
+          "Get Chris's recommendations on addressing the gaps",
+          "Potential resource/hiring implications"
+        ],
+        "prep_notes": "Have Vic's skill gap analysis ready to present clearly. Structure it as: gap identified → current impact → options to address. Colin will be in the room so align with him in the prior 1:1 on what you want to achieve from this conversation."
+      }
+    ]
+  }
+}
