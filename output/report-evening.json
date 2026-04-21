@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-04-20T17:30:00+01:00",
+  "date": "20/04/2026",
+  "report_type": "evening",
+
+  "achievements": [
+    {
+      "description": "GDCU-8814 marked Done — XML sitemap fix for 6,000+ news article URLs across all 23+ markets; per-market news sitemaps created and added to sitemap-index.xml (assigned: Harden Wallace)",
+      "source": "Jira GDCU-8814",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8823 — GX Strategy Hub & Sub-Hub Refinements moved to In Product; ready for Mike's product review. GX Casino Strategy sub-hub live on qa17.",
+      "source": "Jira GDCU-8823",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8548 — Cosmo Spins sign-in trigger on first spin moved to In Product; ready for Mike's product review. Change applied to all banner, embedded, and shortcode instances.",
+      "source": "Jira GDCU-8548",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8803 — Sign In / Registration Modal Redesign entered In QA. New rewards banner, progress bar, and 8-chip sign-up reward in testing. Release targeted for Thursday.",
+      "source": "Jira GDCU-8803 + SMT Weekly",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8836 — Image Carousel Shortcode ([card-carousel]) entered In QA (assigned: Nebojsa Stanic). Enables multi-image carousels with optional CPK/pageType links.",
+      "source": "Jira GDCU-8836",
+      "category": "update"
+    },
+    {
+      "description": "Miguel shared prototype for GDCU-8799 Oplist redesign (Scrolling Operator Cards with USPs). Mike flagged that the 'Jump to' anchor element looks out of place — design iteration needed.",
+      "source": "Slack #gdc-product-led-growth",
+      "category": "update"
+    },
+    {
+      "description": "Ciara announced launch of Claude Design / Gambling.com Design System project (GDCU-8893) — integrating Claude Design (released Friday) to allow stakeholder-led products with a maintained design quality threshold.",
+      "source": "Slack #gdc-product-led-growth",
+      "category": "update"
+    },
+    {
+      "description": "SMT Weekly Confluence page for tomorrow's GDC Weekly Sync prepared by Gabriel Cornoiu — contains Mike's High Agency update (GetViktor, Claude Design, Design System), PLG delivery summary, and SEO/non-EN updates from Diana.",
+      "source": "Confluence — 21st April 2026 GDC SMT Weekly",
+      "category": "update"
+    },
+    {
+      "description": "Gabriel announced restructuring of the PDMT meeting: repurposed to a planning-focused session every 3 weeks; weekly team alignment to move to dedicated 1:1s and existing syncs.",
+      "source": "Slack #gdc-pdmt",
+      "category": "decision"
+    },
+    {
+      "description": "Jessica updated cool-tones background colour variable to #F3F4F6 in the GDC Figma Design System — aligns with colour exploration decisions.",
+      "source": "Slack #gdc-product-led-growth",
+      "category": "update"
+    }
+  ],
+
+  "meeting_summaries": [
+    {
+      "title": "Ciara / Mike Sync",
+      "time": "09:30 BST",
+      "summary": "Weekly 1:1 between Mike and Ciara Carroll. No Confluence notes found. Based on Slack activity on the same day, likely covered: progress on GDCU-8893 (Design System / Claude Design integration), GDCU-8880 (Ace tips module design system file for AI agent), and general sprint review for the design team.",
+      "decisions": [],
+      "action_items_from_meeting": [
+        "GDCU-8893 Design System ticket to be actively worked on by Ciara this week",
+        "Ciara to continue updating design system tokens and Figma structure for Claude compatibility"
+      ]
+    },
+    {
+      "title": "Mike / Mig Catch Up",
+      "time": "10:30 BST",
+      "summary": "Weekly 1:1 between Mike and Miguel Migneco. No Confluence notes found. GDCU-8813 (Ace Navigation UX Audit) was created/updated by Miguel today suggesting it was discussed. Miguel later shared the GDCU-8799 oplist prototype in #gdc-product-led-growth, which also likely featured in this call.",
+      "decisions": [],
+      "action_items_from_meeting": [
+        "Miguel to proceed with GDCU-8813 Ace Navigation UX Audit (now To Do)",
+        "Miguel to iterate on GDCU-8799 oplist prototype — address 'Jump to' placement feedback from Mike"
+      ]
+    },
+    {
+      "title": "Weekly Design Team Sync",
+      "time": "14:00 BST",
+      "summary": "Mike-led weekly sync with Miguel Migneco, Jessica Dordevic, and Ciara Carroll. Purpose: review active work, share blockers, coordinate on dependencies. No Confluence notes found. Ciara's Claude Design / Design System initiative and Miguel's oplist prototype were both announced in Slack shortly before/after this meeting, suggesting these were covered. Jessica flagged the cool tones BG colour fix made to Figma DS.",
+      "decisions": [
+        "Claude Design / Design System project (GDCU-8893) formally initiated — Ciara to lead",
+        "Jessica to continue adding components to the DS branch"
+      ],
+      "action_items_from_meeting": [
+        "Ciara: progress GDCU-8893 — refine design tokens, set up Claude Design integration",
+        "Miguel: share GDCU-8799 oplist prototype with wider team for feedback (done same day)",
+        "Jessica: fix cool tones BG variable (#F3F4F6) in DS (done same day)"
+      ]
+    },
+    {
+      "title": "GDCU Assemble 💥 Standup",
+      "time": "14:30 BST",
+      "summary": "Full GDCU team daily standup (Chloe Christie organising). No Confluence notes found. Team aligned on active sprint work: sitemaps fix (GDCU-8814) marked Done, sign-in modal in QA, image carousel shortcode in QA, bottom nav A/B test targeting Thursday release, strategy hub in Product review, and learning hub imagery in progress.",
+      "decisions": [],
+      "action_items_from_meeting": []
+    },
+    {
+      "title": "Lauren / Mike Catch Up",
+      "time": "15:00 BST",
+      "summary": "30-minute catch-up between Lauren Bradshaw and Mike Pett. No Confluence notes or Slack references found. Lauren Bradshaw appears to be an external stakeholder or cross-functional colleague — content of discussion not captured.",
+      "decisions": [],
+      "action_items_from_meeting": []
+    }
+  ],
+
+  "action_points": [
+    {
+      "action": "Review GDCU-8823 — GX Strategy Hub & Sub-Hub Refinements now In Product. Test on qa17 (https://qa17.gambling.com/strategy) and provide product sign-off or feedback.",
+      "source": "Jira GDCU-8823",
+      "priority": "high",
+      "emoji": "🔍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8823",
+      "carry_over": false
+    },
+    {
+      "action": "Review GDCU-8548 — Cosmo Spins sign-in trigger (on first spin) now In Product. Verify across banner, embedded, and shortcode instances on qa11.",
+      "source": "Jira GDCU-8548",
+      "priority": "high",
+      "emoji": "🎰",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548",
+      "carry_over": false
+    },
+    {
+      "action": "Prepare for GDC Weekly Sync tomorrow (10:00 BST, Colin Brannigan). Review your SMT Weekly section already drafted on Confluence — finalise High Agency update, PLG delivery summary, and any data analysis points.",
+      "source": "Confluence — 21st April 2026 GDC SMT Weekly + Calendar",
+      "priority": "high",
+      "emoji": "📋",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6599718771/21st+April+2026+-+GDC+SMT+Weekly",
+      "carry_over": false
+    },
+    {
+      "action": "⚠️ Afternoon leave conflict: 'Vacation/Annual leave — Afternoon' starts 13:00 BST tomorrow. GDCU Assemble Standup is at 14:30 BST. Confirm with Chloe / team whether you will attend or delegate.",
+      "source": "Outlook Calendar",
+      "priority": "high",
+      "emoji": "⚠️",
+      "carry_over": false
+    },
+    {
+      "action": "Prepare for Flags on Bloomreach for FTP Games call (12:00 BST tomorrow, Chloe Christie). Review GDCU-8824 (Bloomreach push notifications for Cosmo Spins) and clarify what push notification flags are needed.",
+      "source": "Outlook Calendar + GDCU-8824",
+      "priority": "medium",
+      "emoji": "🔔",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8824",
+      "carry_over": false
+    },
+    {
+      "action": "Follow up on GDCU-8799 Oplist prototype — respond to Miguel's shared prototype with clear direction on the 'Jump to' element and 'Betting Reviews' in secondary nav. Confirm next iteration.",
+      "source": "Slack #gdc-product-led-growth",
+      "priority": "medium",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8799",
+      "carry_over": false
+    },
+    {
+      "action": "Chase Bet365 scrolling T&Cs hybrid solution: pending response from Eoin McCarthy (technical effort) and Ciara Carroll (design POV) — raised in #gdc-pdmt on April 14th.",
+      "source": "Slack #gdc-pdmt",
+      "priority": "medium",
+      "emoji": "⚖️",
+      "carry_over": true
+    },
+    {
+      "action": "Monitor Bottom Nav A/B test (GDCU-8627) — targeting Thursday release per SMT Weekly. Confirm QA completion with Chloe and check tracking setup before sign-off.",
+      "source": "Jira GDCU-8627 + SMT Weekly",
+      "priority": "medium",
+      "emoji": "📱",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8627",
+      "carry_over": false
+    },
+    {
+      "action": "Monitor Sign In/Registration Modal Redesign (GDCU-8803) — in QA, targeted for Thursday release. Review QA screenshots when provided.",
+      "source": "Jira GDCU-8803 + SMT Weekly",
+      "priority": "medium",
+      "emoji": "🔐",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8803",
+      "carry_over": false
+    },
+    {
+      "action": "Check progress on GDCU-8870 page timeouts investigation (Nebojsa) — impacting Genesis team workflow. Ensure a report or improvement plan is forthcoming.",
+      "source": "Jira GDCU-8870",
+      "priority": "low",
+      "emoji": "⏱️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8870",
+      "carry_over": true
+    }
+  ],
+
+  "calendar": {
+    "next_working_day": [
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACcDzOTwAAEA==",
+        "title": "GDC Weekly Sync",
+        "time": "10:00–11:30 BST",
+        "duration": "90 min",
+        "status": "confirmed",
+        "attendees": [
+          "colin.brannigan@gdcgroup.com",
+          "dan.smullen@gdcgroup.com",
+          "dean.ryan@gdcgroup.com",
+          "michael.butlin@gdcgroup.com",
+          "diana.thurmann@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "diarmuid.nolan@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": true
+        },
+        "agenda_url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6599718771/21st+April+2026+-+GDC+SMT+Weekly",
+        "synopsis": "Senior Management Team weekly sync chaired by Colin Brannigan. Each lead presents their weekly update. Confluence page is already prepared with Mike's section covering High Agency (GetViktor competitor monitoring, Claude Design, Design System), PLG delivery summary (Sign In/Up Refresh + Bottom Nav A/B + Strategy Hub v1 going live this week), and pipeline (Instagram-style operator offers, scrolling USP cards, Ace embed). Diana Thurmann covers SEO/non-EN performance; Gabriel Cornoiu covers product delivery.",
+        "discussion_topics": [
+          "High Agency: GetViktor daily competitor product updates saving 4–6h/week; next step is trend analysis mapped to ranking improvements; automated CRO proposal tool close to completion",
+          "Claude Design (released Friday): team testing this week; potential significant design workflow impact; report to follow on Confluence",
+          "Design System (GDCU-8893): Ciara leading — GDC design system for stakeholder-led products with Claude integration",
+          "PLG delivery going live Thursday: Sign In/Registration redesign, Bottom Nav A/B test (UK), GX Strategy Hub v1",
+          "SEO: 6,000+ news article sitemaps (GDCU-8814) — Done today, deploying this week",
+          "Iceland launched 15th April — pages indexed and starting to rank",
+          "Gabriel: Saturday support coverage gap — Genesis was down during golden hours (8–11am); Colm is the only DevOps fixer",
+          "Bet365 T&Cs compliance: scrollable → static/hybrid solution in progress",
+          "Slots widget gap: game tiles not synced with GDC Admin Panel for popular/new games — may need cross-team support"
+        ],
+        "prep_notes": "Your Confluence section is already drafted. Before the call: (1) review and finalise Data Analysis section which is currently empty; (2) have GetViktor trend analysis progress ready to articulate; (3) confirm the Thursday release plan for sign-in modal and bottom nav with Chloe/Gabriel; (4) be ready to answer on Claude Design report timeline."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAKrfhfhAAA=",
+        "title": "Flags on Bloomreach for FTP Games",
+        "time": "12:00–12:30 BST",
+        "duration": "30 min",
+        "status": "confirmed",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "shaun.cronin@gdcgroup.com",
+          "kelvin.yee@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "simon.merner@gdcgroup.com",
+          "saila.lehto@gdcgroup.com",
+          "ben.scrupps@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Call organised by Chloe Christie to discuss push notification flags for Cosmo Spins via Bloomreach (GDCU-8824). Goal is to determine what is technically possible via Bloomreach for F2P app push notification triggers. Involves CRM (Saila Lehto), product (Chloe, Joshua, Mike), dev (Eoin, Kelvin), and Simon Merner. Note: this call runs from 12:00–12:30 BST which overlaps with your personal 'Project' block (11:40–13:00 BST).",
+        "discussion_topics": [
+          "What push notification flags can be set in Bloomreach for Cosmo Spins / FTP Games?",
+          "Technical constraints and feasibility (Eoin McCarthy, Kelvin Yee)",
+          "CRM / Bloomreach capabilities (Saila Lehto, Ben Scrupps)",
+          "Integration requirements and next steps for GDCU-8824"
+        ],
+        "prep_notes": "Read GDCU-8824 before the call to understand the current scope. Come with a clear product requirement: what user actions should trigger notifications, which geos, and what the desired user journey is. Ask Saila/Eoin to confirm what Bloomreach can natively support vs what needs custom dev. Note: afternoon leave starts at 13:00 — you have a hard stop."
+      },
+      {
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3p847miAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "title": "GDCU Assemble 💥 Standup",
+        "time": "14:30–15:00 BST",
+        "duration": "30 min",
+        "status": "confirmed — ⚠️ CONFLICTS WITH AFTERNOON LEAVE",
+        "attendees": [
+          "chloe.christie@gdcgroup.com",
+          "Harden.Wallace@gdcgroup.com",
+          "kelvin.yee@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "carlos.blauth@gdcgroup.com",
+          "robin.john@gdcgroup.com",
+          "ionut.neculcea@gdcgroup.com",
+          "shane.mcgrath@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "nebojsa.stanic@gdcgroup.com",
+          "novica.vukobratovic@gdcgroup.com",
+          "sanja.budic@gdcgroup.com",
+          "miguel.migneco@gdcgroup.com",
+          "jessica.dordevic@gdcgroup.com",
+          "milan.nikolic@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Daily full GDCU team standup. However, this falls during your Vacation/Annual leave — Afternoon (OOO from 13:00 BST on 21st April). You will need to either notify the team or confirm you are skipping. Direct reports Vic Dadson, Jessica Dordevic, Miguel Migneco, and Ciara Carroll will be present.",
+        "discussion_topics": [
+          "Sprint progress: sitemaps done, sign-in modal QA, image carousel QA, bottom nav targeting Thursday, strategy hub in Product review",
+          "Any blockers arising from morning GDC Weekly Sync"
+        ],
+        "prep_notes": "⚠️ Confirm with Chloe Christie whether you will attend given afternoon leave. If skipping, ensure your direct reports (Vic, Jessica, Miguel, Ciara) are updated on any decisions from the morning GDC Weekly Sync."
+      }
+    ]
+  }
+}
