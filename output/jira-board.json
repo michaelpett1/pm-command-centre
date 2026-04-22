@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-22T09:00:00.000Z",
+  "generated_at": "2026-04-22T12:10:00+01:00",
   "date": "22/04/2026",
   "sprint": {
     "name": "GDCU Sprint8Q2",
     "total": 43
   },
   "stats": {
-    "in_progress": 13,
-    "in_qa": 5,
-    "in_product": 4,
-    "backlog": 11,
-    "done": 10
+    "in_progress": 12,
+    "in_qa": 4,
+    "in_product": 3,
+    "done": 14,
+    "backlog": 10
   },
   "columns": {
     "in_progress": [
@@ -29,11 +29,27 @@
         "flags": []
       },
       {
+        "key": "GDCU-8546",
+        "summary": "Tinder Style Offer Match",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8863",
+        "summary": "Investigate & Fix Incorrect Ktag CT Value on Gambling.com Operator Pages",
+        "assignee": "Sanja Budic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
         "key": "GDCU-8840",
         "summary": "Instagram Headers Widget",
         "assignee": "Novica Vukobratovic",
         "priority": "Medium",
-        "flags": ["flagged"]
+        "flags": [
+          "flagged"
+        ]
       },
       {
         "key": "GDCU-8824",
@@ -47,12 +63,14 @@
         "summary": "Free to Play App POC v2",
         "assignee": "Carlos Blauth",
         "priority": "Medium",
-        "flags": ["flagged"]
+        "flags": [
+          "flagged"
+        ]
       },
       {
-        "key": "GDCU-8627",
-        "summary": "Bottom Navigation Bar - Mobile",
-        "assignee": "Novica Vukobratovic",
+        "key": "GDCU-8870",
+        "summary": "Investigate Performance Improvements for Page Timeouts",
+        "assignee": "Nebojsa Stanic",
         "priority": "Medium",
         "flags": []
       },
@@ -71,23 +89,9 @@
         "flags": []
       },
       {
-        "key": "GDCU-8862",
-        "summary": "Add Logic for Offer Terms for a Brand to be Static or Scrollable",
-        "assignee": "Kelvin Yee",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
         "key": "GDCU-8846",
         "summary": "Create Spring Ad Creative Campaign for Cosmo Spins",
         "assignee": "Ciara Carroll",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8512",
-        "summary": "Always On Betting Tips Page",
-        "assignee": "Miguel Migneco",
         "priority": "Medium",
         "flags": []
       },
@@ -96,14 +100,9 @@
         "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
         "assignee": "Harden Thomas Wallace",
         "priority": "Blocked",
-        "flags": ["blocked"]
-      },
-      {
-        "key": "GDCU-8870",
-        "summary": "Investigate Performance Improvements for Page Timeouts",
-        "assignee": "Nebojsa Stanic",
-        "priority": "Medium",
-        "flags": []
+        "flags": [
+          "blocked"
+        ]
       }
     ],
     "in_qa": [
@@ -115,53 +114,39 @@
         "flags": []
       },
       {
-        "key": "GDCU-8733",
-        "summary": "Apply Feedback to the Learning Hub",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8803",
-        "summary": "Implement Sign In/Registration Modal Redesign",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8714",
-        "summary": "Ace AI - Full Football Coverage (Tips)",
-        "assignee": "Sanja Budic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
         "key": "GDCU-8807",
         "summary": "Set Up Dynamic Content API (Cloudflare Workers + D1 + GDC Admin Panel)",
         "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8862",
+        "summary": "Add Logic for Offer Terms for a Brand to be Static or Scrollable",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8733",
+        "summary": "Apply Feedback to the Learning Hub",
+        "assignee": "Carlos Blauth",
         "priority": "Medium",
         "flags": []
       }
     ],
     "in_product": [
       {
-        "key": "GDCU-8546",
-        "summary": "Tinder Style Offer Match",
-        "assignee": "Jessica Dordevic",
+        "key": "GDCU-8512",
+        "summary": "Always On Betting Tips Page",
+        "assignee": "Miguel Migneco",
         "priority": "Medium",
         "flags": []
       },
       {
-        "key": "GDCU-8836",
-        "summary": "Create an Image Carousel Shortcode",
-        "assignee": "Nebojsa Stanic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8823",
-        "summary": "New Global Strategy Hub / Sub Hub Refinements",
-        "assignee": "Kelvin Yee",
+        "key": "GDCU-8714",
+        "summary": "Ace AI - Full football coverage (tips)",
+        "assignee": "Sanja Budic",
         "priority": "Medium",
         "flags": []
       },
@@ -175,8 +160,50 @@
     ],
     "done": [
       {
+        "key": "GDCU-8814",
+        "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8875",
+        "summary": "Add phone number to Email conformation form page",
+        "assignee": "Kelvin Yee",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8627",
+        "summary": "Bottom Navigation Bar - Mobile",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8803",
+        "summary": "Implement Sign In/Registration Modal Redesign",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8836",
+        "summary": "Create an Image Carousel Shortcode",
+        "assignee": "Nebojsa Stanic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8823",
+        "summary": "New Global Strategy Hub/ Sub Hub Refinements",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
         "key": "GDCU-8830",
-        "summary": "Fix Image Carousel Display Issue on Site Page",
+        "summary": "Fix image carousel display issue on site page",
         "assignee": "Kelvin Yee",
         "priority": "Medium",
         "flags": []
@@ -197,10 +224,12 @@
       },
       {
         "key": "GDCU-8548",
-        "summary": "Update Sign In to Trigger After User Tries to Spin on Cosmo Spins",
+        "summary": "Update Sign in to Trigger After User Tries to Spin on Cosmo Spins",
         "assignee": "Novica Vukobratovic",
         "priority": "Medium",
-        "flags": ["flagged"]
+        "flags": [
+          "flagged"
+        ]
       },
       {
         "key": "GDCU-8856",
@@ -218,23 +247,9 @@
       },
       {
         "key": "GDCU-8406",
-        "summary": "Fix hreflang Implementation for Slots Games Pages",
+        "summary": "Fix hreflang implementation for Slots Games Pages",
         "assignee": "Sanja Budic",
         "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8814",
-        "summary": "News Articles Missing from XML Sitemaps Across All 23+ Markets — 6,000+ URLs Without Sitemap Coverage",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "High",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8875",
-        "summary": "Add Phone Number to Email Confirmation Form Page",
-        "assignee": "Kelvin Yee",
-        "priority": "High",
         "flags": []
       },
       {
@@ -248,292 +263,438 @@
   },
   "comments": [
     {
-      "ticket_key": "GDCU-8546",
-      "ticket_summary": "Tinder Style Offer Match",
-      "author": "Jessica Dordevic",
-      "text": "Hey @Mike    You can find the designs proposed here. There are two options in the file",
-      "timestamp": "2026-04-22T08:09:00.790+0100",
+      "ticket": "GDCU-8512",
+      "author": "Chloe Christie",
+      "body": "@@Miguel Migneco   @@Mike Pett  could we have the dev ready design with:  Just the elements that will be ready to be implemented on site Using the components that we have already on site eg offer cards at bottom do not exist currently so current cards should be used as on the bottom of      This will make it clearer for devs, thanks",
+      "updated": "2026-04-22T11:59:17.454+0100",
       "mentions_mike": true
     },
     {
-      "ticket_key": "GDCU-8830",
-      "ticket_summary": "Fix Image Carousel Display Issue on Site Page",
-      "author": "Leidy Plaza",
-      "text": "Hi   I can confirm that the image is now displaying. Thank you!",
-      "timestamp": "2026-04-22T07:47:37.767+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8810",
-      "ticket_summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
-      "author": "Harden Thomas Wallace",
-      "text": "Reason for Moving to Block [ BLOCKERS ]  Apple: Need Further PII (Waiting for Feedback) Google: Need Payment Card (Waiting for Navan Approval)",
-      "timestamp": "2026-04-21T20:05:06.630+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8836",
-      "ticket_summary": "Create an Image Carousel Shortcode",
-      "author": "Chloe Christie",
-      "text": "if you want to check out the below we have created a new shortcode for images to be displayed in a carousel format. The shortcode can have an image, text and hyperlink to a page",
-      "timestamp": "2026-04-21T16:33:34.493+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8733",
-      "ticket_summary": "Apply Feedback to the Learning Hub",
-      "author": "Chloe Christie",
-      "text": "to review points 41 to 48 that are on https://qa8.gambling.com/learning Will then return with further feedback",
-      "timestamp": "2026-04-21T16:25:10.544+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8844",
-      "ticket_summary": "Remove Prediction Markets Breadcrumb on US Prediction Markets Page",
+      "ticket": "GDCU-8803",
       "author": "Automation for Jira",
-      "text": "The linked issue has been resolved",
-      "timestamp": "2026-04-21T15:04:11.730+0100",
+      "body": "The linked issue -   has been resolved",
+      "updated": "2026-04-22T11:54:11.628+0100",
       "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8844",
-      "ticket_summary": "Remove Prediction Markets Breadcrumb on US Prediction Markets Page",
+      "ticket": "GDCU-8803",
+      "author": "Chloe Christie",
+      "body": "FYI on the below  @@Diana Thurmann   @@Michael Butlin   @@Dean Ryan  new sign in modal will be released tomorrow. Thanks",
+      "updated": "2026-04-22T11:53:50.809+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Shane McGrath",
+      "body": "QA Complete  Verified new Sign In / Sign Up has been completed and looks good.  Verified on Desktop and Mobile Verified all flows , email, google, returning user etc Verified chips are added Verified edge cases",
+      "updated": "2026-04-22T11:51:17.718+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8836",
+      "author": "Automation for Jira",
+      "body": "The linked issue -   has been resolved",
+      "updated": "2026-04-22T11:48:15.918+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8627",
+      "author": "Automation for Jira",
+      "body": "The linked issue -   has been resolved",
+      "updated": "2026-04-22T11:46:50.778+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Mike Pett",
+      "body": "@@Carlos Blauth  No problem, thanks for the explanation. Lets leave that last point as it is.",
+      "updated": "2026-04-22T11:41:45.629+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Carlos Blauth",
+      "body": "Hey  @@Mike Pett  it should all be sorted, apart from the pre filled password. As our sign in modal is not rendered when the page loads (its rendered dynamically when the user clicks), the browser cannot auto fill the password. To change that we would need a bit of investigation as a possible solution could affect CWV performance. The username is prefilled because we store it in a cookie.",
+      "updated": "2026-04-22T11:27:30.831+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket": "GDCU-8546",
+      "author": "Ciara Carroll",
+      "body": "@@Jessica Dordevic I do not recommend using the dark blue.  It is too Heavy. The galaxy stars are not appropriate for the site. Update the logos to the transparent logos and not solid colour the welcome bonus needs to follow the current site offer styling that is",
+      "updated": "2026-04-22T11:08:31.876+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8714",
+      "author": "Shane McGrath",
+      "body": "QA Complete Verified all mentioned Leagues have been added to Ace for odds and tips.  Also verified that Belgium is now working also",
+      "updated": "2026-04-22T11:04:00.559+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8627",
       "author": "Robin John",
-      "text": "Tested and Verified the change and it looks fine",
-      "timestamp": "2026-04-21T13:33:07.727+0100",
+      "body": "Tested and Verified this change and it looks fine Verified that mobile nav bar matches figma design including spacing, margins etc. Verified that mobile nav bar functions as expected with each button navigating user to the correct target page Verified that mobile nav bar does not appear on the desktop version of the site Verified that both A/B test variations set up and functioning as expected Verified interaction with cookie banner Verified search and menu button works fine Iphone screen recording   Android screen recording",
+      "updated": "2026-04-22T10:47:34.083+0100",
       "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8844",
-      "ticket_summary": "Remove Prediction Markets Breadcrumb on US Prediction Markets Page",
+      "ticket": "GDCU-8512",
+      "author": "Miguel Migneco",
+      "body": "@@Mike Pett   @@Ciara Carroll   @@Eoin McCarthy   @@Chloe Christie   @@Joshua Smith   Here is the  Design File   &  Prototype  …There are 2 versions as requested. 1 has a single full width banner, and the other has a multi banner widget. Other than that they are and should be identical.",
+      "updated": "2026-04-22T10:39:06.323+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket": "GDCU-8512",
+      "author": "Mike Pett",
+      "body": "Signed off from product",
+      "updated": "2026-04-22T10:09:28.615+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Mike Pett",
+      "body": "Hi  @@Carlos Blauth , looks good. four points from me however: When I log out and go to log in again, if I’ve used email previously I would want the previous details to already be in the box so I can just click sign in. At the moment, I have two additional clicks that are not needed as most of the time I would want to use my old details. NB. I don’t know whether this is something we control or if it a browser setting. (In the video) We need a star next to ‘Join 400k members getting 10 free spins’ message so it is clear as to what the disclaimer below is referring to. This star should be the top right of the message.  When I log out, the button in the top right says sign up. But we already know that this is a signed up user so this should say sign in, and the sign in modal should be present on click not the sign up modal. Looking to avoid unnecessary clicks. Note this is a wider change, so if a big change we will need a separate ticket. (In the video) The link post sign up should be to the Additional Details tab not the Profile Details tab as this is what gets the user chips and it’s valuable info for us.",
+      "updated": "2026-04-22T09:58:05.885+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8862",
+      "author": "Kelvin Yee",
+      "body": "@@Robin John   @@Shane McGrath  Ready for QA on  qa10.gambling.com . All offer components on the site should have scrollable T&C unless specified in this  site variable . There’s 3 brand added for testing, feel free to add more for your own testing. Once you made a change to the site variable, please load  https://qa10.gambling.com/clear-cache  before you test again as the site variable is cached. On release day, all brands will be removed apart from Bet365. You can roam around qa10 to check but here’s some links where I was testing for specific components: Primary oplist =>  https://qa10.gambling.com/uk/online-casinos Subprimary oplist =>  https://qa10.gambling.com/component-test-page  (added a test component at bottom of page) Secondary oplist =>  https://qa10.gambling.com/component-test-page  (added a test component at bottom of page) Brand review (geos without region) =>  https://qa10.gambling.com/uk/online-casinos/bet365 Brand review (geos with region) =>  https://qa10.gambling.com/us/online-casinos/bet365-casino  (remember to test in mobile where there’s the sticky version) Dev Notes Site variable is cached so should not have performance issue. Test publishes done and no issue. Clean up  site variable  before release day so that only Bet365 is left.",
+      "updated": "2026-04-22T09:49:58.363+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Mike Pett",
+      "body": "@@Shane McGrath  keep it at 8 Shane as that matches the messaging on the rewards home",
+      "updated": "2026-04-22T09:42:59.367+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8823",
+      "author": "Kelvin Yee",
+      "body": "@@Mike Pett  Playlist updated.",
+      "updated": "2026-04-22T09:26:25.862+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket": "GDCU-8823",
+      "author": "Automation for Jira",
+      "body": "The linked issue -   has been resolved",
+      "updated": "2026-04-22T09:25:48.209+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8823",
+      "author": "Mike Pett",
+      "body": "As per the Slack message, the videos need to match the respective Youtube playlist for each category please  @@Kelvin Yee",
+      "updated": "2026-04-22T09:19:20.975+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8546",
+      "author": "Jessica Dordevic",
+      "body": "Hey @Mike @@Mike Pett   @@Ciara Carroll  You can find the designs proposed here. There are two options in the file",
+      "updated": "2026-04-22T08:09:00.790+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket": "GDCU-8830",
+      "author": "Leidy Plaza",
+      "body": "Hi  @@Chloe Christie  I can confirm that the image is now displaying. Thank you!",
+      "updated": "2026-04-22T07:47:37.767+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8810",
+      "author": "Harden Thomas Wallace",
+      "body": "Reason for Moving to Block [ BLOCKERS ]  Apple: Need Further PII (Waiting for Feedback) Google: Need Payment Card (Waiting for Navan Approval)",
+      "updated": "2026-04-21T20:05:06.630+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8836",
+      "author": "Chloe Christie",
+      "body": "@@Erica Schembri   @@Michael Butlin   @@Diana Thurmann  if you want to check out the below we have created a new shortcode for images to be displayed in a carousel format. The shortcode can have an image, text and hyperlink to a page",
+      "updated": "2026-04-21T16:33:34.493+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8733",
+      "author": "Chloe Christie",
+      "body": "@@Michael Butlin  to review points 41 to 48 that are on  https://qa8.gambling.com/learning Will then return with further feedback",
+      "updated": "2026-04-21T16:25:10.544+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8836",
+      "author": "Robin John",
+      "body": "Tested and Verified the changes and they look fine Verified the new shortcode image carousel on desktop and mobile Verified shortcodes in genesis Verified clickable links only work if both  pageType  and  pageCPK  are added to an image Verified shortcode is scrollable on both desktop and mobile",
+      "updated": "2026-04-21T13:17:39.668+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8836",
+      "author": "Nebojsa Stanic",
+      "body": "@@Robin John  Fix card-carousel: show peek of next card on all mobile widths. https://inf2.gambling.com/shortcodes-test-page",
+      "updated": "2026-04-21T11:57:45.891+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8803",
+      "author": "Shane McGrath",
+      "body": "Just a note here - technically new users are getting 9 chips on sign up as they automatically complete the daily log in challenge which gives them +1 chip.",
+      "updated": "2026-04-21T11:40:02.424+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8830",
+      "author": "Automation for Jira",
+      "body": "The linked issue -   has been resolved",
+      "updated": "2026-04-21T09:33:44.731+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8823",
+      "author": "Chloe Christie",
+      "body": "Waiting for confirmation from  @@Erica Schembri   @@Michael Butlin  on GX articles before closing off for release fyi  @@Kelvin Yee",
+      "updated": "2026-04-21T09:32:14.427+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8714",
       "author": "Sanja Budic",
-      "text": "Completed & deployed to qa18  https://qa18.gambling.com/us/prediction-markets",
-      "timestamp": "2026-04-21T13:19:39.210+0100",
+      "body": "Completed, changes are deployed to  https://qa16.gambling.com/ace Tips for these leagues were in the database, but search patterns for league names were not set up. New patterns: England - League 1 and 2  league 1, english league 1, league 2, english league 2 Spain - La Liga 2 la liga 2, spanish la liga 2, segunda división Germany - Bundesliga 2 bundesliga 2, 2. bundesliga, 2 bundesliga, german bundesliga 2 Italy - Serie B serie b, italian serie b, italy serie b Belgium - Pro League challenger pro league, belgium challenger pro league, belgian challenger pro league Greece - Super League greek super league, greece super league Peru - Primera Division primera division, peru primera division, peruvian primera division, peru liga 1, peruvian liga 1, liga 1 India - Super League indian super league, india super league, isl Australia - A-League a-league, a league, australia a-league, australian a-league Note: We don’t get matches (odds or tips) for  Belgium Pro League ,  @@Karl O'Brien  is checking.  Also changed: event timestamp and timezone on odds and tips cards to show user local time and timezone detect search response limit from user query (default 5, now detects limit from queries like 3 best offers, 10 accumulators…)",
+      "updated": "2026-04-21T08:39:02.370+0100",
       "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8836",
-      "ticket_summary": "Create an Image Carousel Shortcode",
+      "ticket": "GDCU-8823",
       "author": "Robin John",
-      "text": "Tested and Verified the changes and they look fine",
-      "timestamp": "2026-04-21T13:17:39.668+0100",
+      "body": "Tested and Verified the changes and they look fine Verified Casino guides section has been removed Verified No global flag icon on strategy article cards Verified the pagination on the articles in the sub strategy pages Verified thumbnails and the functionality Verified Feature article will remain the same on each following page Verified the videos and its functionalities work fine Verified pagination on the sub hub 60 limit  Verified Secondary search bar to be added as per the prototype to main/sub hubs Verified Search bar will search all GX strategy articles for result and other search validations work fine Verified on desktop and mobile Verified video section works as expected and has been applied to global hub, casino and poker Verified new global and sub category hubs have been implemented and matches the prototype Verified global hub has carousels and sub category hubs have display articles in a grid format with pagination like on the global news pages  Verified navigation now links to global hubs",
+      "updated": "2026-04-20T16:42:18.501+0100",
       "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8832",
-      "ticket_summary": "Fix Broken Image on Payment Hub Page",
-      "author": "Gabi Vinkovic",
-      "text": "Thank you all",
-      "timestamp": "2026-04-21T12:44:58.203+0100",
+      "ticket": "GDCU-8836",
+      "author": "Nebojsa Stanic",
+      "body": "Implementation completed. Can be tested on:  https://inf2.gambling.com/shortcodes-test-page Resource used for testing:  https://genesis.gdcgroup.tech/resources/gdc:site-pages/21572/edit#gdc_site_page=content",
+      "updated": "2026-04-20T13:02:10.055+0100",
       "mentions_mike": false
     }
   ],
   "ticket_movements": [
     {
-      "key": "GDCU-8546",
-      "timestamp": "2026-04-22T08:09:26.936+0100",
-      "from": "In Progress",
-      "to": "In Product",
-      "author": "Jessica Dordevic"
-    },
-    {
-      "key": "GDCU-8546",
-      "timestamp": "2026-04-21T14:59:07.703+0100",
-      "from": "To Do",
-      "to": "In Progress",
-      "author": "Jessica Dordevic"
-    },
-    {
-      "key": "GDCU-8733",
-      "timestamp": "2026-04-21T16:26:50.171+0100",
+      "ticket": "GDCU-8803",
+      "summary": "Implement Sign In/Registration Modal Redesign",
+      "assignee": "Carlos Blauth",
       "from": "In Product",
-      "to": "In QA",
-      "author": "Chloe Christie"
-    },
-    {
-      "key": "GDCU-8733",
-      "timestamp": "2026-04-21T16:26:40.246+0100",
-      "from": "In QA",
-      "to": "In Product",
-      "author": "Chloe Christie"
-    },
-    {
-      "key": "GDCU-8844",
-      "timestamp": "2026-04-21T15:04:08.808+0100",
-      "from": "In Product",
+      "from_col": "in_product",
       "to": "Done",
-      "author": "Chloe Christie"
+      "to_col": "done",
+      "timestamp": "2026-04-22T11:54:08.322+0100"
     },
     {
-      "key": "GDCU-8824",
-      "timestamp": "2026-04-21T14:11:32.863+0100",
+      "ticket": "GDCU-8803",
+      "summary": "Implement Sign In/Registration Modal Redesign",
+      "assignee": "Carlos Blauth",
+      "from": "In QA",
+      "from_col": "in_qa",
+      "to": "In Product",
+      "to_col": "in_product",
+      "timestamp": "2026-04-22T11:48:39.178+0100"
+    },
+    {
+      "ticket": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
+      "from": "In Product",
+      "from_col": "in_product",
+      "to": "Done",
+      "to_col": "done",
+      "timestamp": "2026-04-22T11:48:12.908+0100"
+    },
+    {
+      "ticket": "GDCU-8627",
+      "summary": "Bottom Navigation Bar - Mobile",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Product",
+      "from_col": "in_product",
+      "to": "Done",
+      "to_col": "done",
+      "timestamp": "2026-04-22T11:46:46.388+0100"
+    },
+    {
+      "ticket": "GDCU-8863",
+      "summary": "Investigate & Fix Incorrect Ktag CT Value on Gambling.com Operator Pages",
+      "assignee": "Sanja Budic",
       "from": "Backlog",
+      "from_col": "backlog",
       "to": "In Progress",
-      "author": "Automation for Jira"
+      "to_col": "in_progress",
+      "timestamp": "2026-04-22T11:39:17.414+0100"
     },
     {
-      "key": "GDCU-8869",
-      "timestamp": "2026-04-21T13:35:41.578+0100",
+      "ticket": "GDCU-8512",
+      "summary": "Always On Betting Tips Page",
+      "assignee": "Miguel Migneco",
+      "from": "In Progress",
+      "from_col": "in_progress",
+      "to": "In Product",
+      "to_col": "in_product",
+      "timestamp": "2026-04-22T11:04:10.723+0100"
+    },
+    {
+      "ticket": "GDCU-8627",
+      "summary": "Bottom Navigation Bar - Mobile",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Progress",
+      "from_col": "in_progress",
+      "to": "In Product",
+      "to_col": "in_product",
+      "timestamp": "2026-04-22T10:47:38.398+0100"
+    },
+    {
+      "ticket": "GDCU-8823",
+      "summary": "New Global Strategy Hub/ Sub Hub Refinements",
+      "assignee": "Kelvin Yee",
+      "from": "In Product",
+      "from_col": "in_product",
+      "to": "Done",
+      "to_col": "done",
+      "timestamp": "2026-04-22T09:25:44.516+0100"
+    },
+    {
+      "ticket": "GDCU-8824",
+      "summary": "Apply an Event Tag for Cosmo Spins/Slot Tournament Games",
+      "assignee": "Kelvin Yee",
       "from": "Backlog",
+      "from_col": "backlog",
       "to": "In Progress",
-      "author": "Automation for Jira"
+      "to_col": "in_progress",
+      "timestamp": "2026-04-21T14:11:32.863+0100"
     },
     {
-      "key": "GDCU-8844",
-      "timestamp": "2026-04-21T13:33:10.461+0100",
+      "ticket": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
       "from": "In QA",
+      "from_col": "in_qa",
       "to": "In Product",
-      "author": "Robin John"
+      "to_col": "in_product",
+      "timestamp": "2026-04-21T13:17:41.847+0100"
     },
     {
-      "key": "GDCU-8844",
-      "timestamp": "2026-04-21T13:20:04.037+0100",
+      "ticket": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
       "from": "In Progress",
+      "from_col": "in_progress",
       "to": "In QA",
-      "author": "Sanja Budic"
+      "to_col": "in_qa",
+      "timestamp": "2026-04-21T11:57:50.014+0100"
     },
     {
-      "key": "GDCU-8836",
-      "timestamp": "2026-04-21T13:17:41.847+0100",
+      "ticket": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
       "from": "In QA",
+      "from_col": "in_qa",
+      "to": "In Progress",
+      "to_col": "in_progress",
+      "timestamp": "2026-04-21T11:05:37.842+0100"
+    },
+    {
+      "ticket": "GDCU-8823",
+      "summary": "New Global Strategy Hub/ Sub Hub Refinements",
+      "assignee": "Kelvin Yee",
+      "from": "In QA",
+      "from_col": "in_qa",
       "to": "In Product",
-      "author": "Robin John"
+      "to_col": "in_product",
+      "timestamp": "2026-04-20T16:42:05.110+0100"
     },
     {
-      "key": "GDCU-8871",
-      "timestamp": "2026-04-21T11:41:39.817+0100",
-      "from": "To Do",
-      "to": "In Progress",
-      "author": "Carlos Blauth"
-    },
-    {
-      "key": "GDCU-8836",
-      "timestamp": "2026-04-21T11:57:50.014+0100",
-      "from": "In Progress",
-      "to": "In QA",
-      "author": "Nebojsa Stanic"
-    },
-    {
-      "key": "GDCU-8832",
-      "timestamp": "2026-04-21T11:31:19.849+0100",
-      "from": "In Product",
-      "to": "Done",
-      "author": "Chloe Christie"
-    },
-    {
-      "key": "GDCU-8836",
-      "timestamp": "2026-04-21T11:05:37.842+0100",
+      "ticket": "GDCU-8627",
+      "summary": "Bottom Navigation Bar - Mobile",
+      "assignee": "Novica Vukobratovic",
       "from": "In QA",
+      "from_col": "in_qa",
       "to": "In Progress",
-      "author": "Robin John"
+      "to_col": "in_progress",
+      "timestamp": "2026-04-20T14:51:55.584+0100"
     },
     {
-      "key": "GDCU-8844",
-      "timestamp": "2026-04-21T10:12:24.963+0100",
-      "from": "Backlog",
-      "to": "In Progress",
-      "author": "Automation for Jira"
-    },
-    {
-      "key": "GDCU-8733",
-      "timestamp": "2026-04-21T10:57:25.693+0100",
+      "ticket": "GDCU-8836",
+      "summary": "Create an Image Carousel Shortcode",
+      "assignee": "Nebojsa Stanic",
       "from": "In Progress",
+      "from_col": "in_progress",
       "to": "In QA",
-      "author": "Chloe Christie"
-    },
-    {
-      "key": "GDCU-8832",
-      "timestamp": "2026-04-21T10:56:05.216+0100",
-      "from": "In QA",
-      "to": "In Product",
-      "author": "Robin John"
-    },
-    {
-      "key": "GDCU-8548",
-      "timestamp": "2026-04-21T09:27:02.326+0100",
-      "from": "In Product",
-      "to": "Done",
-      "author": "Chloe Christie"
-    },
-    {
-      "key": "GDCU-8832",
-      "timestamp": "2026-04-21T09:53:37.221+0100",
-      "from": "In Progress",
-      "to": "In QA",
-      "author": "Sanja Budic"
-    },
-    {
-      "key": "GDCU-8830",
-      "timestamp": "2026-04-21T09:33:41.769+0100",
-      "from": "In Product",
-      "to": "Done",
-      "author": "Chloe Christie"
+      "to_col": "in_qa",
+      "timestamp": "2026-04-20T13:05:30.529+0100"
     }
   ],
   "mike_mentions": [
     {
+      "ticket_key": "GDCU-8512",
+      "ticket_summary": "Always On Betting Tips Page",
+      "author": "Chloe Christie",
+      "text": "@@Miguel Migneco   @@Mike Pett  could we have the dev ready design with:  Just the elements that will be ready to be implemented on site Using the components that we have already on site eg offer cards at bottom do not exist currently so current cards should be used as on the bottom of      This will make it clearer for devs, thanks",
+      "timestamp": "2026-04-22T11:59:17.454+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8512"
+    },
+    {
+      "ticket_key": "GDCU-8803",
+      "ticket_summary": "Implement Sign In/Registration Modal Redesign",
+      "author": "Carlos Blauth",
+      "text": "Hey  @@Mike Pett  it should all be sorted, apart from the pre filled password. As our sign in modal is not rendered when the page loads (its rendered dynamically when the user clicks), the browser cannot auto fill the password. To change that we would need a bit of investigation as a possible solution could affect CWV performance. The username is prefilled because we store it in a cookie.",
+      "timestamp": "2026-04-22T11:27:30.831+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8803"
+    },
+    {
+      "ticket_key": "GDCU-8512",
+      "ticket_summary": "Always On Betting Tips Page",
+      "author": "Miguel Migneco",
+      "text": "@@Mike Pett   @@Ciara Carroll   @@Eoin McCarthy   @@Chloe Christie   @@Joshua Smith   Here is the  Design File   &  Prototype  …There are 2 versions as requested. 1 has a single full width banner, and the other has a multi banner widget. Other than that they are and should be identical.",
+      "timestamp": "2026-04-22T10:39:06.323+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8512"
+    },
+    {
+      "ticket_key": "GDCU-8823",
+      "ticket_summary": "New Global Strategy Hub/ Sub Hub Refinements",
+      "author": "Kelvin Yee",
+      "text": "@@Mike Pett  Playlist updated.",
+      "timestamp": "2026-04-22T09:26:25.862+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8823"
+    },
+    {
       "ticket_key": "GDCU-8546",
       "ticket_summary": "Tinder Style Offer Match",
       "author": "Jessica Dordevic",
-      "text": "Hey @Mike    You can find the designs proposed here. There are two options in the file",
+      "text": "Hey @Mike @@Mike Pett   @@Ciara Carroll  You can find the designs proposed here. There are two options in the file",
       "timestamp": "2026-04-22T08:09:00.790+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
     },
     {
-      "ticket_key": "GDCU-8548",
-      "ticket_summary": "Update Sign In to Trigger After User Tries to Spin on Cosmo Spins",
-      "author": "Novica Vukobratovic",
-      "text": "Try now",
-      "timestamp": "2026-04-21T11:13:49.055+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548"
-    },
-    {
-      "ticket_key": "GDCU-8548",
-      "ticket_summary": "Update Sign In to Trigger After User Tries to Spin on Cosmo Spins",
-      "author": "Novica Vukobratovic",
-      "text": "Will do!",
-      "timestamp": "2026-04-21T10:36:02.760+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548"
-    },
-    {
-      "ticket_key": "GDCU-8548",
-      "ticket_summary": "Update Sign In to Trigger After User Tries to Spin on Cosmo Spins",
-      "author": "Chloe Christie",
-      "text": "FYI on the below",
-      "timestamp": "2026-04-21T09:24:43.570+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8548"
-    },
-    {
       "ticket_key": "GDCU-8823",
-      "ticket_summary": "New Global Strategy Hub / Sub Hub Refinements",
+      "ticket_summary": "New Global Strategy Hub/ Sub Hub Refinements",
       "author": "Chloe Christie",
-      "text": "please review the below and share any feedback. is working on creating the GX articles and confirm once all are completed. Thanks",
-      "timestamp": "2026-04-20T10:02:50.569+0100",
+      "text": "@@Mike Pett   @@Miguel Migneco  please review the below and share any feedback.  @@Erica Schembri  is working on creating the GX articles and confirm once all are completed. Thanks",
+      "timestamp": "2026-04-20T10:30:53.317+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8823"
     },
     {
       "ticket_key": "GDCU-8840",
       "ticket_summary": "Instagram Headers Widget",
       "author": "Chloe Christie",
-      "text": "to share logo information from EVE and to update ticket in relation to tracking. Thanks both",
+      "text": "@@Mike Pett  to share logo information from EVE and  @@Victoria Dadson  to update ticket in relation to tracking. Thanks both",
       "timestamp": "2026-04-16T16:27:03.292+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
-    },
-    {
-      "ticket_key": "GDCU-8714",
-      "ticket_summary": "Ace AI - Full Football Coverage (Tips)",
-      "author": "Karl O'Brien",
-      "text": "I have updated the list above with leagues completed",
-      "timestamp": "2026-03-27T15:22:45.117+0000",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8714"
-    },
-    {
-      "ticket_key": "GDCU-8627",
-      "ticket_summary": "Bottom Navigation Bar - Mobile",
-      "author": "Chloe Christie",
-      "text": "Factors to be considered:",
-      "timestamp": "2026-03-26T16:02:28.604+0000",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8627"
     }
   ],
   "upcoming_backlog": [
@@ -553,7 +714,7 @@
     },
     {
       "key": "GDCU-8874",
-      "summary": "Page Bloat: Reduce HTML Payload Size Across All Markets — CookieYes, SSR Operator List, VWO, Inline Scripts",
+      "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -567,21 +728,21 @@
     },
     {
       "key": "GDCU-8045",
-      "summary": "Dev Support and Implementation for Stable Stars Game",
+      "summary": "Dev support and implementation for Stable Stars game",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
     },
     {
       "key": "GDCU-7706",
-      "summary": "Integrate with 'generic styling' Option on Components",
+      "summary": "Integrate with 'generic styling' option on components",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
     },
     {
       "key": "GDCU-7612",
-      "summary": "Identify Most Common Publishing Errors Appearing in Troubleshooting Channel",
+      "summary": "Identify most common publishing errors appearing troubleshooting channel",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -602,7 +763,7 @@
     },
     {
       "key": "GDCU-6988",
-      "summary": "GDC Regression Bugs 2025 (Manual/Automation)",
+      "summary": "GDC-Regression Bugs 2025[Manual][Automation]",
       "assignee": "Robin John",
       "priority": "High",
       "status": "In Progress"
@@ -616,9 +777,23 @@
     },
     {
       "key": "GDCU-4960",
-      "summary": "Dynamic Sub Primary Oplist",
+      "summary": "Dynamic Sub Primary oplist",
       "assignee": "Unassigned",
       "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8903",
+      "summary": "GDC][DEV] Sports Quiz Hub",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8902",
+      "summary": "Quiz Hub - UX audit of prototype ahead of development handoff",
+      "assignee": "Unassigned",
+      "priority": "Medium",
       "status": "Backlog"
     },
     {
@@ -651,56 +826,56 @@
     },
     {
       "key": "GDCU-8896",
-      "summary": "Repo Improvements to Aid Claude Design (Placeholder)",
+      "summary": "Repo improvements to aid Claude Design (Placeholder)",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8894",
-      "summary": "Refactor Scoped Styles on Vue Components",
+      "summary": "Refactor scoped styles on Vue components",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8892",
-      "summary": "Ace AI - NFL Tips Coverage",
+      "summary": "Ace AI - NFL tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8891",
-      "summary": "Ace AI - MLB Tips Coverage",
+      "summary": "Ace AI - MLB tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8890",
-      "summary": "Ace AI - Horse Racing Tips Coverage",
+      "summary": "Ace AI - Horse Racing tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8889",
-      "summary": "Ace AI - NHL Tips Coverage",
+      "summary": "Ace AI - NHL tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8888",
-      "summary": "Ace AI - Basketball Tips Coverage",
+      "summary": "Ace AI - Basketball tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8882",
-      "summary": "Fix the Breadcrumbs of a Set of Deleted Hubs",
+      "summary": "Fix the Breadcrumbs of a set of deleted hubs",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -714,14 +889,14 @@
     },
     {
       "key": "GDCU-8878",
-      "summary": "Implement Oplist Redesign on Online Casinos Page (CA/FR)",
+      "summary": "Implement Oplist Redesign on Online Casinos Page - PLACEHOLDER",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8877",
-      "summary": "Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+      "summary": "Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -729,20 +904,6 @@
     {
       "key": "GDCU-8876",
       "summary": "Implement Fixes for Site Container Update",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8865",
-      "summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "To Do"
-    },
-    {
-      "key": "GDCU-8857",
-      "summary": "Ace AI Additional Football Coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
