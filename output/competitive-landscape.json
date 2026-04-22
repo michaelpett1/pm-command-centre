@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-21T07:06:09.000Z",
-  "date": "21/04/2026",
+  "generated_at": "2026-04-22T07:05:56.000Z",
+  "date": "22/04/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 12,
-    "high_impact": 4,
-    "medium_impact": 8,
+    "changes_detected": 4,
+    "high_impact": 2,
+    "medium_impact": 2,
     "low_impact": 0
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 4 },
+    { "slug": "product_features", "label": "Product Features", "count": 2 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
     { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 8 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 2 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -33,7 +33,7 @@
       "flag": "🇺🇸",
       "color": "#E74C3C",
       "initials": "TL",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
+      "last_scanned": "2026-04-22T07:05:56.000Z",
       "changes": [
         {
           "title": "New footer links added",
@@ -51,6 +51,15 @@
           "area_label": "Product Features",
           "impact": "high",
           "detected_at": "2026-04-21T07:06:09.000Z",
+          "url": "https://www.thelines.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Free-to-play element appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-04-22T07:05:56.000Z",
           "url": "https://www.thelines.com/"
         }
       ]
@@ -124,7 +133,7 @@
       "flag": "🇺🇸",
       "color": "#2ECC71",
       "initials": "PW",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
+      "last_scanned": "2026-04-22T07:05:56.000Z",
       "changes": [
         {
           "title": "Page layout restructured",
@@ -160,6 +169,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-04-21T07:06:09.000Z",
+          "url": "https://www.pickswise.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Ratings/scores disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-04-22T07:05:56.000Z",
           "url": "https://www.pickswise.com/"
         }
       ]
@@ -266,6 +284,29 @@
       ]
     },
     {
+      "id": "playnj",
+      "name": "Play NJ",
+      "domain": "playnj.com",
+      "url": "https://www.playnj.com/",
+      "segment": "state_affiliate",
+      "segment_label": "State Affiliate",
+      "flag": "🇺🇸",
+      "color": "#27AE60",
+      "initials": "PN",
+      "last_scanned": "2026-04-22T07:05:56.000Z",
+      "changes": [
+        {
+          "title": "Page layout restructured",
+          "description": "sidebar added",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-22T07:05:56.000Z",
+          "url": "https://www.playnj.com/"
+        }
+      ]
+    },
+    {
       "id": "rotogrinders",
       "name": "Roto Grinders",
       "domain": "rotogrinders.com",
@@ -275,7 +316,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
+      "last_scanned": "2026-04-22T07:05:56.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -293,6 +334,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-04-21T07:06:09.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: Buy Now, Coming Wednesday, GET THE PICKS",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-22T07:05:56.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -368,144 +418,48 @@
       "competitor_initials": "TL",
       "competitor_color": "#E74C3C",
       "title": "Feature/tool presence changed",
-      "description": "Free-to-play element disappeared",
+      "description": "Free-to-play element appeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-04-21T07:06:09.000Z",
+      "detected_at": "2026-04-22T07:05:56.000Z",
       "url": "https://www.thelines.com/"
     },
     {
-      "competitor_name": "Vegas Insider",
-      "competitor_initials": "VI",
-      "competitor_color": "#3498DB",
-      "title": "CTA/button text changed",
-      "description": "Removed: View Full Analysis",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.vegasinsider.com/"
-    },
-    {
-      "competitor_name": "Vegas Insider",
-      "competitor_initials": "VI",
-      "competitor_color": "#3498DB",
-      "title": "Feature/tool presence changed",
-      "description": "Search bar appeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.vegasinsider.com/"
-    },
-    {
-      "competitor_name": "Vegas Insider",
-      "competitor_initials": "VI",
-      "competitor_color": "#3498DB",
-      "title": "Page layout restructured",
-      "description": "sections: 2 → 6",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.vegasinsider.com/"
-    },
-    {
       "competitor_name": "Pickswise",
       "competitor_initials": "PW",
       "competitor_color": "#2ECC71",
       "title": "Feature/tool presence changed",
-      "description": "Ratings/scores appeared",
+      "description": "Ratings/scores disappeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-04-21T07:06:09.000Z",
+      "detected_at": "2026-04-22T07:05:56.000Z",
       "url": "https://www.pickswise.com/"
     },
     {
-      "competitor_name": "Pickswise",
-      "competitor_initials": "PW",
-      "competitor_color": "#2ECC71",
-      "title": "Page layout restructured",
-      "description": "sections: 8 → 12, main_divs: 4 → 8",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.pickswise.com/"
-    },
-    {
-      "competitor_name": "Play USA",
-      "competitor_initials": "PU",
-      "competitor_color": "#8E44AD",
+      "competitor_name": "Play NJ",
+      "competitor_initials": "PN",
+      "competitor_color": "#27AE60",
       "title": "Page layout restructured",
       "description": "sidebar added",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.playusa.com/"
-    },
-    {
-      "competitor_name": "Play Illinois",
-      "competitor_initials": "PI",
-      "competitor_color": "#F39C12",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Caesars Sportsbook Review, Double Your Winnings, On Your Next 10 Wagers | Removed: Bet $5 Get $250, Bet $5 Get $250 If Your Bet Wins, BetMGM Sportsbook Review",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.playillinois.com/"
-    },
-    {
-      "competitor_name": "Play Ohio",
-      "competitor_initials": "PO",
-      "competitor_color": "#D35400",
-      "title": "Page layout restructured",
-      "description": "sidebar added",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.playohio.com/"
+      "detected_at": "2026-04-22T07:05:56.000Z",
+      "url": "https://www.playnj.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "Removed: Coming Tuesday",
+      "description": "Removed: Buy Now, Coming Wednesday, GET THE PICKS",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
+      "detected_at": "2026-04-22T07:05:56.000Z",
       "url": "https://rotogrinders.com/"
-    },
-    {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Erickson's NFL Mock Draft\" → Now: \"DBro's Top 100 Dynasty Rookie Rankings\"",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.fantasypros.com/"
-    },
-    {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Feature/tool presence changed",
-      "description": "Video embed appeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-04-21T07:06:09.000Z",
-      "url": "https://www.fantasypros.com/"
     }
   ]
 }
