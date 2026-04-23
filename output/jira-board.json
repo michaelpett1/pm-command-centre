@@ -47,7 +47,9 @@
         "summary": "Instagram Headers Widget",
         "assignee": "Novica Vukobratovic",
         "priority": "Medium",
-        "flags": ["flagged"]
+        "flags": [
+          "flagged"
+        ]
       },
       {
         "key": "GDCU-8824",
@@ -162,7 +164,7 @@
       },
       {
         "key": "GDCU-8875",
-        "summary": "Add Phone Number to Email Confirmation Form Page",
+        "summary": "Add phone number to Email conformation form page",
         "assignee": "Kelvin Yee",
         "priority": "High",
         "flags": []
@@ -572,7 +574,7 @@
     },
     {
       "key": "GDCU-8874",
-      "summary": "Page Bloat: Reduce HTML Payload Size Across All Markets — CookieYes, SSR Operator List, VWO, Inline Scripts",
+      "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -586,7 +588,7 @@
     },
     {
       "key": "GDCU-8045",
-      "summary": "Dev Support and Implementation for Stable Stars Game",
+      "summary": "Dev support and implementation for Stable Stars game",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -600,7 +602,7 @@
     },
     {
       "key": "GDCU-7612",
-      "summary": "Identify Most Common Publishing Errors Appearing in Troubleshooting Channel",
+      "summary": "Identify most common publishing errors appearing troubleshooting channel",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -621,7 +623,7 @@
     },
     {
       "key": "GDCU-6988",
-      "summary": "GDC Regression Bugs 2025 (Manual/Automation)",
+      "summary": "GDC-Regression Bugs 2025[Manual][Automation]",
       "assignee": "Robin John",
       "priority": "High",
       "status": "In Progress"
@@ -635,7 +637,7 @@
     },
     {
       "key": "GDCU-4960",
-      "summary": "Dynamic Sub Primary Oplist",
+      "summary": "Dynamic Sub Primary oplist",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -712,42 +714,42 @@
     },
     {
       "key": "GDCU-8892",
-      "summary": "Ace AI - NFL Tips Coverage",
+      "summary": "Ace AI - NFL tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8891",
-      "summary": "Ace AI - MLB Tips Coverage",
+      "summary": "Ace AI - MLB tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8890",
-      "summary": "Ace AI - Horse Racing Tips Coverage",
+      "summary": "Ace AI - Horse Racing tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8889",
-      "summary": "Ace AI - NHL Tips Coverage",
+      "summary": "Ace AI - NHL tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8888",
-      "summary": "Ace AI - Basketball Tips Coverage",
+      "summary": "Ace AI - Basketball tips coverage",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
     },
     {
       "key": "GDCU-8882",
-      "summary": "Fix the Breadcrumbs of a Set of Deleted Hubs",
+      "summary": "Fix the Breadcrumbs of a set of deleted hubs",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -761,7 +763,7 @@
     },
     {
       "key": "GDCU-8878",
-      "summary": "Implement Oplist Redesign on Online Casinos Page (CA/FR)",
+      "summary": "Implement Oplist Redesign on Online Casinos Page - PLACEHOLDER",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
