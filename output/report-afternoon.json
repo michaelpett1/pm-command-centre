@@ -1,125 +1,140 @@
 {
-  "generated_at": "2026-04-22T14:00:00+01:00",
-  "date": "22/04/2026",
+  "generated_at": "2026-04-24T14:05:00.000Z",
+  "date": "24/04/2026",
   "report_type": "afternoon",
-  "sources_note": "Jira: full data pulled (In Product/Blocked, sprint last-1d, status-changed-today). Slack: data pulled from gdc-product-design-pod, gdc-product-led-growth, gdc-pod, core-product, gdc-f2p-apps, gdc-high-agency, gdc-pdmt; DM searches returned no results. Confluence: CQL query failed (400 Bad Request) — skipped. Cross-referenced against morning report (22/04/2026).",
-  "morning_resolutions": [
-    {
-      "key": "GDCU-8836",
-      "summary": "Create an Image Carousel Shortcode",
-      "resolution": "Done at 11:48 BST — product sign-off completed and ticket closed."
-    },
-    {
-      "key": "GDCU-8823",
-      "summary": "New Global Strategy Hub / Sub Hub Refinements",
-      "resolution": "Done at 09:26 BST — released, no further action needed."
-    },
-    {
-      "key": "GDCU-8803",
-      "summary": "Implement Sign In/Registration Modal Redesign",
-      "resolution": "Done at 11:54 BST — cleared QA and released. Gabriel had flagged this as a priority to release today; delivered."
-    },
-    {
-      "key": "GDCU-8627",
-      "summary": "Bottom Navigation Bar - Mobile",
-      "resolution": "Done at 12:39 BST — Gabriel flagged this as a release priority this morning; now complete."
-    }
-  ],
   "action_items": [
     {
-      "action": "URGENT: Respond to Chloe Christie in #gdc-product-design-pod (12:42 BST) — she tagged @Mike Pett @Miguel Migneco asking which logo type to use for the NZ Instagram Headers Widget full implementation (GDCU-8840). Two logo options: (A) 'Operators - 150px - Brand Product - 474 - Transparent' for rectangles, or (B) 'Operators - 300px - Brand Product - 474 - Square' for circles. Chloe says not every brand will have a background colour for the circles. She's asked Miguel to review Origins and confirm availability. Chloe also offered a call. This is the same ticket where you still owe Chloe the EVE logo information from 16 Apr — both are outstanding.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "🔥",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8840"
-    },
-    {
-      "action": "Escalate Operator List Redesign block (GDCU-8619) — still Blocked, 8 days since 15 Apr, no change since morning. If Michael Butlin was not resolved in the 10:00 Product Sync, raise directly with Colin Brannigan in the 15:00 1:1. Ciara Carroll has 3+ design iterations waiting and the wider oplist redesign programme (including GDCU-8801) is dependent on this decision.",
+      "action": "CARRY FORWARD — GDCU-8619 Operator List Redesign (Ciara Carroll) is now day 9 blocked with no resolution. No new Jira activity or Slack messages from Ciara today. Must be cleared before EOD Friday to avoid carrying a stale blocker into next week.",
       "source": "jira",
       "priority": "high",
-      "emoji": "🚨",
+      "emoji": "🚫",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     },
     {
-      "action": "NEW — Product sign-off on Ace AI Full Football Coverage (GDCU-8714). QA completed by Shane McGrath at 11:04 BST: all 8 leagues confirmed working including Belgium Pro League (previously outstanding). All search patterns set up. Deployed to qa16.gambling.com/ace. Mike is a named stakeholder. Ready for product sign-off and production release.",
+      "action": "NEW — Review and sign off GDCU-8869 Desktop PSI geo-redirect race condition bug (Sanja Budic, High priority). Moved to In Product today at 12:48. PSI desktop audits are broken across 78+ URLs in all markets — the inline redirect fires before isGooglePageSpeedInsightsAgent() is defined by deferred scripts. Fix options are fully documented in the ticket. Stakeholders: Chloe Christie, Joshua Smith, Gabriel Cornoiu, Dan Smullen.",
       "source": "jira",
       "priority": "high",
-      "emoji": "✅",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8714"
+      "emoji": "🔍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8869"
     },
     {
-      "action": "NEW — Respond to Chloe Christie's comment on Always On Betting Tips Page (GDCU-8512) at 11:59 BST. Mike left 'Signed off from product' at 10:09, but Chloe subsequently tagged @Mike Pett @Miguel Migneco requesting a revised dev-ready design: (1) only elements ready for implementation, (2) use existing site components (e.g. current offer cards, not proposed new ones). Two design versions exist (single full-width banner vs multi-banner widget). Confirm revised brief with Miguel.",
+      "action": "CARRY FORWARD — GDCU-8792 Cloudflare Bot Management (Sanja Budic) remains Blocked in QA. No status change since the morning report. Note: Sanja now has two concurrent items needing PM attention (GDCU-8869 In Product + GDCU-8792 Blocked). Assess whether Cloudflare blocker requires escalation to unblock.",
       "source": "jira",
       "priority": "high",
-      "emoji": "📋",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8512"
+      "emoji": "🤖",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
     },
     {
-      "action": "Confirm design direction on CA/FR Casino Oplist Redesign (GDCU-8801) — carry-forward from morning, no change. Diana Thurmann has approved initial mockups; Josh Smith has asked Ciara to move to dev-ready. Mike's sign-off on direction unblocks Ciara from progressing.",
+      "action": "CARRY FORWARD — GDCU-8893 Gambling.com Design System (Ciara Carroll, Highest priority) remains In Progress. No Slack messages from Ciara today and no new Jira activity. Netlify deployment restriction flagged this morning remains unresolved. Check in before EOD on revised timeline.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8893"
+    },
+    {
+      "action": "NEW — Review GDCU-8862 Offer Terms Static/Scrollable (Kelvin Yee, Medium). Moved to In Product today at 10:51. Bet365 compliance requirement: scrollable T&Cs to be re-introduced for all UK operator lists, with per-brand static exclusions for Bet365 and any future brands that require it. Mike listed as stakeholder.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "📐",
+      "emoji": "📜",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8862"
+    },
+    {
+      "action": "NEW — Review GDCU-8694 Image Carousel 500x290 (Jessica Dordevic, Medium). Moved from In Progress to In Product today at 12:50 — confirms Jessica is back after yesterday's sick day. Adds 500x290 size option to the image carousel shortcode. Mike listed as stakeholder.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🖼️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8694"
+    },
+    {
+      "action": "CARRY FORWARD — Reply to Chloe Christie in Group DM (Mike / Chloe / Gab) re: stakeholder intake form — she asked to add a schema sub-section to the SEO field and a new page option with a dropdown for editable content blocks (2026-04-23 15:26 BST). No new Slack activity from Chloe today — confirm if her feedback is addressed.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "💬",
+      "url": "https://gdcgroup.slack.com/archives/C09TGPG8URW/p1776954386897749"
+    },
+    {
+      "action": "CARRY FORWARD — Reply to Gabriel Cornoiu in Group DM re: stakeholder intake form — two open questions: (1) should there be an 'Other' option in the offer ordering dropdown? (2) does 'new ordering structure required' mean a new OpList? No new Slack activity from Gab today.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "💬",
+      "url": "https://gdcgroup.slack.com/archives/C09TGPG8URW/p1776953771428859"
+    },
+    {
+      "action": "CARRY FORWARD — Review and sign off GDCU-8801 Oplist Redesign on CA/FR Casino Page (Ciara Carroll). In Product since 2026-04-16, day 9 with no update. Parallel to GDCU-8619 — both need Mike's sign-off to unblock Ciara.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "✅",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
     },
     {
-      "action": "Prep for GDC Data Gaps meeting at 16:30 BST (Chris Raulli, Colin Brannigan, Vic Dadson, David Muleropino). Use the 16:00 Mike/Vic Sync to align with Vic on skill gap findings and agree the narrative. Concrete examples to bring: GDCU-8869 (PSI/performance capability), GDCU-8810 (Apple/Google Dev Accounts, still Blocked), GDCU-8893 (Design System gap — Ciara actively working with limited resourcing).",
+      "action": "CARRY FORWARD — Review and sign off GDCU-8512 Always On Betting Tips Page (Miguel Migneco). In Product since 2026-04-23 12:06. No new activity today — mobile-first Betting Tips Hub still awaiting Mike's review.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "📊"
+      "emoji": "⚽",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8512"
     },
     {
-      "action": "AWARE: GDCU-8546 (Tinder Style Offer Match) moved BACK to In Progress at 11:47 BST — was In Product this morning awaiting sign-off, now returned to Jessica Dordevic for more work. Not currently actionable. Track for when it next reaches In Product.",
+      "action": "INFORMATIONAL — Jessica Dordevic is confirmed back: GDCU-8694 moved to In Product at 12:50 today. No Slack activity visible but Jira confirms she's working. GDCU-8546 (Tinder Widget) and GDCU-8879 (Genesis Brand Carousel) remain In Progress.",
       "source": "jira",
       "priority": "low",
-      "emoji": "🔄",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
+      "emoji": "✅"
     },
     {
-      "action": "AWARE: Ciara Carroll and Miguel Migneco actively discussing Design System component naming and white-container style decisions in #gdc-product-led-growth (10:31–11:46 BST). Two options: (1) container + outline stroke + drop shadow (like op cards), or (2) no container/no stroke + drop shadow (like news cards/IUJ). No direct Mike input requested yet, but the decision will shape GDCU-8893 scope.",
-      "source": "slack",
-      "priority": "low",
-      "emoji": "🎨"
-    },
-    {
-      "action": "AWARE: Desktop PSI geo-redirect race condition (GDCU-8869) — Sanja Budic also picked up GDCU-8863 (Incorrect Ktag CT Value on Gambling.com Operator Pages) today at 11:39. Both active. No Mike action needed.",
+      "action": "CARRY FORWARD — GDCU-8903 Sports Quiz Hub (Backlog). Create the UX pre-requisite ticket or validate scope alignment with Chloe and Gab before this can be actioned. No new activity today.",
       "source": "jira",
       "priority": "low",
-      "emoji": "👀",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8869"
+      "emoji": "🧩",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8903"
     }
   ],
   "needs_input": [
     {
       "key": "GDCU-8619",
-      "summary": "Operator List Redesign",
+      "summary": "[GDC][UX] Operator List Redesign",
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Blocked",
-      "context": "BLOCKED since 15 Apr (8 days) — no change since morning. Awaiting feedback from Michael Butlin. Chloe confirmed the block. Ciara has delivered 3+ design iterations. If not resolved in the 10:00 Product Sync, escalate to Colin Brannigan in the 15:00 1:1. Blocking the wider oplist redesign programme."
+      "context": "Day 9 blocked and In Product. No new Jira or Slack activity from Ciara today. Scope: 3 distinct grid-format operator list iterations for UK casino page (mobile-first). Blocker must be cleared today — risk of carrying into next sprint."
     },
     {
-      "key": "GDCU-8714",
-      "summary": "Ace AI - Full football coverage (tips)",
+      "key": "GDCU-8869",
+      "summary": "[GDC][DEV][ALL GEOS] Desktop PSI blocked by geo-redirect race condition",
       "assignee": "Sanja Budic",
       "status": "In Product",
-      "priority": "Medium",
-      "context": "NEW since morning. QA completed by Shane McGrath at 11:04 BST. All 8+ leagues (England L1/L2, Spain, Germany, Italy, Belgium, Peru, India, Australia) verified on qa16.gambling.com/ace. Mike is a named stakeholder. Straightforward sign-off needed to release."
+      "priority": "High",
+      "context": "NEW today — moved to In Product at 12:48. High priority bug: PSI desktop audits fail across 78+ URLs in all markets because isGooglePageSpeedInsightsAgent() is undefined when the redirect script fires on DOMContentLoaded. Fix options fully documented in ticket (recommend switching to window load event). Mike's sign-off required to advance to Done."
     },
     {
-      "key": "GDCU-8512",
-      "summary": "Always On Betting Tips Page",
-      "assignee": "Miguel Migneco",
+      "key": "GDCU-8862",
+      "summary": "[GDC][DEV][ALL GEOS] Add Logic for Offer Terms for a Brand to be Static or Scrollable",
+      "assignee": "Kelvin Yee",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW since morning. Mike signed off at 10:09 but Chloe Christie has since tagged Mike and Miguel requesting a revised dev-ready design using only currently-implementable elements and existing site components. Two Figma versions exist. Mike needs to confirm the revised brief and ensure Miguel acts on Chloe's feedback."
+      "context": "NEW today — moved to In Product at 10:51. Bet365 compliance issue requiring per-brand static/scrollable T&C logic for all UK operator lists. Mike is a named stakeholder and sign-off is required."
+    },
+    {
+      "key": "GDCU-8694",
+      "summary": "[GDC][UX] Create 500x290 Size for Image Carousel",
+      "assignee": "Jessica Dordevic",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "NEW today — moved from In Progress to In Product at 12:50. Jessica's first delivery back after sick day. Adds 500x290 size option to image carousel component for all geos. Mike listed as stakeholder."
     },
     {
       "key": "GDCU-8801",
-      "summary": "Oplist Redesign on CA/FR Casino Page",
+      "summary": "[GDC][UX] - Oplist Redesign on CA/FR Casino Page",
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Medium",
-      "context": "Carry-forward from morning — no change. Diana Thurmann has approved initial mockups. Josh Smith has asked Ciara to move to dev-ready. Mike's confirmation of design direction unblocks Ciara from progressing. Also linked to the overall oplist redesign programme blocked at GDCU-8619."
+      "context": "Carryover — In Product since 2026-04-16, day 9 with no update. Scope: UX improvements to CA/FR casino page oplist (card refinements, search, filter, compare). Mike's sign-off required to progress."
+    },
+    {
+      "key": "GDCU-8512",
+      "summary": "[GDC][UX] Always On Betting Tips Page",
+      "assignee": "Miguel Migneco",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Carryover — moved to In Product 2026-04-23 12:06, no new activity today. Mobile-first Betting Tips Hub with live tip cards, sport navigation tabs, Matrix widget, and operator offers module. Stakeholders: Colin Brannigan, Dean Ryan, Dan Smullen, Chloe Christie."
     }
   ]
 }
