@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-22T08:30:00.000Z",
-  "date": "22/04/2026",
-  "covers_date": "21/04/2026",
-  "ai_overview": "Yesterday's activity centered on platform security, UI component expansion, and critical hotfixes for the Cosmo Spins and Iceland launches. A key technical blocker has emerged where a race condition bug is currently obstructing desktop performance metrics due to geo-redirect issues, which requires your immediate attention. You should also follow up on the Cloudflare Bot Management and Learning Hub projects, as both have successfully transitioned into QA and are nearing completion. Cross-team dependencies are evident in the mobile space, with Gabriel Cornoiu establishing developer accounts while the team builds out New Zealand-specific widgets and social navigation tools. Finally, keep an eye on the DMCA and copyright audits being conducted by Dan Smullen and Colin Brannigan to ensure our brand protection playbooks are effectively integrated into the product workflow.",
+  "generated_at": "2026-04-27T08:30:00.000Z",
+  "date": "27/04/2026",
+  "covers_date": "26/04/2026",
+  "ai_overview": "NOTE: Viktor's Stakeholder Digest email could not be retrieved — Microsoft 365 authentication is pending and this digest is built from Slack and Jira sources only. Sunday 26 April was a low-activity day across the board, consistent with a weekend. Two GDCU Jira tickets were updated: GDCU-8512 (Always On Betting Tips Page, assigned to Miguel Migneco, In Product) and GDCU-8919 (a new related task, auto-created, in Backlog). From the preceding week's Slack activity, the headline story is Ciara Carroll publishing the gambling.com design system to Claude Design — 30+ components, 12+ elements, full icon set, and brand identity — a significant platform milestone before she goes on leave Monday. Colin Brannigan was the most active senior stakeholder on Friday, discussing AI product strategy and a potential product engineer hire. Vic Dadson remains on two-week sick leave (signed off 21 April). Chloe Christie and Josh Smith are managing DC8 cycle planning, including a new pre-project checklist initiative. Harden Wallace provided a thorough technical response on Cosmo Wheel single-winner mechanics. No blockers or hotfixes flagged over the weekend.",
   "sections": [
     {
       "name": "My Reports",
@@ -13,32 +13,32 @@
           "initials": "VD",
           "color": "green",
           "activity": "none",
-          "summary": "Vic was signed off on medical leave on 21 April for approximately two weeks following a doctor's appointment. Viktor's email credited her with progressing Cloudflare Bot Management into QA, but this work predates her absence. She has notified HR and Bob. No Jira or Slack activity on 21 April.",
+          "summary": "Remains on two-week medical sick leave signed off by her doctor on 21 April. She messaged Mike directly about her condition and a family bereavement. HR and Bob have been notified. No Jira or Slack activity on 26 April. She had previously been making progress on data/analytics work before her absence.",
           "flags": ["no-activity"]
         },
         {
           "name": "Jessica Dordevic",
           "initials": "JD",
           "color": "pink",
-          "activity": "medium",
-          "summary": "Finalized the design for the Genesis Publish Screen (GDCU-8476, now Done in Jira) and shifted focus toward the Tinder-style offer matching UX task (GDCU-8546, In Product). This interactive matching widget is her current primary priority as she transitions from the publishing workflow into more gamified user experiences. Supplementary: In #gdc-product-led-growth on 20 Apr she updated the background colour variable for the cool tone scheme to #F3F4F6 and flagged an aspect ratio mismatch between the design and production for slot game tiles.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent activity was 24 April: she ran a usability test for the Tinder Widget (GDCU-8546) and shared Figma findings with Mike, flagging several UX considerations. On 22 April she took a sick day but still had a QA call about login issues on the IUJ and sent Tinder design options to Mike and Ciara. Currently her primary focus is the Tinder-Style Offer Match widget design.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Miguel Migneco",
           "initials": "MM",
           "color": "blue",
-          "activity": "none",
-          "summary": "No activity in the last 24 hours. Most recent Slack activity was on 20 Apr in #gdc-product-led-growth, where he shared a prototype for the Jump Links / Anchor Menu component (GDCU-8799) and provided feedback on the 'Jump to' label appearing disconnected from its anchor context.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "GDCU-8512 (Always On Betting Tips Page) was updated in Jira on 26 April — Miguel is the assignee and the ticket is In Product status, indicating design review is underway. On 23 April he shared the finalised Figma for the Betting Tips Hub with Mike and had a quick sync about Ace. Earlier in the week he was active in #gdc-product-led-growth and #gdc-product-design-pod discussing close icon consistency, NZ header logos, and the Jump Links / Anchor Menu component (GDCU-8799).",
+          "flags": []
         },
         {
           "name": "Ciara Carroll",
           "initials": "CC",
           "color": "purple",
-          "activity": "low",
-          "summary": "Viktor's email listed no activity, but Slack and Jira show otherwise. In #gdc-pod on 21 Apr she confirmed that the Cosmo Spins banner length had been fixed in line with other banners on the page. Jira shows GDCU-8893 (Gambling.com Design System) is In Progress and was updated on 21 Apr. She is leading the integration of the Claude Design tool into the Gambling.com design system, having created the project in Claude Design already and begun the design system token refactor.",
-          "flags": []
+          "activity": "none",
+          "summary": "No activity on 26 April — she is going on leave from Monday 28 April. Before leave she had a highly active week: on 24 April she published the gambling.com design system to Claude Design (30+ components, 12+ elements, 300+ icons, 200+ images, full brand/colour/typography tokens, and Orion Git integration) — a significant team milestone. She also coordinated the Bet365 T&C solution with Mike on the same day. Note: she informed Mike she will be on leave Monday.",
+          "flags": ["no-activity"]
         }
       ]
     },
@@ -50,17 +50,17 @@
           "name": "Josh Smith",
           "initials": "JS",
           "color": "amber",
-          "activity": "high",
-          "summary": "Focused on developing an Instagram Headers Widget for the New Zealand market and moved the Image Carousel Shortcode into the product phase. Also managed a backlog of UI enhancements including site-wide link colour updates (GDCU-8845) and new shortcodes for brand lists and game grids. Current priorities centred on conversion rate optimisation and expanding the site's component library. Most recently posted in #gdc-core on 17 Apr with the full DC7 release notes and DC8 high-priority planned work.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent Slack activity was 22 April in DMs with Mike, discussing Clarity session recordings and filtering bot traffic from analytics. He posted DC7 full release notes and DC8 high-priority planned work to #gdc-core on 17 April. Currently managing DC8 priorities including Global HP Geolocation of Images, Image Carousel Shortcode, and the FTP App build.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Chloe Christie",
           "initials": "CH",
           "color": "rose",
-          "activity": "high",
-          "summary": "Completed critical hotfixes for the Cosmo Spins sign-in flow and the Iceland launch while finalising new preset table style options. Prioritising refinements for the Global Strategy Hub and overseeing Learning Hub feedback implementation now in QA. Also documenting AI-driven time savings and researching methods to block restricted VPN users from free-to-play games (GDCU-8899). Supplementary: Active on 21 Apr in #6amigos (requested roadmap docs from Mike for upcoming cycles), #core-product (posted product sync agenda for 22 Apr), and #gdc-product-design-pod (shared sync agenda link).",
-          "flags": ["hotfix"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Throughout the week she was the most consistently active PO: posted release ticket lists in #6amigos (22 Apr), posted the non-en sync agenda (21 Apr), coordinated design pod discussions, and collaborated with Mike on a new pre-project requirements checklist covering 10+ standard questions for new features. Currently managing DC8 sprint planning and capacity across design and dev.",
+          "flags": ["no-activity"]
         }
       ]
     },
@@ -72,65 +72,65 @@
           "name": "Carlos Blauth",
           "initials": "CB",
           "color": "sky",
-          "activity": "high",
-          "summary": "Focused on developing the Free to Play App POC v2 (GDCU-8871, In Progress), a high-priority task. Also transitioned Learning Hub feedback updates (GDCU-8733, In QA) and the redesigned sign-in and registration modals (GDCU-8803, In QA) into final QA testing. Current efforts centre on advancing the new app prototype while overseeing completion of these global UI enhancements. All three tickets confirmed active in Jira on 21 Apr.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Last meaningful DM with Mike was 9 April regarding Ace AI feedback report volumes (confirming one production report per day is correct). Was named as a key contributor to the Ace launch in March. Currently involved in the FTP App and deep-link betslip project based on channel membership.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Eoin McCarthy",
           "initials": "EM",
           "color": "emerald",
-          "activity": "low",
-          "summary": "Activity was limited to a single planned task: refactoring scoped styles on Vue components (GDCU-8894), which was placed in the Backlog suggesting it is a future maintenance priority rather than an immediate focus. Jira updated 21 Apr. No Slack activity found for 21 Apr.",
-          "flags": ["low-activity"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent Slack activity was 22 April in a DM with Mike, providing a clear technical assessment of page size concerns for the Betting Tips Hub load-more pagination — he confirmed that loading ~30 tips should be manageable given the Matrix API. Currently overseeing the high-agency dev approach and is a member of the FTP App and deep-link betslip channels.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Harden Wallace",
           "initials": "HW",
           "color": "violet",
-          "activity": "low",
-          "summary": "Viktor's email listed no activity, but Jira shows two tickets updated on 21 Apr: GDCU-8856 (Iceland Launch Fixes) moved to Done, and GDCU-8810 (Set Up Organisation Level Developer Accounts for Apple/Google) remains In Progress. Both are active delivery cycle priorities. No Slack posts found for 21 Apr.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent Slack activity was 23–24 April: responded to Mike's question about manipulating the Cosmo Wheel to guarantee the next UK user wins the iPhone. Harden gave a thorough technical explanation covering why the current RNG system cannot support a single-winner lock, and recommended raising a proper ticket rather than using a manual workaround. Mike acknowledged and will investigate options.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Kelvin Yee",
           "initials": "KY",
           "color": "orange",
-          "activity": "high",
-          "summary": "Resolved a display bug affecting site image carousels (GDCU-8830, Done) and moved refinements for the new Global Strategy Hub into the product phase (GDCU-8823, In Product). Currently focused on implementing event tags for Cosmo Spins and slot tournament games (GDCU-8824, In Progress) to enhance game tracking. All three Jira tickets confirmed active on 21 Apr.",
-          "flags": ["bug-found"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Last DM with Mike was 9 April, discussing filtering stale racing tips from the news hub Most Popular section using article publish timestamps and tagging logic. He proposed using Site Article Categories with a 'Tips' tag as the filtering mechanism. No activity visible in the past week in tracked channels.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Milan Nikolic",
           "initials": "MN",
           "color": "teal",
           "activity": "none",
-          "summary": "No activity in the last 24 hours. Previously noted as being on annual leave in planning discussions (referenced by Gabriel Cornoiu in #gdc-pdmt on 13 Apr). No Jira assignments or Slack posts found.",
+          "summary": "No observable activity on 26 April. Last DM with Mike was 26 March regarding the Global Strategy Hub (GDCU-8653), specifically whether to serve the strategy page in English with localised casino results. In #gdc-high-agency on 13 March he flagged that 5pm meetings are too late for Serbia. No Jira assignments or Slack posts found for the past week.",
           "flags": ["no-activity"]
         },
         {
           "name": "Nebojsa Stanic",
           "initials": "NS",
           "color": "cyan",
-          "activity": "medium",
-          "summary": "Focused on development of the new Image Carousel Shortcode (GDCU-8836) to enhance visual content delivery across the platform. The task has successfully progressed to the In Product stage, indicating the feature is moving toward final implementation. Jira confirmed updated 21 Apr. Josh Smith was coordinating with Nebojsa on image naming conventions for the shortcode.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April. Last DM with Mike was December 2025, demonstrating a Tinder-style casino card prototype for the AI Day session. No Jira assignments or Slack posts found in recent channels. No activity visible in any tracked channel in 2026.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Novica Vukobratovic",
           "initials": "NV",
           "color": "indigo",
-          "activity": "high",
-          "summary": "Completed a hotfix for Cosmo Spins that updated the sign-in trigger to activate when users attempt to spin (GDCU-8548, Done — confirmed hotfix). Current priorities have shifted toward mobile and social integration: developing a bottom navigation bar (GDCU-8627, In Progress) and an Instagram Headers Widget for the New Zealand market (GDCU-8840, In Progress). All three tickets active in Jira on 21 Apr.",
-          "flags": ["hotfix"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April. Last DM with Mike was February 2026 regarding a Cosmo Spins reskin coordination issue. In #gdc-deep-link-betslip-project (April 7) he was mentioned by Chloe as the source of guidance on using square logo variants for NZ headers. No activity visible in tracked channels in April 2026.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Sanja Budic",
           "initials": "SB",
           "color": "fuchsia",
-          "activity": "high",
-          "summary": "Completed several front-end updates including integrating preset table styles (GDCU-8604, Done), resolving image issues on the payment hub (GDCU-8832, Done), and removing prediction markets breadcrumb on US pages (GDCU-8844, Done). Moved AI football coverage (GDCU-8714) and Cloudflare bot management (GDCU-8792) into QA phase. Currently prioritising a fix for a race condition bug blocking desktop performance metrics due to geo-redirect issues (GDCU-8869, In Progress) — this is an active blocker. All tickets confirmed in Jira on 21 Apr.",
-          "flags": ["blocker", "bug-found"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent Slack activity was 8 April in #gdc-deep-link-betslip-project, where she reported that the /api/mcp/deep_links endpoint for the Bookies brand was returning responses above 5 seconds — a performance concern flagged to Alex Kornilov. She was named as a key contributor to the Ace AI launch by Mike in #gdc-core. Last DM with Mike was 7 April.",
+          "flags": ["no-activity"]
         }
       ]
     },
@@ -142,17 +142,17 @@
           "name": "Robin John",
           "initials": "RJ",
           "color": "lime",
-          "activity": "low",
-          "summary": "Had limited activity, primarily focusing on a bug report regarding malfunctioning search results on the GDC Austria platform (GDCU-8827, logged in Backlog). No immediate progress was noted as the issue awaits further prioritisation. No Slack activity found for 21 Apr.",
-          "flags": ["bug-found", "low-activity"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April. DM history with Mike shows no messages. In #gdc-high-agency they joined the channel on 6 March. No Jira tickets or Slack messages attributable to Robin found in the past week of tracked channels.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Shane McGrath",
           "initials": "SM",
           "color": "yellow",
-          "activity": "low",
-          "summary": "Viktor's email listed no activity, but Shane was active in #gdc-pod on 21 Apr reporting three issues: (1) ACE AI feedback reports not generating since the weekend, (2) the IUJ section was missed in the site container width change causing layout issues, and (3) a recurring sign-in failure on article pages after sign-out. These were reported to Mike Pett and Carlos Blauth. All represent bugs surfaced through QA observation.",
-          "flags": ["bug-found"]
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent Slack activity visible was in #prism-cms-feedback (March 30–31) where he filed multiple detailed QA bug reports: duplicate taxonomy causing 500 error, inability to rename image files on frontend, past-date drag-and-drop scheduling, and a change sets delete error. In #gdc-learning-hub (March 6) he reported blurry graph rendering and insufficient time for feedback messages in the Speed Round. Active QA contributor to Prism CMS and Learning Hub testing.",
+          "flags": ["no-activity"]
         }
       ]
     },
@@ -164,49 +164,49 @@
           "name": "Dean Ryan",
           "initials": "DR",
           "color": "slate",
-          "activity": "low",
-          "summary": "Completed a brand data update for TalkSPORT BET involving removal of specific content under ticket ADS-9151. Activity was limited to this single task with no reported blockers or additional priorities. Last Slack activity was 15 Apr in #gdc-f2p-apps recommending the mobile app be restructured as a Cosmo App with a slots library focus.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent DM with Mike was 24 April discussing the Stable Stars page — Dean asked when a dedicated page would be live and Mike confirmed early-to-mid May, targeting before Epsom (missing Guineas). Also asked about managing Cosmo Wheel iPhone prize winners (confirmed 3 of the current winners were internal). Previously in #gdc-f2p-apps (15 Apr) suggested the app be restructured as a Cosmo-branded slots app.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Michael Butlin",
           "initials": "MB",
           "color": "stone",
           "activity": "none",
-          "summary": "No activity in the last 24 hours. Last substantive involvement was in #gdc-learning-hub in March, providing detailed content feedback and editing notes for the Learning Hub prior to launch.",
+          "summary": "No observable activity on 26 April (Sunday). Most recent DM with Mike was 24 April: Mike asked Michael to complete a 5-minute stakeholder form reviewing the Tinder Widget design (GDCU-8546), and Michael also flagged that the Bet365 T&C scrollable fix on qa10 still doesn't resolve the grid layout case. Active stakeholder review and feedback in the preceding week.",
           "flags": ["no-activity"]
         },
         {
           "name": "Dan Smullen",
           "initials": "DS",
           "color": "zinc",
-          "activity": "medium",
-          "summary": "Focused on brand protection and negative SEO defence by conducting DMCA abuse audits across core sites and developing a group-level playbook. Prioritised automating the DMCA takedown process for the UK market via GetViktor and began building a centralised prompt library in Confluence to support these automation efforts. Supplementary: Active in #gdc-f2p-apps on 15 Apr flagging that some F2P games were not working and that Cosmo Spins had a 24-hour wait for free spins after login.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Last DM with Mike was March 5 regarding the new Strategy Hub sign-off. In #gdc-f2p-apps (15 Apr) he reported F2P game issues and the Cosmo Spins 24-hour wait bug after login. In #core-division-leads (15 Apr) Colin asked Dan about Accuranker access for BF and OGX reports. No recent Slack or Jira activity visible.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Gabriel Cornoiu",
           "initials": "GC",
           "color": "teal",
-          "activity": "low",
-          "summary": "Focused on establishing organisation-level developer accounts for Apple and Google to streamline mobile platform management (GDCU-8810, In Progress — Harden is the assignee). Activity for 21 Apr was limited to this infrastructure priority. Supplementary: On 20 Apr in #gdc-pdmt he announced he is repurposing the PDMT meeting for planning every 3 weeks, with other weeks used as a weekly team sync.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent DM with Mike was 23 April, where Gabriel contributed to the pre-project checklist initiative by suggesting two additional standard questions: SEO and information architecture considerations for new pages/hubs, and which operator offer attributes should be displayed. In #6amigos (22 Apr) he raised the CA/FR Oplist Redesign for the next sprint. Previously active on Prism CMS fixes and the F2P app feedback channel setup.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Diana Thurmann",
           "initials": "DT",
           "color": "sky",
-          "activity": "medium",
-          "summary": "Focused on coordinating brand reviews for various casino entities including Stake.com and Tonybet, while refining marketing compliance documentation and AI skill assets in Confluence. Actively managed identification of casino review pages via Slack to streamline the audit process and requested administrative support to adjust Slack channel visibility. Supplementary: On 16 Apr she announced the Iceland geo launch in #core-division, crediting the Product, Commercial, and Genesis teams for the cross-team effort.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent DM with Mike was 22 April when Mike shared a Clarity API key and usage instructions (10 calls/day limit). She created the new #gdc-nonen-market-updates channel on 21 April for daily industry updates across non-EN markets. Previously announced the Iceland geo launch in #core-division on 16 April, crediting the cross-team effort.",
+          "flags": ["no-activity"]
         },
         {
           "name": "Colin Brannigan",
           "initials": "CB",
           "color": "gray",
-          "activity": "low",
-          "summary": "Addressed a copyright-related notice from Google regarding the casinos.com domain and coordinated with team members to investigate the issue. Activity was otherwise limited with this specific compliance matter as primary focus. Supplementary: On 20 Apr in #core-division-leads he asked about experiences with Claude Design tool. Earlier posts (17 Apr) included announcing the Finance report as the single source of truth for revenue data, with the commercial report being discontinued.",
-          "flags": []
+          "activity": "none",
+          "summary": "No observable activity on 26 April (Sunday). Most recent DM with Mike was 24 April — an active strategic conversation discussing Claude Design concepts (Colin shared a wireframe he built), the product engineer role candidate, and alignment on shipping product faster without 50 design iterations pre-launch. In #core-division-leads (24 Apr) he nudged teams to share wins in #core-division and discussed NZ regulatory concerns around affiliate marketing restrictions. Active and engaged on AI product strategy.",
+          "flags": ["no-activity"]
         }
       ]
     }
