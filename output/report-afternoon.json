@@ -1,141 +1,142 @@
 {
-  "generated_at": "2026-04-28T14:00:00.000+01:00",
-  "date": "28/04/2026",
+  "generated_at": "2026-04-29T14:00:00.000+01:00",
+  "date": "29/04/2026",
   "report_type": "afternoon",
   "action_items": [
     {
-      "action": "URGENT — GDCU-8619 Operator List Redesign still Blocked (day 12). Ciara referenced the 'op list grid' in a DM at 10:00 today but no resolution communicated. Directly ask Ciara what is preventing sign-off and whether the Jira Blocked flag can be cleared today.",
+      "action": "URGENT — Learning Hub goes live in TODAY's weekly release. Gabriel reminded the pod at 09:39: 'The Learning Hub goes live with our weekly release.' He then asked Carlos to check if Mike is happy with Ciara's imagery (GDCU-8736). Carlos raised Figma design questions in #gdc-pod at 11:34 (h1 size, green vs blue icons) — Ciara responded and gave direction. Mike still needs to give formal sign-off so GDCU-8736 can be closed before deployment.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "🚀",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+    },
+    {
+      "action": "GDCU-8893 Design System — Chloe Christie asked in #gdc-product-design-pod at 09:53: 'Are we happy to close the design system ticket?' This is the Highest priority In Product ticket. Confirm whether Ciara published the Claude Design Guidelines announcement today (expected 'first thing') and if so, sign off and close GDCU-8893. Respond to Chloe's question in-channel.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8893"
+    },
+    {
+      "action": "CARRY FORWARD — GDCU-8619 Operator List Redesign still Blocked (day 14). Last updated 2026-04-28 09:42. No movement since morning. Ciara is actively working but block is not cleared. Direct intervention or decision from Mike required today.",
       "source": "jira",
       "priority": "high",
       "emoji": "🚫",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     },
     {
-      "action": "NEW — GDCU-8893 Gambling.com Design System moved to 'In Product' today (was 'In Progress' this morning). Highest priority ticket — Ciara delivered. Review and sign off: design system tokens, Figma Plugin DS Token Exporter, Claude knowledge files, and AI Tool Usage Guidelines. Ciara is also planning a wider announcement across gdc/core-product/language/pod/ai-chatter channels — confirm timing and messaging with her.",
+      "action": "NEW — GDCU-8895 High priority bug: Prediction Market Page Not Appearing on US Sitemap (Sanja Budic, In Progress, updated 12:10 today). Not in morning report. High-priority US sitemap issue — check if stakeholder comms required and whether timeline is impacted.",
       "source": "jira",
       "priority": "high",
-      "emoji": "🎨",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8893"
+      "emoji": "🆕",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8895"
     },
     {
-      "action": "NEW — GDCU-8792 Cloudflare Bot Management still showing Blocked in QA with no visible progress or Slack discussion today. Chase Sanja Budic or QA lead for a status update — what is the QA blocker and is PM action required to unblock?",
+      "action": "RESOLVED TODAY ✅ — GDCU-8870 Page Timeouts (Nebojsa Stanic) moved to Done at 12:35. GDCU-8871 F2P App POC v2 (Carlos Blauth) moved to Done at 11:46. Both were In Product this morning. Remove from review queue — no further action needed.",
       "source": "jira",
-      "priority": "high",
-      "emoji": "🤖",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
+      "priority": "medium",
+      "emoji": "✅",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8871"
     },
     {
-      "action": "NEW — GDCU-8879 Genesis Brand Carousel Component Card (Jessica Dordevic) moved to 'In Product' at 11:40 today. Review Jess's Figma deliverable — Chloe's outstanding feedback was to confirm logo name/size in Figma and verify it was sourced from Origins. Confirm this is resolved before sign-off.",
+      "action": "NEW — GDCU-8879 Genesis Brand Carousel Component Card (Jessica Dordevic) pulled BACK from In Product to In Progress today (10:34). Was listed for sign-off this morning. Check with Jessica what changed — design revisions needed? Will need re-review when it returns to In Product.",
       "source": "jira",
-      "priority": "high",
-      "emoji": "🎠",
+      "priority": "medium",
+      "emoji": "🔄",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8879"
     },
     {
-      "action": "NEW — GDCU-8842 Integrate Genesis Content Layouts (Harden Thomas Wallace) moved to 'In Product' at 12:54 today. Review: GDC site detecting Genesis-prefixed layout classes (25/75, 50/50, 75/25, auto), multi-layer nesting up to 3 levels, and mobile stack behaviour. Stakeholders include Gabriel Cornoiu and Chloe Christie.",
+      "action": "NEW — GDCU-8546 Tinder Style Offer Match (Jessica Dordevic) pulled BACK from In Product to In Progress today (08:51). Was listed for formal sign-off this morning. Check with Jessica what changed — will need re-review when it returns.",
       "source": "jira",
-      "priority": "high",
+      "priority": "medium",
+      "emoji": "🔄",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
+    },
+    {
+      "action": "NEW — GDCU-8932 raised by Joshua Smith at 13:11 today: Game Review tiles on gambling.com/uk/online-casinos/slots/games — CTA buttons oversized and white tile backgrounds not filling the full tile (post-pixel change). Ticket exists; Mike to triage priority and confirm if it goes into this sprint or next.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🆕",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8932"
+    },
+    {
+      "action": "NEW — Josh asked in #gdc-product-design-pod at 10:49: 'Is everyone OK with closing GDCU-8737 (Slot Hub Search Refinements) since the broader GDCU-8685 Search & Filter Components Audit is planned for next sprint?' Awaiting Mike's call — no response yet in-channel.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🗂️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8737"
+    },
+    {
+      "action": "NEW — Ciara called @here in #gdc-product-design-pod at 12:01: 'I'm cleaning up the main Figma design file — there are 16 open branches. With tomorrow's release: what can we merge?' Jess responded that registration/login and pros and cons components can be merged. Ciara then asked at 13:01: 'Is there a pros and cons dev ticket lined up?' — no response yet. Mike to confirm and ensure dev ticket exists if needed.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.slack.com/archives/C07L3ES6V0F/p1777460464465099"
+    },
+    {
+      "action": "CARRY FORWARD — GDCU-8842 Integrate Genesis Content Layouts (Harden Thomas Wallace, In Product) updated again today at 09:46. Still awaiting Mike's sign-off. Stakeholders: Gabriel Cornoiu, Chloe Christie.",
+      "source": "jira",
+      "priority": "medium",
       "emoji": "📐",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8842"
     },
     {
-      "action": "NEW — GDCU-8866 Automation Bug Fixing & Refactoring Sprint 8 (Robin John) moved to 'In Product' at 13:29 today — the most recent ticket to land in your queue. Review automation suite bug fixes and code refactoring for Sprint 8 sign-off.",
+      "action": "CARRY FORWARD — GDCU-8866 Automation Bug Fixing & Refactoring Sprint 8 (Robin John, In Product since 2026-04-28). Still awaiting Mike's standard sprint quality sign-off.",
       "source": "jira",
-      "priority": "high",
+      "priority": "medium",
       "emoji": "🔧",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8866"
     },
     {
-      "action": "CARRY FORWARD — GDCU-8801 Oplist Redesign on CA/FR Casino Page (Ciara Carroll) still In Product after 12 days. Ciara mentioned in DM at 10:00 today that she is 'tackling some issues Harden has sent' and the op list grid is on her list — check if she needs your review to progress.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "✅",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8801"
-    },
-    {
-      "action": "CARRY FORWARD — GDCU-8512 Always On Betting Tips Page (Miguel Migneco) still In Product since 2026-04-23. No updates today. Review mobile-first Betting Tips Hub designs — tip card components, sport navigation, Matrix widget integration, and operator offers module.",
+      "action": "CARRY FORWARD — GDCU-8512 Always On Betting Tips Page (Miguel Migneco, In Product since 2026-04-23 — day 7, no new updates). Mobile-first Betting Tips Hub still awaiting sign-off. Stakeholders: Colin Brannigan, Dean Ryan, Dan Smullen, Chloe Christie.",
       "source": "jira",
       "priority": "medium",
       "emoji": "⚽",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8512"
     },
     {
-      "action": "NEW — GDCU-8546 Tinder Style Offer Match (Jessica Dordevic) moved to 'In Product' today. Jess sent updated Figma yesterday (Mike left comments, confirmed happy). This is now formally awaiting Mike's In Product sign-off — check Figma is complete and approve the ticket.",
+      "action": "CARRY FORWARD — GDCU-8792 Cloudflare Bot Management (Sanja Budic, In QA, Blocked) — no update since 2026-04-23 (now day 7). Note Sanja is also actively working on the new GDCU-8895 US sitemap bug today. Chase QA lead for status on whether the Cloudflare block is resolved.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "💘",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
+      "emoji": "🤖",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8792"
     },
     {
-      "action": "NEW — GDCU-8871 🔥 Free to Play App POC v2 (Carlos Blauth) In Product as of 09:21 today — not flagged in the morning report. Review POC v2 changes: Cosmo Spins card height increase, in-carousel offer tiles, popup banner relocation to game details screen, and sticky bottom nav. Stakeholders: Gabriel Cornoiu, Dean Ryan, Chloe Christie.",
+      "action": "CARRY FORWARD — GDCU-8928 IUJ Banners (Jessica Dordevic, In Progress). Sent to Jessica yesterday — two promo banners for IUJ Rewards Page & Home Page. Note she also pulled back two tickets today (GDCU-8879, GDCU-8546) so check her workload and confirm she has everything needed for all three tasks.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "📱",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8871"
+      "emoji": "🏆",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
     },
     {
-      "action": "NEW — Chloe Christie shared bad UX examples in DM today: multiple news/odds pages with broken game embeds, malformed HTML affecting site container, and poorly formatted tables (e.g. gambling.com/uk/news/next-celtic-manager-betting-odds, /next-barnsley-manager-odds, /next-tranmere-manager-odds). Assess if these require urgent product tickets or if editorial action is sufficient.",
+      "action": "Vic Dadson still on sick leave — expected back ~2026-05-05. No new messages today. No action needed unless sprint planning or cover decisions are required.",
       "source": "slack",
-      "priority": "medium",
-      "emoji": "📋",
-      "url": "https://gdcgroup.slack.com"
-    },
-    {
-      "action": "CARRY FORWARD — Confirm Gab's intake form questions are resolved: (1) should there be an 'Other' option in the offer ordering dropdown? (2) does 'new ordering structure required' mean a new OpList? Last message from Gab on this was 2026-04-23. No new public Slack activity today.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "💬",
-      "url": "https://gdcgroup.slack.com/archives/C09TGPG8URW/p1776953771428859"
-    },
-    {
-      "action": "CARRY FORWARD — Confirm Chloe Christie's stakeholder intake form feedback is addressed: she asked for a schema sub-section under the SEO field and a new page option with a dropdown for editable content blocks. No new messages on this today.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "💬",
-      "url": "https://gdcgroup.slack.com/archives/C09TGPG8URW/p1776954386897749"
-    },
-    {
-      "action": "NEW — GDCU-8870 Investigate Performance Improvements for Page Timeouts (Nebojsa Stanic) is In Product — not in the morning report. Pages timing out at 28s during MrCurl testing (US casino, poker, sportsbook pages). Review Nebojsa's findings: either verified page load improvements or a blocker report requiring assistance from other teams.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "⚡",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8870"
-    },
-    {
-      "action": "PDMT call removed from Ciara's calendar — Mike confirmed Wednesday sync is now the design team sync. Communicate this change formally to all affected parties (Miguel, Jessica, other attendees) so no one misses the repurposed slot.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "📅"
-    },
-    {
-      "action": "Vic Dadson still on sick leave — signed off for a fortnight from ~2026-04-21, expected back ~2026-05-05. No messages from Vic since 2026-04-21. Ensure HR/Bob has been notified (Vic said she would), and consider temporary coverage for any unblocked analytics work.",
-      "source": "slack",
-      "priority": "medium",
+      "priority": "low",
       "emoji": "🤒"
     },
     {
-      "action": "CARRY FORWARD — GDCU-8903 Sports Quiz Hub (Backlog): UX pre-requisite ticket still not created. Ticket states 'The UX ticket (design handoff) must be completed and approved before this ticket is actioned.' Create the UX pre-req or formally validate scope with Chloe and Gab before sprint planning.",
+      "action": "CARRY FORWARD — GDCU-8903 Sports Quiz Hub UX pre-requisite ticket still not created. Ticket states the UX design handoff must be completed before dev is actioned. Create the UX pre-req ticket or formally validate scope with Chloe and Gab before next sprint planning.",
       "source": "jira",
       "priority": "low",
       "emoji": "🧩",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8903"
     },
     {
-      "action": "NOTE — GDCU-8915 Add GEO Selector to Card Carousel Shortcode (Nebojsa Stanic) completed today. No action needed, noting for sprint progress awareness.",
+      "action": "CARRY FORWARD — GDCU-8846 Cosmo Spins Spring Ad Campaign (Ciara Carroll, To Do). Josh Kerr's feedback: rethink creative — clearer message, less 'gaming' feel. Creative direction decision from Mike still outstanding so Ciara can proceed.",
       "source": "jira",
       "priority": "low",
-      "emoji": "✅",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8915"
+      "emoji": "🌸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846"
     }
   ],
   "needs_input": [
     {
-      "key": "GDCU-8619",
-      "summary": "[GDC][UX] Operator List Redesign",
+      "key": "GDCU-8736",
+      "summary": "[GDC][UX] Share/Create Imagery for the Learning Hub",
       "assignee": "Ciara Carroll",
       "status": "In Product",
-      "priority": "Blocked",
-      "context": "Day 12 Blocked (since 2026-04-16). Ciara referenced 'op list grid' in DM at 10:00 today indicating she is still working on it, but the Blocked flag has not been cleared. Scope: 3 distinct grid-format operator list iterations for UK casino page, mobile-first. Mike must identify and clear the blocker today or escalate."
+      "priority": "Medium",
+      "context": "URGENT — Learning Hub ships in TODAY's weekly release. Gabriel reminded the pod at 09:39. He asked Carlos to get Mike's sign-off on Ciara's imagery. Carlos raised questions in #gdc-pod at 11:34 (h1 size, green vs blue icons) — Ciara gave direction. Mike must confirm he's happy and formally sign off GDCU-8736 before deployment."
     },
     {
       "key": "GDCU-8893",
@@ -143,15 +144,23 @@
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Highest",
-      "context": "NEW this afternoon — moved from 'In Progress' to 'In Product' (updated 2026-04-27). Highest priority ticket in the sprint. Deliverables: refined design system tokens, Figma DS Token Exporter plugin, Claude knowledge files (.md), AI Tool Usage Guidelines, Figma design system updated. Stakeholders: Colin Brannigan, Chloe Christie, Gab Cornoiu, Eoin McCarthy. Ciara is also planning a multi-channel announcement — approve channels and messaging in parallel."
+      "context": "Chloe Christie asked in #gdc-product-design-pod at 09:53: 'Are we happy to close the design system ticket?' Highest priority In Product since 2026-04-27. Confirm Ciara's Claude Guidelines announcement went out today, then sign off and close. Respond to Chloe in-channel."
     },
     {
-      "key": "GDCU-8879",
-      "summary": "[GDC][UX] Create Genesis Brand Carousel Component Card",
-      "assignee": "Jessica Dordevic",
+      "key": "GDCU-8619",
+      "summary": "[GDC][UX] Operator List Redesign",
+      "assignee": "Ciara Carroll",
       "status": "In Product",
-      "priority": "Medium",
-      "context": "NEW — moved to In Product at 11:40 today. Deliverable: brand carousel component card image for Genesis editor gallery, available in light and dark mode. Chloe's outstanding feedback: confirm logo name/size in Figma and that it was sourced from Origins. Mike asked Jessica to sync with Chloe on this (DM 2026-04-27 16:13)."
+      "priority": "Blocked",
+      "context": "Day 14 Blocked (since 2026-04-16). Last updated 2026-04-28 09:42. Ciara is actively working but the Blocked flag has not cleared. Longest-running blocker in the sprint. Direct decision or unblocking from Mike required."
+    },
+    {
+      "key": "GDCU-8895",
+      "summary": "[GDC][DEV][US] Prediction Market Page Not Appearing on US Sitemap",
+      "assignee": "Sanja Budic",
+      "status": "In Progress",
+      "priority": "High",
+      "context": "NEW today — High priority US bug not in morning report. Updated 2026-04-29 12:10. Sanja actively working. Confirm if stakeholder comms needed (US team, SEO) and whether this is on track for resolution before or after today's release."
     },
     {
       "key": "GDCU-8842",
@@ -159,15 +168,7 @@
       "assignee": "Harden Thomas Wallace",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW — moved to In Product at 12:54 today. GDC site must detect Genesis-prefixed CSS layout classes (25/75, 50/50, 75/25, auto) from Genesis PB-310, support multi-layer nesting up to 3 levels, and stack on mobile. Stakeholders include Gabriel Cornoiu and Chloe Christie. Test across casino review, article, and oplist page types."
-    },
-    {
-      "key": "GDCU-8871",
-      "summary": "🔥 [GDC][DEV] Free to Play App POC v2",
-      "assignee": "Carlos Blauth",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "Not in morning report — In Product as of 09:21 today. POC v2 scope: increased Cosmo Spins card height, prize detail text below card, in-carousel offer tiles (1 offer tile per 2 game tiles), popup banner moved to game details screen, 10-game limit removed, sticky bottom nav (Games/Account/Gambling.com). Stakeholders: Gabriel Cornoiu, Dean Ryan, Chloe Christie."
+      "context": "In Product since 2026-04-28, updated again today at 09:46. Genesis-prefixed CSS layout classes (25/75, 50/50, 75/25, auto), multi-layer nesting up to 3 levels, mobile stack. Test across casino review, article, oplist pages. Stakeholders: Gabriel Cornoiu, Chloe Christie."
     },
     {
       "key": "GDCU-8866",
@@ -175,23 +176,7 @@
       "assignee": "Robin John",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW — moved to In Product at 13:29 today (most recent arrival in the queue). Sprint 8 automation suite bug fixes and code refactoring. Assignee: Robin John. Standard sprint quality check required from Mike."
-    },
-    {
-      "key": "GDCU-8546",
-      "summary": "[GDC] [UX] Tinder Style Offer Match",
-      "assignee": "Jessica Dordevic",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "Moved to In Product (updated 2026-04-27). Jessica sent updated Figma designs on 2026-04-27 and Mike confirmed he was happy with the changes in DM. Formal In Product sign-off still required in Jira. Scope: Tinder-style swipe widget with 3–5 question onboarding flow, swipe interface, operator card stack, Quick Match mode, and summary/compare screen."
-    },
-    {
-      "key": "GDCU-8801",
-      "summary": "[GDC][UX] - Oplist Redesign on CA/FR Casino Page",
-      "assignee": "Ciara Carroll",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "Carry forward — In Product since 2026-04-16 (12 days). Updated 2026-04-28T12:38, suggesting Ciara is actively working on it. Scope: design improvements for CA/FR casino page oplist including card refinements, search, filter, and compare functions. Mike's sign-off required to progress."
+      "context": "In Product since 2026-04-28 13:29. Sprint 8 automation suite bug fixes and code refactoring. Standard review required before sign-off."
     },
     {
       "key": "GDCU-8512",
@@ -199,46 +184,62 @@
       "assignee": "Miguel Migneco",
       "status": "In Product",
       "priority": "Medium",
-      "context": "Carry forward — In Product since 2026-04-23. No new updates today. Mobile-first Betting Tips Hub with live tip cards, sport navigation tabs, Matrix widget integration, and operator offers module. Stakeholders include Colin Brannigan, Dean Ryan, Dan Smullen, and Chloe Christie."
+      "context": "In Product since 2026-04-23 — day 7 with no new updates. Mobile-first Betting Tips Hub: live tip cards, sport navigation tabs, Matrix widget integration, operator offers module. Stakeholders: Colin Brannigan, Dean Ryan, Dan Smullen, Chloe Christie. Longest-pending In Product ticket without a status change."
     },
     {
-      "key": "GDCU-8870",
-      "summary": "[GDC][DEV] Investigate Performance Improvements for Page Timeouts",
-      "assignee": "Nebojsa Stanic",
-      "status": "In Product",
+      "key": "GDCU-8879",
+      "summary": "[GDC][UX] Create Genesis Brand Carousel Component Card",
+      "assignee": "Jessica Dordevic",
+      "status": "In Progress",
       "priority": "Medium",
-      "context": "Not in morning report — In Product (updated 2026-04-27). Investigation into US pages timing out at 28s during MrCurl testing. Nebojsa to have delivered either load time improvements or a blocker report. Stakeholders: Pernilla Hansson Soares, Harden Thomas Wallace, Eoin McCarthy, Joshua Smith."
+      "context": "PULLED BACK — Was In Product this morning; Jessica moved it back to In Progress at 10:34 today. Will need re-review when it returns. Check with Jessica what revisions are underway. Note she also pulled back GDCU-8546 and has GDCU-8928 IUJ Banners in flight."
+    },
+    {
+      "key": "GDCU-8546",
+      "summary": "[GDC] [UX] Tinder Style Offer Match",
+      "assignee": "Jessica Dordevic",
+      "status": "In Progress",
+      "priority": "Medium",
+      "context": "PULLED BACK — Was In Product this morning (Mike confirmed he was happy with Figma designs); Jessica moved it back to In Progress at 08:51 today. Formal sign-off still outstanding once it returns. Check with Jessica what revisions are needed."
     }
   ],
   "_meta": {
-    "morning_items_resolved": [
-      "GDCU-8893 moved from In Progress to In Product — Ciara delivered design system",
-      "Jessica Dordevic confirmed back at work (DM at 09:12 today)",
-      "Colin Brannigan weekly product report request resolved — Mike sent Confluence link"
+    "confluence_note": "No Confluence pages modified today (2026-04-29) in GDCU space — 0 results returned.",
+    "slack_note": "Active channels today: #gdc-product-design-pod (14 messages) and #gdc-pod (9 messages). Channels with no activity today: #gdc-product-led-growth, #gdc-pdmt, #core-product, #gdc-f2p-apps, #gdc-high-agency. DM searches for Ciara Carroll, Jessica Dordevic, Colin Brannigan, Chloe Christie, Gabriel Cornoiu (after 2026-04-28) returned no new DMs.",
+    "resolved_since_morning": [
+      {
+        "key": "GDCU-8870",
+        "summary": "[GDC][DEV] Investigate Performance Improvements for Page Timeouts",
+        "assignee": "Nebojsa Stanic",
+        "resolved_at": "2026-04-29T12:35:14+01:00",
+        "note": "Done ✅ — US page timeout investigation resolved today"
+      },
+      {
+        "key": "GDCU-8871",
+        "summary": "🔥 [GDC][DEV] Free to Play App POC v2",
+        "assignee": "Carlos Blauth",
+        "resolved_at": "2026-04-29T11:46:27+01:00",
+        "note": "Done ✅ — POC v2 shipped today"
+      }
     ],
-    "morning_items_outstanding": [
-      "GDCU-8619 Operator List Redesign still Blocked (day 12)",
-      "GDCU-8792 Cloudflare Bot Management still Blocked in QA — no visible progress",
-      "Chloe Christie stakeholder intake form feedback (schema sub-section, new page option)",
-      "Gabriel Cornoiu stakeholder intake form questions ('Other' option, new OpList clarification)",
-      "GDCU-8801 Oplist CA/FR still In Product",
-      "GDCU-8512 Betting Tips still In Product",
-      "GDCU-8903 Sports Quiz Hub UX pre-req ticket not yet created",
-      "Vic Dadson sick leave continues — back ~2026-05-05"
+    "new_tickets_today": [
+      {
+        "key": "GDCU-8932",
+        "summary": "Game Review tiles CTA/background issues on slots/games page",
+        "raised_by": "Joshua Smith",
+        "raised_at": "2026-04-29T13:11:47+01:00",
+        "note": "CTA buttons oversized; white backgrounds not filling tiles. Needs triage/priority assignment."
+      }
     ],
-    "new_since_morning": [
-      "GDCU-8893 → In Product (Highest, Ciara Carroll)",
-      "GDCU-8879 → In Product (Jessica Dordevic, 11:40)",
-      "GDCU-8842 → In Product (Harden Thomas Wallace, 12:54)",
-      "GDCU-8866 → In Product (Robin John, 13:29)",
-      "GDCU-8871 in Product queue (Carlos Blauth, F2P App POC v2)",
-      "GDCU-8546 Tinder Widget → In Product (Jessica Dordevic)",
-      "GDCU-8870 Page Timeouts → In Product (Nebojsa Stanic)",
-      "GDCU-8915 GEO selector for Card Carousel → Done (Nebojsa Stanic) ✅",
-      "Chloe Christie shared bad UX examples — news pages with broken embeds/tables",
-      "PDMT call removed from calendar — Wednesday sync repurposed"
-    ],
-    "confluence_note": "Confluence CQL query failed (400 Bad Request). No Confluence data available for today.",
-    "slack_channels_note": "Private channels (gdc-product-design-pod, gdc-product-led-growth, gdc-pdmt, core-product, gdc-pod, gdc-f2p-apps, gdc-high-agency) not accessible via public search. DMs from key stakeholders and direct reports checked instead."
+    "key_context_for_evening": [
+      "Learning Hub ships in today's weekly release — confirm GDCU-8736 is formally signed off.",
+      "GDCU-8893 Design System: Chloe asking to close — confirm if Claude Guidelines announcement was made, then sign off.",
+      "GDCU-8879 and GDCU-8546 pulled back to In Progress today by Jessica — In Product queue now 6 tickets (down from 10 this morning).",
+      "GDCU-8870 Page Timeouts and GDCU-8871 F2P POC v2 both resolved today — 2 items cleared.",
+      "NEW High-priority bug: GDCU-8895 US Prediction Market sitemap issue (Sanja Budic, In Progress).",
+      "NEW GDCU-8932 Game Review tiles CTA issues raised by Josh — needs triage.",
+      "Ciara's Figma branch cleanup (16 open branches): pros and cons dev ticket question still open.",
+      "Josh's request to close GDCU-8737 in favour of GDCU-8685 next sprint — awaiting Mike's decision."
+    ]
   }
 }

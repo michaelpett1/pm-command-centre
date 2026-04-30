@@ -121,6 +121,14 @@
   ],
   "needs_input": [
     {
+      "key": "GDCU-8893",
+      "summary": "[GDC][UX] Gambling.com Design System",
+      "assignee": "Ciara Carroll",
+      "status": "In Product",
+      "priority": "Highest",
+      "context": "Highest priority ticket in the sprint. Moved to In Product on 2026-04-27. Scope: refine design tokens, Figma DS Token Exporter plugin, Claude plugin, MD knowledge files for UI generation, and AI usage guidelines. Directly linked to today's Colin Brannigan walkthrough request. Stakeholders: Colin Brannigan, Chloe Christie, Joshua Smith, Gabriel Cornoiu, Eoin McCarthy. Mike's sign-off required to progress."
+    },
+    {
       "key": "GDCU-8619",
       "summary": "[GDC][UX] Operator List Redesign",
       "assignee": "Ciara Carroll",
