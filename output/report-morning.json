@@ -1,114 +1,163 @@
 {
-  "generated_at": "2026-05-05T08:45:00.000+01:00",
-  "date": "05/05/2026",
+  "generated_at": "2026-05-06T08:15:00.000+01:00",
+  "date": "06/05/2026",
   "report_type": "morning",
   "calendar": {
-    "_note": "Microsoft 365 authentication not completed — no calendar data available. OAuth flow initiated but callback URL not received. First full team working day back after Early May Bank Holiday (04/05/2026). No Confluence agenda pages found for 05/05/2026 (Confluence 502 error on space query; agenda CQL returned 0 results). The weekly product sync (Wednesdays, #core-product) typically has an agenda posted by Chloe Christie the day before — none posted yet. Check #core-product this morning for a prompt to add points ahead of tomorrow's sync.",
-    "today": []
+    "_note": "Microsoft 365 authentication not completed — no calendar data available. Auth URL was generated; to enable, open the URL and paste the localhost callback into chat. The following meeting is confirmed via Confluence agenda (Chloe Christie, created 05/05) and Chloe's #core-product Slack message.",
+    "today": [
+      {
+        "id": "confluence-gdcc-6609044188",
+        "title": "Product Sync — Wednesday 6 May 2026",
+        "time": "TBC — Microsoft 365 auth needed for exact time",
+        "duration": "TBC",
+        "status": "confirmed",
+        "attendees": [
+          "Chloe Christie",
+          "Ciara Carroll",
+          "Corey Cunningham",
+          "Michael Butlin",
+          "Diana Thurmann",
+          "Gabriel Cornoiu",
+          "Dan Smullen",
+          "Dean Ryan",
+          "Joshua Smith"
+        ],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": true
+        },
+        "agenda_url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6609044188/Agenda+May+6th+2026",
+        "synopsis": "Weekly cross-functional product and design sync. Chloe posted in #core-product yesterday asking for agenda points — only her World Cup pipeline item has been added so far. Mike needs to add his points before the meeting.",
+        "discussion_topics": [
+          {
+            "topic": "World Cup pipeline — dev/UX support beyond what's been shared with Mike",
+            "owner": "Chloe Christie",
+            "detail": "Chloe's item: 'World cup requests other than what has been shared with Mike. Is there anything else in the pipeline that dev/ux support will be needed?' Mike briefed Chloe on 05/05: Group Bets (design target Thu 08/05), WC Predictor Game (Miguel to start this week, target Tue 12/05), Cosmo WC (design this week), Betting Tips Hub V1 (in dev, no concerns). Hard deadline: 11 June. KO call with devs agreed for Predictor + Group Bets.",
+            "jira_tickets": ["GDCU-8935"]
+          },
+          {
+            "topic": "GDCU-8619 Operator List Redesign — Day 20 Blocked — unblock opportunity",
+            "owner": "Mike Pett",
+            "detail": "Michael Butlin is in the meeting — ideal opportunity to address the blocker in person. Blocked since 16/04. Ciara Carroll also attends. Chloe confirmed on 29/04 it is 'beholden to Michael B'. Raise directly and get a clear answer or timeline today.",
+            "jira_tickets": ["GDCU-8619"]
+          },
+          {
+            "topic": "Sprint 170 velocity — 6 tickets Done in last 48h",
+            "owner": "Mike Pett",
+            "detail": "Strong output yesterday: GDCU-8895 (Prediction Market US Sitemap — Done, was high priority), GDCU-8912 (Cosmo Spins rotate msg), GDCU-8854 (Geo selector bug), GDCU-8842 (Genesis Content Layouts), GDCU-8611 (Feature Tag), GDCU-7363 (Slots widget). In Product review queue: GDCU-8877 (new, Novica), GDCU-8736 (Ciara, Day 8). 8 tickets currently In QA.",
+            "jira_tickets": ["GDCU-8877", "GDCU-8736"]
+          },
+          {
+            "topic": "Tinder Widget — removal and Group Bets replacement",
+            "owner": "Mike Pett",
+            "detail": "Mike told Chloe on 05/05: 'It makes sense to remove the Tinder widget until further notice, and we will look to replace it with the Group Bets when that is ready.' Confirm GDCU-8546 is deprioritised in the sprint plan and the replacement timeline is clear.",
+            "jira_tickets": ["GDCU-8546"]
+          }
+        ],
+        "prep_notes": "URGENT — Add agenda points before the sync. Recommended items: (1) WC delivery plan: Group Bets design target Thu 08/05, Predictor design target Tue 12/05, hard deadline 11 June, KO call with devs to schedule; (2) GDCU-8619 blocker: Michael Butlin is in the room — get a direct answer; (3) Sprint 170 momentum: 6 Done in 48h, 8 In QA pipeline; (4) Tinder widget removal decision. Also brief the group: GDCU-8895 (US Sitemap) is now Done — no further action needed. Note: Vic Dadson not in the agenda attendees list; Miguel off yesterday. Gabriel Cornoiu is attending — good opportunity to close out the intake form questions (SEO & operator attributes from 23/04)."
+      }
+    ]
   },
   "action_items": [
     {
-      "action": "WELCOME BACK — Vic Dadson returns today from ~2 weeks sick leave (signed off from 21/04, fortnight ends 05/05). No Slack messages from Vic since 23/04. Plan a brief, low-pressure check-in: cover her wellbeing first, then the data engineering discussion Mike flagged (speak to Nemanja for clear reqs + knowledge sharing). Review her open backlog items before the call so she can hit the ground running without overload.",
+      "action": "ADD PRODUCT SYNC AGENDA POINTS NOW — Chloe posted the agenda link in #core-product yesterday: https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6609044188/Agenda+May+6th+2026. Currently only Chloe's WC item is there. Add Mike's points before the meeting: WC delivery plan (Group Bets by Thu, Predictor by Tue 12/05, June 11 deadline), GDCU-8619 blocker escalation (Michael Butlin is in the meeting — ideal unblock moment), sprint 170 highlights, Tinder removal/Group Bets replacement.",
       "source": "slack",
       "priority": "high",
-      "emoji": "👋"
+      "emoji": "📋",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6609044188/Agenda+May+6th+2026"
     },
     {
-      "action": "URGENT — Reply to Jessica Dordevic DM (30/04 15:05 BST): 'Let me know about the banners please so I'll check with Ciara after.' Jessica is awaiting Mike's sign-off on GDCU-8928 IUJ Banners. She confirmed updates to GDCU-8546 (Tinder) are 'should be done from what we discussed' and flagged she couldn't use the green container ('it's actually a clock'). Banners decision is the outstanding item holding her up for today.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "💬",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
-    },
-    {
-      "action": "ESCALATE NOW — GDCU-8619 Operator List Redesign (Ciara Carroll) is Blocked for Day 19 (since 16/04/2026). Carried across bank holiday weekend with no movement. This is the longest-standing open blocker on the board. Chloe flagged to Mike on 29/04: 'the only thing I'm unsure about is the Op List Redesign — beholden to Michael B on that.' Identify whether Michael Butlin's input is what's blocking this, and either get that input today or escalate to Colin Brannigan to unblock.",
+      "action": "UNBLOCK IN MEETING — GDCU-8619 Operator List Redesign (Ciara Carroll, Day 20 Blocked since 16/04). Michael Butlin is attending today's product sync — raise directly and get his decision in the room. This is the longest-standing blocker on the board. If Michael still cannot give direction, escalate to Colin Brannigan immediately after.",
       "source": "jira",
       "priority": "high",
       "emoji": "🚫",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     },
     {
-      "action": "REVIEW — GDCU-8895 Prediction Market Page Not on US Sitemap (Sanja Budic, High, In Product since ~01/05/2026). Sanja completed implementation: Prediction header on US sitemap, /us/prediction-markets linked, Prediction Reviews logic in place. Compliance note: must NOT appear under 'Betting' headers. Colin Brannigan is a stakeholder — sign off today to avoid it ageing into next week.",
+      "action": "SCHEDULE WC KO CALL — Mike agreed with Chloe on 05/05 to run a kickoff call for World Cup Predictor Game and Group Bets with the dev team. Chloe confirmed 'the call with devs is crucial once the design is finished.' Group Bets design targets Thursday 08/05 — schedule the KO call for Friday 09/05 or early next week. Mike has sign-off from Dean and Michael already.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "⚽",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
+    },
+    {
+      "action": "REPLY TO JESSICA — Banners decision still outstanding since 30/04 15:05 BST. Jessica: 'Let me know about the banners please so I'll check with Ciara after.' Relates to GDCU-8928 IUJ Banners. Note: Mike sent Jess a BBC Sport football quiz link on 05/05 15:18 (presumably WC Predictor research context), but the banners decision remains unaddressed. Resolve today.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "💬",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
+    },
+    {
+      "action": "REVIEW — GDCU-8877 Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel (Novica Vukobratovic, In Product, Medium). Moved to In Product yesterday 05/05 at 16:21 BST. New item in the review queue — 4 eye-flags suggest it has been watched. Review and sign off or provide feedback today.",
       "source": "jira",
       "priority": "high",
-      "emoji": "🗺️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8895"
+      "emoji": "📱",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8877"
     },
     {
-      "action": "DECISION NEEDED — Joshua Smith posted in #gdc-product-design-pod (01/05 09:23 BST): 'We need to make a decision on the designs for GDCU-8787 Carousel Banner Shortcode.' Options: (A) reuse Simple Banner shortcode + navigation arrows — reduces editor complexity; (B) use Free Games banner style — different layout, cannot reuse existing shortcode. Joshua favours Option A (mockup created, Screenshot 3 in Slack). Mike is a stakeholder — respond in the channel or DM Joshua today.",
+      "action": "CHECK VIC DADSON RETURN — Vic's fortnight sick leave ended yesterday (05/05). No Slack messages from her since 21/04. No check-in received yet this morning. Reach out gently — wellbeing first, then discuss the data engineering plan (Nemanja reqs + knowledge sharing from Chris in BI team, as agreed with Colin on 17/04). Review her open backlog items before reaching out.",
       "source": "slack",
-      "priority": "high",
-      "emoji": "🎠",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8787"
+      "priority": "medium",
+      "emoji": "👋"
     },
     {
-      "action": "HEADS UP — Miguel Migneco is OFF today (confirmed DM 30/04: 'hey Mike I am off next Tue'). His open work: GDCU-8813 (Ace Navigation UI Audit), GDCU-8546 (Tinder admin section — Claude Design prompts shared by Mike on 29/04, Miguel had moved to Figma). Confirm with Jessica or Chloe that nothing in Miguel's queue is blocking today's sprint progress.",
+      "action": "CHECK MIGUEL IS BACK — Miguel was off yesterday (05/05, confirmed by him on 30/04). World Cup Predictor Game (GDCU-8935) design needs to start this week with a target of next Tuesday 12/05. Confirm Miguel is back and has the brief. If further briefing is needed, reference Mike's WC status update to Chloe from 05/05.",
       "source": "slack",
-      "priority": "high",
-      "emoji": "📅"
+      "priority": "medium",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
     },
     {
-      "action": "SIGN OFF — GDCU-8736 Learning Hub Imagery (Ciara Carroll, Medium, In Product since 28/04 — Day 7). Ciara shared Figma prototype. Chloe noted 'some back and forth' at sprint close on 30/04. Approving this unblocks Carlos Blauth on GDCU-8733 (Apply Feedback to Learning Hub). Check with Ciara what, if any, outstanding feedback remains before signing off.",
+      "action": "SIGN OFF — GDCU-8736 Learning Hub Imagery (Ciara Carroll, In Product, Medium, Day 8). Ciara shared Figma prototype. Chloe noted 'some back and forth' at sprint close 30/04. Approving unblocks Carlos Blauth on GDCU-8733 (Apply Feedback to Learning Hub). Ciara is in today's product sync — confirm any outstanding feedback before or during the meeting.",
       "source": "jira",
       "priority": "medium",
       "emoji": "🖼️",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
     },
     {
-      "action": "CHECK IN — GDCU-8546 Tinder Style Offer Match (Jessica Dordevic, In Progress). Jessica confirmed on 30/04 that updates are 'should be done from what we discussed' (hide pass/interested buttons post-match, remove 'betting' from label). Chloe expected this to be closed shortly. Ask Jessica this morning if she is ready to move to In Product. Note: Mike updated Chloe on 30/04 — no A/B test, one simple card with logo/offer/T&Cs, user taken to operator landing page after a match animation.",
+      "action": "KARL CHECK-IN THIS WEEK — Mike told Chloe on 05/05: 'I have a check in with him this week to confirm' the data is exposed (re: World Cup matrix input, fixture dating & resulting — dependencies for both Group Bets and Predictor Game). Schedule or confirm this check-in today so the KO call with devs has the correct data picture.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "📊"
+    },
+    {
+      "action": "CONFIRM TINDER WIDGET DEPRIORITISATION IN SPRINT — Mike told Chloe on 05/05 to remove the Tinder widget until further notice and replace with Group Bets when ready. GDCU-8546 still shows as 'In Progress' in the sprint. Update the ticket status and confirm with Chloe/the team that the sprint plan reflects this decision.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "💘",
+      "emoji": "🃏",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
     },
     {
-      "action": "WORLD CUP PRIORITIES — Mike flagged to Chloe on 29/04: 'We need to prio anything WC related now — the FTP game, the Cosmo reskin and Group Bets.' Mike also noted he needed to create a ticket for the FTP WC game. With sprint 170 open and first day back, confirm with Chloe that these WC tickets are on the plan and in the correct priority order for the upcoming cycle.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "⚽"
-    },
-    {
-      "action": "DM GABRIEL — Intake form questions from 23/04 remain unresolved. Gabriel added two suggestions: (1) SEO considerations & Information Architecture for new pages/hubs, (2) for operator offers, which attributes should be displayed. Mike started this standardisation effort with Chloe. Confirm the intake form is updated and shared back to Gabriel today.",
+      "action": "INTAKE FORM — Gabriel Cornoiu's suggestions from 23/04 (SEO & Information Architecture for new pages/hubs; operator offer attributes) still outstanding. Gabriel is attending today's product sync — good opportunity to confirm the intake form has been updated and align on these additions in person.",
       "source": "slack",
       "priority": "medium",
       "emoji": "📋"
     },
     {
-      "action": "FOLLOW UP — GDCU-8879 Genesis Brand Carousel Component Card (Jessica Dordevic, In Progress). Carried into sprint 170 (confirmed by Chloe 30/04). Was bounced from In Product on 29/04. Chloe's outstanding feedback: confirm logo name/size sourced from Origins. Check with Jessica where this stands today given Miguel is absent.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🎨",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8879"
-    },
-    {
-      "action": "PRODUCT SYNC PREP — Wednesday product sync likely tomorrow (06/05). Chloe typically posts in #core-product asking for agenda points the day before. First day back from bank holiday — prepare Mike's points now: GDCU-8619 blocker escalation, WC ticket prioritisation, Vic Dadson's return and data engineering reqs, sprint 170 open items. Confluence agenda link will follow from Chloe.",
-      "source": "confluence",
-      "priority": "medium",
-      "emoji": "📅"
-    },
-    {
-      "action": "CREATIVE DIRECTION — GDCU-8846 Cosmo Spins Spring Ad Campaign (Ciara Carroll, To Do). Carried from previous sprint. Josh Kerr feedback: needs rethinking — clearer message, less 'gaming' feel. With Ciara managing GDCU-8619, GDCU-8736, and GDCU-8947, a direction decision from Mike is needed before she can proceed.",
+      "action": "CREATIVE DIRECTION — GDCU-8846 Cosmo Spins Spring Ad Campaign (Ciara Carroll, To Do). Josh Kerr feedback: needs rethinking — clearer message, less 'gaming' feel. Ciara is also carrying GDCU-8619, GDCU-8736, and GDCU-8947 alongside WC work. Provide creative direction so this does not further age in Ciara's queue.",
       "source": "jira",
       "priority": "low",
       "emoji": "🌸",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846"
     },
     {
-      "action": "MONITOR — GDCU-8947 Cosmo Cash Machine Images (Ciara Carroll, In Progress). Created by Ciara on 01/05 (bank holiday Friday). Scope: update article image, hero image, fonts, coming soon images, and email images for Jackpot £5,000 draw. No action required yet but note it is active in Ciara's queue alongside three other tickets.",
+      "action": "MONITOR — GDCU-8931 Strategy pages do not appear in search (Harden Thomas Wallace, In QA, Medium, 05/05 22:04). New ticket that moved to In QA overnight. No action needed from Mike at this stage but worth awareness given it affects the Strategy hub.",
       "source": "jira",
       "priority": "low",
-      "emoji": "🎰",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8947"
+      "emoji": "🔍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8931"
     }
   ],
   "needs_input": [
     {
-      "key": "GDCU-8895",
-      "summary": "[GDC][DEV][US] Prediction Market Page Not Appearing on US Sitemap",
-      "assignee": "Sanja Budic",
+      "key": "GDCU-8877",
+      "summary": "👀👀👀👀[GDC][DEV] Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+      "assignee": "Novica Vukobratovic",
       "status": "In Product",
-      "priority": "High",
-      "context": "In Product since ~01/05/2026 (Day 4). Sanja implemented: Prediction header on US sitemap, /us/prediction-markets linked, Prediction Reviews logic active. Compliance requirement: must NOT appear under any 'Betting' headers. Colin Brannigan is a stakeholder. Needs Mike's review and sign-off — has been sitting over the bank holiday weekend."
+      "priority": "Medium",
+      "context": "Moved to In Product yesterday 05/05 at 16:21 BST — new review item. The 4 eye-flag emojis in the ticket name indicate it has been watched/escalated. Review Novica's implementation and either approve or provide feedback."
     },
     {
       "key": "GDCU-8736",
@@ -116,7 +165,7 @@
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Medium",
-      "context": "In Product since 28/04 (Day 7). Ciara shared Figma prototype for learning hub tile imagery including new Myth Buster tile. Chloe noted 'some back and forth' at sprint close 30/04. Mike's sign-off unblocks Carlos Blauth on GDCU-8733 (Apply Feedback to Learning Hub). Clarify with Ciara whether any outstanding feedback remains before approving."
+      "context": "In Product since 28/04 — Day 8 in review. Ciara shared Figma prototype for new learning hub tile imagery including Myth Buster tile. Chloe noted 'some back and forth' at sprint close 30/04. Mike's sign-off unblocks Carlos Blauth on GDCU-8733. Ciara attends today's product sync — ideal time to resolve outstanding feedback."
     },
     {
       "key": "GDCU-8619",
@@ -124,7 +173,7 @@
       "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Blocked",
-      "context": "Day 19 Blocked (since 16/04/2026). 3 distinct grid-format mobile-first operator list iterations required. Chloe flagged on 29/04 that progress is 'beholden to Michael B (Butlin)' — his input appears to be the specific blocker. Escalation to Colin Brannigan required if Michael's input cannot be secured today. Ciara is also managing GDCU-8736, GDCU-8947, GDCU-8846."
+      "context": "Day 20 Blocked (since 16/04/2026). 3 distinct mobile-first grid-format operator list iterations required. Michael Butlin is the specific gate per Chloe (29/04) and is attending today's product sync — raise directly. If unresolved, escalate to Colin Brannigan today. Longest-standing blocker on the board."
     }
   ],
   "jira": {
@@ -136,17 +185,26 @@
         "status": "In Product",
         "priority": "Blocked",
         "updated": "2026-04-30",
-        "note": "Day 19 blocked — longest outstanding blocker on the board. No movement over May Bank Holiday weekend. Michael Butlin's sign-off appears to be the specific gate. Escalate today."
+        "note": "Day 20 blocked — unchanged since 16/04. Michael Butlin in today's product sync: unblock opportunity. Escalate to Colin Brannigan if no resolution by end of day."
+      },
+      {
+        "key": "GDCU-8546",
+        "summary": "[GDC][UX] Tinder Style Offer Match",
+        "assignee": "Jessica Dordevic",
+        "status": "In Progress",
+        "priority": "Blocked",
+        "updated": "2026-05-05",
+        "note": "Priority flagged as Blocked. Mike told Chloe on 05/05 to remove Tinder widget until further notice — ticket status not yet updated to reflect this decision."
       }
     ],
     "needs_input": [
       {
-        "key": "GDCU-8895",
-        "summary": "[GDC][DEV][US] Prediction Market Page Not Appearing on US Sitemap",
-        "assignee": "Sanja Budic",
+        "key": "GDCU-8877",
+        "summary": "👀👀👀👀[GDC][DEV] Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+        "assignee": "Novica Vukobratovic",
         "status": "In Product",
-        "priority": "High",
-        "note": "In Product since 01/05. High priority. Colin Brannigan stakeholder. Awaiting Mike sign-off."
+        "priority": "Medium",
+        "note": "New In Product item since 05/05 16:21. Awaiting Mike's review."
       },
       {
         "key": "GDCU-8736",
@@ -154,7 +212,7 @@
         "assignee": "Ciara Carroll",
         "status": "In Product",
         "priority": "Medium",
-        "note": "Day 7 in review. Back-and-forth noted at sprint close 30/04. Sign-off unblocks GDCU-8733."
+        "note": "Day 8 in review. Sign-off unblocks GDCU-8733 (Carlos Blauth)."
       },
       {
         "key": "GDCU-8619",
@@ -162,28 +220,164 @@
         "assignee": "Ciara Carroll",
         "status": "In Product",
         "priority": "Blocked",
-        "note": "Day 19 blocked. Escalation overdue."
+        "note": "Day 20 blocked. Escalation overdue — Michael Butlin in today's meeting."
       }
     ],
-    "completed_48h": [],
-    "status_changes": [
+    "completed_48h": [
       {
-        "key": "GDCU-8877",
-        "summary": "👀👀👀[GDC][DEV] Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
-        "assignee": "Novica Vukobratovic",
-        "status": "In QA",
+        "key": "GDCU-8895",
+        "summary": "[GDC][DEV][US] Prediction Market Page Not Appearing on US Sitemap",
+        "assignee": "Sanja Budic",
+        "status": "Done",
+        "priority": "High",
+        "updated": "2026-05-05T14:11:42.094+0100",
+        "note": "High priority — was 'In Product' in yesterday's report. Now Done. Compliance requirement met: does not appear under 'Betting' headers."
+      },
+      {
+        "key": "GDCU-8842",
+        "summary": "[GDC][DEV][ALL GEOS] Integrate Genesis Content Layouts",
+        "assignee": "Harden Thomas Wallace",
+        "status": "Done",
         "priority": "Medium",
-        "updated": "2026-05-05T11:11:21.325+0100",
-        "note": "Moved to In QA this morning. Active progress today — was In Progress over bank holiday."
+        "updated": "2026-05-05T14:46:14.960+0100",
+        "note": "Genesis 25/75, 50/50, 75/25, auto column layouts now integrated across all geos."
       },
       {
         "key": "GDCU-8611",
-        "summary": "👀👀[GDC][DEV] Update \"Feature\" Tag",
+        "summary": "👀👀👀[GDC][DEV] Update \"Feature\" Tag",
         "assignee": "Novica Vukobratovic",
-        "status": "In QA",
+        "status": "Done",
         "priority": "Low",
-        "updated": "2026-05-05T08:30:55.405+0100",
-        "note": "Moved to In QA this morning 08:30 BST."
+        "updated": "2026-05-05T14:29:26.122+0100",
+        "note": "Feature/Opinion tag styling updated per Figma design across all page types."
+      },
+      {
+        "key": "GDCU-7363",
+        "summary": "[GDC] Slots widget - Minor Filter issues",
+        "assignee": "Novica Vukobratovic",
+        "status": "Done",
+        "priority": "Low",
+        "updated": "2026-05-05T13:58:03.611+0100",
+        "note": "Aged bug resolved — slots widget filter styling now consistent with strategy widget."
+      },
+      {
+        "key": "GDCU-8854",
+        "summary": "[GDC][QA] The arrow button the Geo selector doesnt collapses when clicked on",
+        "assignee": "Harden Thomas Wallace",
+        "status": "Done",
+        "priority": "Medium",
+        "updated": "2026-05-05T10:30:43.419+0100",
+        "note": "Geo selector collapse behaviour fixed."
+      },
+      {
+        "key": "GDCU-8912",
+        "summary": "[GDC][DEV] - Remove Rotate Device Message from Cosmo Spins on Desktop",
+        "assignee": "Harden Thomas Wallace",
+        "status": "Done",
+        "priority": "Medium",
+        "updated": "2026-05-05T10:27:38.069+0100",
+        "note": "Rotate device message removed for desktop users. Mobile unaffected."
+      }
+    ],
+    "status_changes": [
+      {
+        "key": "GDCU-8877",
+        "summary": "👀👀👀👀[GDC][DEV] Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+        "assignee": "Novica Vukobratovic",
+        "status": "In Product",
+        "priority": "Medium",
+        "updated": "2026-05-05T16:21:40.204+0100",
+        "note": "Moved to In Product 05/05 16:21 — now in Mike's review queue."
+      },
+      {
+        "key": "GDCU-8861",
+        "summary": "🔥 [GDC][DEV][ALL GEOS] Integrate Brand Carousel Component",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T22:26:51.404+0100",
+        "note": "Hot ticket — still In QA as of 05/05 22:26. Most recently updated ticket in the sprint."
+      },
+      {
+        "key": "GDCU-8931",
+        "summary": "[GDC][DEV] Strategy pages do not appear in search",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T22:04:40.404+0100",
+        "note": "New ticket — moved to In QA overnight 05/05. Strategy hub search visibility fix."
+      },
+      {
+        "key": "GDCU-8929",
+        "summary": "[GDC][DEV][GX] Enable Sidebar Navigation to Casino and Betting Strategy Articles",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T20:48:26.109+0100",
+        "note": "Moved to In QA 05/05 20:48."
+      },
+      {
+        "key": "GDCU-8834",
+        "summary": "[GDC][UX][DEV] Implement Fixes for Cool Tones Update",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T17:40:31.397+0100",
+        "note": "Cool Tones design fix in QA as of 05/05 17:40."
+      },
+      {
+        "key": "GDCU-8865",
+        "summary": "[GDC][DEV][GX] Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T16:33:25.089+0100",
+        "note": "In QA 05/05 16:33."
+      },
+      {
+        "key": "GDCU-8935",
+        "summary": "[GDC][UX] World Cup Predictor Game",
+        "assignee": "Miguel Migneco",
+        "status": "Backlog",
+        "priority": "Medium",
+        "updated": "2026-05-05T10:33:54.062+0100",
+        "note": "New ticket created/updated 05/05. Miguel to start design this week (was off 05/05). Target: design complete by Tue 12/05."
+      },
+      {
+        "key": "GDCU-8806",
+        "summary": "[GDC][DEV] Implement In-App Age Gate (18+ Verification)",
+        "assignee": "Carlos Blauth",
+        "status": "In Progress",
+        "priority": "Medium",
+        "updated": "2026-05-05T12:45:49.147+0100",
+        "note": "In Progress 05/05 12:45."
+      },
+      {
+        "key": "GDCU-8849",
+        "summary": "[GDC][DEV][ALL GEOS] Add new style to the Author Carousel Shortcode",
+        "assignee": "Harden Thomas Wallace",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T10:06:00.298+0100",
+        "note": "In QA 05/05."
+      },
+      {
+        "key": "GDCU-8900",
+        "summary": "🔥 [GDC][DEV] SlotsLaunch Game Grid Shortcode",
+        "assignee": "Kelvin Yee",
+        "status": "In QA",
+        "priority": "Medium",
+        "updated": "2026-05-05T10:05:37.766+0100",
+        "note": "Hot ticket — SlotsLaunch integration in QA."
+      },
+      {
+        "key": "GDCU-8847",
+        "summary": "[GDC][DEV] Display rev share operator list to users marked as VIP in ktag",
+        "assignee": "Nebojsa Stanic",
+        "status": "In Progress",
+        "priority": "Medium",
+        "updated": "2026-05-05T09:34:30.415+0100",
+        "note": "In Progress 05/05 09:34."
       },
       {
         "key": "GDCU-8894",
@@ -192,104 +386,29 @@
         "status": "In Progress",
         "priority": "Medium",
         "updated": "2026-05-05T07:41:34.102+0100",
-        "note": "Active in progress this morning 07:41 BST."
-      },
-      {
-        "key": "GDCU-8912",
-        "summary": "[GDC][DEV] - Remove Rotate Device Message from Cosmo Spins on Desktop",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In QA",
-        "priority": "Medium",
-        "updated": "2026-05-04T23:12:54.537+0100",
-        "note": "Moved to In QA over bank holiday (04/05 23:12). Harden active on bank holiday."
-      },
-      {
-        "key": "GDCU-8929",
-        "summary": "[GDC][DEV][GX] - Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In Progress",
-        "priority": "Medium",
-        "updated": "2026-05-04T23:04:16.286+0100",
-        "note": "In Progress as of 04/05 23:04."
-      },
-      {
-        "key": "GDCU-8854",
-        "summary": "[GDC][QA] The arrow button on the Geo selector doesn't collapse when clicked",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In QA",
-        "priority": "Medium",
-        "updated": "2026-05-04T22:19:31.049+0100",
-        "note": "Moved to In QA 04/05 — Harden active over bank holiday."
-      },
-      {
-        "key": "GDCU-8849",
-        "summary": "[GDC][DEV][ALL GEOS] Add new style to the Author Carousel Shortcode",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In QA",
-        "priority": "Medium",
-        "updated": "2026-05-04T21:17:45.580+0100",
-        "note": "Moved to In QA 04/05."
-      },
-      {
-        "key": "GDCU-8865",
-        "summary": "[GDC][DEV][GX] - Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In QA",
-        "priority": "Medium",
-        "updated": "2026-05-04T16:37:23.439+0100",
-        "note": "Moved to In QA 04/05."
-      },
-      {
-        "key": "GDCU-8861",
-        "summary": "🔥 [GDC][DEV][ALL GEOS] Integrate Brand Carousel Component",
-        "assignee": "Harden Thomas Wallace",
-        "status": "In QA",
-        "priority": "Medium",
-        "updated": "2026-05-04T16:25:11.961+0100",
-        "note": "Moved to In QA 04/05. Hot ticket — brand carousel component integration."
-      },
-      {
-        "key": "GDCU-8924",
-        "summary": "[GDC][DEV] Implement feedback for Origins API integration",
-        "assignee": "Nebojsa Stanic",
-        "status": "In Progress",
-        "priority": "Medium",
-        "updated": "2026-05-04T14:14:45.086+0100",
-        "note": "In Progress 04/05 — Origins API feedback implementation active."
-      },
-      {
-        "key": "GDCU-7363",
-        "summary": "[GDC] Slots widget - Minor Filter issues",
-        "assignee": "Novica Vukobratovic",
-        "status": "In QA",
-        "priority": "Low",
-        "updated": "2026-05-04T13:15:19.483+0100",
-        "note": "Moved to In QA 04/05."
+        "note": "Technical refactor in progress."
       }
     ],
     "stats": {
-      "completed": 0,
-      "status_changes": 11,
-      "blocked": 1
+      "completed": 6,
+      "status_changes": 12,
+      "blocked": 2
     }
   },
   "_meta": {
-    "bank_holiday_note": "04/05/2026 was the Early May Bank Holiday (UK/Ireland). Today (05/05) is the first full working day back. No Jira tickets were moved to Done during the holiday period. Harden Thomas Wallace was notably active on 04/05 (bank holiday), pushing 5 tickets to In QA. Novica Vukobratovic also active this morning with 2 tickets moving to In QA.",
-    "calendar_note": "Microsoft 365 OAuth flow initiated but authentication not completed — no calendar data available for today. To enable calendar access, open the authorization URL provided and paste the localhost callback URL back into chat.",
-    "confluence_note": "No Confluence agenda pages found for 05/05/2026 (CQL returned 0 results). Confluence GDCU space query returned 502 error. The weekly Wednesday product sync typically has an agenda posted the day before by Chloe Christie in #core-product — none yet. Last agenda found was April 22nd (GDCC space).",
-    "slack_note": "No new Slack messages from any channel or DM since 01/05 (bank holiday Friday). Last meaningful channel activity: Joshua Smith's carousel decision post in #gdc-product-design-pod (01/05 09:23) and Gabriel Cornoiu's availability message in #gdc-pdmt (01/05 09:29). All direct reports quiet over the long weekend.",
+    "calendar_note": "Microsoft 365 auth not completed — meeting time not confirmed. Wednesday Product Sync confirmed via Confluence (agenda page 6609044188) and Chloe Christie's #core-product post on 05/05.",
+    "confluence_note": "No Confluence GDCU space pages updated since 05/05 (CQL returned 0 results). Agenda May 6th 2026 is in GDCC space — confirmed with one discussion item from Chloe Christie. Agenda is sparse: Mike has not yet added his points.",
+    "slack_note": "No new messages in #gdc-product-design-pod, #gdc-product-led-growth, #gdc-pdmt, or #gdc-pod since 04/05. #core-product had Chloe's agenda post (05/05). Most significant new intelligence came from Chloe Christie DM (05/05): full WC delivery plan shared by Mike, June 11 confirmed hard deadline, KO call with devs agreed, Tinder widget removal agreed. Jessica DM still awaiting banners reply from 30/04.",
     "key_context_for_today": [
-      "👋 FIRST DAY BACK — full team returns after Early May Bank Holiday.",
-      "👋 Vic Dadson — expected back TODAY after ~2 weeks sick leave (off since 21/04). No Slack message from Vic yet this morning. Plan a gentle check-in.",
-      "📅 Miguel Migneco — OFF TODAY (confirmed DM 30/04). No coverage assigned — verify sprint items are unblocked.",
-      "🚫 GDCU-8619 Operator List Redesign — Day 19 Blocked. Michael Butlin appears to be the gate per Chloe (29/04). Escalate to Colin Brannigan if not resolved today.",
-      "🗺️ GDCU-8895 Prediction Market US Sitemap — In Product (Sanja Budic, High). Colin Brannigan stakeholder. Review and sign off.",
-      "💬 Jessica Dordevic DM — waiting on Mike's banners sign-off since 30/04. Priority response needed.",
-      "🎠 GDCU-8787 Carousel Banner — Joshua Smith needs Mike's design direction decision (A: reuse Simple Banner + arrows, or B: Free Games banner style). Decision pending since 01/05.",
-      "⚽ World Cup priorities — Mike flagged FTP WC game, Cosmo reskin, Group Bets to Chloe on 29/04. Ensure these are on sprint 170 plan.",
-      "📅 Product Sync — likely tomorrow Wednesday 06/05. Add agenda points today.",
-      "✅ Sprint 170 open. 11 tickets active/updated in last 48h — strong momentum from Harden (5 tickets to In QA over bank holiday) and Novica (2 tickets to In QA this morning).",
-      "In Product review queue: 3 tickets (GDCU-8895, GDCU-8736, GDCU-8619)."
+      "📋 PRODUCT SYNC TODAY — Add agenda points now. Michael Butlin is in the meeting — use this to unblock GDCU-8619 (Day 20).",
+      "⚽ WC HARD DEADLINE: 11 JUNE — Group Bets design target Thu 08/05, WC Predictor target Tue 12/05. KO call with devs to schedule. Karl check-in to confirm data readiness.",
+      "✅ 6 TICKETS DONE yesterday — including GDCU-8895 (High, Prediction Market US Sitemap) and GDCU-8842 (Genesis Content Layouts). Strong sprint velocity.",
+      "📱 GDCU-8877 NEW IN PRODUCT — Novica's phone numbers field in admin panel moved to In Product 05/05 16:21. Needs review today.",
+      "💬 JESSICA BANNERS REPLY OUTSTANDING — Awaited since 30/04 15:05. Resolve today.",
+      "👋 VIC DADSON — No check-in received yet. Sick leave fortnight ended 05/05. Gentle wellbeing check-in.",
+      "🎨 MIGUEL BACK TODAY? — Was off 05/05. WC Predictor design must start this week (target Tue 12/05).",
+      "🃏 TINDER WIDGET REMOVAL — Mike told Chloe on 05/05 to remove until further notice. GDCU-8546 status not yet updated. Confirm in sprint plan.",
+      "In Product review queue: 3 tickets (GDCU-8877, GDCU-8736, GDCU-8619). 8 tickets In QA pipeline — Harden has 6 of them."
     ]
   }
 }
