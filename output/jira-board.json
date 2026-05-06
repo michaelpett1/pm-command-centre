@@ -1,286 +1,582 @@
 {
-  "generated_at": "2026-05-05T08:00:00.000+0100",
-  "date": "05/05/2026",
+  "generated_at": "2026-05-06T00:00:00.000Z",
+  "date": "06/05/2026",
   "sprint": {
     "name": "GDCU Sprint9Q2",
     "total": 45
   },
   "stats": {
-    "in_progress": 16,
-    "in_qa": 8,
+    "in_progress": 15,
+    "in_qa": 7,
     "in_product": 3,
-    "backlog": 18,
-    "done": 0
+    "done": 6,
+    "backlog": 14
   },
   "columns": {
     "in_progress": [
-      { "key": "GDCU-8432", "summary": "Update payment gateway integration for new API version", "assignee": "Sarah Chen", "flagged": true, "blocked": false },
-      { "key": "GDCU-8907", "summary": "Implement dynamic pricing rules engine", "assignee": "James Whitfield", "flagged": true, "blocked": false },
-      { "key": "GDCU-8878", "summary": "Refactor authentication middleware for SSO support", "assignee": "Priya Nair", "flagged": true, "blocked": false },
-      { "key": "GDCU-8810", "summary": "Migrate legacy order processing to new microservice", "assignee": "Tom Briggs", "flagged": false, "blocked": true },
-      { "key": "GDCU-8765", "summary": "Add bulk export functionality to reporting dashboard", "assignee": "Hannah Scott", "flagged": false, "blocked": false },
-      { "key": "GDCU-8734", "summary": "Implement rate limiting on public API endpoints", "assignee": "Leo Martinez", "flagged": false, "blocked": false },
-      { "key": "GDCU-8712", "summary": "Build customer segmentation service", "assignee": "Anaya Osei", "flagged": false, "blocked": false },
-      { "key": "GDCU-8698", "summary": "Add webhook retry logic with exponential backoff", "assignee": "Connor Walsh", "flagged": false, "blocked": false },
-      { "key": "GDCU-8677", "summary": "Redesign onboarding flow for enterprise accounts", "assignee": "Mei Lin", "flagged": false, "blocked": false },
-      { "key": "GDCU-8654", "summary": "Implement GDPR data deletion pipeline", "assignee": "Ravi Patel", "flagged": false, "blocked": false },
-      { "key": "GDCU-8631", "summary": "Add multi-currency support to invoicing module", "assignee": "Isla Brennan", "flagged": false, "blocked": false },
-      { "key": "GDCU-8608", "summary": "Optimise database indexes for search queries", "assignee": "Felix Nguyen", "flagged": false, "blocked": false },
-      { "key": "GDCU-8589", "summary": "Build notification preference centre", "assignee": "Diana Ko", "flagged": false, "blocked": false },
-      { "key": "GDCU-8567", "summary": "Implement A/B testing framework for feature flags", "assignee": "Sam Adeyemi", "flagged": false, "blocked": false },
-      { "key": "GDCU-8543", "summary": "Add audit logging to admin actions", "assignee": "Rachel Hooper", "flagged": false, "blocked": false },
-      { "key": "GDCU-8521", "summary": "Create data warehouse ETL pipeline for analytics", "assignee": "Jay Thornton", "flagged": false, "blocked": false }
+      {
+        "key": "GDCU-8432",
+        "summary": "🔥 - Geo Locate Images on the Global HP",
+        "assignee": "Ciara Carroll",
+        "priority": "High",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8806",
+        "summary": "Implement In-App Age Gate (18+ Verification)",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8847",
+        "summary": "Display rev share operator list to users marked as VIP in ktag",
+        "assignee": "Nebojsa Stanic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8894",
+        "summary": "Refactor scoped styles on Vue components",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8924",
+        "summary": "Implement feedback for Origins API integration",
+        "assignee": "Nebojsa Stanic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8947",
+        "summary": "Cosmo Cash Machine Images",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8902",
+        "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8879",
+        "summary": "Create Genesis Brand Carousel Component Card",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8928",
+        "summary": "IUJ Banners",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8733",
+        "summary": "Apply Feedback to the Learning Hub",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8907",
+        "summary": "🔥 Implement the Betting Tips Hub Page",
+        "assignee": "Sanja Budic",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8878",
+        "summary": "🔥 Implement Oplist Redesign on Online Casinos Page",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8904",
+        "summary": "Group Bets Widget",
+        "assignee": "Miguel Migneco",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8546",
+        "summary": "Tinder Style Offer Match",
+        "assignee": "Jessica Dordevic",
+        "priority": "Blocked",
+        "flags": ["blocked"]
+      },
+      {
+        "key": "GDCU-8810",
+        "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Blocked",
+        "flags": ["blocked"]
+      }
     ],
     "in_qa": [
-      { "key": "GDCU-8861", "summary": "Fix checkout flow regression on mobile Safari", "assignee": "Priya Nair", "flagged": true, "blocked": false },
-      { "key": "GDCU-8900", "summary": "Address XSS vulnerability in comment editor", "assignee": "Leo Martinez", "flagged": true, "blocked": false },
-      { "key": "GDCU-8499", "summary": "Upgrade React to v19 and resolve breaking changes", "assignee": "Mei Lin", "flagged": false, "blocked": false },
-      { "key": "GDCU-8478", "summary": "Add pagination to transaction history API", "assignee": "Connor Walsh", "flagged": false, "blocked": false },
-      { "key": "GDCU-8456", "summary": "Implement dark mode for customer portal", "assignee": "Hannah Scott", "flagged": false, "blocked": false },
-      { "key": "GDCU-8433", "summary": "Fix CSV import parser for special characters", "assignee": "Felix Nguyen", "flagged": false, "blocked": false },
-      { "key": "GDCU-8411", "summary": "Add two-factor authentication to admin console", "assignee": "Ravi Patel", "flagged": false, "blocked": false },
-      { "key": "GDCU-8389", "summary": "Resolve intermittent timeout in job scheduler", "assignee": "Tom Briggs", "flagged": false, "blocked": false }
+      {
+        "key": "GDCU-8861",
+        "summary": "🔥 Integrate Brand Carousel Component",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8931",
+        "summary": "Strategy pages do not appear in search",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8929",
+        "summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8834",
+        "summary": "Implement Fixes for Cool Tones Update",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8865",
+        "summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8849",
+        "summary": "Add new style to the Author Carousel Shortcode",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8900",
+        "summary": "🔥 SlotsLaunch Game Grid Shortcode",
+        "assignee": "Kelvin Yee",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      }
     ],
     "in_product": [
-      { "key": "GDCU-8619", "summary": "Launch self-serve subscription upgrade flow", "assignee": "Diana Ko", "flagged": false, "blocked": true },
-      { "key": "GDCU-8363", "summary": "Redesign pricing page for annual plans", "assignee": "Isla Brennan", "flagged": false, "blocked": false },
-      { "key": "GDCU-8341", "summary": "Add in-app NPS survey trigger", "assignee": "Sam Adeyemi", "flagged": false, "blocked": false }
+      {
+        "key": "GDCU-8877",
+        "summary": "Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8736",
+        "summary": "Share/Create Imagery for the Learning Hub",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8619",
+        "summary": "Operator List Redesign",
+        "assignee": "Ciara Carroll",
+        "priority": "Blocked",
+        "flags": ["blocked"]
+      }
     ],
-    "done": []
+    "done": [
+      {
+        "key": "GDCU-8895",
+        "summary": "Prediction Market Page Not Appearing on US Sitemap",
+        "assignee": "Sanja Budic",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8842",
+        "summary": "Integrate Genesis Content Layouts",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8854",
+        "summary": "The arrow button the Geo selector doesnt collapses when clicked on",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8912",
+        "summary": "Remove Rotate Device Message from Cosmo Spins on Desktop",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8611",
+        "summary": "Update 'Feature' Tag",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Low",
+        "flags": []
+      },
+      {
+        "key": "GDCU-7363",
+        "summary": "Slots widget - Minor Filter issues",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Low",
+        "flags": []
+      }
+    ]
   },
   "comments": [
     {
-      "ticket_key": "GDCU-8765",
-      "ticket_summary": "Add bulk export functionality to reporting dashboard",
-      "author": "Hannah Scott",
-      "created": "2026-05-04T16:42:00.000+0100",
-      "body": "Ready for QA. Export works for CSV and XLSX up to 100k rows. Tested locally with production-sized datasets."
+      "ticket": "GDCU-8861",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T22:26:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8734",
-      "ticket_summary": "Implement rate limiting on public API endpoints",
-      "author": "Leo Martinez",
-      "created": "2026-05-04T14:21:00.000+0100",
-      "body": "Ready for QA. Rate limiting applied per API key with configurable thresholds. Redis-backed sliding window."
+      "ticket": "GDCU-8931",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T22:04:00.000Z",
+      "body_preview": "Ready for QA",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8712",
-      "ticket_summary": "Build customer segmentation service",
-      "author": "Anaya Osei",
-      "created": "2026-05-04T11:08:00.000+0100",
-      "body": "Ready for QA. Segmentation service deployed to staging. Supports up to 50 rule conditions per segment."
+      "ticket": "GDCU-8861",
+      "author": "Michael Butlin",
+      "created": "2026-05-05T20:55:00.000Z",
+      "body_preview": "Thanks you at Harden. The flickering has gone for me.",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8698",
-      "ticket_summary": "Add webhook retry logic with exponential backoff",
-      "author": "Connor Walsh",
-      "created": "2026-05-05T09:15:00.000+0100",
-      "body": "Ready for QA. Retry logic implemented with jitter. Max 5 retries over 24h. Dead-letter queue on final failure."
+      "ticket": "GDCU-8929",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T20:48:00.000Z",
+      "body_preview": "Ready for QA",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8861",
-      "ticket_summary": "Fix checkout flow regression on mobile Safari",
-      "author": "QA Bot",
-      "created": "2026-05-04T17:55:00.000+0100",
-      "body": "Ready for QA. Regression confirmed fixed in Safari 17.4. Tested on iPhone 14 and iPad Pro."
+      "ticket": "GDCU-8861",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T18:49:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8499",
-      "ticket_summary": "Upgrade React to v19 and resolve breaking changes",
-      "author": "Mei Lin",
-      "created": "2026-05-03T15:30:00.000+0100",
-      "body": "Ready for QA. All breaking changes resolved. Bundle size reduced by 12%. No regressions in Storybook."
+      "ticket": "GDCU-8861",
+      "author": "Ciara Carroll",
+      "created": "2026-05-05T18:44:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
     },
     {
-      "ticket_key": "GDCU-8900",
-      "ticket_summary": "Address XSS vulnerability in comment editor",
-      "author": "Leo Martinez",
-      "created": "2026-05-05T07:44:00.000+0100",
-      "body": "Ready for QA. Input sanitisation added using DOMPurify. Penetration test report attached."
+      "ticket": "GDCU-8834",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T17:40:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8865",
+      "author": "Chloe Christie",
+      "created": "2026-05-05T16:33:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8865",
+      "author": "Harden Thomas Wallace",
+      "created": "2026-05-05T16:24:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
+    },
+    {
+      "ticket": "GDCU-8877",
+      "author": "Chloe Christie",
+      "created": "2026-05-05T16:21:00.000Z",
+      "body_preview": "",
+      "mentions_mike": false
     }
   ],
-  "ticket_movements": [
+  "movements": [
     {
-      "ticket_key": "GDCU-8900",
-      "ticket_summary": "Address XSS vulnerability in comment editor",
-      "from_status": "In Progress",
-      "to_status": "In QA",
-      "author": "Leo Martinez",
-      "timestamp": "2026-05-05T07:43:00.000+0100"
+      "ticket": "GDCU-8931",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T22:04:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8698",
-      "ticket_summary": "Add webhook retry logic with exponential backoff",
-      "from_status": "In Progress",
-      "to_status": "In QA",
-      "author": "Connor Walsh",
-      "timestamp": "2026-05-05T09:14:00.000+0100"
+      "ticket": "GDCU-8929",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T20:48:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8810",
-      "ticket_summary": "Migrate legacy order processing to new microservice",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Tom Briggs",
-      "timestamp": "2026-05-05T08:30:00.000+0100"
+      "ticket": "GDCU-8849",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T21:17:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8765",
-      "ticket_summary": "Add bulk export functionality to reporting dashboard",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Hannah Scott",
-      "timestamp": "2026-05-04T16:40:00.000+0100"
+      "ticket": "GDCU-8912",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T23:12:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8861",
-      "ticket_summary": "Fix checkout flow regression on mobile Safari",
-      "from_status": "In Progress",
-      "to_status": "In QA",
-      "author": "Priya Nair",
-      "timestamp": "2026-05-04T17:50:00.000+0100"
+      "ticket": "GDCU-8854",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T22:19:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8907",
-      "ticket_summary": "Implement dynamic pricing rules engine",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "James Whitfield",
-      "timestamp": "2026-05-04T14:00:00.000+0100"
+      "ticket": "GDCU-8834",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T17:40:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8734",
-      "ticket_summary": "Implement rate limiting on public API endpoints",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Leo Martinez",
-      "timestamp": "2026-05-04T10:15:00.000+0100"
+      "ticket": "GDCU-8842",
+      "from": "In Product",
+      "to": "Done",
+      "when": "2026-05-05T14:46:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8712",
-      "ticket_summary": "Build customer segmentation service",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Anaya Osei",
-      "timestamp": "2026-05-04T09:45:00.000+0100"
+      "ticket": "GDCU-8895",
+      "from": "In Product",
+      "to": "Done",
+      "when": "2026-05-05T14:11:00.000Z",
+      "by": "Sanja Budic"
     },
     {
-      "ticket_key": "GDCU-8499",
-      "ticket_summary": "Upgrade React to v19 and resolve breaking changes",
-      "from_status": "In Progress",
-      "to_status": "In QA",
-      "author": "Mei Lin",
-      "timestamp": "2026-05-03T15:28:00.000+0100"
+      "ticket": "GDCU-8842",
+      "from": "In QA",
+      "to": "In Product",
+      "when": "2026-05-05T13:52:00.000Z",
+      "by": "Shane McGrath"
     },
     {
-      "ticket_key": "GDCU-8878",
-      "ticket_summary": "Refactor authentication middleware for SSO support",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Priya Nair",
-      "timestamp": "2026-05-03T11:20:00.000+0100"
+      "ticket": "GDCU-8877",
+      "from": "In QA",
+      "to": "In Product",
+      "when": "2026-05-05T14:29:00.000Z",
+      "by": "Shane McGrath"
     },
     {
-      "ticket_key": "GDCU-8619",
-      "ticket_summary": "Launch self-serve subscription upgrade flow",
-      "from_status": "In QA",
-      "to_status": "In Product",
-      "author": "QA Bot",
-      "timestamp": "2026-05-03T10:05:00.000+0100"
+      "ticket": "GDCU-8877",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T13:01:00.000Z",
+      "by": "Novica Vukobratovic"
     },
     {
-      "ticket_key": "GDCU-8363",
-      "ticket_summary": "Redesign pricing page for annual plans",
-      "from_status": "In QA",
-      "to_status": "In Product",
-      "author": "QA Bot",
-      "timestamp": "2026-05-04T13:30:00.000+0100"
+      "ticket": "GDCU-8854",
+      "from": "In Product",
+      "to": "Done",
+      "when": "2026-05-05T10:30:00.000Z",
+      "by": "Chloe Christie"
     },
     {
-      "ticket_key": "GDCU-8341",
-      "ticket_summary": "Add in-app NPS survey trigger",
-      "from_status": "In QA",
-      "to_status": "In Product",
-      "author": "QA Bot",
-      "timestamp": "2026-05-04T11:55:00.000+0100"
+      "ticket": "GDCU-8912",
+      "from": "In Product",
+      "to": "Done",
+      "when": "2026-05-05T10:27:00.000Z",
+      "by": "Chloe Christie"
     },
     {
-      "ticket_key": "GDCU-8432",
-      "ticket_summary": "Update payment gateway integration for new API version",
-      "from_status": "To Do",
-      "to_status": "In Progress",
-      "author": "Sarah Chen",
-      "timestamp": "2026-05-03T09:00:00.000+0100"
+      "ticket": "GDCU-8842",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-05T09:45:00.000Z",
+      "by": "Harden Thomas Wallace"
     },
     {
-      "ticket_key": "GDCU-8478",
-      "ticket_summary": "Add pagination to transaction history API",
-      "from_status": "In Progress",
-      "to_status": "In QA",
-      "author": "Connor Walsh",
-      "timestamp": "2026-05-03T16:45:00.000+0100"
+      "ticket": "GDCU-8847",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-05T09:34:00.000Z",
+      "by": "Nebojsa Stanic"
+    },
+    {
+      "ticket": "GDCU-8894",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-05T07:41:00.000Z",
+      "by": "Novica Vukobratovic"
+    },
+    {
+      "ticket": "GDCU-8806",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-05T12:45:00.000Z",
+      "by": "Carlos Blauth"
+    },
+    {
+      "ticket": "GDCU-7363",
+      "from": "In Product",
+      "to": "Done",
+      "when": "2026-05-05T11:30:00.000Z",
+      "by": ""
+    },
+    {
+      "ticket": "GDCU-8912",
+      "from": "In QA",
+      "to": "In Product",
+      "when": "2026-05-05T09:44:00.000Z",
+      "by": "Shane McGrath"
+    },
+    {
+      "ticket": "GDCU-8854",
+      "from": "In QA",
+      "to": "In Product",
+      "when": "2026-05-05T10:12:00.000Z",
+      "by": "Shane McGrath"
+    },
+    {
+      "ticket": "GDCU-7363",
+      "from": "In QA",
+      "to": "In Product",
+      "when": "2026-05-05T10:41:00.000Z",
+      "by": ""
+    },
+    {
+      "ticket": "GDCU-8877",
+      "from": "In QA",
+      "to": "In Progress",
+      "when": "2026-05-05T12:05:00.000Z",
+      "by": "Shane McGrath"
+    },
+    {
+      "ticket": "GDCU-8865",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-04T16:37:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-8877",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-04T11:11:00.000Z",
+      "by": "Novica Vukobratovic"
+    },
+    {
+      "ticket": "GDCU-8849",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-04T16:37:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-8931",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-05T20:49:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-8929",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-04T23:04:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-8912",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-04T22:20:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-8854",
+      "from": "Backlog",
+      "to": "In Progress",
+      "when": "2026-05-04T21:18:00.000Z",
+      "by": "Harden Thomas Wallace"
+    },
+    {
+      "ticket": "GDCU-7363",
+      "from": "In Progress",
+      "to": "In QA",
+      "when": "2026-05-04T13:15:00.000Z",
+      "by": ""
     }
   ],
   "mike_mentions": [
     {
-      "ticket_key": "GDCU-8912",
-      "ticket_summary": "Define Q3 roadmap priorities for platform team",
-      "comment_author": "Sarah Chen",
-      "comment_created": "2026-04-29T10:12:00.000+0100",
-      "comment_body": "Hey @Mike, can you confirm whether the data pipeline work is in scope for Q3 or pushed to Q4? Affects how we sequence the segmentation service."
+      "ticket": "GDCU-8849",
+      "author": "Chloe Christie",
+      "created": "2026-05-05T10:06:00.000Z",
+      "body_preview": "@Miguel Migneco @Mike Pett can you review…",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8849"
     },
     {
-      "ticket_key": "GDCU-8546",
-      "ticket_summary": "Review and approve technical spec for new billing engine",
-      "comment_author": "James Whitfield",
-      "comment_created": "2026-04-28T14:30:00.000+0100",
-      "comment_body": "@Mike the spec is ready for your review. Main decision needed: do we build the proration logic in-house or use Stripe's built-in handling?"
+      "ticket": "GDCU-8912",
+      "author": "Chloe Christie",
+      "created": "2026-04-23T16:45:00.000Z",
+      "body_preview": "@Mike Pett has said not needed. just rotation messaging…",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8912"
     },
     {
-      "ticket_key": "GDCU-8546",
-      "ticket_summary": "Review and approve technical spec for new billing engine",
-      "comment_author": "Isla Brennan",
-      "comment_created": "2026-04-30T09:55:00.000+0100",
-      "comment_body": "Following up on James's comment @Mike — we're blocked on the billing engine spec until we have direction on this. Sprint planning is Thursday."
+      "ticket": "GDCU-8546",
+      "author": "Jessica Dordevic",
+      "created": "2026-04-23T15:39:00.000Z",
+      "body_preview": "@Mike Pett thanks for the feedback…",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
     },
     {
-      "ticket_key": "GDCU-8546",
-      "ticket_summary": "Review and approve technical spec for new billing engine",
-      "comment_author": "Diana Ko",
-      "comment_created": "2026-05-02T11:40:00.000+0100",
-      "comment_body": "@Mike also need your sign-off on the self-serve upgrade flow UX before we can move GDCU-8619 to Done. Design is finalised, just waiting on approval."
+      "ticket": "GDCU-8546",
+      "author": "Jessica Dordevic",
+      "created": "2026-04-23T14:36:00.000Z",
+      "body_preview": "Here are the Proposed designs… @Mike Pett @Ciara Carroll",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
+    },
+    {
+      "ticket": "GDCU-8546",
+      "author": "Jessica Dordevic",
+      "created": "2026-04-22T08:09:00.000Z",
+      "body_preview": "Hey @Mike @Mike Pett @Ciara Carroll You can find the designs…",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
+    },
+    {
+      "ticket": "GDCU-8546",
+      "author": "Ciara Carroll",
+      "created": "2026-04-23T18:08:00.000Z",
+      "body_preview": "the dark blue and gold color combinations do not feel fresh…",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
     }
   ],
   "upcoming_backlog": [
-    { "key": "GDCU-8950", "summary": "Implement GraphQL subscriptions for real-time dashboard", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8945", "summary": "Add SAML SSO provider support", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8940", "summary": "Build admin impersonation feature for support team", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8935", "summary": "Create automated regression test suite for checkout", "priority": "High", "assignee": "Rachel Hooper" },
-    { "key": "GDCU-8930", "summary": "Implement feature flag rollout by user cohort", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8925", "summary": "Add Slack integration for alerting", "priority": "Medium", "assignee": "Jay Thornton" },
-    { "key": "GDCU-8920", "summary": "Migrate remaining services to Kubernetes", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8915", "summary": "Build partner API for third-party integrations", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8910", "summary": "Implement PCI DSS compliance audit logging", "priority": "Critical", "assignee": "Unassigned" },
-    { "key": "GDCU-8905", "summary": "Add customer health score dashboard", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8895", "summary": "Refactor permissions model to RBAC", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8890", "summary": "Add support for custom invoice templates", "priority": "Low", "assignee": "Unassigned" },
-    { "key": "GDCU-8885", "summary": "Implement ML-based churn prediction model", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8880", "summary": "Build automated deployment pipeline for mobile", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8875", "summary": "Add support ticket deflection via in-app search", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8870", "summary": "Implement data residency controls for EU customers", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8865", "summary": "Create SLA tracking and alerting system", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8855", "summary": "Add automated security scanning to CI pipeline", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8850", "summary": "Build usage-based billing metering system", "priority": "Critical", "assignee": "Unassigned" },
-    { "key": "GDCU-8845", "summary": "Implement consent management platform integration", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8840", "summary": "Add multi-region failover for database clusters", "priority": "Critical", "assignee": "Unassigned" },
-    { "key": "GDCU-8835", "summary": "Build customer-facing API documentation portal", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8830", "summary": "Implement event sourcing for order management", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8825", "summary": "Add automated load testing to release pipeline", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8820", "summary": "Build internal tooling for data migrations", "priority": "Medium", "assignee": "Jay Thornton" },
-    { "key": "GDCU-8815", "summary": "Implement content delivery network for static assets", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8805", "summary": "Add observability stack (OpenTelemetry + Grafana)", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8800", "summary": "Create data anonymisation pipeline for non-prod envs", "priority": "Medium", "assignee": "Unassigned" },
-    { "key": "GDCU-8795", "summary": "Implement smart retry logic for failed payments", "priority": "High", "assignee": "Unassigned" },
-    { "key": "GDCU-8790", "summary": "Build internal cost allocation dashboard for cloud spend", "priority": "Low", "assignee": "Unassigned" }
+    { "key": "GDCU-8934", "priority": "Medium" },
+    { "key": "GDCU-8789", "priority": "Medium" },
+    { "key": "GDCU-8045", "priority": "Medium" },
+    { "key": "GDCU-7706", "priority": "Medium" },
+    { "key": "GDCU-7612", "priority": "Medium" },
+    { "key": "GDCU-7573", "priority": "Medium" },
+    { "key": "GDCU-7068", "priority": "Medium" },
+    { "key": "GDCU-6988", "priority": "Medium" },
+    { "key": "GDCU-5312", "priority": "Medium" },
+    { "key": "GDCU-4960", "priority": "Medium" }
   ]
 }
