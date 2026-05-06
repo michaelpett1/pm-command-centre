@@ -126,7 +126,7 @@
       "body": "Good morning, We've decided to go with this image. The width is a bit smaller than other components, but height is working without having to scroll to see the entire component so we keep it as is for now and set it to be released tomorrow."
     }
   ],
-  "ticket_movements": [
+  "movements": [
     {
       "ticket_key": "GDCU-8865",
       "ticket_summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",

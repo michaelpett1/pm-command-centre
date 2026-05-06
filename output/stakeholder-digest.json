@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-04T08:45:00.000Z",
-  "date": "04/05/2026",
-  "covers_date": "03/05/2026",
-  "ai_overview": "Viktor's Stakeholder Digest email was unavailable for 03/05/2026 — Microsoft 365 authentication is pending and this digest is built from Slack and Jira sources only. Sunday 3 May was universally quiet across all 22 tracked team members, consistent with the eve of the UK Early May Bank Holiday (4 May). The week ending 1 May was notably productive: Delivery Cycle 8 closed on 30 April with 136 story points (announced by Chloe Christie in #gdc-pod), and Delivery Cycle 9 was formally kicked off with Josh Smith and Chloe Christie publishing planned features in #gdc-core on 1 May — including Brand Carousel, Ace AI Navigation Improvements, CA/FR Casino Page Oplist Redesign, World Cup Predictor Game, and Group Bets Widget. Ciara Carroll published comprehensive Claude Design group guidelines on 29 April covering etiquette and the gambling.com design system (3,000+ components, Orion GitHub integration, full brand assets). Jessica Dordevic is in the final design stages of the Tinder Widget (GDCU-8546), with matched-state UI finalised on 30 April. Robin John and Shane McGrath cleared all DC8 release tickets on 30 April. Novica Vukobratovic is actively progressing GDCU-8877 (Phone Number Field in Email Confirmation Admin Panel), with the ticket updated early on 4 May indicating development resuming post-weekend. Vic Dadson remains on medical sick leave from 21 April. Mike Pett is off from 30 April until Thursday 7 May. No blockers or hotfixes flagged on 3 May.",
+  "generated_at": "2026-05-06T08:30:00.000Z",
+  "date": "06/05/2026",
+  "covers_date": "05/05/2026",
+  "ai_overview": "Viktor's Stakeholder Digest email was unavailable for 05/05/2026 — Microsoft 365 authentication is pending and this digest is built from Slack and Jira sources only. Tuesday 5 May was a strong delivery day. Harden Wallace was the standout contributor: 9 GDCU tickets moved to In QA or Done (Brand Carousel, Genesis Content Layouts, Cool Tones, Slot Games Hub, Strategy Pages Search, Sidebar Navigation, Author Carousel, Arrow Button Bug, Rotate Device Message) and he personally resolved a live publish block in #gdc-publish-troubleshooting, diagnosing a broken event banner link on the RO geo and disabling it via DB to unblock publishes. Carlos Blauth continued progress on the In-App Age Gate (GDCU-8806) with a Jira update at 12:45 BST. Kelvin Yee's SlotsLaunch Game Grid shortcode (GDCU-8900) moved to In QA. Sanja Budic completed the US Prediction Market Sitemap fix (GDCU-8895) and was active troubleshooting a separate publish issue. Novica Vukobratovic completed two tickets (GDCU-8611 Feature Tag, GDCU-7363 Slots Widget) and requested a DB sync in #ask-pubtech. Jessica Dordevic was active in the design group DM coordinating banner fixes and gamification level logic for the Tinder Widget. Chloe Christie handled nonen publish queries, DM'd with Mike on deadline tracking, and posted the midweek catch-up agenda in #6amigos. Gabriel Cornoiu coordinated the Genesis Brands Carousel component release timing with Harden (targeting Thursday morning before weekly release) and contributed to the #core-division-leads weekly report. Senior stakeholders were broadly active at a low level: Colin Brannigan discussed the division-level automated weekly report process, Dan Smullen shared AI agent UX optimisation insights in #seochatter, Dean Ryan met with Mike via Zoom, Michael Butlin contributed to the core-division-leads report. Vic Dadson remains on medical sick leave. Miguel Migneco was off today (flagged in advance). No blockers formally raised, though the RO publish issue required urgent intervention from Harden.",
   "sections": [
     {
       "name": "My Reports",
@@ -13,32 +13,32 @@
           "initials": "VD",
           "color": "green",
           "activity": "none",
-          "summary": "Remains on doctor-signed medical sick leave from 21 April (signed off for a fortnight). Mike DM'd on 23 April with encouraging news about a data engineering conversation with Chris in BI team — Nemanja and the data team will provide support and knowledge-sharing on her return. No Slack or Jira activity on 3 May.",
+          "summary": "Remains on doctor-signed medical sick leave from 21 April (signed off for a fortnight). No Slack or Jira activity on 5 May. Mike DM'd on 23 April with encouraging news: a conversation with Chris in BI/Data Engineering yielded positives, and on return Nemanja's team will provide support, knowledge-sharing, and clear requirements. HR and Bob are looped in. Recovery taking priority.",
           "flags": ["no-activity"]
         },
         {
           "name": "Jessica Dordevic",
           "initials": "JD",
           "color": "pink",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Most recent activity 30 April: in DMs with Mike she finalised Tinder Widget (GDCU-8546) matched-state UI decisions — agreeing to hide the interested/pass buttons post-match and remove the word 'betting' from the match label to accommodate casino variants. On 29 April she shared DE HPC article Figma designs in #gdc-product-design-pod. Chloe noted in the sprint close (30 Apr) that Tinder design should be closeable shortly.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "Active on 5 May in group DM with Ciara and Mike: confirmed banner fixes are done, is awaiting Ciara's sign-off before preparing the second banner for dev. Also discussed gamification level logic for the Tinder Widget — flagging the need to clarify which actions unlock the next level and what the winning condition is. GDCU-8546 (Tinder Style Offer Match UX/UI) remains In Progress with a Jira update on 5 May, indicating active design iteration.",
+          "flags": []
         },
         {
           "name": "Miguel Migneco",
           "initials": "MM",
           "color": "blue",
           "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 30 April DM'd Mike to flag he is off next Tuesday (6 May). On 29 April active in #gdc-product-led-growth demonstrating his Claude Design workflow for the Group Bets widget — rapid iteration in Claude before Figma polish, citing a 15-minute Claude prototype that would normally take 3+ hours. Noted designs still require converting for final dev handoff.",
+          "summary": "Off today (6 May) as pre-flagged to Mike on 30 April. No Slack or Jira activity on 5 May. GDCU-8935 (World Cup Predictor Game) was updated in Backlog on 5 May but is unassigned for implementation. Last meaningful work was 30 April: Claude Design prototyping workflow for the Group Bets widget, citing significant time savings vs Figma iteration alone.",
           "flags": ["no-activity"]
         },
         {
           "name": "Ciara Carroll",
           "initials": "CC",
           "color": "purple",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 1 May raised GDCU-8947 (Cosmo Cash Machine) in #gdc-product-design-pod and was asking about Figma file breakpoints for dev-ready files on 28 April. On 29 April published a comprehensive Claude Design usage guidelines post to #core-product and #gdc-pod — covering group etiquette, capabilities, and the gambling.com design system (3,000+ components, full brand assets, Orion GitHub integration, with a live preview URL shared). On 28 April coordinated Claude Design roadmap next steps with Mike and shared CA/FR oplist card redesigns in #gdc-product-led-growth.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "No direct Slack messages found on 5 May, but actively referenced by Jessica in the banner design group DM — Jessica is waiting on her sign-off before advancing the second banner to dev. Most recent channel post was 1 May in #gdc-product-design-pod (GDCU-8947 Cosmo Cash Machine ticket). On 29 April she published comprehensive Claude Design usage guidelines to the whole team in #gdc-pod covering etiquette, the gambling.com 3,000-component design system, and Orion GitHub integration. On 22 April she flagged the red-links-to-blue ticket in #6amigos.",
+          "flags": ["low-activity"]
         }
       ]
     },
@@ -50,17 +50,17 @@
           "name": "Josh Smith",
           "initials": "JS",
           "color": "amber",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 1 May published the new Card Carousel shortcode announcement in #gdc-nonen-sync (Confluence docs and test page link included). Also opened a design decision thread in #gdc-product-design-pod on the Carousel Banner Shortcode (GDCU-8787) — proposing to reuse the Simple Banner shortcode with arrows to reduce editor complexity. On 30 April coordinated navigation bar bug investigation with Mike via DM, confirming Robin and Shane cleared the DC8 release QA. Preparing DC9 sprint planning.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "No Slack activity found on 5 May. Last active 1 May: announced the new Card Carousel shortcode in #gdc-nonen-sync and #gdc-en-content-sync (Confluence docs + shortcode test page linked), and opened a design decision thread in #gdc-product-design-pod on GDCU-8787 (Carousel Banner Shortcode) proposing to reuse the Simple Banner shortcode with added navigation arrows to reduce editor complexity. Actively preparing for DC9 sprint planning.",
+          "flags": ["low-activity"]
         },
         {
           "name": "Chloe Christie",
           "initials": "CH",
           "color": "rose",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 1 May published comprehensive DC8 release summary and DC9 high-priority planned work in #gdc-core — DC9 features include Brand Carousel, Ace Navigation Improvements, CA/FR Casino Page Oplist Redesign, Viktor AI CWV Recommendations, SlotsLaunch Game Grid, Experts Carousel Shortcode, World Cup Predictor Game, and Group Bets Widget. On 30 April announced DC8 closure at 136 SPs in #gdc-pod. On 29 April coordinated World Cup prioritisation with Mike via DM, flagging FTP WC game, Cosmo reskin, and Group Bets as immediate priorities.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "Active on 5 May across multiple channels: in #gdc-nonen-sync responded to an embed code publish question (confirmed dynamic embed still needs publishes to go live on production, offered to review the next day); in DMs with Mike confirmed a deadline awareness check and discussed a June target; in #6amigos posted the midweek catch-up agenda for 6 May including the Confluence link. Also posted in #6amigos at 10:48 BST noting the mid-week catchup agenda, and coordinated with Gabriel on the Brands Carousel component release timing.",
+          "flags": []
         }
       ]
     },
@@ -72,65 +72,65 @@
           "name": "Carlos Blauth",
           "initials": "CB",
           "color": "sky",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 9 April confirming Ace AI feedback report volumes (one production report per day is correct — staging reports previously disabled). No Slack or Jira activity visible in the past three weeks. Involved in FTP App and deep-link betslip project based on channel membership.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "GDCU-8806 (Implement In-App Age Gate / 18+ Verification) updated In Progress at 12:45 BST on 5 May — implementing the first-launch age gate for both Android and iOS on the free-to-play app, covering yes/no confirmation with local storage persistence and full access block for under-18s. Also has GDCU-8733 (Apply Feedback to Learning Hub) In Progress. GDCU-8871 (Free to Play App POC v2) was previously completed. No Slack activity found on 5 May.",
+          "flags": []
         },
         {
           "name": "Eoin McCarthy",
           "initials": "EM",
           "color": "emerald",
           "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 22 April — confirmed Betting Tips Hub (GDCU-8512) load-more pagination (~30 tips) should be manageable from a page size perspective via the Matrix API. Named as stakeholder on GDCU-8877 (phone number email form ticket currently In Progress with Novica). No Slack channel activity visible in the past two weeks.",
+          "summary": "No Slack or Jira activity on 5 May. Last Slack activity was 30 April in #oplist-tinder-widget: raised significant concerns about geolocation complexity added late to the Tinder Widget scope — flagging translation requirements, Australia casino handling, Canada/US regional differences, and fallback logic as unresolved. Noted that changing requirements so close to sprint planning significantly increases complexity. No GDCU tickets currently assigned with a May 5 update.",
           "flags": ["no-activity"]
         },
         {
           "name": "Harden Wallace",
           "initials": "HW",
           "color": "violet",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 24 April — provided a detailed technical assessment on why a single-winner Cosmo Wheel iPhone prize lock is not currently possible (no RNG-scoped winner mechanism exists; manual boost would raise overall win rate without controlling for a single winner). Recommended raising a proper ticket rather than using a workaround. Tagged in #6amigos on 29 April by Gabriel regarding Tailwind CSS grid classes for content layouts.",
-          "flags": ["no-activity"]
+          "activity": "high",
+          "summary": "Highest activity on 5 May across the team. Nine GDCU tickets updated: GDCU-8861 (Brand Carousel) In QA at 22:26, GDCU-8931 (Strategy Pages Search bug) In QA at 22:04, GDCU-8929 (Sidebar Navigation for Casino/Betting Articles) In QA at 20:48, GDCU-8834 (Cool Tones Update) In QA at 17:40, GDCU-8865 (Slot Games Hub Provider Names) In QA at 16:33, GDCU-8849 (Author Carousel Shortcode) In QA at 10:06, GDCU-8842 (Genesis Content Layouts) Done at 14:46, GDCU-8854 (Geo Selector Arrow Bug) Done at 10:30, GDCU-8912 (Remove Rotate Device Message from Cosmo Spins) Done at 10:27. Additionally, was active in #gdc-publish-troubleshooting at 16:30 and 18:38 BST resolving a live publish block on the RO geo — diagnosed that an event banner was configured to link to a deleted page and disabled it (is_active=0) to restore normal publish behaviour. Gabriel notified him in #6amigos that Genesis will release the Brands Carousel component Thursday morning ahead of the weekly release.",
+          "flags": []
         },
         {
           "name": "Kelvin Yee",
           "initials": "KY",
           "color": "orange",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 9 April — proposed using Site Article Categories with a 'Tips' tag combined with article publish timestamps to filter stale racing tips from the News Hub Most Popular section. No Slack or Jira activity visible since then.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "GDCU-8900 (SlotsLaunch Game Grid Shortcode — flagged high priority) updated to In QA at 10:05 BST on 5 May. Also has GDCU-8878 (CA/FR Oplist Redesign on Online Casinos Page — flagged high priority) still In Progress. No Slack activity found on 5 May; last channel post was 28 April in #gdc-pod.",
+          "flags": []
         },
         {
           "name": "Milan Nikolic",
           "initials": "MN",
           "color": "teal",
           "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 26 March regarding the Global Strategy Hub (GDCU-8653) — confirmed the v1 approach is to serve the page in English with localised casino results. Previously flagged in #gdc-high-agency (13 March) that 5pm meetings are too late for Serbia. No Slack or Jira activity visible in April 2026.",
+          "summary": "No Slack or Jira activity on 5 May. Last Slack activity was 9 April in #peoplenews (a thank-you message). Last meaningful technical contribution was 8 April in #gdc-pod discussing a hex code search/replace fix for a colour update. No GDCU tickets updated in May.",
           "flags": ["no-activity"]
         },
         {
           "name": "Nebojsa Stanic",
           "initials": "NS",
           "color": "cyan",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was December 2025 — demonstrated a Tinder-style casino card prototype for the AI Day session. No Slack or Jira activity visible in 2026.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "GDCU-8847 (Display Rev Share Operator List to VIP ktag Users) remains In Progress with a Jira update at 09:34 BST on 5 May. No Slack activity on 5 May; last channel posts were 30 April managing the Sprint 169 release — blocking and unblocking publishes via #publish-gdc and troubleshooting a publish error in #gdc-publish-troubleshooting.",
+          "flags": ["low-activity"]
         },
         {
           "name": "Novica Vukobratovic",
           "initials": "NV",
           "color": "indigo",
-          "activity": "low",
-          "summary": "No Slack activity on 3 May (Sunday). GDCU-8877 (Add Field to Manage Phone Numbers on Email Confirmation Form Pages in Admin Panel) was updated at 07:28 BST on 4 May and is currently In Progress — indicating active development resuming post-weekend. The ticket covers a toggleable phone number field (with mandatory option) for email landing pages (/e and /p) via the admin panel, scoped per URL without impacting other geos or pages. Stakeholders include Chloe Christie and Eoin McCarthy.",
+          "activity": "medium",
+          "summary": "Active on 5 May in Slack and Jira. In #core-devops-support and #ask-pubtech from 13:09–13:13 BST requesting a DB sync for gdc-dev origins, also flagging that additional dev environments were not yet appearing in the list. In Jira: GDCU-8877 (Add Phone Number Field to Email Confirmation Admin Panel) moved to In Product at 16:21 BST — frontend complete and in product review. GDCU-8611 (Update Feature Tag) marked Done at 14:29 and GDCU-7363 (Slots Widget Minor Filter Issues bug) marked Done at 13:58.",
           "flags": []
         },
         {
           "name": "Sanja Budic",
           "initials": "SB",
           "color": "fuchsia",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). Last DM with Mike was 7 April (deep-link betslip project kickoff call). On 8 April in #gdc-deep-link-betslip-project she reported the /api/mcp/deep_links endpoint for Bookies brand returning responses above 5 seconds — a performance concern flagged to Alex Kornilov. No Slack channel or Jira activity visible since.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "Active on 5 May in #gdc-publish-troubleshooting from 15:26–15:42 BST debugging a brand-product-linked nav item causing a publish failure: identified the specific eve resource (site-brand-products/23401) and nav link causing the error, and provided guidance to editors. In a group DM with Chloe, Gabriel, and Mike at 15:39 confirmed she can complete the frontend portion of a ticket while backend work is scoped separately. GDCU-8895 (US Prediction Market Page Sitemap) completed and marked Done at 14:11 BST.",
+          "flags": []
         }
       ]
     },
@@ -143,7 +143,7 @@
           "initials": "RJ",
           "color": "lime",
           "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 30 April posted in #gdc-pod confirming QA sign-off for all DC8 release tickets — all clear, with a note that a few content-related issues need separate logging. Josh acknowledged and said he would coordinate with Shane. Last meaningful contribution was the DC8 full release QA clearance.",
+          "summary": "No Slack or Jira activity on 5 May. Last post was 30 April in #gdc-pod confirming QA sign-off for all DC8 Sprint 169 release tickets — all verified and clear, with a note that a few content-related issues need separate logging. Has multiple Harden-owned tickets now In QA that will require review.",
           "flags": ["no-activity"]
         },
         {
@@ -151,7 +151,7 @@
           "initials": "SM",
           "color": "yellow",
           "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 30 April raised a bug in #gdc-pod: global pages on mobile are not geo-locating burger menu links (always redirecting to UK geo) — queried whether already raised. Josh confirmed he would investigate. Last DM with Mike was 24 March regarding IUJ duplicate account handling edge case with Google sign-up. Co-signed DC8 QA clearance with Robin.",
+          "summary": "No Slack or Jira activity on 5 May. Last channel activity was 30 April in #gdc-pod raising a bug: global pages on mobile burger menu links are not geo-localised (always redirect to UK geo). Josh acknowledged it for investigation. Co-led the DC8 release QA clearance with Robin on 30 April. With multiple Harden tickets now In QA, Shane will have a busy QA queue incoming.",
           "flags": ["no-activity"]
         }
       ]
@@ -164,49 +164,49 @@
           "name": "Dean Ryan",
           "initials": "DR",
           "color": "slate",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 30 April active in DMs with Mike discussing logging tipster success rates (confirmed data exists and will be updated) and an odds formatting issue in horse racing tips widgets. Mike shared the World Cup Predictor game Vercel prototype with him at end of day for review.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "Active on 5 May via DM with Mike: coordinated a Zoom meeting (available any time except 2pm due to management call), requested a Zoom link at 11:39 BST and joined the call. Engaged and accessible. Previously involved in reviewing the World Cup Predictor game Vercel prototype (30 April) and contributing prize details for the FTP App POC v2 (GDCU-8871, now Done).",
+          "flags": ["low-activity"]
         },
         {
           "name": "Michael Butlin",
           "initials": "MB",
           "color": "stone",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 30 April active in DMs with Mike until late (mentioned working until 2am) — contributing quiz question copy options for the World Cup Predictor game and reviewing the Vercel prototype. Mike advised rest and flagged he is off until Thursday. Active engagement on WC Predictor feature development.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "Active on 5 May in #core-division-leads ('Will get mine done asap' at 17:29 BST — responding to the weekly report contribution request) and in DMs with Mike ('Hmmm' at 11:09, 'Bullet dodged' at 10:21). Brief messages suggest awareness of a situation that resolved favourably. Previously co-developed World Cup Predictor quiz copy until 2am on 30 April. Named stakeholder on GDCU-8733 (Learning Hub feedback).",
+          "flags": ["low-activity"]
         },
         {
           "name": "Dan Smullen",
           "initials": "DS",
           "color": "zinc",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 28 April active in DMs with Mike navigating Claude Design access — Mike helped him locate the design canvas via the easel icon. Last meaningful channel activity was 15 April in #gdc-f2p-apps flagging F2P game issues (some games not working) and the Cosmo Spins 24-hour wait bug post-login.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "Active on 5 May in #seochatter from 17:04–17:07 BST sharing AI agent UX optimisation insights from web.dev — key points: agents use screenshots so stable post-load layouts matter, semantic HTML (<button>, <a> over <div>/<span>) improves agent comprehension, and cursor:pointer in CSS is a strong actionability signal for AI agents. Framed as relevant to GDC site architecture and SEO.",
+          "flags": ["low-activity"]
         },
         {
           "name": "Gabriel Cornoiu",
           "initials": "GC",
           "color": "teal",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 1 May active in #gdc-nonen-sync (asking about Card Carousel Confluence docs) and #gdc-pod (reporting an Admin Panel issue Dean flagged and checking Global HP offer language display). Also available for morning DMs per #gdc-pdmt post on 1 May. On 29 April in #gdc-pdmt reminded the team about the Learning Hub going live with the weekly release. DM'd with Mike on 29 April re: Greenhouse interview candidate process.",
-          "flags": ["no-activity"]
+          "activity": "medium",
+          "summary": "Active on 5 May across multiple channels. In #6amigos at 16:39 BST coordinated Genesis Brands Carousel component release with Harden — Genesis team will push the component Thursday morning ahead of the weekly release. In #core-division-leads from 13:07–13:17 BST engaged in the weekly division report discussion — confirmed his summary would be ready around 15:30. In a group DM with Colin and Mike shared Claude Design casino page prototypes (best online casinos desktop and mobile) at 11:06 BST. Previously flagged in #gdc-pod the Admin Panel access issue Dean raised and checked Global HP offer language display (1 May).",
+          "flags": []
         },
         {
           "name": "Diana Thurmann",
           "initials": "DT",
           "color": "sky",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 1 May briefly active in #gdc-nonen-sync clarifying that Josh's Card Carousel announcement includes a Confluence docs link. Last DM with Mike was 22 April — receiving the Clarity API key and usage instructions (10 calls/day strict limit) for Viktor-based analytics automation. Previously created #gdc-nonen-market-updates channel (21 April) and announced Iceland geo launch in #core-division (16 April).",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "Active on 5 May in #core-division-leads at 13:15 BST sharing the nonEn Weekly Report (Week 18, 27 April–1 May) Confluence link for the division roll-up. Her automated iGaming Daily Digest bot posted today (6 May 08:01 BST) with 72 articles scanned — covering global industry news, US, UK, Netherlands, Belgium, Czech Republic, France, Norway, Sweden, Georgia, Brazil, Mexico, Canada, Philippines, Australia, and Africa. System running reliably.",
+          "flags": ["low-activity"]
         },
         {
           "name": "Colin Brannigan",
           "initials": "CB",
           "color": "gray",
-          "activity": "none",
-          "summary": "No activity on 3 May (Sunday). On 29 April active in DMs with Mike discussing the freebets.com Bet Finder product (noting UI is clunky but Alex's betslip element is being integrated), the product engineer candidate, and product roadmap alignment. On 27 April in #core-division-leads posted a Q1 earnings call prep request — asking division leads for wins across AI transformation, channel diversification, geo growth, SEO, and product campaigns. Also raised NZ affiliate marketing regulatory risk, flagging a strong likelihood that NZ will close off the affiliate channel entirely.",
-          "flags": ["no-activity"]
+          "activity": "low",
+          "summary": "Active on 5 May in #core-division-leads discussing the division-level automated weekly report — explaining it aggregates all sub-reports to save reading 8–9 separate documents, still being refined, and that Monday updates are ideal since it runs Tuesdays. On 5 May also shared the Core Division Weekly Report (Week 18) Confluence link. Previously shared the March P&L Revenue Review (27 April) and on 27 April issued a Q1 earnings call prep request to division leads covering AI transformation, channel diversification, geo growth, SEO, and product campaigns.",
+          "flags": ["low-activity"]
         }
       ]
     }
