@@ -1,27 +1,32 @@
 {
-  "generated_at": "2026-05-07T09:00:00.000+0100",
+  "generated_at": "2026-05-07T12:30:00+01:00",
   "date": "07/05/2026",
   "sprint": {
     "name": "GDCU Sprint9Q2",
     "total": 46
   },
   "stats": {
-    "in_progress": 11,
+    "in_progress": 12,
     "in_qa": 5,
     "in_product": 3,
-    "backlog": 10,
-    "done": 17
+    "backlog": 7,
+    "done": 19
   },
   "columns": {
     "in_progress": [
       {
         "key": "GDCU-8432",
-        "summary": "Geo Locate Images on the Global HP",
+        "summary": "🔥 Geo Locate Images on the Global HP",
         "assignee": "Ciara Carroll",
         "priority": "High",
-        "flags": [
-          "flagged"
-        ]
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8906",
+        "summary": "Review Claude Generated Tables on Casino Strategy Page",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
       },
       {
         "key": "GDCU-8951",
@@ -84,18 +89,14 @@
         "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
         "assignee": "Harden Thomas Wallace",
         "priority": "Blocked",
-        "flags": [
-          "blocked"
-        ]
+        "flags": ["blocked"]
       },
       {
         "key": "GDCU-8619",
         "summary": "Operator List Redesign",
         "assignee": "Ciara Carroll",
         "priority": "Blocked",
-        "flags": [
-          "blocked"
-        ]
+        "flags": ["blocked"]
       }
     ],
     "in_qa": [
@@ -115,12 +116,10 @@
       },
       {
         "key": "GDCU-8878",
-        "summary": "Implement Oplist Redesign on Online Casinos Page",
+        "summary": "🔥 Implement Oplist Redesign on Online Casinos Page",
         "assignee": "Kelvin Yee",
         "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
+        "flags": ["flagged"]
       },
       {
         "key": "GDCU-8894",
@@ -131,27 +130,47 @@
       },
       {
         "key": "GDCU-8907",
-        "summary": "Implement the Betting Tips Hub Page",
+        "summary": "🔥 Implement the Betting Tips Hub Page",
         "assignee": "Sanja Budic",
         "priority": "Blocked",
-        "flags": [
-          "blocked",
-          "flagged"
-        ]
+        "flags": ["blocked", "flagged"]
       }
     ],
     "in_product": [
+      {
+        "key": "GDCU-8956",
+        "summary": "Image Graphic project assistant [Claude Chat]",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8948",
+        "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
       {
         "key": "GDCU-8806",
         "summary": "Implement In-App Age Gate (18+ Verification)",
         "assignee": "Carlos Blauth",
         "priority": "Medium",
         "flags": []
-      },
+      }
+    ],
+    "done": [
       {
         "key": "GDCU-8947",
         "summary": "Cosmo Cash Machine Images",
         "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8877",
+        "summary": "👀👀👀👀 Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel",
+        "assignee": "Novica Vukobratovic",
         "priority": "Medium",
         "flags": []
       },
@@ -161,24 +180,13 @@
         "assignee": "Jessica Dordevic",
         "priority": "Medium",
         "flags": []
-      }
-    ],
-    "done": [
-      {
-        "key": "GDCU-8895",
-        "summary": "Prediction Market Page Not Appearing on US Sitemap",
-        "assignee": "Sanja Budic",
-        "priority": "High",
-        "flags": []
       },
       {
         "key": "GDCU-8861",
-        "summary": "Integrate Brand Carousel Component",
+        "summary": "👀 🔥 Integrate Brand Carousel Component",
         "assignee": "Harden Thomas Wallace",
         "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
+        "flags": ["flagged"]
       },
       {
         "key": "GDCU-8834",
@@ -198,13 +206,6 @@
         "key": "GDCU-8849",
         "summary": "Add new style to the Author Carousel Shortcode",
         "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8877",
-        "summary": "Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
-        "assignee": "Novica Vukobratovic",
         "priority": "Medium",
         "flags": []
       },
@@ -238,12 +239,10 @@
       },
       {
         "key": "GDCU-8900",
-        "summary": "SlotsLaunch Game Grid Shortcode",
+        "summary": "🔥 SlotsLaunch Game Grid Shortcode",
         "assignee": "Kelvin Yee",
         "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
+        "flags": ["flagged"]
       },
       {
         "key": "GDCU-8931",
@@ -260,8 +259,29 @@
         "flags": []
       },
       {
+        "key": "GDCU-8611",
+        "summary": "👀👀👀 Update \"Feature\" Tag",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Low",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8895",
+        "summary": "Prediction Market Page Not Appearing on US Sitemap",
+        "assignee": "Sanja Budic",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-7363",
+        "summary": "Slots widget - Minor Filter issues",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Low",
+        "flags": []
+      },
+      {
         "key": "GDCU-8854",
-        "summary": "The arrow button the Geo selector doesn't collapse when clicked on",
+        "summary": "The arrow button the Geo selector doesnt collapses when clicked on",
         "assignee": "Harden Thomas Wallace",
         "priority": "Medium",
         "flags": []
@@ -272,86 +292,32 @@
         "assignee": "Harden Thomas Wallace",
         "priority": "Medium",
         "flags": []
-      },
-      {
-        "key": "GDCU-8611",
-        "summary": "Update Feature Tag",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Low",
-        "flags": []
-      },
-      {
-        "key": "GDCU-7363",
-        "summary": "Slots widget - Minor Filter issues",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Low",
-        "flags": []
       }
     ]
   },
   "comments": [
     {
-      "ticket_key": "GDCU-8955",
-      "ticket_summary": "Implement Fixes for Cool Tones Phase 2",
+      "ticket_key": "GDCU-8874",
+      "ticket_summary": "Page Bloat: Reduce HTML payload size across all markets",
+      "author": "Sandeep Kumar",
+      "text": "@Harden Thomas Wallace while checking in https://ptest.gambling.com/uk/online-casinos - Page size shows much higher, can be verified correctly on live site. /uk/online-casinos: prod 2585KB vs ptest 3997KB (+54.6%)",
+      "timestamp": "2026-05-07T11:22:46+01:00",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8906",
+      "ticket_summary": "Review Claude Generated Tables on Casino Strategy Page",
       "author": "Harden Thomas Wallace",
-      "text": "@Jessica Dordevic @Shane McGrath Next set of feedback is ready for review. 1. FAQ Updated to match provided specs. 2. Sidebar navigations updated. 3. Article/Site Page Cards Updated. 4. Gray table in-content (not controlled by dev)",
-      "timestamp": "2026-05-06T21:26:29.000+0100",
+      "text": "Dev review. The tables are currently embedded as full HTML pages rather than scoped snippets. Two concerns: Performance — each table includes its own font imports. Risk of style bleed — snippets ship with unscoped <style> blocks that can break site styles.",
+      "timestamp": "2026-05-06T21:42:17+01:00",
       "mentions_mike": false
     },
     {
       "ticket_key": "GDCU-8874",
       "ticket_summary": "Page Bloat: Reduce HTML payload size across all markets",
       "author": "Harden Thomas Wallace",
-      "text": "Ready for Review @Sandeep Kumar https://ptest.gambling.com/uk/online-casinos Changes: Delayed CookieYes Initialization; Additional Guards for bots (stacks with existing PSI checks)",
-      "timestamp": "2026-05-06T18:56:00.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8929",
-      "ticket_summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-      "author": "Shane McGrath",
-      "text": "Post merge with: https://qa.gambling.com/strategy/casino/embracing-sic-bo-superstitions?ipcountry=ie",
-      "timestamp": "2026-05-06T16:53:51.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8849",
-      "ticket_summary": "Add new style to the Author Carousel Shortcode",
-      "author": "Chloe Christie",
-      "text": "@Miguel Migneco most of the author images have been updated to use the gemini version...",
-      "timestamp": "2026-05-06T16:06:56.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8877",
-      "ticket_summary": "Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
-      "author": "Automation for Jira",
-      "text": "The linked issue has been resolved",
-      "timestamp": "2026-05-06T15:37:00.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8806",
-      "ticket_summary": "Implement In-App Age Gate (18+ Verification)",
-      "author": "Carlos Blauth",
-      "text": "list of changes implemented (generated by AI) Age gate: DOB self-declaration screen shown on launch before MainShell. Already discussed all requirements with Chloe and product team.",
-      "timestamp": "2026-05-06T15:16:40.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8849",
-      "ticket_summary": "Add new style to the Author Carousel Shortcode",
-      "author": "Robin John",
-      "text": "Tested and Verified the changes. The carousel now works correctly across all viewports.",
-      "timestamp": "2026-05-06T15:03:00.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8947",
-      "ticket_summary": "Cosmo Cash Machine Images",
-      "author": "Ciara Carroll",
-      "text": "@Ben Scrupps @Shaun Cronin @Chloe Christie @Joshua Smith",
-      "timestamp": "2026-05-06T14:48:36.000+0100",
+      "text": "Ready for Review @Sandeep Kumar. Changes: Delayed CookieYes Initialization. Additional Guards for bots (stacks with existing PSI checks). CookieYes mitigation staged. Fix 2 (SSR operator list) and Fix 3 (VWO async) out of scope or rejected.",
+      "timestamp": "2026-05-06T18:56:00+01:00",
       "mentions_mike": false
     },
     {
@@ -359,98 +325,74 @@
       "ticket_summary": "IUJ Banners",
       "author": "Jessica Dordevic",
       "text": "Designs are ready here in this file. Already discussed with @Mike Pett and @Ciara Carroll",
-      "timestamp": "2026-05-06T14:42:58.000+0100",
+      "timestamp": "2026-05-06T14:42:58+01:00",
       "mentions_mike": true
-    },
-    {
-      "ticket_key": "GDCU-8894",
-      "ticket_summary": "Refactor scoped styles on Vue components",
-      "author": "Novica Vukobratovic",
-      "text": "I have refactored all Vue components in the end, not just the ones that had scoped styles and extracted all their CSS into additional .css file (vue-components.css) which is then pulled in our main .css bundle.",
-      "timestamp": "2026-05-06T13:34:44.000+0100",
-      "mentions_mike": false
     }
   ],
-  "movements": [
+  "ticket_movements": [
+    {
+      "key": "GDCU-8956",
+      "summary": "Image Graphic project assistant [Claude Chat]",
+      "assignee": "Ciara Carroll",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-05-07T12:15:30+01:00"
+    },
+    {
+      "key": "GDCU-8947",
+      "summary": "Cosmo Cash Machine Images",
+      "assignee": "Ciara Carroll",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-07T10:53:02+01:00"
+    },
+    {
+      "key": "GDCU-8956",
+      "summary": "Image Graphic project assistant [Claude Chat]",
+      "assignee": "Ciara Carroll",
+      "from": "To Do",
+      "to": "In Progress",
+      "timestamp": "2026-05-07T10:43:21+01:00"
+    },
+    {
+      "key": "GDCU-8928",
+      "summary": "IUJ Banners",
+      "assignee": "Jessica Dordevic",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-07T09:29:38+01:00"
+    },
     {
       "key": "GDCU-8955",
       "summary": "Implement Fixes for Cool Tones Phase 2",
       "assignee": "Harden Thomas Wallace",
       "from": "In Progress",
       "to": "In QA",
-      "timestamp": "2026-05-06T21:26:48.000+0100"
+      "timestamp": "2026-05-06T21:26:48+01:00"
     },
     {
-      "key": "GDCU-8834",
-      "summary": "Implement Fixes for Cool Tones Update",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-06T16:51:03.000+0100"
-    },
-    {
-      "key": "GDCU-8878",
-      "summary": "Implement Oplist Redesign on Online Casinos Page",
-      "assignee": "Kelvin Yee",
+      "key": "GDCU-8956",
+      "summary": "Image Graphic project assistant [Claude Chat]",
+      "assignee": "Ciara Carroll",
       "from": "In Progress",
-      "to": "In QA",
-      "timestamp": "2026-05-06T16:32:04.000+0100"
+      "to": "To Do",
+      "timestamp": "2026-05-06T16:58:56+01:00"
     },
     {
       "key": "GDCU-8861",
-      "summary": "Integrate Brand Carousel Component",
+      "summary": "👀 🔥 Integrate Brand Carousel Component",
       "assignee": "Harden Thomas Wallace",
       "from": "In Product",
       "to": "Done",
-      "timestamp": "2026-05-06T16:25:39.000+0100"
-    },
-    {
-      "key": "GDCU-8929",
-      "summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-06T16:24:57.000+0100"
-    },
-    {
-      "key": "GDCU-8849",
-      "summary": "Add new style to the Author Carousel Shortcode",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-06T16:08:14.000+0100"
+      "timestamp": "2026-05-06T16:25:39+01:00"
     },
     {
       "key": "GDCU-8877",
-      "summary": "Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
+      "summary": "Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel",
       "assignee": "Novica Vukobratovic",
       "from": "In Product",
       "to": "Done",
-      "timestamp": "2026-05-06T15:36:56.000+0100"
-    },
-    {
-      "key": "GDCU-8806",
-      "summary": "Implement In-App Age Gate (18+ Verification)",
-      "assignee": "Carlos Blauth",
-      "from": "In Progress",
-      "to": "In Product",
-      "timestamp": "2026-05-06T15:16:50.000+0100"
-    },
-    {
-      "key": "GDCU-8849",
-      "summary": "Add new style to the Author Carousel Shortcode",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In QA",
-      "to": "In Product",
-      "timestamp": "2026-05-06T15:03:06.000+0100"
-    },
-    {
-      "key": "GDCU-8947",
-      "summary": "Cosmo Cash Machine Images",
-      "assignee": "Ciara Carroll",
-      "from": "To Do",
-      "to": "In Product",
-      "timestamp": "2026-05-06T14:48:52.000+0100"
+      "timestamp": "2026-05-06T15:36:56+01:00"
     },
     {
       "key": "GDCU-8928",
@@ -458,79 +400,15 @@
       "assignee": "Jessica Dordevic",
       "from": "In Progress",
       "to": "In Product",
-      "timestamp": "2026-05-06T14:43:16.000+0100"
-    },
-    {
-      "key": "GDCU-8736",
-      "summary": "Share/Create Imagery for the Learning Hub",
-      "assignee": "Ciara Carroll",
-      "from": "In Progress",
-      "to": "Done",
-      "timestamp": "2026-05-06T14:45:10.000+0100"
-    },
-    {
-      "key": "GDCU-8894",
-      "summary": "Refactor scoped styles on Vue components",
-      "assignee": "Novica Vukobratovic",
-      "from": "In Progress",
-      "to": "In QA",
-      "timestamp": "2026-05-06T13:34:59.000+0100"
+      "timestamp": "2026-05-06T14:43:16+01:00"
     },
     {
       "key": "GDCU-8907",
-      "summary": "Implement the Betting Tips Hub Page",
+      "summary": "🔥 Implement the Betting Tips Hub Page",
       "assignee": "Sanja Budic",
       "from": "In Progress",
       "to": "In QA",
-      "timestamp": "2026-05-06T12:58:20.000+0100"
-    },
-    {
-      "key": "GDCU-8865",
-      "summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-06T11:50:05.000+0100"
-    },
-    {
-      "key": "GDCU-8879",
-      "summary": "Create Genesis Brand Carousel Component Card",
-      "assignee": "Jessica Dordevic",
-      "from": "In Progress",
-      "to": "Done",
-      "timestamp": "2026-05-06T11:40:21.000+0100"
-    },
-    {
-      "key": "GDCU-8834",
-      "summary": "Implement Fixes for Cool Tones Update",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In QA",
-      "to": "In Product",
-      "timestamp": "2026-05-06T09:36:02.000+0100"
-    },
-    {
-      "key": "GDCU-8931",
-      "summary": "Strategy pages do not appear in search",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-06T09:32:40.000+0100"
-    },
-    {
-      "key": "GDCU-8929",
-      "summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Progress",
-      "to": "In QA",
-      "timestamp": "2026-05-05T20:48:22.000+0100"
-    },
-    {
-      "key": "GDCU-8834",
-      "summary": "Implement Fixes for Cool Tones Update",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Progress",
-      "to": "In QA",
-      "timestamp": "2026-05-05T17:40:31.000+0100"
+      "timestamp": "2026-05-06T12:58:20+01:00"
     }
   ],
   "mike_mentions": [
@@ -539,16 +417,8 @@
       "ticket_summary": "IUJ Banners",
       "author": "Jessica Dordevic",
       "text": "Designs are ready here in this file. Already discussed with @Mike Pett and @Ciara Carroll",
-      "timestamp": "2026-05-06T14:42:58.000+0100",
+      "timestamp": "2026-05-06T14:42:58+01:00",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
-    },
-    {
-      "ticket_key": "GDCU-8849",
-      "ticket_summary": "Add new style to the Author Carousel Shortcode",
-      "author": "Chloe Christie",
-      "text": "@Miguel Migneco @Mike Pett can you review the below? Thanks @Joshua Smith can you add documentation to confluence and shortcode to genesis data look up",
-      "timestamp": "2026-05-05T10:01:31.000+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8849"
     }
   ],
   "upcoming_backlog": [
@@ -568,14 +438,14 @@
     },
     {
       "key": "GDCU-8045",
-      "summary": "Dev support and implementation for Stable Stars game",
+      "summary": "🔥 Dev support and implementation for Stable Stars game",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
     },
     {
       "key": "GDCU-7706",
-      "summary": "Integrate with generic styling option on components",
+      "summary": "🔥 Integrate with 'generic styling' option on components",
       "assignee": "Unassigned",
       "priority": "High",
       "status": "Backlog"
@@ -603,7 +473,7 @@
     },
     {
       "key": "GDCU-6988",
-      "summary": "GDC-Regression Bugs 2025 [Manual][Automation]",
+      "summary": "GDC-Regression Bugs 2025",
       "assignee": "Robin John",
       "priority": "High",
       "status": "In Progress"
@@ -623,6 +493,20 @@
       "status": "Backlog"
     },
     {
+      "key": "GDCU-8958",
+      "summary": "Implement IUJ Banners - PLACEHOLDER",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8957",
+      "summary": "Enable Local Navigation on News Site Articles",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
       "key": "GDCU-8953",
       "summary": "Setup standard.co.uk site on Adtech codebase",
       "assignee": "Unassigned",
@@ -631,7 +515,7 @@
     },
     {
       "key": "GDCU-8952",
-      "summary": "Add Links by Country Shortcode to all GX Slot Review and Strategy Pages",
+      "summary": "Add Links by Country Shortcode to all GX Slot Review and Strategy Pages - PLACEHOLDER",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -645,7 +529,7 @@
     },
     {
       "key": "GDCU-8949",
-      "summary": "Google News Sitemap not pulling articles from all active markets",
+      "summary": "Google News Sitemap not Pulling Articles From All Active Markets",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -659,14 +543,7 @@
     },
     {
       "key": "GDCU-8945",
-      "summary": "Implement Search/Filters to the Online Casinos Page",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8943",
-      "summary": "Add Local Navigation to GX Slot Reviews",
+      "summary": "Implement Search/Filters to the Online Casinos Page - PLACEHOLDER",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -680,7 +557,7 @@
     },
     {
       "key": "GDCU-8933",
-      "summary": "Implement winning design to Snapchat from GDCU-8659",
+      "summary": "Implement Winning V3 Design to Snapchat Page",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -694,7 +571,7 @@
     },
     {
       "key": "GDCU-8930",
-      "summary": "Clean up orion code after VWO test email landing pages is completed",
+      "summary": "Code Freeze - Clean up orion code after VWO test email landing pages is completed",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -708,7 +585,7 @@
     },
     {
       "key": "GDCU-8923",
-      "summary": "Create Image Carousel Shortcode",
+      "summary": "Create Image Carousel Shortcode PLACEHOLDER",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -722,7 +599,7 @@
     },
     {
       "key": "GDCU-8914",
-      "summary": "Add Our Rating to Sweeps and DFS brands",
+      "summary": "Add 'Our Rating' to Sweeps and DFS brands",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
@@ -751,13 +628,6 @@
     {
       "key": "GDCU-8905",
       "summary": "Group Bets",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8903",
-      "summary": "Sports Quiz Hub",
       "assignee": "Unassigned",
       "priority": "Medium",
       "status": "Backlog"
