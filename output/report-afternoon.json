@@ -1,174 +1,178 @@
 {
-  "generated_at": "2026-05-06T14:00:00.000+01:00",
-  "date": "06/05/2026",
+  "generated_at": "2026-05-07T14:00:00.000+01:00",
+  "date": "07/05/2026",
   "report_type": "afternoon",
+  "_sources": {
+    "jira": "3 JQL queries executed — In Product/Blocked (3 results), sprint updated last 24h (20 results), status changed today (7 results)",
+    "slack": "Searched 7 channels + 6 individual senders. Channels: 0 results. Active group DM found (Ciara/Miguel/Jessica/Mike, 13:00–13:23 BST). Jessica active in #gdc-pod (09:56). Chloe active in #gdc-pod (h2 tag hotfix, resolved by Carlos).",
+    "confluence": "CQL for GDCU space modified today — 0 results",
+    "knowledge_files": "preferences.md, team.md, projects-active.md not found in /knowledge — proceeding from morning report context and live Jira/Slack data"
+  },
+  "_morning_resolved": [
+    "✅ GDCU-8877 (Phone Numbers Admin Panel, Novica) — Done today 07/05. Morning review item cleared.",
+    "✅ GDCU-8736 (Learning Hub Imagery, Ciara) — Done today 07/05. Sign-off complete; unblocked GDCU-8951 (Apply Feedback to Learning Hub Phase 2, Carlos now In Progress).",
+    "✅ GDCU-8928 (IUJ Banners, Jessica) — Done today 07/05 at 09:30. Outstanding banners decision since 30/04 resolved.",
+    "✅ GDCU-8947 (Cosmo Cash Machine Images, Ciara) — Done today 07/05 at 10:54.",
+    "✅ GDCU-8861 (Brand Carousel Component, Harden) — Done 06/05.",
+    "✅ GDCU-8834 (Cool Tones Update, Harden) — Done 06/05.",
+    "✅ GDCU-8929 (Sidebar Navigation Casino/Betting, Harden) — Done 06/05.",
+    "✅ GDCU-8849 (Author Carousel Shortcode, Harden) — Done 06/05."
+  ],
   "action_items": [
     {
-      "action": "NEW — VIC DADSON SIGNED OFF UNTIL 16 MAY: Mike informed Colin at 10:18 today that Vic 'has been signed off until 16th May. Didn't notify me or HR, just uploaded the doctor note into Bob.' This is a material change from this morning's assumption that her fortnight's sick leave had ended. Actions needed: (1) Confirm HR (Lauren/Bob) have the note and are processing correctly; (2) assess data engineering coverage gap through 16th May — Nemanja reqs discussion deferred; (3) update Colin on next steps for the BI/data work. Do not chase Vic directly.",
+      "action": "RESPOND NOW — LIVE DESIGN SYSTEM GROUP DM (Ciara / Miguel / Jessica / Mike, last message 13:23 BST). Three open questions need Mike's direction urgently: (1) Jessica is asking whether slot-game-theme images from the existing Figma Product Features file are acceptable to reuse for the WC Predictor quiz — confirm yes/no so design can proceed on GDCU-8935 (target Tue 12/05, 5 days away). (2) Miguel is asking what the fallback icon library should be when a GDC DS icon doesn't exist (Tailwind, Heroicons, Material?), and flagging that ~10 unexpected purple shades have appeared in the DS — are these correct or an error? (3) Jessica needs clear written guidelines on where gradients are acceptable (banners/hero sections). This conversation is blocking active design work. Respond to channel C0ACZMNE17V.",
       "source": "slack",
       "priority": "high",
-      "emoji": "🏥"
+      "emoji": "💬",
+      "url": "https://gdcgroup.slack.com/archives/C0ACZMNE17V/p1778156584159039"
     },
     {
-      "action": "GDCU-8619 OPERATOR LIST REDESIGN — STILL BLOCKED (Day 21): No Jira update since 30/04 despite today's product sync. Michael Butlin was in the meeting — outcome unknown. If no resolution was reached in the sync, escalate to Colin Brannigan immediately. Mike is already flagging blocker frustration to Colin (10:19 message: 'blockers at the moment are pretty frustrating. Projects either get descoped to a point that they are rubbish, or not done at all') — use the Friday 121 to force a decision if not resolved before then.",
+      "action": "GDCU-8619 STILL BLOCKED — Day 21. Operator List Redesign (Ciara Carroll) shows status 'In Progress / Blocked' as of end-of-day 06/05. Despite Michael Butlin attending today's product sync, no ticket update or Slack message from Ciara indicates a resolution was reached. Escalate to Colin Brannigan today — this is now 3+ weeks blocked. Be specific: state the exact decision required (approve one of the 3 mobile-first grid-format operator list iterations). If Colin cannot compel Michael Butlin, this needs to go on the formal risk register.",
       "source": "jira",
       "priority": "high",
       "emoji": "🚫",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     },
     {
-      "action": "REVIEW GDCU-8834 COOL TONES — PARTIAL RELEASE TOMORROW: Moved from In QA to In Product today at 10:02. Chloe flagged in #gdc-product-design-pod (08:55) that Harden will release what he has done tomorrow, with remaining fixes (comment section styling) next week after Jessica provides UX feedback. Jessica replied 'Taking a look at these' at 09:12. Mike needs to review and sign off on the partial release scope before EOD — confirm what is going live tomorrow vs what is deferred.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "🎨",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8834"
-    },
-    {
-      "action": "REPLY TO JESSICA — BANNERS DECISION STILL OUTSTANDING: Jessica asked on 30/04 at 15:05: 'Let me know about the banners please so I'll check with Ciara after.' Relates to GDCU-8928 IUJ Banners. Mike sent a BBC quiz link on 05/05 (WC Predictor research context) but has not addressed the banners. No new DM messages today. Now Day 7 outstanding — resolve today.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "💬",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
-    },
-    {
-      "action": "REVIEW GDCU-8877 PHONE NUMBERS ADMIN PANEL — DAY 2: Still In Product. Moved to Mike's queue on 05/05 at 16:21. Novica Vukobratovic's implementation carries the 4-eye-flag indicating stakeholder interest. Review and sign off or provide feedback today — should not sit beyond Day 2.",
+      "action": "REVIEW & SIGN OFF — GDCU-8948 Update Ratio of Prize Boxes (5th Box, Cosmo Spins), Jessica Dordevic, In Product, NEW today. Jessica commented this morning (07/05 09:38) with implementation notes: duplicate the 5th HTML element, width auto adjusts fine, looks good on desktop and mobile. One flag: horizontal scroll currently kicks in at ~700px — she recommends ~1000px as the threshold. Review her screenshots and either approve or confirm the scroll breakpoint fix needed before this goes to dev. Stakeholders: Shaun Cronin, Ciara, Miguel.",
       "source": "jira",
       "priority": "high",
-      "emoji": "📱",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8877"
+      "emoji": "📦",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948"
     },
     {
-      "action": "NEW — REVIEW GDCU-8861 BRAND CAROUSEL COMPONENT: Moved from In QA to In Product today at 11:09. Harden Thomas Wallace's dev implementation of the brand carousel (all geos). Hot-flagged (🔥). New item in Mike's review queue this afternoon.",
+      "action": "REVIEW & SIGN OFF — GDCU-8806 In-App Age Gate 18+ Verification (Carlos Blauth, In Product since 06/05). Carlos posted a full implementation summary (06/05 15:16): DOB-picker on launch, 24h cooldown on failed verification, single-use 'wrong date' override, SharedPreferences persistence, Supabase sync on sign-in, dedicated Settings screen with reset, Privacy Policy and T&Cs on 5 surfaces. Android APK attached. This is an Apple Guideline 5.3 and Google Play compliance requirement — needed for app store submission. Review and sign off today to keep QA unblocked.",
       "source": "jira",
-      "priority": "medium",
-      "emoji": "🎠",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8861"
+      "priority": "high",
+      "emoji": "🔞",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8806"
     },
     {
-      "action": "NEW — REVIEW GDCU-8929 SIDEBAR NAVIGATION: Moved from In QA to In Product today at 10:17. Harden Thomas Wallace's implementation of sidebar navigation to Casino and Betting Strategy articles (GX). New item in Mike's review queue this afternoon.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🗂️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8929"
-    },
-    {
-      "action": "SCHEDULE WC KO CALL — GROUP BETS DESIGN DUE TOMORROW (THU 08/05): Mike agreed with Chloe on 05/05 to run a kickoff call for World Cup Predictor Game and Group Bets with the dev team. Group Bets design is targeting completion tomorrow. If design is ready, schedule KO call for Friday 09/05 or early next week. Do not let this slip past the weekend without a call booked.",
+      "action": "SCHEDULE WC KO CALL — Still not evidenced as scheduled. Group Bets design target is TOMORROW (Thu 08/05). If design lands on time, the KO call with devs must go on the calendar for Fri 09/05 or Mon 11/05 at the latest. This was agreed with Chloe on 05/05. Hard deadline is 11 June. Send the calendar invite today so devs are locked in the moment design is approved.",
       "source": "slack",
-      "priority": "medium",
+      "priority": "high",
       "emoji": "⚽",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
     },
     {
-      "action": "CHECK MIGUEL IS BACK & WC PREDICTOR DESIGN STARTED: Miguel was off yesterday (05/05). World Cup Predictor Game design (GDCU-8935) must start this week with a target of Tue 12/05. No Slack activity from Miguel seen today. Confirm he is back and has the brief — if not, the 12/05 design target is at risk.",
+      "action": "REVIEW — GDCU-8956 Image Graphic Project Assistant [Claude Chat] (Ciara Carroll, In Product, NEW today 07/05 12:15). Ciara has moved this to In Product and shared a Claude project link plus the HPC Banner Guidelines Confluence page, tagging Chloe Christie and Josh Smith. Context: not all editors have ChatGPT access — the logo generator prompt/guide for HPC pages needs to move to the GDC Claude design system org. Mike is a named stakeholder. Review the Claude project setup and confirm it meets the brief before Ciara finalises it.",
       "source": "jira",
+      "priority": "medium",
+      "emoji": "🤖",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8956"
+    },
+    {
+      "action": "VIC DADSON — Still no contact today (07/05). Extended sick leave until 16/05 (confirmed in yesterday's afternoon report). No Slack messages from Vic since 21/04. Carry-forward from morning. Assess data engineering coverage gap for the period — Nemanja reqs and BI knowledge-sharing from Chris are on hold. Brief Colin on the situation if not already discussed in today's context.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "👋"
+    },
+    {
+      "action": "CONFIRM MIGUEL STATUS ON WC PREDICTOR DESIGN — Miguel was active in the group DM today (13:00 BST), but Jess's question about sports images for the quiz suggests image direction for GDCU-8935 is still unclear. Confirm: (1) Does Miguel have a clear brief? (2) Has he started design? (3) Is the 12/05 target still realistic? Resolve the image direction question from the group DM now and feed the answer back to both Miguel and Jess.",
+      "source": "slack",
       "priority": "medium",
       "emoji": "🎨",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
     },
     {
-      "action": "KARL CHECK-IN THIS WEEK — WC DATA DEPENDENCIES: Mike told Chloe on 05/05 he has a check-in with Karl 'this week to confirm' the World Cup matrix data (fixture dating & resulting) is exposed — a key dependency for both Group Bets and WC Predictor Game. Still outstanding. Complete today so the KO call with devs has the correct data picture.",
+      "action": "KARL CHECK-IN — Outstanding from morning. Confirm data readiness for WC: fixture dating, resulting, Group Bets matrix input. Mike told Chloe on 05/05 he has a check-in with Karl 'this week to confirm'. It is now Thursday afternoon — send a message to Karl today so the devs have accurate data assumptions when the KO call happens.",
       "source": "slack",
       "priority": "medium",
       "emoji": "📊"
     },
     {
-      "action": "PREPARE FOR FRIDAY 121 WITH COLIN — BLOCKERS AGENDA: Mike messaged Colin at 10:19 with 'blockers at the moment are pretty frustrating. Projects either get descoped to a point that they are rubbish, or not done at all.' Prepare a clear brief for Friday: GDCU-8619 (Day 21 — Michael Butlin gate), Vic coverage plan through 16 May, and any WC dependencies needing C-suite pressure. Be specific about what decisions Colin needs to make or unlock.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "📋"
-    },
-    {
-      "action": "MONITOR GDCU-8736 LEARNING HUB IMAGERY — MOVED BACK TO IN PROGRESS: Was in Mike's review queue (In Product) this morning. Moved back to In Progress at 13:01 today — Ciara appears to have pulled it back for further work. Keep an eye on when it re-enters In Product. Sign-off still needed to unblock Carlos Blauth on GDCU-8733.",
+      "action": "GDCU-8810 BLOCKED — Set Up Organisation Level Developer Accounts for Apple/Google (Harden Thomas Wallace, In Progress, Blocked, updated 06/05). This is a prerequisite for publishing the GDC F2P app and is directly related to GDCU-8806 (Age Gate, now In Product). Identify what is blocking the account setup and either action it or assign clear ownership to unblock Harden.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "🖼️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
+      "emoji": "📱",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810"
     },
     {
-      "action": "INTAKE FORM — GABRIEL'S SUGGESTIONS STILL OUTSTANDING: Gabriel Cornoiu's 23/04 suggestions (SEO & Information Architecture for new pages/hubs; operator offer attributes) still unconfirmed. Gabriel not active in channels today. Confirm the intake form has been updated this week.",
-      "source": "slack",
+      "action": "GDCU-8546 TINDER WIDGET — Still not confirmed as deprioritised in the sprint. Mike told Chloe on 05/05 to remove the Tinder widget until further notice and replace with Group Bets. Update the ticket status and confirm the sprint plan reflects this decision. No evidence this was actioned after today's product sync.",
+      "source": "jira",
       "priority": "low",
-      "emoji": "📋"
+      "emoji": "🃏",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8546"
     },
     {
-      "action": "CREATIVE DIRECTION — GDCU-8846 COSMO SPINS SPRING AD CAMPAIGN: Still unstarted. Josh Kerr feedback: needs rethinking — clearer message, less 'gaming' feel. Ciara is carrying GDCU-8619 (Blocked), GDCU-8947 (Cosmo Cash Machine), and WC work. Provide creative direction so this does not age further.",
+      "action": "GDCU-8846 COSMO SPINS SPRING AD CAMPAIGN — Creative direction still needed (Ciara Carroll, To Do). Josh Kerr feedback: clearer message, less 'gaming' feel required. Ciara's plate is lighter today with GDCU-8736 and GDCU-8947 resolved, but GDCU-8619 remains blocked and GDCU-8956 is now In Product. Provide direction before end of day so this doesn't age further.",
       "source": "jira",
       "priority": "low",
       "emoji": "🌸",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846"
+    },
+    {
+      "action": "INTAKE FORM — Gabriel Cornoiu's suggestions from 23/04 (SEO & IA for new pages/hubs; operator offer attributes) still unconfirmed. Gabriel not active in visible channels today. Confirm the intake form has been updated.",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "📋"
     }
   ],
   "needs_input": [
     {
-      "key": "GDCU-8834",
-      "summary": "[GDC][UX][DEV] Implement Fixes for Cool Tones Update",
-      "assignee": "Harden Thomas Wallace",
+      "key": "GDCU-8948",
+      "summary": "[GDC][UX] Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "assignee": "Jessica Dordevic",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW since morning report — moved from In QA to In Product today at 10:02. Chloe flagged in #gdc-product-design-pod that Harden is doing a partial release tomorrow — comment section UX feedback from Jessica still needed, remaining fixes deferred to next week. Mike needs to confirm scope of what goes live tomorrow before EOD."
+      "context": "NEW today (07/05). Marketing want a 5th £250 Cash Prize box on the Cosmo Spins landing page (content.gambling.com/games/cosmo-spins). Jessica commented this morning with implementation notes — duplicate the 5th HTML element, width auto adjusts fine across screens. One concern flagged: horizontal scroll currently starts at ~700px; she recommends ~1000px. Mike needs to review Jessica's screenshots and approve or clarify the mobile scroll threshold fix required before dev proceeds."
     },
     {
-      "key": "GDCU-8877",
-      "summary": "👀👀👀👀[GDC][DEV] Add Field to Manage Phone Numbers on Email Confirmation Pages in Admin Panel",
-      "assignee": "Novica Vukobratovic",
+      "key": "GDCU-8806",
+      "summary": "[GDC][DEV] Implement In-App Age Gate (18+ Verification)",
+      "assignee": "Carlos Blauth",
       "status": "In Product",
       "priority": "Medium",
-      "context": "Carried from morning report — In Product since 05/05 16:21 (Day 2 in review). The 4 eye-flag emojis indicate stakeholder scrutiny. Review Novica's implementation and approve or provide feedback. Should not sit beyond Day 2."
+      "context": "In Product since 06/05 15:18. Carlos implemented full DOB-picker age gate with 24h cooldown on failed attempts, single-use 'wrong date' override, SharedPreferences persistence, Supabase sync, dedicated Settings screen, and Privacy/T&C links on 5 surfaces. Android APK attached to the ticket. Apple Guideline 5.3 and Google Play compliance requirement — blocks app store submission. Needs Mike's sign-off before QA."
     },
     {
-      "key": "GDCU-8861",
-      "summary": "🔥 [GDC][DEV][ALL GEOS] Integrate Brand Carousel Component",
-      "assignee": "Harden Thomas Wallace",
+      "key": "GDCU-8956",
+      "summary": "[GDC][UX] Image Graphic Project Assistant [Claude Chat]",
+      "assignee": "Ciara Carroll",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW since morning report — moved from In QA to In Product today at 11:09. Hot-flagged. Brand carousel component dev integration for all geos. New review item this afternoon."
-    },
-    {
-      "key": "GDCU-8929",
-      "summary": "[GDC][DEV][GX] Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-      "assignee": "Harden Thomas Wallace",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "NEW since morning report — moved from In QA to In Product today at 10:17. Sidebar navigation to Casino and Betting Strategy articles in GX. New review item this afternoon."
+      "context": "NEW today (07/05 12:15). Ciara set up a Claude project for the HPC logo generator (moved from ChatGPT — not all editors have access) and posted the project link plus HPC Banner Guidelines, tagging Chloe and Josh. Mike is a named stakeholder. Review the Claude project setup and confirm this approach is correct before Ciara finalises and rolls it out to editors."
     },
     {
       "key": "GDCU-8619",
       "summary": "[GDC][UX] Operator List Redesign",
       "assignee": "Ciara Carroll",
-      "status": "In Product",
+      "status": "In Progress",
       "priority": "Blocked",
-      "context": "Day 21 blocked (since 16/04). No Jira update today despite Michael Butlin attending the product sync. Mike has flagged blocker frustration to Colin Brannigan (10:19 today). If the product sync did not resolve this, escalate immediately — do not wait until Friday's 121."
+      "context": "Day 21 Blocked (since 16/04/2026). Michael Butlin attended today's product sync but the ticket remains unchanged as of this report. No Slack activity from Ciara today. 3 mobile-first grid-format iterations are ready and waiting for a decision. Escalate to Colin Brannigan immediately — this is the longest-standing blocker on the board and is now a sprint planning risk."
+    },
+    {
+      "key": "GDCU-8810",
+      "summary": "[GDC][DEV] Set Up Organisation Level Developer Accounts for Apple/Google",
+      "assignee": "Harden Thomas Wallace",
+      "status": "In Progress",
+      "priority": "Blocked",
+      "context": "Blocked (updated 06/05). Prerequisite for publishing the F2P app to App Store and Google Play. Directly linked to GDCU-8806 (Age Gate) which is now In Product awaiting Mike's sign-off. Mike needs to identify what is blocking the account setup and either action it or assign clear ownership to unblock Harden."
     }
   ],
-  "_meta": {
-    "morning_items_resolved_today": [
-      "GDCU-8931 (Strategy pages search) — now Done at 09:32. Was 'monitor' in morning report.",
-      "GDCU-8736 (Learning Hub Imagery) — removed from In Product queue; Ciara pulled back to In Progress at 13:01.",
-      "GDCU-8865 (Slot Games Hub button) — Done at 11:50; Chloe's morning pod request resolved.",
-      "GDCU-8879 (Brand Carousel UX card, Jessica) — Done at 11:40.",
-      "GDCU-8900 (SlotsLaunch Game Grid) — Done at 11:07.",
-      "Product Sync — meeting has occurred."
+  "_sprint_highlights": {
+    "completed_today_or_since_morning": [
+      "GDCU-8877 — Phone Numbers Admin Panel (Novica, Done 07/05) — WAS in morning review queue",
+      "GDCU-8736 — Learning Hub Imagery (Ciara, Done 07/05) — WAS in morning review queue; unblocked GDCU-8951",
+      "GDCU-8928 — IUJ Banners (Jessica, Done 07/05) — clears outstanding banners action from morning",
+      "GDCU-8947 — Cosmo Cash Machine Images (Ciara, Done 07/05)",
+      "GDCU-8861 — Brand Carousel Component (Harden, Done 06/05)",
+      "GDCU-8834 — Cool Tones Update (Harden, Done 06/05)",
+      "GDCU-8929 — Sidebar Navigation Casino/Betting (Harden, Done 06/05)",
+      "GDCU-8849 — Author Carousel Shortcode (Harden, Done 06/05)"
     ],
-    "new_since_morning": [
-      "Vic Dadson signed off until 16 May (extended absence; uploaded doctor's note to Bob without notifying Mike/HR).",
-      "GDCU-8834 (Cool Tones) moved to In Product at 10:02 — partial release tomorrow.",
-      "GDCU-8861 (Brand Carousel) moved to In Product at 11:09.",
-      "GDCU-8929 (Sidebar Navigation) moved to In Product at 10:17.",
-      "Mike escalating blocker frustration to Colin at 10:19 — Friday 121 flagged.",
-      "GDCU-8894 now In QA (Vue component refactor, Novica).",
-      "GDCU-8907 now In QA (Betting Tips Hub, Sanja).",
-      "GDCU-8936 now In Progress (Ace Navigation Redesign, Carlos Blauth) — new ticket.",
-      "GDCU-8925 now In Progress (CWV changes, Novica) — new ticket."
+    "in_qa_pipeline": [
+      "GDCU-8874 — 🔴 Page Bloat: Reduce HTML payload size (HIGH priority, Harden, 07/05)",
+      "GDCU-8955 — Cool Tones Phase 2 (Harden, 07/05)",
+      "GDCU-8878 — 🔥 Oplist Redesign CA/FR (Kelvin Yee, 07/05)",
+      "GDCU-8894 — Refactor scoped styles on Vue components (Novica, 06/05)",
+      "GDCU-8907 — 🔥 Betting Tips Hub Page (Sanja Budic, Blocked in QA)"
     ],
-    "sprint_velocity_today": {
-      "done_today": ["GDCU-8865", "GDCU-8879", "GDCU-8900", "GDCU-8931"],
-      "in_product_queue_count": 5,
-      "in_product_queue": ["GDCU-8834", "GDCU-8861", "GDCU-8877", "GDCU-8929", "GDCU-8619"],
-      "note": "4 more tickets Done today (in addition to 6 Done yesterday). In Product queue has grown to 5 items, 3 of which are new this afternoon. Strong output but review queue needs clearing."
-    },
-    "confluence_note": "CQL query for GDCU space pages modified today returned 0 results.",
-    "channels_with_activity_today": ["#gdc-product-design-pod (Chloe: GDCU-8834 review request + GDCU-8865 button decision; Jessica: taking a look)"],
-    "channels_no_new_activity": ["#core-product", "#gdc-pod", "#gdc-pdmt", "#gdc-f2p-apps", "#gdc-product-led-growth"],
-    "dms_checked": ["Vic Dadson (U087V9LM88G)", "Jessica Dordevic (U07LKTTJUTW)", "Ciara Carroll (U01AE1G49L5)", "Colin Brannigan (U7SGK6WPL)", "Chloe Christie (U01BD6Y2HMY)", "Gabriel Cornoiu (U03MMV5R5B3)"]
+    "newly_unblocked": [
+      "GDCU-8951 — Apply Feedback to Learning Hub Phase 2 (Carlos Blauth, now In Progress — unblocked by GDCU-8736 Done today)"
+    ],
+    "hotfix_deployed_today": [
+      "h2 tag removed from sign-up/sign-in modal across all geos (Carlos Blauth, live hotfix — Chloe raised in #gdc-pod, Jessica suggested span alternative, Carlos resolved and deployed)"
+    ]
   }
 }
