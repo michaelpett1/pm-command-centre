@@ -1,223 +1,333 @@
 {
-  "generated_at": "2026-05-07T17:45:00.000+01:00",
-  "date": "07/05/2026",
+  "generated_at": "2026-05-08T17:30:00.000+01:00",
+  "date": "08/05/2026",
   "report_type": "evening",
-
   "achievements": [
     {
-      "description": "GDCU-8928 IUJ Banners completed by Jessica Dordevic (09:30 BST). Two banners delivered: (1) completing the additional profile page earns chips, (2) a user recently won an iPhone on the spinning wheel. Standard sizing for IUJ Rewards Page and Home Page use.",
-      "source": "jira",
-      "category": "completed"
-    },
-    {
-      "description": "GDCU-8947 Cosmo Cash Machine Images completed by Ciara Carroll (10:54 BST). Updated article image, hero image, fonts, coming soon images, and email images for the UK giveaways Cosmo Cash Machine campaign. Jackpot £5,000 draw with prizes of £1,000, £500, £250 on the wheel.",
-      "source": "jira",
-      "category": "completed"
-    },
-    {
-      "description": "GDCU-8956 Image Graphic project assistant [Claude Chat] completed and launched by Ciara Carroll (15:25 BST). Logo generator tool added to the GDC Claude design system. A Claude project trained on 6HPC image banners is now available for all editors who lack ChatGPT access. Announced to the team in #gdc-product-design-pod with documentation link.",
-      "source": "jira",
-      "category": "completed"
-    },
-    {
-      "description": "Sprint release day: 14 tickets went live as planned. High-priority releases included GDCU-8842 (Integrate Genesis Content Layouts), GDCU-8900, GDCU-8861, GDCU-8865, GDCU-8849. BAU releases: GDCU-8895, 7363, 8611, 8854, 8912, 8877, 8834, 8929, 8931. QA verified all post-release with no critical issues reported.",
-      "source": "slack",
-      "category": "completed"
-    },
-    {
-      "description": "Genesis Brands Carousel component released to production today (Thursday) as pre-announced by Gabriel Cornoiu on 5 May.",
-      "source": "slack",
-      "category": "update"
-    },
-    {
-      "description": "GDCU-8847 Display rev share operator list to VIP users (Nebojsa Stanic) progressed to In QA at 15:17 BST. VIP threshold set at level 2+, using AdTech personalisation API with D1 database fallback. UK operator list at elements.kaxmedia.net.",
-      "source": "jira",
-      "category": "update"
-    },
-    {
-      "description": "GDCU-8846 Cosmo Spins Spring Ad Campaign formally cancelled today (14:55 BST). Long-running carry-forward item cleared from the backlog — creative direction was never finalised.",
-      "source": "jira",
-      "category": "update"
-    },
-    {
-      "description": "GDCU-8874 Page Bloat SEO ticket (Harden Thomas Wallace, HIGH) progressed to In Product at 14:30 BST. Comprehensive audit: CookieYes lazy render (−432 KB, −18,900 DOM nodes across all 24 markets), SSR operator list reduction (−400–1,212 KB per listing page), VWO async load (−379 KB UK), inline script cleanup. Combined estimated saving on /uk/online-casinos: −58% (3,789 KB → ~1,600 KB).",
-      "source": "jira",
-      "category": "update"
-    },
-    {
-      "description": "Standard.co.uk partnership confirmed at the Mid-Week Catchup (6 May). New affiliate agreement with The Standard (Indy group). Tech/product setup kicking off soon: codebase integration, AdTech dashboard, and design team involvement for offers UI.",
-      "source": "confluence",
+      "description": "WC Predictor Game go-ahead confirmed by Dean Ryan — Mike created #gdc-wcpredictor channel, invited Gabriel and Miguel, then added devs Kelvin Yee, Harden Wallace and Eoin McCarthy. Project is now formally in flight.",
+      "source": "slack #gdc-wcpredictor",
       "category": "decision"
     },
     {
-      "description": "CC Brand Meeting (7 May): Claude design system updated by Bruno and confirmed ready for use. Team is exploring creating the next campaign banner using Claude Design.",
-      "source": "confluence",
+      "description": "WC Predictor legal geo sign-off received — Allowed: UK, Ireland, Germany, Austria, Denmark, Romania, Belgium, Sweden, Australia, Peru, Greece, Norway. Excluded: USA, Canada, Italy, Netherlands, Mexico, Brazil, India.",
+      "source": "slack #gdc-wcpredictor",
+      "category": "decision"
+    },
+    {
+      "description": "WC Predictor mechanics clarified and spec updated on Confluence (PF Spec - World Cup Predictor Game): predictions changeable until end of matchday 1 (17 June), giving late starters a window to enter and improving marketing messaging.",
+      "source": "confluence + slack #gdc-wcpredictor",
       "category": "update"
     },
     {
-      "description": "Ciara Carroll's Claude Design guidelines published across #gdc-pod and #core-product. Covers what Claude Design is, GDC team etiquette, the 3,000-component design system, dos and don'ts, and Canva integration. GDCU-8893 Gambling.com Design System cleared from the In Product queue.",
-      "source": "slack",
+      "description": "WC Predictor prototype updated with CMS and shared with the team at https://world-cup-predictor-alpha.vercel.app/ — this is now the source of truth for design and dev.",
+      "source": "slack #gdc-wcpredictor",
+      "category": "update"
+    },
+    {
+      "description": "WC Predictor T&Cs draft sent to legal — Mike shared draft terms in group DM with Dean Ryan, Ekaterina Smolinova and John O'Shea. Ekaterina confirmed she will review Monday or Tuesday.",
+      "source": "slack DM (Dean Ryan / Ekaterina Smolinova / John O'Shea)",
+      "category": "update"
+    },
+    {
+      "description": "Miguel Migneco confirmed to begin WC Predictor design work — Mike briefed him via DM; Miguel confirmed straightforward and will start immediately. Match settlement display approach also discussed.",
+      "source": "slack DM (Miguel Migneco)",
+      "category": "update"
+    },
+    {
+      "description": "Brand carousel went live on gambling.com/uk/online-casinos — Chloe confirmed in #6amigos at 11:04. Relates to GDCU-8861 shipped this week.",
+      "source": "slack #6amigos",
       "category": "completed"
+    },
+    {
+      "description": "Yesterday's release (07/05) verified clean by QA — Robin John confirmed in #gdc-pod that all tickets that went live on Thursday passed QA checks with no issues.",
+      "source": "slack #gdc-pod",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8959 (Duplicate Payment Methods on IS/BE brand reviews) created and moved to In QA same day — actioning Chloe's flag from 07/05. Assigned to Sanja Budic.",
+      "source": "jira",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8899 (VPN Block Research — restricting restricted-country users from FTP games) moved to In QA by Sanja Budic.",
+      "source": "jira",
+      "category": "update"
+    },
+    {
+      "description": "Three tickets entered In Product review queue today: GDCU-8955 (Cool Tones Phase 2, Harden), GDCU-8936 (Ace Navigation Redesign, Carlos), GDCU-8847 (VIP Rev Share Oplist, Nebojsa). All dev work complete awaiting Mike's sign-off.",
+      "source": "jira",
+      "category": "update"
+    },
+    {
+      "description": "HR confirmed receipt of recruitment information for 2 roles — Lauren Bradshaw replied to Mike confirming the open positions' details have been received.",
+      "source": "slack DM (Lauren Bradshaw)",
+      "category": "update"
+    },
+    {
+      "description": "OKR pages updated for H1 — 2026 H1 O1KR2 (AI use cases, ~35% complete) and O1KR3 (GDC at 95% completion, est. 31 May) updated in Confluence OKRs space.",
+      "source": "confluence (OKRs space)",
+      "category": "update"
+    },
+    {
+      "description": "Ciara Carroll progressed GDCU-8432 — seeking dev input on HTML vs gif file approach for a site section replacement. Gabriel confirmed the section should not be crawlable by Google.",
+      "source": "slack #gdc-pod",
+      "category": "update"
     }
   ],
-
   "meeting_summaries": [
     {
-      "title": "Mid-Week Catchup",
-      "time": "2026-05-06 10:00 BST (Wednesday)",
-      "summary": "Mike attended alongside Ciara Carroll, Chloe Christie, Gabriel Cornoiu, Eoin McCarthy, Shane McGrath, Shalini Kumar, and Joshua Smith. Two main topic owners: Gabriel Cornoiu (strategic/delivery) and Chloe Christie (release/BAU). Meeting confirmed today's release plan and surfaced a significant new partnership with The Standard.",
+      "title": "WC Predictor Go-Ahead Call with Dean Ryan",
+      "time": "~Morning BST (inferred from DM thread, call confirmed)",
+      "summary": "Mike had a call with Dean Ryan to discuss the World Cup Predictor Game. Dean confirmed the go-ahead. Key discussion points included prize pool (£10k mentioned, described as potentially 'biggest on site'), required design assets, and overall project structure. Mike messaged Dean: 'Right, we got the go ahead on the WC predictor game.' Following the call Mike created #gdc-wcpredictor and began mobilising the team. Prize pool amount remains TBC — Dean asked to chat further about it.",
       "decisions": [
-        "Standard.co.uk (Indy group) new affiliate partnership confirmed. Eoin McCarthy to create tickets for codebase setup and AdTech dashboard. Design team and matrix involvement expected for offers UI.",
-        "Bloomreach push notifications ticket deferred to next sprint.",
-        "Kelvin to spend Thursday and Friday on concept/prototype work for Dean and Colin. Canada French new oplist may slip to next week — accepted.",
-        "Links by Country shortcode for GX slot review pages: Eoin and Gabriel to brainstorm a solution. Michael Butlin to provide varied anchor text spreadsheet.",
-        "Two CWV tickets (GDCU-8874 and GDCU-8925) confirmed safe to run concurrently.",
-        "Alberta regulation ticket (GDCU-8946) confirmed in place.",
-        "Today's (7 May) release plan confirmed: Genesis release before GDC; 9 BAU + 5 High Priority tickets."
+        "WC Predictor Game is formally approved and in flight",
+        "Prize pool ~£10k discussed but not yet confirmed — Dean wants to discuss further"
       ],
       "action_items_from_meeting": [
-        "Eoin McCarthy: Create tickets for Standard.co.uk codebase setup and AdTech dashboard.",
-        "Gabriel Cornoiu / Eoin McCarthy: Brainstorm GX slot review Links by Country shortcode solution.",
-        "Michael Butlin: Provide spreadsheet of varied anchor texts for GX slot review links.",
-        "Mike Pett: Note Standard.co.uk partnership — design team involvement likely needed for offers UI."
+        "Mike to finalise prize pool amount with Dean Ryan",
+        "Mike to confirm what design assets Dean requires",
+        "WC Predictor dev kickoff call to be scheduled (channel created same day)"
       ]
     },
     {
-      "title": "CC Brand Meeting (Casino Core)",
-      "time": "2026-05-07 (Thursday)",
-      "summary": "Regular Casino Core brand meeting. Agenda updated with a May 7 entry confirming the Claude design system (updated by Bruno) is now ready for use. Team exploring creating the next campaign banner using Claude Design. Mike is a stakeholder on Cosmo Spins-related creative but was not listed as a direct attendee.",
+      "title": "#gdc-wcpredictor Channel Kickoff (all-day async)",
+      "time": "09:43–16:49 BST",
+      "summary": "Mike created the #gdc-wcpredictor channel at 09:43 and progressively built out the team and spec throughout the day. Gabriel confirmed match results will be entered manually in Admin Panel; bracket dropdowns will allow team selection as tournament progresses. Legal geos shared at 14:43. Devs Kelvin Yee, Harden Wallace and Eoin McCarthy added at 12:10. Spec and prototype updated and shared. Mechanics change agreed: prediction window extended to 17 June end of matchday 1. Translations approach flagged as TBC for a separate meeting.",
       "decisions": [
-        "Claude design system (updated by Bruno) confirmed ready for team use.",
-        "Team to attempt next campaign banner creation using Claude Design."
+        "Match results entered manually via GDC Admin Panel — no automated feed",
+        "Admin Panel bracket: 'Seed 1A' boxes become dropdowns to select teams as tournament progresses",
+        "WC Predictor will be English-only at launch; browser translations to serve non-English territories (translations meeting pending)",
+        "Predictions changeable until end of matchday 1 (17 June) — allows late entries and improves marketing angle",
+        "Prototype at https://world-cup-predictor-alpha.vercel.app/ is source of truth for design and dev"
       ],
       "action_items_from_meeting": [
-        "Casino Core team (Colm Phelan): Attempt next campaign banner creation using the updated Claude Design system."
+        "Translations approach to be confirmed in a separate meeting (Gabriel's flag)",
+        "Miguel to begin design work (confirmed)",
+        "Mike to schedule KO call with dev team (Kelvin, Harden, Eoin)",
+        "Ekaterina Smolinova to review T&Cs by Monday/Tuesday"
       ]
     }
   ],
-
   "action_points": [
     {
-      "action": "Review and sign off GDCU-8874 Page Bloat SEO (Harden Thomas Wallace, HIGH priority). Landed In Product today at 14:30 BST. Four independent fixes: CookieYes lazy render (−432 KB, −18,900 DOM nodes, all 24 markets), SSR operator list reduction (−400–1,212 KB per listing page), VWO async load (−379 KB UK pages), inline script cleanup. Combined estimated reduction on /uk/online-casinos: −58%. High SEO and CWV impact. Stakeholders: Chloe Christie, Joshua Smith, Gabriel Cornoiu, Dan Smullen.",
+      "action": "REVIEW GDCU-8874 — Page Bloat: Reduce HTML payload size (Harden, HIGH, In Product). Day 2 carry-over. Harden ready to proceed with 4-fix SEO plan (CookieYes lazy render saves 432KB/18,900 DOM nodes; SSR operator list saves up to 1,212KB; VWO async; inline scripts). Combined saving estimated ~58% on /uk/online-casinos. Stakeholders: Chloe, Josh, Gabriel, Dan Smullen.",
       "source": "jira",
       "priority": "high",
-      "emoji": "📉",
+      "emoji": "🐘",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8874",
-      "carry_over": false
+      "carry_over": true
     },
     {
-      "action": "Review and sign off GDCU-8806 Implement In-App Age Gate 18+ Verification (Carlos Blauth, Medium). In Product since 6 May. App store compliance — Apple Guideline 5.3 and Google Play require in-app age gating for gambling-adjacent apps. Gate must appear on first launch before any content. Options: DoB picker or yes/no confirmation. Gate stored locally, shown only once. Under-18 users blocked entirely. iOS and Android.",
+      "action": "REVIEW GDCU-8806 — In-App Age Gate 18+ Verification (Carlos Blauth, MEDIUM, In Product). Apple App Store Guideline 5.3 compliance gate. Carlos has built the implementation (confirms on first launch, stores preference, blocks under-18s). Approval needed before any app store submission.",
       "source": "jira",
       "priority": "high",
       "emoji": "🔞",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8806",
-      "carry_over": false
+      "carry_over": true
     },
     {
-      "action": "Review and sign off GDCU-8948 Update Ratio of Prize Boxes — 5th Box for Cosmo Spins (Jessica Dordevic, Medium). In Product since 09:40 BST today. Marketing wants a 5th prize box (£250 Cash Prize) added to the Cosmo Spins landing page. Jessica to share the best aspect ratio. Boxes are HTML snippets. Stakeholders: Shaun Cronin, Ciara Carroll, Miguel Migneco.",
+      "action": "REVIEW GDCU-8955 — Cool Tones Phase 2 (Harden, MEDIUM, In Product, entered queue 08/05). Jessica's UX feedback incorporated: FAQ padding, Casino Navigation container white bg + border radius, article card styling, table colour fixes, red-to-consistent link colour, comments section padding.",
       "source": "jira",
       "priority": "high",
-      "emoji": "🎁",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948",
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8955",
       "carry_over": false
     },
     {
-      "action": "Follow up on Standard.co.uk partnership with Gabriel Cornoiu and Eoin McCarthy. Eoin is creating setup tickets. Design team involvement is expected for offers UI — confirm whether a design brief or stakeholder kickoff is needed from Mike. Consider sprint capacity implications.",
-      "source": "confluence",
-      "priority": "medium",
-      "emoji": "🤝",
-      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6608820321/Mid+Week+Catchup+6th+May+2026",
-      "carry_over": false
-    },
-    {
-      "action": "Respond in #gdc-pod to Chloe Christie's question (13:49 BST today): duplicate payment methods showing on Icelandic EN brand reviews (gambling.com/is/en/spinlander). Likely language-based content pulling in duplicates. Confirm dev ticket vs editorial fix.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🇮🇸",
-      "url": "https://www.gambling.com/is/en/spinlander",
-      "carry_over": false
-    },
-    {
-      "action": "Respond in #gdc-pod to Chloe Christie's question (09:54 BST today): can the h2 tag be removed from the welcome message on the sign-up modal? SEO impact flagged. Chloe suggests applying across all geos. Confirm whether this is editorial or needs a dev ticket.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🏷️",
-      "carry_over": false
-    },
-    {
-      "action": "GDCU-8906 Review Claude Generated Tables on NL Casino Strategy Page (Jessica Dordevic, Cross-Functional, To Do). Created today. NL editors added Claude-generated HTML tables to a strategy page — needs dev review (code/performance) and UX review (brand guidelines). Stakeholders: Trystan Michielsen, Diana Thurmann, Ciara Carroll, Eoin McCarthy, Miguel Migneco. Confirm Jessica has a clear brief before she starts.",
+      "action": "REVIEW GDCU-8936 — Ace Navigation Redesign with Global Nav Bar (Carlos Blauth, MEDIUM, In Product, entered queue 08/05). Shane McGrath confirmed dev work complete today. Global nav, burger menu, sign in/up UI and sidebar icon all redesigned per Figma prototype.",
       "source": "jira",
-      "priority": "medium",
-      "emoji": "📊",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8906",
+      "priority": "high",
+      "emoji": "🧭",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936",
       "carry_over": false
     },
     {
-      "action": "Check in with Vic Dadson — she was expected back from sick leave on Tuesday 5 May. Confirm she has returned and re-engage on data engineering options discussion that was flagged before her leave.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "👋",
-      "carry_over": true
-    },
-    {
-      "action": "CARRY FORWARD — Gabriel Cornoiu stakeholder intake questions still outstanding (last message 2026-04-23): (1) should there be an 'Other' option in the offer ordering dropdown? (2) does 'new ordering structure required' mean a new OpList? No evidence of resolution.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "💬",
-      "carry_over": true
-    },
-    {
-      "action": "CARRY FORWARD — Provide Chloe Christie with Confluence docs or prototypes for upcoming roadmap items (requested in #6amigos on 21 April) so she can start getting placeholder tickets in place before next sprint planning.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🗺️",
-      "carry_over": true
-    },
-    {
-      "action": "CARRY FORWARD — GDCU-8903 Sports Quiz Hub UX pre-req ticket still not created. Ticket states the UX design handoff must be completed and approved before dev work can be actioned. Create or formally descope before next sprint planning.",
+      "action": "REVIEW GDCU-8847 — VIP Rev Share Oplist (Nebojsa Stanic, MEDIUM, In Product, entered queue 08/05). Displays custom operator list to ktag-identified VIP users (level 2+). UK only. AdTech personalisation API approach preferred.",
       "source": "jira",
-      "priority": "low",
-      "emoji": "🧩",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8903",
-      "carry_over": true
-    },
-    {
-      "action": "Monitor GDCU-8847 VIP Rev Share Operator List (Nebojsa Stanic) — In QA as of 15:17 BST today. No action needed unless QA raises a blocker.",
-      "source": "jira",
-      "priority": "low",
+      "priority": "high",
       "emoji": "👑",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8847",
       "carry_over": false
+    },
+    {
+      "action": "SCHEDULE WC PREDICTOR KO CALL — Dev team (Kelvin Yee, Harden Wallace, Eoin McCarthy) in #gdc-wcpredictor. Spec and prototype confirmed. Book kickoff call for early next week. Walk devs through PF Spec, Admin Panel architecture, prediction window mechanics, and data dependencies (Karl check-in). 11 June is hard deadline for Group Bets component.",
+      "source": "slack #gdc-wcpredictor",
+      "priority": "high",
+      "emoji": "⚽",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935",
+      "carry_over": false
+    },
+    {
+      "action": "JESSICA BACK MONDAY — Review GDCU-8948 (Prize Boxes 5th Box, MEDIUM, In Product) together. Also respond to her request for feedback on 'the design she did for Colin and Dean' — identify what this refers to (likely GDCU-8906 NL Claude Tables or another piece) and provide feedback.",
+      "source": "jira + slack",
+      "priority": "medium",
+      "emoji": "🏖️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948",
+      "carry_over": true
+    },
+    {
+      "action": "WC PREDICTOR — Confirm Karl check-in on WC data readiness (fixture dating and resulting data via API/matrix). Key dependency for dev build. Was outstanding all week — must be resolved before KO call.",
+      "source": "slack (carry-over)",
+      "priority": "medium",
+      "emoji": "📊",
+      "carry_over": true
+    },
+    {
+      "action": "WC PREDICTOR — Finalise prize pool with Dean Ryan. £10k discussed but Dean flagged 'biggest on site?' and wanted to chat further. Must be agreed before T&Cs are finalised by Ekaterina.",
+      "source": "slack DM (Dean Ryan)",
+      "priority": "medium",
+      "emoji": "🏆",
+      "carry_over": false
+    },
+    {
+      "action": "WC PREDICTOR TRANSLATIONS — Gabriel flagged 'will discuss translations in the meeting later' at 14:57 BST. Confirm outcome of that discussion: is English-only confirmed, or is a translation solution in scope? This affects build scope.",
+      "source": "slack #gdc-wcpredictor",
+      "priority": "medium",
+      "emoji": "🌍",
+      "carry_over": false
+    },
+    {
+      "action": "CONFIRM GDCU-8907 BETTING TIPS HUB UNBLOCKED — Sanja said 'This should be fixed now' on 07/05 for the European leagues scope issue, but ticket still showed Blocked as of morning report. Verify Jira status updated so QA can proceed.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🏟️",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8907",
+      "carry_over": true
+    },
+    {
+      "action": "GDCU-8810 UNBLOCK — Apple/Google Org Developer Accounts (Harden, BLOCKED, In Progress). No progress today. Identify who holds organisation credentials and escalate. This gates the entire app store submission pipeline.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🍎",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810",
+      "carry_over": true
+    },
+    {
+      "action": "GDCU-8619 OPERATOR LIST REDESIGN — Ciara now In Progress (unblocked 07/05 after 22 days blocked). Confirm first milestone/review point. Ciara also has GDCU-8432 (site section HTML/gif) and GDCU-8392 (WC Cosmo Spins reskin, Backlog, deadline 11 June) — agree sprint sequencing.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🔓",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619",
+      "carry_over": true
+    },
+    {
+      "action": "INTERVIEW COORDINATION — Liam Caffrey seeking Wednesday 12 May 12–3pm (Gabriel confirmed available). Mike's calendar looked full per morning report. Check M365 calendar and confirm or propose alternative time.",
+      "source": "slack (carry-over from morning report)",
+      "priority": "medium",
+      "emoji": "📅",
+      "carry_over": true
+    },
+    {
+      "action": "VIC DADSON — Signed off until 16 May. HR (Lauren Bradshaw) has the doctor's note. Nemanja requirements and BI knowledge sharing with Chris deferred. Brief Colin on coverage plan and ensure no critical data work is blocking sprint output.",
+      "source": "slack (carry-over)",
+      "priority": "medium",
+      "emoji": "🏥",
+      "carry_over": true
+    },
+    {
+      "action": "GDCU-8878 CA/FR OPLIST REDESIGN — Moved back to In Progress today (Kelvin Yee). Major redesign of CA/FR casino pages. Note: Kelvin is also lead dev on WC Predictor — monitor capacity and flag if sequencing conflict arises.",
+      "source": "jira",
+      "priority": "low",
+      "emoji": "🃏",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8878",
+      "carry_over": false
+    },
+    {
+      "action": "GDCU-8846 COSMO SPINS SPRING AD CAMPAIGN — Creative direction still not provided. Josh Kerr feedback: clearer message, less 'gaming' feel. Ciara's capacity is stretched. Give direction early next week so this doesn't stall further.",
+      "source": "jira (carry-over)",
+      "priority": "low",
+      "emoji": "🌸",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8846",
+      "carry_over": true
+    },
+    {
+      "action": "DESIGN SYSTEM GUIDELINES — Team flagged Figma asset panel confusion (gradient usage, conflicting libraries: Tailwind, GDC DS, Heroicons, Material). Consider short alignment session with Miguel, Ciara and Jessica. Not urgent but a recurring pain point affecting design velocity.",
+      "source": "slack (carry-over)",
+      "priority": "low",
+      "emoji": "📐",
+      "carry_over": true
+    },
+    {
+      "action": "INTAKE FORM — Gabriel Cornoiu's 23/04 suggestions (SEO & Information Architecture for new pages/hubs; operator offer attributes) still unconfirmed. Gabriel active on WC Predictor — ask him to confirm intake form status when next in contact.",
+      "source": "slack (carry-over)",
+      "priority": "low",
+      "emoji": "📋",
+      "carry_over": true
     }
   ],
-
   "calendar": {
-    "_note": "Microsoft 365 authentication not completed — OAuth flow initiated but callback URL not received. No Outlook calendar data available for Friday 08/05/2026. No Confluence agenda pages found for May 8 that are relevant to Mike's team. To enable calendar access, complete the OAuth flow and paste the localhost callback URL into the session. Next working day is Friday 08/05/2026.",
-    "next_working_day": []
-  },
-
-  "_meta": {
-    "jira_summary": {
-      "completed_today": 3,
-      "cancelled_today": 3,
-      "notable_status_changes_today": 5,
-      "currently_in_product": 3,
-      "tickets_released_today": 14
-    },
-    "slack_channels_checked": [
-      "gdc-pod (G01DVQ3859D)",
-      "gdc-pdmt (C05RRK62Z6X)",
-      "gdc-product-design-pod (C07L3ES6V0F)",
-      "gdc-product-led-growth (C0AE981E1EJ)",
-      "core-product (C030GG1J34H)",
-      "gdc-f2p-apps (C0AT469KLDS)",
-      "6amigos (C02K4D5HPE1)"
-    ],
-    "slack_channels_not_found": [
-      "gdc-high-agency — no channel found matching this name"
-    ],
-    "confluence_note": "25 items modified today across multiple spaces. Key GDCU-relevant updates: CC Brand Meeting Agenda (Claude design system confirmed ready), Joshua Smith attachments on GDCU space page 6608828275 (likely ticket evidence), Ciara Carroll attachment on 6HPC Banner Creation guide (GDCU-8956 completion evidence).",
-    "morning_report_gap_note": "Available morning report is dated 30/04/2026 and afternoon report 28/04/2026 — both are one week prior to today. Many items from those reports have since been resolved (GDCU-8893 Design System cleared, Sprint 169 release completed, GDCU-8801 CA/FR Oplist cleared). Action points above reflect current live state only.",
-    "vic_dadson_note": "Expected back from sick leave Tuesday 5 May. No Slack activity visible but return date has passed. Confirm return and re-engage."
+    "_note": "Microsoft 365 authentication not completed — full calendar data unavailable. No Confluence agenda pages found for Monday 11/05/2026. Known context: (1) Ekaterina Smolinova reviewing WC Predictor T&Cs Monday or Tuesday. (2) Liam Caffrey interview targeting Wednesday 12 May 12–3pm (Gabriel available; Mike's calendar check needed). (3) Jessica Dordevic returns from leave Monday. (4) Content team sprint planning pages for May 11–17 indicate sprint kick-off week. (5) Product sync pattern is Wednesdays — no agenda created yet. (6) Friday 121 with Colin Brannigan — no Slack evidence it occurred today; if deferred, schedule early Monday.",
+    "next_working_day": [
+      {
+        "id": "inferred-wc-predictor-ko",
+        "title": "WC Predictor KO Call — Dev Team",
+        "time": "TBC — to be scheduled by Mike for early next week",
+        "duration": "60 min (suggested)",
+        "status": "unscheduled",
+        "attendees": ["Mike Pett", "Kelvin Yee", "Harden Wallace", "Eoin McCarthy", "Gabriel Cornoiu", "Miguel Migneco"],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6605930782/PF+Spec+-+World+Cup+Predictor+Game",
+        "synopsis": "Kickoff call for the World Cup Predictor Game dev build. Go-ahead confirmed by Dean Ryan on 08/05. Dev team (Kelvin, Harden, Eoin) added to #gdc-wcpredictor channel today. Spec, prototype and legal geos all confirmed. Miguel confirmed starting design.",
+        "discussion_topics": [
+          "Walk devs through PF Spec and prototype (https://world-cup-predictor-alpha.vercel.app/)",
+          "Admin Panel architecture — manual result entry, team dropdown for bracket progression",
+          "Prediction window mechanic — changeable until 17 June (end of matchday 1)",
+          "Data dependency — confirm Karl's WC fixture/resulting data readiness",
+          "Translations approach (Gabriel flagged as outstanding)",
+          "Timeline and sprint sequencing vs 11 June Group Bets deadline"
+        ],
+        "prep_notes": "Confirm Karl data check before this call so you have a clear data dependency answer. Prize pool (~£10k) still being finalised with Dean — do not commit prize amounts in dev scope during this call. Check Miguel's design progress so you can share early concepts with devs if available."
+      },
+      {
+        "id": "inferred-121-colin",
+        "title": "1:1 with Colin Brannigan (if deferred from Friday 08/05)",
+        "time": "TBC — not confirmed via calendar",
+        "duration": "30–60 min",
+        "status": "unconfirmed",
+        "attendees": ["Mike Pett", "Colin Brannigan"],
+        "flags": {
+          "has_direct_reports": false,
+          "has_manager": true,
+          "needs_prep": true,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Friday 121 may have been deferred. Mike flagged blocker frustration to Colin on 06/05. GDCU-8619 unblocked 07/05 but structural issues remain. WC Predictor going ahead is a strong positive to bring.",
+        "discussion_topics": [
+          "Vic Dadson — signed off until 16 May, data engineering coverage plan needed",
+          "GDCU-8810 — Apple/Google org developer accounts blocked, needs credential escalation",
+          "WC Predictor — align on prize pool and marketing investment with Dean Ryan",
+          "Blocker pattern — celebrate GDCU-8619 resolution but flag process improvement opportunity"
+        ],
+        "prep_notes": "Come with a concrete Vic coverage plan (what work is at risk, who steps in for what). Have a specific ask for GDCU-8810 (who owns the Apple/Google org credentials?). Use WC Predictor momentum as a positive — go-ahead in one day after green light is a strong sprint signal."
+      },
+      {
+        "id": "inferred-jessica-catch-up",
+        "title": "Jessica Dordevic returns — GDCU-8948 review + design feedback",
+        "time": "Monday morning — schedule as early catch-up",
+        "duration": "15 min",
+        "status": "unscheduled",
+        "attendees": ["Mike Pett", "Jessica Dordevic"],
+        "flags": {
+          "has_direct_reports": true,
+          "has_manager": false,
+          "needs_prep": false,
+          "has_agenda": false
+        },
+        "agenda_url": null,
+        "synopsis": "Jessica is off today (08/05). On her return: review GDCU-8948 (5th Prize Box, In Product). She also requested feedback on 'the design she did for Colin and Dean' before going on leave.",
+        "discussion_topics": [
+          "GDCU-8948 — 5th Cosmo Spins prize box aspect ratio review",
+          "Identify and provide feedback on the Colin/Dean design Jessica referenced",
+          "GDCU-8906 — NL Claude Tables review (assigned to Jessica, To Do)"
+        ],
+        "prep_notes": "Identify what the Colin/Dean design refers to before the catch-up — check recent Jessica DMs and Jira for any design ticket flagged for senior review."
+      }
+    ]
   }
 }
