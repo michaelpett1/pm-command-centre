@@ -2,6 +2,22 @@
   "generated_at": "2026-05-08T14:00:00.000+01:00",
   "date": "08/05/2026",
   "report_type": "afternoon",
+  "_sources": {
+    "jira": "3 JQL queries executed — In Product/Blocked (3 results), sprint updated last 24h (20 results), status changed today (7 results)",
+    "slack": "Searched 7 channels + 6 individual senders. Channels: 0 results. Active group DM found (Ciara/Miguel/Jessica/Mike, 13:00–13:23 BST). Jessica active in #gdc-pod (09:56). Chloe active in #gdc-pod (h2 tag hotfix, resolved by Carlos).",
+    "confluence": "CQL for GDCU space modified today — 0 results",
+    "knowledge_files": "preferences.md, team.md, projects-active.md not found in /knowledge — proceeding from morning report context and live Jira/Slack data"
+  },
+  "_morning_resolved": [
+    "✅ GDCU-8877 (Phone Numbers Admin Panel, Novica) — Done today 07/05. Morning review item cleared.",
+    "✅ GDCU-8736 (Learning Hub Imagery, Ciara) — Done today 07/05. Sign-off complete; unblocked GDCU-8951 (Apply Feedback to Learning Hub Phase 2, Carlos now In Progress).",
+    "✅ GDCU-8928 (IUJ Banners, Jessica) — Done today 07/05 at 09:30. Outstanding banners decision since 30/04 resolved.",
+    "✅ GDCU-8947 (Cosmo Cash Machine Images, Ciara) — Done today 07/05 at 10:54.",
+    "✅ GDCU-8861 (Brand Carousel Component, Harden) — Done 06/05.",
+    "✅ GDCU-8834 (Cool Tones Update, Harden) — Done 06/05.",
+    "✅ GDCU-8929 (Sidebar Navigation Casino/Betting, Harden) — Done 06/05.",
+    "✅ GDCU-8849 (Author Carousel Shortcode, Harden) — Done 06/05."
+  ],
   "action_items": [
     {
       "action": "NEW — GDCU-8878 🔥 CA/FR Oplist Redesign moved to In Product (Kelvin Yee, 13:19 today). Was In QA this morning. Kelvin has implemented the full oplist redesign for gambling.com/ca/fr/casinos-en-ligne per the AI Day prototype. Acceptance criteria: editor picks = top 3 brands, scrollable T&Cs, comparison + show-more functions, all device/browser checks. Stakeholders: Gabriel, Eoin, Ciara, Joshua, Sarah Azzopardi, Diana Thurmann. Review and approve or feedback today.",
