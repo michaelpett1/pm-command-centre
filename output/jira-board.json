@@ -1,321 +1,214 @@
 {
-  "generated_at": "2026-05-11T07:18:41Z",
+  "generated_at": "2026-05-11T12:35:00.000+01:00",
   "date": "11/05/2026",
   "sprint": {
-    "name": "Sprint 9",
+    "name": "GDCU Sprint9Q2",
     "total": 46
   },
   "stats": {
-    "in_progress": 9,
+    "in_progress": 12,
     "in_qa": 4,
-    "in_product": 6,
-    "backlog": 7,
+    "in_product": 5,
+    "backlog": 4,
     "done": 20
   },
   "columns": {
     "in_progress": [
-      {
-        "key": "GDCU-8432",
-        "summary": "Geo Locate Images on the Global HP",
-        "assignee": "Ciara Carroll",
-        "priority": "High",
-        "flags": [
-          "flagged"
-        ]
-      },
-      {
-        "key": "GDCU-8619",
-        "summary": "Operator List Redesign",
-        "assignee": "Ciara Carroll",
-        "priority": "High",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8878",
-        "summary": "Implement Oplist Redesign on Online Casinos Page",
-        "assignee": "Kelvin Yee",
-        "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
-      },
-      {
-        "key": "GDCU-8951",
-        "summary": "Apply Feedback to the Learning Hub Phase 2",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8925",
-        "summary": "Implement CWV changes recommended by Viktor AI",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8924",
-        "summary": "Implement feedback for Origins API integration",
-        "assignee": "Nebojsa Stanic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8902",
-        "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
-        "assignee": "Jessica Dordevic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8904",
-        "summary": "Group Bets Widget",
-        "assignee": "Miguel Migneco",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8810",
-        "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Blocked",
-        "flags": [
-          "blocked"
-        ]
-      }
+      { "key": "GDCU-8432", "summary": "🔥 Geo Locate Images on the Global HP", "assignee": "Ciara Carroll", "priority": "High", "flags": ["flagged"] },
+      { "key": "GDCU-8619", "summary": "Operator List Redesign", "assignee": "Ciara Carroll", "priority": "High", "flags": [] },
+      { "key": "GDCU-8878", "summary": "🔥 Implement Oplist Redesign on Online Casinos Page", "assignee": "Kelvin Yee", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8906", "summary": "Review Claude Generated Tables on Casino Strategy Page", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8928", "summary": "IUJ Banners", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8951", "summary": "Apply Feedback to the Learning Hub Phase 2", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8904", "summary": "Group Bets Widget", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8935", "summary": "World Cup Predictor Game", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8392", "summary": "🔥 Create a World Cup reskin for Cosmo Spins", "assignee": "Ciara Carroll", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8924", "summary": "Implement feedback for Origins API integration", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8902", "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8810", "summary": "Set Up Organisation Level Developer Accounts for Apple/Google", "assignee": "Harden Thomas Wallace", "priority": "Blocked", "flags": ["blocked"] }
     ],
     "in_qa": [
-      {
-        "key": "GDCU-8959",
-        "summary": "Duplicate Payment Methods Appearing on Brand Reviews",
-        "assignee": "Sanja Budic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8899",
-        "summary": "How to Block Restricted Users Using VPN from Playing FTP Games",
-        "assignee": "Sanja Budic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8894",
-        "summary": "Refactor scoped styles on Vue components",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8907",
-        "summary": "Implement the Betting Tips Hub Page",
-        "assignee": "Sanja Budic",
-        "priority": "Blocked",
-        "flags": [
-          "blocked",
-          "flagged"
-        ]
-      }
+      { "key": "GDCU-8925", "summary": "Implement CWV changes recommended by Viktor AI", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8936", "summary": "Implement Redesign of Ace Navigation with Global Nav Bar", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8899", "summary": "How to Block Restricted Users Using VPN from Playing FTP Games", "assignee": "Sanja Budic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8907", "summary": "🔥 Implement the Betting Tips Hub Page", "assignee": "Sanja Budic", "priority": "Blocked", "flags": ["blocked", "flagged"] }
     ],
     "in_product": [
-      {
-        "key": "GDCU-8874",
-        "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "High",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8955",
-        "summary": "Implement Fixes for Cool Tones Phase 2",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8936",
-        "summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8847",
-        "summary": "Display rev share operator list to users marked as VIP in ktag",
-        "assignee": "Nebojsa Stanic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8948",
-        "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
-        "assignee": "Jessica Dordevic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8806",
-        "summary": "Implement In-App Age Gate (18+ Verification)",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      }
+      { "key": "GDCU-8874", "summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts", "assignee": "Harden Thomas Wallace", "priority": "High", "flags": [] },
+      { "key": "GDCU-8894", "summary": "Refactor scoped styles on Vue components", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8959", "summary": "Duplicate Payment Methods Appearing on Brand Reviews", "assignee": "Sanja Budic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8847", "summary": "Display rev share operator list to users marked as VIP in ktag", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8806", "summary": "Implement In-App Age Gate (18+ Verification)", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] }
     ],
     "done": [
-      {
-        "key": "GDCU-8956",
-        "summary": "Image Graphic project assistant",
-        "assignee": "Ciara Carroll",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8879",
-        "summary": "Create Genesis Brand Carousel Component Card",
-        "assignee": "Jessica Dordevic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8736",
-        "summary": "Share/Create Imagery for the Learning Hub",
-        "assignee": "Ciara Carroll",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8733",
-        "summary": "Apply Feedback to the Learning Hub",
-        "assignee": "Carlos Blauth",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8947",
-        "summary": "Cosmo Cash Machine Images",
-        "assignee": "Ciara Carroll",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8877",
-        "summary": "Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8928",
-        "summary": "IUJ Banners",
-        "assignee": "Jessica Dordevic",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8861",
-        "summary": "Integrate Brand Carousel Component",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
-      },
-      {
-        "key": "GDCU-8834",
-        "summary": "Implement Fixes for Cool Tones Update",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8929",
-        "summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8849",
-        "summary": "Add new style to the Author Carousel Shortcode",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8865",
-        "summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8900",
-        "summary": "SlotsLaunch Game Grid Shortcode",
-        "assignee": "Kelvin Yee",
-        "priority": "Medium",
-        "flags": [
-          "flagged"
-        ]
-      },
-      {
-        "key": "GDCU-8931",
-        "summary": "Strategy pages do not appear in search",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8842",
-        "summary": "Integrate Genesis Content Layouts",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8611",
-        "summary": "Update \"Feature\" Tag",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Low",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8895",
-        "summary": "Prediction Market Page Not Appearing on US Sitemap",
-        "assignee": "Sanja Budic",
-        "priority": "High",
-        "flags": []
-      },
-      {
-        "key": "GDCU-7363",
-        "summary": "Slots widget - Minor Filter issues",
-        "assignee": "Novica Vukobratovic",
-        "priority": "Low",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8854",
-        "summary": "The arrow button the Geo selector doesnt collapses when clicked on",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      },
-      {
-        "key": "GDCU-8912",
-        "summary": "Remove Rotate Device Message from Cosmo Spins on Desktop",
-        "assignee": "Harden Thomas Wallace",
-        "priority": "Medium",
-        "flags": []
-      }
+      { "key": "GDCU-8948", "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8955", "summary": "Implement Fixes for Cool Tones Phase 2", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8956", "summary": "Image Graphic project assistant [Claude Chat]", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8879", "summary": "Create Genesis Brand Carousel Component Card", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8736", "summary": "Share/Create Imagery for the Learning Hub", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8733", "summary": "Apply Feedback to the Learning Hub", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8947", "summary": "Cosmo Cash Machine Images", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8877", "summary": "👀👀👀👀 Add Field to Manage Phone Numbers on Email Conformation Pages in Admin Panel", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8861", "summary": "👀 🔥 Integrate Brand Carousel Component", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8834", "summary": "Implement Fixes for Cool Tones Update", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8929", "summary": "Enable Sidebar Navigation to Casino and Betting Strategy Articles", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8849", "summary": "Add new style to the Author Carousel Shortcode", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8865", "summary": "Implement Game/Software Provider Names and Improve Sizing Dimensions for Slot Games Hub", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8900", "summary": "🔥 SlotsLaunch Game Grid Shortcode", "assignee": "Kelvin Yee", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8931", "summary": "Strategy pages do not appear in search", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8842", "summary": "Integrate Genesis Content Layouts", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8611", "summary": "Update \"Feature\" Tag", "assignee": "Novica Vukobratovic", "priority": "Low", "flags": [] },
+      { "key": "GDCU-8895", "summary": "Prediction Market Page Not Appearing on US Sitemap", "assignee": "Sanja Budic", "priority": "High", "flags": [] },
+      { "key": "GDCU-7363", "summary": "Slots widget - Minor Filter issues", "assignee": "Novica Vukobratovic", "priority": "Low", "flags": [] },
+      { "key": "GDCU-8854", "summary": "The arrow button the Geo selector doesnt collapses when clicked on", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] }
     ]
   },
-  "comments": [],
-  "ticket_movements": [],
+  "comments": [
+    {
+      "ticket_key": "GDCU-8925",
+      "ticket_summary": "Implement CWV changes recommended by Viktor AI",
+      "author": "Novica Vukobratovic",
+      "text": "Most issues from the report have been fixed and their resolution summary can be seen in attached files. For QA to verify: operatorlist.css cleanup (330 lines removed), lazy-mount country selector, image",
+      "timestamp": "2026-05-11T12:25:33.140+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8878",
+      "ticket_summary": "🔥 Implement Oplist Redesign on Online Casinos Page",
+      "author": "Chloe Christie",
+      "text": "Moved back to in progress for changes to UX requested by",
+      "timestamp": "2026-05-11T12:17:40.164+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8936",
+      "ticket_summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
+      "author": "Carlos Blauth",
+      "text": "@Mike Pett dark mode removed https://qa.gambling.com/ace",
+      "timestamp": "2026-05-11T12:11:35.307+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket_key": "GDCU-8948",
+      "ticket_summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "author": "Shaun Cronin",
+      "text": "Thanks as always Chloe!",
+      "timestamp": "2026-05-11T11:47:08.677+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8936",
+      "ticket_summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
+      "author": "Mike Pett",
+      "text": "This has been discussed with the guys this morning and we want to remove the dark mode completely please. Once that is done, I'm happy to proceed",
+      "timestamp": "2026-05-11T11:36:56.891+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket_key": "GDCU-8874",
+      "ticket_summary": "Page Bloat: Reduce HTML payload size across all markets — CookieYes, SSR operator list, VWO, inline scripts",
+      "author": "Sandeep Kumar",
+      "text": "when testing in qa/ptest data i'm getting seems inaccurate, so can verify when released.",
+      "timestamp": "2026-05-11T11:34:06.062+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8894",
+      "ticket_summary": "Refactor scoped styles on Vue components",
+      "author": "Chloe Christie",
+      "text": "can you review the below to close? Thanks",
+      "timestamp": "2026-05-11T11:27:39.395+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8948",
+      "ticket_summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "author": "Chloe Christie",
+      "text": "some small dev changes will be needed for the below which will be completed in linked ticket. Thanks",
+      "timestamp": "2026-05-11T11:27:07.071+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8948",
+      "ticket_summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "author": "Automation for Jira",
+      "text": "The linked issue has been resolved",
+      "timestamp": "2026-05-11T11:26:46.774+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8959",
+      "ticket_summary": "Duplicate Payment Methods Appearing on Brand Reviews",
+      "author": "Chloe Christie",
+      "text": "Shared with product for review",
+      "timestamp": "2026-05-11T11:26:18.476+0100",
+      "mentions_mike": false
+    }
+  ],
+  "ticket_movements": [
+    {
+      "key": "GDCU-8925",
+      "summary": "Implement CWV changes recommended by Viktor AI",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-11T12:26:14.972+0100"
+    },
+    {
+      "key": "GDCU-8936",
+      "summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
+      "assignee": "Carlos Blauth",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-11T12:11:38.019+0100"
+    },
+    {
+      "key": "GDCU-8948",
+      "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "assignee": "Jessica Dordevic",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-11T11:26:31.105+0100"
+    },
+    {
+      "key": "GDCU-8955",
+      "summary": "Implement Fixes for Cool Tones Phase 2",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-11T11:16:24.454+0100"
+    },
+    {
+      "key": "GDCU-8959",
+      "summary": "Duplicate Payment Methods Appearing on Brand Reviews",
+      "assignee": "Sanja Budic",
+      "from": "In QA",
+      "to": "In Product",
+      "timestamp": "2026-05-11T10:51:53.903+0100"
+    },
+    {
+      "key": "GDCU-8894",
+      "summary": "Refactor scoped styles on Vue components",
+      "assignee": "Novica Vukobratovic",
+      "from": "In QA",
+      "to": "In Product",
+      "timestamp": "2026-05-11T10:50:18.043+0100"
+    }
+  ],
   "mike_mentions": [
     {
       "ticket_key": "GDCU-8936",
       "ticket_summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
+      "author": "Carlos Blauth",
+      "text": "@Mike Pett dark mode removed https://qa.gambling.com/ace",
+      "timestamp": "2026-05-11T12:11:35.307+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936"
+    },
+    {
+      "ticket_key": "GDCU-8936",
+      "ticket_summary": "Implement Redesign of Ace Navigation with Global Nav Bar",
       "author": "Chloe Christie",
-      "text": "happy with the below? Thanks",
+      "text": "@Mike Pett @Miguel Migneco happy with the below? Thanks",
       "timestamp": "2026-05-08T11:54:19.168+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936"
     },
@@ -323,7 +216,7 @@
       "ticket_key": "GDCU-8948",
       "ticket_summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
       "author": "Jessica Dordevic",
-      "text": "If you duplicate the 5th element into the code it will work as width of each box is set as auto so they will all adjust and it looks fine on all screens with the 5th.",
+      "text": "If you duplicate the 5th element into the code it will work as width of each box is set as auto so they will all adjust and it looks fine on all screens with the 5th. @Mike Pett",
       "timestamp": "2026-05-07T09:38:07.765+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948"
     },
@@ -331,269 +224,49 @@
       "ticket_key": "GDCU-8928",
       "ticket_summary": "IUJ Banners",
       "author": "Jessica Dordevic",
-      "text": "Designs are ready here in this file. Already discussed with @Mike Pett and @Ciara Carroll",
+      "text": "Designs are ready here in this file. Already discussed with @Mike Pett and @Ciara Carroll @Chloe Christie",
       "timestamp": "2026-05-06T14:42:58.929+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928"
-    },
-    {
-      "ticket_key": "GDCU-8736",
-      "ticket_summary": "Share/Create Imagery for the Learning Hub",
-      "author": "Ciara Carroll",
-      "text": "Hello both, please review the links below for the updated images for the learning Hub. In each image the idea is for to look mathematical and statistical.",
-      "timestamp": "2026-05-06T11:55:20.301+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
-    },
-    {
-      "ticket_key": "GDCU-8736",
-      "ticket_summary": "Share/Create Imagery for the Learning Hub",
-      "author": "Ciara Carroll",
-      "text": "Figma prototype shared for review. @Mike Pett @Joshua Smith @Chloe Christie @Michael Butlin",
-      "timestamp": "2026-04-28T17:23:35.601+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
     },
     {
       "ticket_key": "GDCU-8879",
       "ticket_summary": "Create Genesis Brand Carousel Component Card",
       "author": "Jessica Dordevic",
-      "text": "Figma file here. @Pernilla Hansson Soares @Ciara Carroll @Mike Pett @Miguel Migneco @Gabriel Cornoiu",
+      "text": "Figma file here @Pernilla Hansson Soares @Ciara Carroll @Mike Pett @Miguel Migneco @Gabriel Cornoiu",
       "timestamp": "2026-04-28T11:40:04.594+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8879"
-    },
-    {
-      "ticket_key": "GDCU-8736",
-      "ticket_summary": "Share/Create Imagery for the Learning Hub",
-      "author": "Ciara Carroll",
-      "text": "Figma prototype shared for approval. @Michael Butlin @Mike Pett @Carlos Blauth @Chloe Christie @Joshua Smith",
-      "timestamp": "2026-04-16T16:38:08.589+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736"
-    },
-    {
-      "ticket_key": "GDCU-8619",
-      "ticket_summary": "Operator List Redesign",
-      "author": "Ciara Carroll",
-      "text": "Please Open This attachment in Google chrome and Navigate to Solutions 02 tab. @Mike Pett @Joshua Smith @Chloe Christie @Michael Butlin",
-      "timestamp": "2026-04-06T16:48:35.269+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
-    },
-    {
-      "ticket_key": "GDCU-8619",
-      "ticket_summary": "Operator List Redesign",
-      "author": "Ciara Carroll",
-      "text": "@Mike Pett @Chloe Christie @Michael Butlin — update shared",
-      "timestamp": "2026-03-23T14:29:27.562+0000",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619"
     }
   ],
   "upcoming_backlog": [
-    {
-      "key": "GDCU-8934",
-      "summary": "Updated paid landing page design test - Meta/Lead gen",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8789",
-      "summary": "ACE AI - Embedded Betslips",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8045",
-      "summary": "Dev support and implementation for Stable Stars game",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-7706",
-      "summary": "Integrate with 'generic styling' option on components",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-7612",
-      "summary": "Identify most common publishing errors appearing troubleshooting channel",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-7573",
-      "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-7068",
-      "summary": "GDC Email Brand Guidelines",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-6988",
-      "summary": "GDC-Regression Bugs 2025",
-      "assignee": "Robin John",
-      "priority": "High",
-      "status": "In Progress"
-    },
-    {
-      "key": "GDCU-5312",
-      "summary": "Core Web Vitals 2.0",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "In Progress"
-    },
-    {
-      "key": "GDCU-4960",
-      "summary": "Dynamic Sub Primary oplist",
-      "assignee": "Unassigned",
-      "priority": "High",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8963",
-      "summary": "Include Page Titles to Author's pages",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8962",
-      "summary": "Fix Hreflang Issues — Missing Return Links",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8961",
-      "summary": "Brand Carousel Component Feedback - PLACEHOLDER",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8960",
-      "summary": "Large delay when using oplist tabs",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8958",
-      "summary": "Implement IUJ Banners - PLACEHOLDER",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8957",
-      "summary": "Enable Local Navigation on News Site Articles",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8953",
-      "summary": "Setup standard.co.uk site on Adtech codebase",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8950",
-      "summary": "US State Pages not appearing in Search bar",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8949",
-      "summary": "Google News Sitemap (/news/sitemap.xml) Not Pulling Articles From All Active Markets",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8946",
-      "summary": "Alberta Regulation Support",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8945",
-      "summary": "Implement Search/Filters to the Online Casinos Page - PLACEHOLDER",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8937",
-      "summary": "Brand Comparison Tool returning wrong offers for multi regional geos",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8933",
-      "summary": "Implement Winning V3 Design to Snapchat Page",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8932",
-      "summary": "Game Review CTA format issue",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8930",
-      "summary": "Code Freeze - Clean up orion code after VWO test email landing pages is completed",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8927",
-      "summary": "Integrate Tabs Component Image Fields",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8923",
-      "summary": "Create Image Carousel Shortcode PLACEHOLDER",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8920",
-      "summary": "Implement 500x290 Size for Image Carousel for Desktop",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8914",
-      "summary": "Add 'Our Rating' to Sweeps and DFS brands",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    },
-    {
-      "key": "GDCU-8911",
-      "summary": "Tables Guideline Document Revision",
-      "assignee": "Unassigned",
-      "priority": "Medium",
-      "status": "Backlog"
-    }
+    { "key": "GDCU-8966", "summary": "🔥 Implement World Cup Predictor Game", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8934", "summary": "Updated paid landing page design test - Meta/Lead gen", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8789", "summary": "ACE AI - Embedded Betslips", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8045", "summary": "🔥 Dev support and implementation for Stable Stars game", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7706", "summary": "🔥 Integrate with 'generic styling' option on components", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7612", "summary": "Identify most common publishing errors appearing troubleshooting channel", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7573", "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7068", "summary": "GDC Email Brand Guidelines", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-6988", "summary": "GDC-Regression Bugs 2025[Manual][Automation]", "assignee": "Robin John", "priority": "High", "status": "In Progress" },
+    { "key": "GDCU-5312", "summary": "Core Web Vitals 2.0", "assignee": "Unassigned", "priority": "High", "status": "In Progress" },
+    { "key": "GDCU-4960", "summary": "Dynamic Sub Primary oplist", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8967", "summary": "Review and advice slots charts", "assignee": "Ciara Carroll", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8965", "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8964", "summary": "Shorten Oplist of Bonus Casino Page", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8963", "summary": "Include Page Titles to Author's pages", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8962", "summary": "Fix Hreflang Issues — Missing Return Links", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8961", "summary": "Brand Carousel Component Feedback - PLACEHOLDER", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8960", "summary": "Large delay when using oplist tabs", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8958", "summary": "Implement IUJ Banners - PLACEHOLDER", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8957", "summary": "Enable Local Navigation on News Site Articles", "assignee": "Carlos Blauth", "priority": "Medium", "status": "In Progress" },
+    { "key": "GDCU-8953", "summary": "Setup standard.co.uk site on Adtech codebase", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8950", "summary": "US State Pages not appearing in Search bar", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8949", "summary": "Google News Sitemap (/news/sitemap.xml) Not Pulling Articles From All Active Markets", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8946", "summary": "Alberta Regulation Support", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8945", "summary": "Implement Search/Filters to the Online Casinos Page - PLACEHOLDER", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8937", "summary": "Brand Comparison Tool returning wrong offers for multi regional geos", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8933", "summary": "Implement Winning V3 Design to Snapchat Page", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8932", "summary": "Game Review CTA format issue", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8930", "summary": "Code Freeze - Clean up orion code after VWO test email landing pages is completed", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8927", "summary": "Integrate Tabs Component Image Fields", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" }
   ]
 }
