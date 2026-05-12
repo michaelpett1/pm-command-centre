@@ -1,16 +1,334 @@
 {
-  "generated_at": "2026-04-20T06:30:00.000Z",
-  "date": "20/04/2026",
-  "covers_date": "18/04/2026",
-  "ai_overview": "No pages were created or updated in the past 24 hours.",
+  "generated_at": "2026-05-12T06:30:00.000Z",
+  "date": "12/05/2026",
+  "covers_date": "11/05/2026",
+  "ai_overview": "Yesterday's Confluence activity centered on product releases, technical automation, and strategic commercial updates across GDC Core, EVE, and BonusFinder. Key developments include the EVE v3.21.0 release notes and the launch of the PubTech Brand Carousel component, alongside detailed specifications for the BonusFinder Points Tracking System and UGC moderation flows. You are tagged in the \"UX Weekly Sync May 12 2026\" agenda, which you should review alongside your own \"12/5 GDC Product Team - Weekly Update\" regarding sign-in bounce rates and Ace Assistant alignment. Actionable commercial intel includes MGM Ontario CPA cuts and EdgeBoost's affiliate expansion on Covers.com. Finally, note the progress in \"Gambling.com Test Automation,\" which now covers 253+ tests for the Profile Section using Playwright and Claude Code.",
   "stats": {
-    "total_pages": 0,
-    "active_spaces": 0,
-    "pages_created": 0,
-    "pages_updated": 0,
-    "meaningful_pages": 0
+    "total_pages": 49,
+    "pages_created": 23,
+    "pages_updated": 26,
+    "active_spaces": 16,
+    "meaningful_pages": 29
   },
-  "highlights": [],
-  "pages": [],
-  "spaces": []
+  "highlights": [
+    {
+      "title": "12/5 GDC Product Team - Weekly Update",
+      "space": "GDC Core",
+      "author": "Mike Pett",
+      "summary": "Positive reduction in sign-in/sign-up modal bounce rate since release. Record IUJ users levelling up in the past week showing engagement with the rewards programme. Plans to reactivate users and add further challenges post-World Cup. Ace Assistant alignment to site standards due shortly. Multiple positive Claude Design uses seen; second design system iteration upcoming.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610288807/12+5+GDC+Product+Team+-+Weekly+Update",
+      "type": "highlight"
+    },
+    {
+      "title": "UX Weekly Sync May 12 2026",
+      "space": "GDC Core",
+      "author": "Joshua Smith",
+      "summary": "Weekly UX sync agenda for 12 May — Mike Pett is tagged as a participant. Items include locations/requirements for banners and UX support needs. Attendees: Joshua Smith, Chloe Christie, Shalini Kumar, Ciara Carroll, Jessica Dordevic, Miguel Migneco, Mike Pett.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6609837163/UX+Weekly+Sync+May+12+2026",
+      "type": "highlight"
+    },
+    {
+      "title": "FR2: Points Tracking System",
+      "space": "BonusFinder",
+      "author": "Marc Garcia",
+      "summary": "End-to-end specification for how Hints (Points) and Chips are earned, validated, credited, multiplied, displayed, converted at endgame, and adjusted across the BonusFinder loyalty programme. Covers the ledger model, daily caps, concurrency, validation timing, and Master-tier currency conversion. Every downstream FR (tiers, badges, rewards, redemption, leaderboards) reads from or writes to this ledger.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AR/pages/6610288984/FR2+Points+Tracking+System",
+      "type": "highlight"
+    },
+    {
+      "title": "EdgeBoost & Luxon Pay — Weekly Intel 2026-05-11",
+      "space": "Rollcard",
+      "author": "Jamie Mulligan",
+      "summary": "Covers.com now actively promoting EdgeBoost with promo code \"COVERS\" offering $50 deposit match — a significant upgrade from the previously-reported $25 GDC/RotoWire standard. New affiliate partners LiveScore.com (promo code \"SCORE\") and VegasInsider/Better Collective now also promoting EdgeBoost, widening affiliate footprint to mainstream U.S. sports media.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6610223405/EdgeBoost+Luxon+Pay+Weekly+Intel+2026-05-11",
+      "type": "highlight"
+    },
+    {
+      "title": "Gambling.com Test Automation — Setup, Progress & Framework Plan",
+      "space": "GDC Core",
+      "author": "Robin John",
+      "summary": "Playwright-based automation framework built using Claude Code. End of Day 12: 253+ tests passing across 12 page templates and compliance suites. Profile section suite added — 43 tests covering all 6 authenticated profile tabs (Rewards, Profile Details, Additional Details, Marketing Preferences, Manage Password, Refer & Earn) with server-side persistence verification and password recovery flows.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6601344408/Gambling.com+Test+Automation+Setup+Progress+Framework+Plan",
+      "type": "highlight"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Ensure QA Preview Slot Registry",
+      "space": "Adtech",
+      "author": "Laszlo Kruchio",
+      "action": "updated",
+      "timestamp": "2026-05-11T17:48:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Adtech/pages/6597771384/Ensure+QA+Preview+Slot+Registry",
+      "summary": "State store for the Ensure QA auto-deploy pipeline (ET-586). When a Jira ticket moves to QA, n8n reads this table to assign a free preview slot, updates the branch on the corresponding Forge site, deploys it, and marks the slot as busy. When the ticket moves to Pending Release, Done, or back to In Progress, n8n frees the slot and redeploys main to reset it. Managed exclusively by n8n — do not edit Status, Ticket, or Branch columns manually."
+    },
+    {
+      "title": "FR2: Points Tracking System",
+      "space": "BonusFinder",
+      "author": "Marc Garcia",
+      "action": "created",
+      "timestamp": "2026-05-11T18:35:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AR/pages/6610288984/FR2+Points+Tracking+System",
+      "summary": "End-to-end specification for how Hints (Points) and Chips are earned, validated, credited, multiplied, displayed, converted at endgame, and adjusted across the BonusFinder loyalty programme. Covers the ledger model, daily caps, concurrency, validation timing, and Master-tier currency conversion. Every downstream FR reads from or writes to the points ledger defined here."
+    },
+    {
+      "title": "UGC Moderation Flows & Points Award Timing",
+      "space": "BonusFinder",
+      "author": "Marc Garcia",
+      "action": "updated",
+      "timestamp": "2026-05-11T18:00:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AR/pages/6604161839/UGC+Moderation+Flows+Points+Award+Timing",
+      "summary": "Documents how content moderation intersects with loyalty point (XP) and chip award timing across three UGC surfaces on BonusFinder US. Forum: points and chips awarded immediately on submission. Comments and reviews: require manual admin approval before points are awarded; user sees a visual notification that their contribution is under review."
+    },
+    {
+      "title": "BDC - DSU - 05/11/26",
+      "space": "Bookies POD",
+      "author": "Elijah Basore",
+      "action": "created",
+      "timestamp": "2026-05-11T17:22:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/BOOK/pages/6610124895/BDC+-+DSU+-+05+11+26",
+      "summary": "Daily standup for Bookies DSU. QA/code changes: BetSyn bot commands to allow users to see all active slips, tail a parlay, and view all active SGP slips."
+    },
+    {
+      "title": "AI Day 2026",
+      "space": "Casino Core Team",
+      "author": "David Stokes",
+      "action": "updated",
+      "timestamp": "2026-05-11T20:39:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6500253697/AI+Day+2026",
+      "summary": "Testing Figma MCP to set up a connection between the GDC design system and AI tools such as Cursor and Claude. Evaluating output quality and effort required from Tech and Design to ensure consistency and maintenance of this flow using the existing design library."
+    },
+    {
+      "title": "Agenda: NA News/Commercial Content Sync H1 2026",
+      "space": "Casino Core Team",
+      "author": "Dan Michalski",
+      "action": "updated",
+      "timestamp": "2026-05-11T20:26:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6563692728/Agenda+NA+News+Commercial+Content+Sync+H1+2026",
+      "summary": "Agenda items include old-school SEO content on BOFU pages, prediction market coverage update with competition between PMs and Nevada with neutral coverage approach. Items also cover mini reviews, test plan, and best paying casinos resurrection."
+    },
+    {
+      "title": "BOFU Team Weekly Catch-up Notes",
+      "space": "Casino Core Team",
+      "author": "Katrina Haggarty",
+      "action": "updated",
+      "timestamp": "2026-05-11T18:30:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6594166916/BOFU+Team+Weekly+Catch-up+Notes",
+      "summary": "Recruitment for Alan's role is on hold. Team may need to rotate news publishing duties weekly. Teodora off all week limiting progress on DK/SE/GR. All team members to keep eyes peeled for new news stories."
+    },
+    {
+      "title": "Casinos.com sync - Q & A Q2 2026",
+      "space": "Casino Core Team",
+      "author": "Lena Sciberras",
+      "action": "updated",
+      "timestamp": "2026-05-11T18:08:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6584401940/Casinos.com+sync+-+Q+A+Q2+2026",
+      "summary": "Q2 sync agenda covering CC projects including EEAT page updates and AI projects."
+    },
+    {
+      "title": "Daily Action Items — Week of March 14–18, 2026",
+      "space": "Commercial Team",
+      "author": "Michael Rasile",
+      "action": "updated",
+      "timestamp": "2026-05-11T02:10:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6562449371/Daily+Action+Items+Week+of+March+14+18+2026",
+      "summary": "Action items: MGM Ontario CPA cut to $150 effective June 1 (sports only — assess casino impact and update revenue projections); expired Caesars promo codes GDCAPP2250BM and GDCAPP4250BM still in use — confirm update to -DYW codes; add $55K Bounty bonus for April to revenue doc."
+    },
+    {
+      "title": "Nordics Team Sprint Planning: May 11–17",
+      "space": "Content",
+      "author": "Damjan Jugovic Spajic",
+      "action": "updated",
+      "timestamp": "2026-05-11T17:19:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/EL/pages/6609308110/Nordics+Team+Sprint+Planning+May+11+17",
+      "summary": "Sprint planning for the Nordics team, May 11–17. Participants: Damjan Jugovic Spajic, Ricardo Deker, Tina Mari Hammer, Bella Galea, Diana Thurmann. Homepage updates being worked on in tandem with fan-out audit."
+    },
+    {
+      "title": "WOW Report - Romania - 2026 Week 18 (27 Apr - 3 May)",
+      "space": "Content",
+      "author": "Damjan Jugovic Spajic",
+      "action": "updated",
+      "timestamp": "2026-05-11T16:54:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/EL/pages/6608290853/WOW+Report+-+Romania+-+2026+Week+18+27+Apr+-+3+May",
+      "summary": "Record week in users and engagement continuity for Romania. Bi-weekly updates to money pages plus strategy article optimisation. Key areas: World Cup GDC RO content plan, new crawled-not-indexed batch, Eurovision 2026, slots cluster research and revamp, UCL semis and Liga 1 playoff coverage."
+    },
+    {
+      "title": "Release Notes - Eve Project Board - Eve Cycle Release 75 - May 12 06:07",
+      "space": "EVE",
+      "author": "Marco Vieira",
+      "action": "created",
+      "timestamp": "2026-05-11T07:07:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/BW/pages/6611075090/Release+Notes+-+Eve+Project+Board+-+Eve+Cycle+Release+75+-+May+12+06+07",
+      "summary": "Release v3.21.0 notes and deployment plan. PR to be reviewed targeting main branch; Marco likely as deployment person with Maria off. Deployment process: merge PR, create release tag v3.21.0, announce in #sprint-and-hotfix-releases Slack channel."
+    },
+    {
+      "title": "AR Training Records",
+      "space": "Finance",
+      "author": "Nicola Iddon",
+      "action": "updated",
+      "timestamp": "2026-05-11T18:05:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/FINANCE/pages/4946788373/AR+Training+Records",
+      "summary": "Training records updated with a note regarding a payment posted to the incorrect company."
+    },
+    {
+      "title": "GDC Weekly Crawl Audit Report",
+      "space": "GDC Core",
+      "author": "Sandeep Kumar",
+      "action": "updated",
+      "timestamp": "2026-05-11T01:48:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/5196382305/GDC+Weekly+Crawl+Audit+Report",
+      "summary": "Weekly SEO crawl audit. Internal URLs not found (4XX): trend 11 → 13 → 10, a -9.1% improvement in the latest week."
+    },
+    {
+      "title": "4th–10th May GDC Group Outreach Report",
+      "space": "GDC Core",
+      "author": "Shiann Watts",
+      "action": "created",
+      "timestamp": "2026-05-11T20:17:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610256047/4th+-10th+May+GDC+Group+Outreach+Report",
+      "summary": "29 sites found through Viktor. 12 links secured for high-priority GEOs including CA Alberta and Italian spam attack pages. Average cost per link ~$241. Wins: AI content generators in use; Italian proofreading in place. Blockers: Finland OGX team approval bottleneck; niche edits paused during Viktor fixes; Teodora off all week."
+    },
+    {
+      "title": "Gambling.com Test Automation — Setup, Progress & Framework Plan",
+      "space": "GDC Core",
+      "author": "Robin John",
+      "action": "updated",
+      "timestamp": "2026-05-11T19:27:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6601344408/Gambling.com+Test+Automation+Setup+Progress+Framework+Plan",
+      "summary": "Playwright framework built using Claude Code (AI pair programmer). End of Day 12: 253+ tests passing across 12 page templates. Profile section suite added — 43 tests covering all 6 authenticated profile tabs with server-side persistence verification, toggle state management, and password recovery flows."
+    },
+    {
+      "title": "Profile Section — User Account Pages",
+      "space": "GDC Core",
+      "author": "Shane McGrath",
+      "action": "created",
+      "timestamp": "2026-05-11T19:26:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610289051/Profile+Section+User+Account+Pages",
+      "summary": "Automated test coverage documentation for gambling.com/profile and sub-pages. Six authenticated tabs: Gambling.com Rewards, Profile Details, Additional Details, Marketing Preferences, Manage Password, and Refer & Earn. Tests cover smoke checks, form editing with server-side persistence, toggle state management, and password change flows with full recovery."
+    },
+    {
+      "title": "4th–10th May Outreach Report",
+      "space": "GDC Core",
+      "author": "India Carter",
+      "action": "created",
+      "timestamp": "2026-05-11T19:06:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610190663/4th+-+10th+May+Outreach+Report",
+      "summary": "Live geo breakdown: Italy ×3 (done/paid), Spain ×1 (payment review), Romania ×1 (paid), Sweden ×1 (done). Wins: Italy off to strong start; Romania and Sweden secured. Blockers: Pipeline building across Austria, Germany, Mexico, Peru, Netherlands, Romania. Norway and Iceland absent."
+    },
+    {
+      "title": "5th–9th May Outreach Report",
+      "space": "GDC Core",
+      "author": "India Carter",
+      "action": "created",
+      "timestamp": "2026-05-11T18:58:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610223487/5th+-+9th+May+Outreach+Report",
+      "summary": "Live geo breakdown: Spain (1), Italy (3), Romania (1), Sweden (1), Mexico (1). Good geo spread across Italy, Romania, Sweden, Mexico, and Spain. UK with 5 live sites. Pipeline primarily in Publishing/Approved Sites. Norway and Iceland still absent."
+    },
+    {
+      "title": "UX Weekly Sync May 12 2026",
+      "space": "GDC Core",
+      "author": "Joshua Smith",
+      "action": "created",
+      "timestamp": "2026-05-11T17:58:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6609837163/UX+Weekly+Sync+May+12+2026",
+      "summary": "UX weekly sync agenda — Mike Pett tagged as participant. Items include locations/requirements for banners and UX support. Attendees: Joshua Smith, Chloe Christie, Shalini Kumar, Ciara Carroll, Jessica Dordevic, Miguel Migneco, Mike Pett."
+    },
+    {
+      "title": "12/5 GDC Product Team - Weekly Update",
+      "space": "GDC Core",
+      "author": "Mike Pett",
+      "action": "created",
+      "timestamp": "2026-05-11T17:55:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6610288807/12+5+GDC+Product+Team+-+Weekly+Update",
+      "summary": "Positive reduction in sign-in/sign-up modal bounce rate since release. Record IUJ users levelling up in the past week. Plans to reactivate users and add further challenges post-World Cup. Ace Assistant alignment to site standards due shortly. Multiple positive Claude Design uses seen; second design system iteration upcoming."
+    },
+    {
+      "title": "2026 H1 O3KR5",
+      "space": "OKRs",
+      "author": "Gavrilo Ilijev",
+      "action": "updated",
+      "timestamp": "2026-05-11T18:47:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/OKRs/pages/6608822805/2026+H1+O3KR5",
+      "summary": "Paid media ads launched on all targeted platforms. BI system integrated with Meta, Snapchat, and Everflow; Google, Bing, and X integrations descoped until end of H1. One-time integration work complete; daily campaign management continues as BAU. On track for approximately 50% of $4.6M revenue target by end of H1."
+    },
+    {
+      "title": "Project Manager Coverage Plan Template",
+      "space": "PMO",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-05-11T18:21:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PMO/pages/6610256171/Project+Manager+Coverage+Plan+Template",
+      "summary": "Standard template for PM coverage plans during PTO or extended unavailability. To be duplicated, completed, and shared with the covering PM at least 2 business days before departure."
+    },
+    {
+      "title": "Releases Mon 11/May/2026 WK20",
+      "space": "PubTech",
+      "author": "Ross Ryan",
+      "action": "created",
+      "timestamp": "2026-05-11T17:34:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Pubtech/pages/6609845652/Releases+Mon+11+May+2026+WK20",
+      "summary": "Week 20 release plan. Columns tracked per lead: Brian Fogarty, Filippo Sallemi, Marco Vieira, Dean Blackborough. Teams asked to update their release information."
+    },
+    {
+      "title": "[CMS Regression Testing] - 11/05/2026",
+      "space": "PubTech",
+      "author": "Nicholas Carvalho",
+      "action": "updated",
+      "timestamp": "2026-05-11T17:24:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Pubtech/pages/6608829170/CMS+Regression+Testing+-+11+05+2026",
+      "summary": "CMS regression testing checklist for 11 May. Covers unit tests, code coverage, and positive/negative findings documentation across all core CMS functionalities."
+    },
+    {
+      "title": "Pubtech Release Sprint 9",
+      "space": "PubTech",
+      "author": "Pernilla Hansson Soares",
+      "action": "created",
+      "timestamp": "2026-05-11T16:53:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Pubtech/pages/6610190342/Pubtech+Release+Sprint+9",
+      "summary": "Brand Carousel Component (PB-430) released mid-sprint on 2026-05-07. Allows editors to configure up to three text fields (50-char limit, mandatory), Single Operator CTA for brand exit link and logo, mandatory brand image with optional alt text, and optional licence number field. Designed to replace multiple uses of the single-operator CTA component."
+    },
+    {
+      "title": "EdgeBoost & Luxon Pay — Weekly Intel 2026-05-11",
+      "space": "Rollcard",
+      "author": "Jamie Mulligan",
+      "action": "created",
+      "timestamp": "2026-05-11T18:09:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6610223405/EdgeBoost+Luxon+Pay+Weekly+Intel+2026-05-11",
+      "summary": "Covers.com now promoting EdgeBoost with promo code \"COVERS\" at $50 deposit match — up from the $25 GDC/RotoWire standard. New affiliate partners: LiveScore.com (promo code \"SCORE\", $50 deposit match) and VegasInsider/Better Collective. Significant expansion of affiliate footprint across mainstream U.S. sports media."
+    },
+    {
+      "title": "26/05/6 Weekly CRM Sync",
+      "space": "Rollcard",
+      "author": "Gavrilo Ilijev",
+      "action": "updated",
+      "timestamp": "2026-05-11T16:35:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6608822738/26+05+6+Weekly+CRM+Sync",
+      "summary": "Juraj Tóth to implement Contact Us / Focus flow. Welcome flow last feedback provided 29/04/2026. Newsletter flow template shared with Christine Doh; feedback provided on 5/6/2026."
+    },
+    {
+      "title": "Report in Bullet Point Format 2026-05-11",
+      "space": "Technology",
+      "author": "Brian Fogarty",
+      "action": "created",
+      "timestamp": "2026-05-11T17:39:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DEV/pages/6610059513/Report+in+Bullet+point+Format+2026-05-11",
+      "summary": "Infrastructure bi-weekly summary 27 Apr–11 May 2026. 15 INF tickets completed; 21 IF service desk tickets updated or resolved. ADGE Web Server Migration (INF-4200): Apache replaced with Nginx; Azure AD redirect and MICROSOFTREDIRECTURI http/https mismatch resolved. Production readiness looks complete — final test Tuesday, then config clean-up."
+    }
+  ],
+  "spaces": [
+    { "name": "Adtech", "key": "Adtech", "activity_count": 1, "color": "blue" },
+    { "name": "BonusFinder", "key": "AR", "activity_count": 2, "color": "orange" },
+    { "name": "Bookies POD", "key": "BOOK", "activity_count": 1, "color": "amber" },
+    { "name": "Casino Core Team", "key": "DARC", "activity_count": 4, "color": "slate" },
+    { "name": "Commercial Team", "key": "AMT", "activity_count": 1, "color": "purple" },
+    { "name": "Content", "key": "EL", "activity_count": 2, "color": "lime" },
+    { "name": "EVE", "key": "BW", "activity_count": 1, "color": "teal" },
+    { "name": "Finance", "key": "FINANCE", "activity_count": 1, "color": "gray" },
+    { "name": "GDC Core", "key": "GDCC", "activity_count": 8, "color": "emerald" },
+    { "name": "OKRs", "key": "OKRs", "activity_count": 1, "color": "yellow" },
+    { "name": "PMO", "key": "PMO", "activity_count": 1, "color": "indigo" },
+    { "name": "PubTech", "key": "Pubtech", "activity_count": 3, "color": "sky" },
+    { "name": "Rollcard", "key": "PDL2", "activity_count": 2, "color": "rose" },
+    { "name": "Technology", "key": "DEV", "activity_count": 1, "color": "zinc" }
+  ]
 }
