@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-22T07:05:56.000Z",
-  "date": "22/04/2026",
+  "generated_at": "2026-05-12T07:10:00.000Z",
+  "date": "12/05/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 4,
-    "high_impact": 2,
-    "medium_impact": 2,
-    "low_impact": 0
+    "changes_detected": 20,
+    "high_impact": 6,
+    "medium_impact": 12,
+    "low_impact": 2
   },
   "monitoring_areas": [
     { "slug": "product_features", "label": "Product Features", "count": 2 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 2 },
+    { "slug": "seo_content", "label": "SEO & Content", "count": 2 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 16 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -20,7 +20,8 @@
     { "slug": "casino", "label": "Casino", "flag": "🇺🇸" },
     { "slug": "state_affiliate", "label": "State Affiliate", "flag": "🇺🇸" },
     { "slug": "sports_data_fantasy", "label": "Sports Data/Fantasy", "flag": "🇺🇸" },
-    { "slug": "odds_comparison", "label": "Odds Comparison", "flag": "🇬🇧" }
+    { "slug": "odds_comparison", "label": "Odds Comparison", "flag": "🇬🇧" },
+    { "slug": "news_hybrid", "label": "News/Hybrid", "flag": "🇬🇧" }
   ],
   "competitors": [
     {
@@ -33,7 +34,7 @@
       "flag": "🇺🇸",
       "color": "#E74C3C",
       "initials": "TL",
-      "last_scanned": "2026-04-22T07:05:56.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "New footer links added",
@@ -54,13 +55,45 @@
           "url": "https://www.thelines.com/"
         },
         {
-          "title": "Feature/tool presence changed",
-          "description": "Free-to-play element appeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-22T07:05:56.000Z",
+          "title": "New footer links added",
+          "description": "New links: Best NBA Player Props Today: James Harden Shines Again, Colorado Looks to Restrict Sports Betting Ads, Is SpinQuest Giveaway Worth the Hype?`We Gave it a Try, Victor Wembanyama Avoids Suspension Ahead of Game 5",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-05-12T07:05:56.000Z",
           "url": "https://www.thelines.com/"
+        }
+      ]
+    },
+    {
+      "id": "covers",
+      "name": "Covers",
+      "domain": "covers.com",
+      "url": "https://www.covers.com/",
+      "segment": "sports_betting",
+      "segment_label": "Sports Betting",
+      "flag": "🇺🇸",
+      "color": "#C0392B",
+      "initials": "CO",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
+      "changes": [
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: NBA Betting Forum, NCAAB Betting Forum | Removed: No Code Needed, View Matchup",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.covers.com/"
+        },
+        {
+          "title": "Navigation structure changed",
+          "description": "Top-level items: 8 → 9",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -74,7 +107,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "Feature/tool presence changed",
@@ -120,6 +153,33 @@
           "impact": "medium",
           "detected_at": "2026-04-21T07:06:09.000Z",
           "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Full Analysis",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Search bar appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 2 → 6",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.vegasinsider.com/"
         }
       ]
     },
@@ -133,7 +193,7 @@
       "flag": "🇺🇸",
       "color": "#2ECC71",
       "initials": "PW",
-      "last_scanned": "2026-04-22T07:05:56.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "Page layout restructured",
@@ -172,13 +232,113 @@
           "url": "https://www.pickswise.com/"
         },
         {
-          "title": "Feature/tool presence changed",
-          "description": "Ratings/scores disappeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-22T07:05:56.000Z",
+          "title": "Page layout restructured",
+          "description": "sections: 9 → 12, main_divs: 4 → 7",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
           "url": "https://www.pickswise.com/"
+        }
+      ]
+    },
+    {
+      "id": "gamingtoday",
+      "name": "Gaming Today",
+      "domain": "gamingtoday.com",
+      "url": "https://www.gamingtoday.com/",
+      "segment": "sports_betting",
+      "segment_label": "Sports Betting",
+      "flag": "🇺🇸",
+      "color": "#F1C40F",
+      "initials": "GT",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
+      "changes": [
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Gaming Today – America's Home for Gambling News & Reviews\" → Now: \"Gaming Today - America's Home for Gambling News & Reviews\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        },
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Bally Bet, Best Online Sports Betting Sites, Best Sportsbook Promos, BetMGM, BetRivers, Caesars | Removed: Bet365 Sportsbook Review, BetMGM Sportsbook Review, BetRivers Sportsbook Review, Caesars Sportsbook Review, College Basketball Betting Apps, College Football Betting Apps",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        },
+        {
+          "title": "Navigation structure changed",
+          "description": "Top-level items: 7 → 6",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Best Sports Betting Apps, Top Sports Betting Bonuses | Removed: Read More News »",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "articles: 3 → 0",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        },
+        {
+          "title": "Footer navigation changed",
+          "description": "Link count: 18 → 10",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.gamingtoday.com/"
+        }
+      ]
+    },
+    {
+      "id": "casino_org",
+      "name": "Casino.org",
+      "domain": "casino.org",
+      "url": "https://www.casino.org/",
+      "segment": "casino",
+      "segment_label": "Casino",
+      "flag": "🇺🇸",
+      "color": "#EC407A",
+      "initials": "CA",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
+      "changes": [
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: See all casinos to avoid | Removed: All Casino Game ShowsCS",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.casino.org/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "articles: 3 → 0",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.casino.org/"
         }
       ]
     },
@@ -192,7 +352,7 @@
       "flag": "🇺🇸",
       "color": "#9B59B6",
       "initials": "OG",
-      "last_scanned": "2026-04-20T07:05:40.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -202,6 +362,56 @@
           "impact": "medium",
           "detected_at": "2026-04-20T07:05:40.000Z",
           "url": "https://www.onlinegambling.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Claim now | Removed: Play for real",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.onlinegambling.com/"
+        },
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Big Pirate | Removed: SweepNext",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.onlinegambling.com/"
+        }
+      ]
+    },
+    {
+      "id": "usgamblingsites",
+      "name": "US Gambling Sites",
+      "domain": "usgamblingsites.com",
+      "url": "https://www.usgamblingsites.com/",
+      "segment": "casino",
+      "segment_label": "Casino",
+      "flag": "🇺🇸",
+      "color": "#00ACC1",
+      "initials": "UG",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
+      "changes": [
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Ratings/scores appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.usgamblingsites.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 16 → 28, articles: 0 → 6",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.usgamblingsites.com/"
         }
       ]
     },
@@ -284,25 +494,25 @@
       ]
     },
     {
-      "id": "playnj",
-      "name": "Play NJ",
-      "domain": "playnj.com",
-      "url": "https://www.playnj.com/",
+      "id": "playindiana",
+      "name": "Play Indiana",
+      "domain": "playindiana.com",
+      "url": "https://www.playindiana.com/",
       "segment": "state_affiliate",
       "segment_label": "State Affiliate",
       "flag": "🇺🇸",
-      "color": "#27AE60",
+      "color": "#FF7043",
       "initials": "PN",
-      "last_scanned": "2026-04-22T07:05:56.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
-          "title": "Page layout restructured",
-          "description": "sidebar added",
+          "title": "CTA/button text changed",
+          "description": "New CTAs: 250,000 Gold Coins, 250,000 Gold Coins PLUS 25 Stake Cash | Removed: 30 FREE SC, With 1,500,000 GC Purchase for $9.99",
           "area": "ux_conversion",
           "area_label": "UX & Conversion",
           "impact": "medium",
-          "detected_at": "2026-04-22T07:05:56.000Z",
-          "url": "https://www.playnj.com/"
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.playindiana.com/"
         }
       ]
     },
@@ -316,7 +526,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-04-22T07:05:56.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -338,11 +548,20 @@
         },
         {
           "title": "CTA/button text changed",
-          "description": "Removed: Buy Now, Coming Wednesday, GET THE PICKS",
+          "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Thursday",
           "area": "ux_conversion",
           "area_label": "UX & Conversion",
           "impact": "medium",
-          "detected_at": "2026-04-22T07:05:56.000Z",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: Coming Tuesday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -357,7 +576,7 @@
       "flag": "🇺🇸",
       "color": "#E67E22",
       "initials": "FP",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "Homepage headline (H1) changed",
@@ -385,6 +604,33 @@
           "impact": "high",
           "detected_at": "2026-04-21T07:06:09.000Z",
           "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"DBro's Top 100 Dynasty Rookie Rankings\" → Now: \"50 Stats to Know: 2026 NFL Draft Class\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Video embed disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Early Rookie Predictions\" → Now: \"DBro's Dynasty Rookie Draft Primers\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.fantasypros.com/"
         }
       ]
     },
@@ -398,7 +644,7 @@
       "flag": "🇬🇧",
       "color": "#34495E",
       "initials": "FB",
-      "last_scanned": "2026-04-20T07:05:40.000Z",
+      "last_scanned": "2026-05-12T07:05:56.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -408,58 +654,291 @@
           "impact": "medium",
           "detected_at": "2026-04-20T07:05:40.000Z",
           "url": "https://www.freebets.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: YSKAST | Removed: Join Now",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://www.freebets.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Show 48 results, World Cup Betting Offers | Removed: Show 47 results, World Cup 2026 Hub",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-12T07:05:56.000Z",
+          "url": "https://www.freebets.com/"
+        }
+      ]
+    },
+    {
+      "id": "igamingbusiness",
+      "name": "iGaming Business",
+      "domain": "igamingbusiness.com",
+      "url": "https://igamingbusiness.com/",
+      "segment": "news_hybrid",
+      "segment_label": "News/Hybrid",
+      "flag": "🇬🇧",
+      "color": "#27AE60",
+      "initials": "IB",
+      "last_scanned": "2026-04-23T07:04:54.000Z",
+      "changes": [
+        {
+          "title": "New footer links added",
+          "description": "New links: Analysis, Are virtual games the new heart of the lobby?, H2GC: Prediction markets – Overhyped and underperforming?",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-04-23T07:04:54.000Z",
+          "url": "https://igamingbusiness.com/"
         }
       ]
     }
   ],
   "recent_changes": [
     {
+      "competitor_name": "Covers",
+      "competitor_initials": "CO",
+      "competitor_color": "#C0392B",
+      "title": "Navigation structure changed",
+      "description": "Top-level items: 8 → 9",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.covers.com/"
+    },
+    {
       "competitor_name": "The Lines",
       "competitor_initials": "TL",
       "competitor_color": "#E74C3C",
+      "title": "New footer links added",
+      "description": "New links: Best NBA Player Props Today: James Harden Shines Again, Colorado Looks to Restrict Sports Betting Ads, Is SpinQuest Giveaway Worth the Hype?`We Gave it a Try, Victor Wembanyama Avoids Suspension Ahead of Game 5",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.thelines.com/"
+    },
+    {
+      "competitor_name": "Vegas Insider",
+      "competitor_initials": "VI",
+      "competitor_color": "#3498DB",
       "title": "Feature/tool presence changed",
-      "description": "Free-to-play element appeared",
+      "description": "Search bar appeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-04-22T07:05:56.000Z",
-      "url": "https://www.thelines.com/"
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.vegasinsider.com/"
+    },
+    {
+      "competitor_name": "Vegas Insider",
+      "competitor_initials": "VI",
+      "competitor_color": "#3498DB",
+      "title": "Page layout restructured",
+      "description": "sections: 2 → 6",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.vegasinsider.com/"
     },
     {
       "competitor_name": "Pickswise",
       "competitor_initials": "PW",
       "competitor_color": "#2ECC71",
-      "title": "Feature/tool presence changed",
-      "description": "Ratings/scores disappeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-04-22T07:05:56.000Z",
-      "url": "https://www.pickswise.com/"
-    },
-    {
-      "competitor_name": "Play NJ",
-      "competitor_initials": "PN",
-      "competitor_color": "#27AE60",
       "title": "Page layout restructured",
-      "description": "sidebar added",
+      "description": "sections: 9 → 12, main_divs: 4 → 7",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-04-22T07:05:56.000Z",
-      "url": "https://www.playnj.com/"
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.pickswise.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "Homepage headline (H1) changed",
+      "description": "Was: \"Gaming Today – America's Home for Gambling News & Reviews\" → Now: \"Gaming Today - America's Home for Gambling News & Reviews\"",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "Navigation menu changed",
+      "description": "Added: Bally Bet, Best Online Sports Betting Sites, Best Sportsbook Promos, BetMGM, BetRivers, Caesars | Removed: Bet365 Sportsbook Review, BetMGM Sportsbook Review, BetRivers Sportsbook Review, Caesars Sportsbook Review, College Basketball Betting Apps, College Football Betting Apps",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "Navigation structure changed",
+      "description": "Top-level items: 7 → 6",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: Best Sports Betting Apps, Top Sports Betting Bonuses | Removed: Read More News »",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "Page layout restructured",
+      "description": "articles: 3 → 0",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Gaming Today",
+      "competitor_initials": "GT",
+      "competitor_color": "#F1C40F",
+      "title": "Footer navigation changed",
+      "description": "Link count: 18 → 10",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.gamingtoday.com/"
+    },
+    {
+      "competitor_name": "Casino.org",
+      "competitor_initials": "CA",
+      "competitor_color": "#EC407A",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: See all casinos to avoid | Removed: All Casino Game ShowsCS",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.casino.org/"
+    },
+    {
+      "competitor_name": "Casino.org",
+      "competitor_initials": "CA",
+      "competitor_color": "#EC407A",
+      "title": "Page layout restructured",
+      "description": "articles: 3 → 0",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.casino.org/"
+    },
+    {
+      "competitor_name": "Online Gambling",
+      "competitor_initials": "OG",
+      "competitor_color": "#9B59B6",
+      "title": "Navigation menu changed",
+      "description": "Added: Big Pirate | Removed: SweepNext",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.onlinegambling.com/"
+    },
+    {
+      "competitor_name": "US Gambling Sites",
+      "competitor_initials": "UG",
+      "competitor_color": "#00ACC1",
+      "title": "Feature/tool presence changed",
+      "description": "Ratings/scores appeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.usgamblingsites.com/"
+    },
+    {
+      "competitor_name": "US Gambling Sites",
+      "competitor_initials": "UG",
+      "competitor_color": "#00ACC1",
+      "title": "Page layout restructured",
+      "description": "sections: 16 → 28, articles: 0 → 6",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.usgamblingsites.com/"
+    },
+    {
+      "competitor_name": "Play Indiana",
+      "competitor_initials": "PN",
+      "competitor_color": "#FF7043",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: 250,000 Gold Coins, 250,000 Gold Coins PLUS 25 Stake Cash | Removed: 30 FREE SC, With 1,500,000 GC Purchase for $9.99",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.playindiana.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "Removed: Buy Now, Coming Wednesday, GET THE PICKS",
+      "description": "Removed: Coming Tuesday",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-04-22T07:05:56.000Z",
+      "detected_at": "2026-05-12T07:05:56.000Z",
       "url": "https://rotogrinders.com/"
+    },
+    {
+      "competitor_name": "Fantasy Pros",
+      "competitor_initials": "FP",
+      "competitor_color": "#E67E22",
+      "title": "Homepage headline (H1) changed",
+      "description": "Was: \"Early Rookie Predictions\" → Now: \"DBro's Dynasty Rookie Draft Primers\"",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.fantasypros.com/"
+    },
+    {
+      "competitor_name": "Free Bets",
+      "competitor_initials": "FB",
+      "competitor_color": "#34495E",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: Show 48 results, World Cup Betting Offers | Removed: Show 47 results, World Cup 2026 Hub",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-12T07:05:56.000Z",
+      "url": "https://www.freebets.com/"
     }
   ]
 }
