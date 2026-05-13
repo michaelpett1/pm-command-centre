@@ -1,78 +1,89 @@
 {
-  "generated_at": "2026-05-12T15:30:00.000+01:00",
-  "date": "12/05/2026",
+  "generated_at": "2026-05-13T14:15:00.000+01:00",
+  "date": "13/05/2026",
   "report_type": "afternoon",
   "action_items": [
     {
-      "action": "WC PREDICTOR DESIGN DELIVERED — Miguel posted Figma designs in #gdc-wcpredictor at 10:01 today: 'here you go. The proper GDC versions are the ones in the dark grey sections.' GDCU-8935 is still In Progress in Jira (last Jira update 11/05). Review the Figma now against all acceptance criteria: entry flow, group stage 48 matches, knockout bracket, outrights, leaderboard, mobile-first 3 breakpoints, error states, mid-tournament edge cases. Approve and confirm dev handoff is unblocked for the 11 June deadline.",
+      "action": "REVIEW GDCU-8847 VIP REV SHARE OPERATOR LIST — Still In Product (Nebojsa Stanic, updated today 13:19). THE ONLY remaining In Product ticket — all 5 other morning tickets (GDCU-8874, GDCU-8955, GDCU-8936, GDCU-8948, GDCU-8806) have cleared since Monday. UK feature: custom operator list for VIP users (level ≥2 via ktag/AdTech personalisation API). Acceptance criteria: VIP users see new operator list, non-VIP see regular list, filters and show-more work. Approve or return feedback today.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "👑",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8847"
+    },
+    {
+      "action": "REVIEW T&C COPY — Ekaterina Smolinova (group DM with Dean Ryan, John O'Shea) sent updated Terms & Conditions copy at 13:20 today and asked: 'Let me know if you have any comments/questions.' No reply yet visible. Review and respond before EOD.",
       "source": "slack",
       "priority": "high",
+      "emoji": "📄"
+    },
+    {
+      "action": "GDCU-8924 ORIGINS API NOW BLOCKED — NEW since morning. Nebojsa Stanic, priority=Blocked, status=In Progress (updated 12/05 14:42). Origins API DB replacement feedback items need implementing — doc in Pubtech Confluence space. ACs: publishes complete, no timeouts on multiple runs. Stakeholders: Chloe Christie, Dean Blackborough, Simon McLaughlin. Determine what is blocking Nebojsa and unblock today.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🔴",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8924"
+    },
+    {
+      "action": "GROUP BETS — STILL UNCONFIRMED. Design was due Thursday 07/05 (5+ days ago). No update in Slack or Jira today. Miguel is now on WC Predictor (In Progress) and committed to sharing a prototype today/tomorrow morning. Before EOD: confirm with Miguel — is Group Bets design done? If yes → schedule KO call with Chloe + dev team immediately. If no → agree revised date and communicate 11 June impact to Chloe. (Carried from morning, still unresolved.)",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "⚽"
+    },
+    {
+      "action": "SNAPCHAT LANDING PAGES — NEW TICKET GDCU-8987 (Chloe created today at 10:47). Ciara Carroll tagged Mike at 10:25 with detailed UX analysis on high bounce rates from Snapchat paid campaigns. Issues identified: (1) submit button sits above required consent checkbox — template-level bug across all form variants, (2) validation error renders off-screen on mobile, (3) no success confirmation shown after valid submission. Ciara and Chloe plan to discuss on AB test call next Tuesday. Review GDCU-8987 scope and confirm Ciara owns UX redesign.",
+      "source": "slack",
+      "priority": "medium",
+      "emoji": "👻",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8987"
+    },
+    {
+      "action": "GDCU-8432 GEO LOCATE GLOBAL HP IMAGES — HIGH priority, UNASSIGNED, To Do (updated today 09:00). Cross-functional ticket affecting IT, DE, RO, GR, NL, BE, DK, SE, ES, MX — geo-localise compare-casino and have-your-say phone images, hide YouTube watch-and-learn carousel for non-EN users. Mike is a listed stakeholder. Ticket still has no assignee after being re-touched today. Assign to a developer to unblock.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🌍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432"
+    },
+    {
+      "action": "WC PREDICTOR — DESIGN ON TRACK, MONITOR PROTOTYPE DELIVERY. Mike had alignment call with Gab & Miguel this morning; GDCU-8935 moved to In Progress (10:20 today). Miguel committed in #gdc-wcpredictor: 'I will share a cleaned up version and prototype later today max tomorrow morning for the Devs to start having a look.' Spec now confirmed: two leaderboards (tournament-wide + knockout-only), tiebreaker for knockout = time of first goal in the final. Monitor Miguel's prototype delivery and confirm devs receive it.",
+      "source": "slack",
+      "priority": "medium",
       "emoji": "🎮",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
     },
     {
-      "action": "NEW IN PRODUCT: REVIEW GDCU-8957 Local Nav on News Articles (Carlos Blauth, Medium, landed In Product 12/05 11:19). Carlos posted QA staging links yesterday afternoon; Robin John verified this morning — desktop + mobile confirmed, breadcrumbs unaffected across multiple news article page types. Chloe commented at 11:19 flagging Thursday's release window for Butlin and Dan Smullen. Review and approve today to make the Thursday build. Stakeholders: Michael Butlin, Gabriel Cornoiu, Joshua Smith, Dan Smullen, Eoin McCarthy.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "🗺️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957"
-    },
-    {
-      "action": "NEW IN PRODUCT: REVIEW GDCU-8925 CWV Changes via Viktor AI (Novica Vukobratovic, Medium, updated 12/05 10:44). QA signed off by Shane McGrath at 10:38 (global pages, geo selector, oplists, review pages, articles, desktop + mobile). Chloe asked Eoin to close at 10:44 — but ticket remains In Product awaiting Mike. Five key risk areas Novica flagged: (1) operatorlist.css 330-line cleanup — visual regression risk across all oplist pages; (2) lazy-mount country selector; (3) image parity with production; (4) GX page CSS extracted from app.css; (5) article hero fetchpriority=high. NOTE: new GX page group JSON must be set to noindex (not draft) on production Origins before release. Confirm and close. Stakeholders: Gabriel Cornoiu, Chloe Christie, Joshua Smith.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "⚡",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925"
-    },
-    {
-      "action": "REVIEW GDCU-8847 VIP Rev Share Operator List (Nebojsa Stanic, In Product, Day 4 — last updated 11/05 13:19). QA passed on 08/05 (Shane McGrath verified VIP vs non-VIP oplist, correct ranking, filtered oplists unaffected). Nebojsa updated dev staging yesterday. UK VIP personalisation feature — show custom operator list to ktag vip_level ≥2 users via AdTech personalisation API. Approve or provide feedback to unblock. Stakeholders: Gabriel Cornoiu, Chloe Christie, Joshua Smith, Danilo Zdravkovic, Marcin Tazbir.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "💰",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8847"
-    },
-    {
-      "action": "GDCU-8907 BETTING TIPS HUB — Still Blocked/In QA (Sanja Budic, Day 6, last Jira update 06/05 17:00). No ticket movement despite Sanja saying fix was done on 07/05 after European leagues returned. Check with Sanja: is fix confirmed deployed on QA? If yes, unblock the ticket now so QA can resume and progress to In Product. Hot ticket — Michael Butlin, Dan Smullen, Gabriel Cornoiu, Miguel Migneco are stakeholders. Butlin is at tomorrow's GDCC meeting.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "🏙️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8907"
-    },
-    {
-      "action": "RETRO TOMORROW (13/05) — Chloe Christie posted in #gdc-pod at 10:38 today asking the team to add points to the Retrium board before tomorrow's sprint retrospective. Add your retro points today before EOD.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🔄",
-      "url": "https://app.retrium.com/team-room/ba1359fb-d146-49a9-9590-4764f06ee41e/retro"
-    },
-    {
-      "action": "GROUP BETS — No Slack update or Jira movement seen today. Design target was Thu 07/05 (Miguel, per Chloe commitment 05/05). Check with Miguel now: Group Bets design done? If yes → schedule KO call with Chloe and dev team immediately (11 June hard deadline). If not → assess impact and update Chloe before tomorrow's GDCC agenda meeting.",
+      "action": "MOBILE APP PIPELINE — Carlos organised two new tickets today: GDCU-8969 (Create app in GDC Trading Limited App Store Connect, Backlog, updated 11:18) and GDCU-8981 (Migrate Firebase project to apps@gdcgroup.com, Backlog, updated 11:18). Both depend on GDCU-8982 (bundle/package rename). Mike said 'I've got this thanks Carlos' at 11:04. Confirm sprint sequencing is clear: GDCU-8982 → GDCU-8981 → GDCU-8969 → GDCU-8809 (push notifications). Supersedes morning item on GDCU-8810 developer accounts.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "⚽"
+      "emoji": "📱",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8981"
     },
     {
-      "action": "GDCU-8810 DEVELOPER ACCOUNTS — Still Blocked (Harden, Day 6, no update since 06/05). Contact RotoWire team today to check if GDC Group already has org-level Apple/Google developer accounts and a D-U-N-S number — this shortcut could cut timeline from 6–8 weeks to 1–2 weeks. GDCU-8806 (Age Gate) and GDCU-8936 (Ace Nav) are both now Done — the app pipeline is ready to progress once accounts are unblocked. Stakeholders: Gabriel Cornoiu, Chloe Christie, Carlos Blauth.",
+      "action": "WC COSMO SPINS RESKIN (GDCU-8392) — Ciara still on GDCU-8619 Operator List Redesign (In Progress). Confirm with Ciara: expected delivery date for GDCU-8619 so WC reskin can be sequenced. Hard deadline 11 June. Full scope: WC-themed symbols, animations, 3 audio tracks, background, frames, countdown clock, menu animation, banners. (Carried from morning.)",
       "source": "jira",
       "priority": "medium",
-      "emoji": "🍎",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810"
+      "emoji": "🌀",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8392"
     },
     {
-      "action": "VIC DADSON — Day 21+ of zero Slack activity (last seen 21/04). No messages today. Expected return from sick leave was ~05/05. Reach out directly: wellbeing check-in first, then re-establish data engineering plan. If still unreachable, escalate to Colin Brannigan today and agree a formal cover plan.",
+      "action": "VIC DADSON — Day 22+ zero Slack activity (last seen 21/04). Return from sick leave was expected ~05/05. No contact today. This is now overdue to escalate — contact Colin Brannigan today and agree a cover plan for data engineering work. (Carried from morning, action overdue.)",
       "source": "slack",
       "priority": "medium",
       "emoji": "👋"
     },
     {
-      "action": "JESSICA DORDEVIC — No Slack activity today, but GDCU-8948 (Prize Boxes 5th Box) was marked Done yesterday (11/05 11:47) and GDCU-8906 (NL Claude Generated Tables) is now In Progress (11/05 11:59) — good momentum. Outstanding: Jessica asked on 08/05 for your feedback on 'the design she did for Colin and Dean.' Identify the specific design and respond today.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🎨",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8906"
+      "action": "COSMO SPINS ASSETS — Mike asked Josh Kerr & Shaun Cronin at 11:13 (group DM with Dean Ryan) for banner asset specs and dimension conventions so he can raise a ticket. Pending their reply — follow up if no response by EOD.",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "🎰"
     },
     {
-      "action": "LIAM CAFFREY INTERVIEW — Likely Wed 14/05 12–3pm with Gabriel. Liam noted on Friday that Mike's calendar looks full in that window. Check calendar and reply to Liam's DM today to confirm or reschedule.",
+      "action": "SEARCH ARROW BUG — Shane McGrath flagged a broken arrow in the search UI at 11:37 in #gdc-pod. Chloe asked Shane to raise a ticket. Verify ticket has been created and is assigned.",
+      "source": "slack",
+      "priority": "low",
+      "emoji": "🔍"
+    },
+    {
+      "action": "LIAM CAFFREY INTERVIEW — Confirm Wednesday 14/05 12–3pm interview slot with Liam and Gabriel. Check calendar and reply to Liam's DM if not already done today. (Carried from morning.)",
       "source": "slack",
       "priority": "low",
       "emoji": "📅"
@@ -80,68 +91,26 @@
   ],
   "needs_input": [
     {
-      "key": "GDCU-8957",
-      "summary": "[GDC][DEV][ALL GEOS] Enable Local Navigation on News Site Articles",
-      "assignee": "Carlos Blauth",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "NEW today — landed In Product at 11:19 (12/05). Robin John QA-verified this morning: desktop + mobile, multiple page types, breadcrumbs and login unaffected. Chloe flagged Thursday's release window. Mike needs to review and approve before Thursday's build cut. Stakeholders: Michael Butlin, Gabriel Cornoiu, Joshua Smith, Dan Smullen."
-    },
-    {
-      "key": "GDCU-8925",
-      "summary": "[GDC][DEV] Implement CWV changes recommended by Viktor AI",
-      "assignee": "Novica Vukobratovic",
-      "status": "In Product",
-      "priority": "Medium",
-      "context": "NEW today — QA complete at 10:38 (Shane McGrath: global pages, geo selector, oplists, review pages, articles, desktop + mobile). Chloe asked Eoin to close at 10:44 but ticket still In Product. Five risk areas: operatorlist.css 330-line cleanup (visual regression risk on all oplist pages), lazy-mount country selector, images vs production, GX page CSS extraction, article hero fetchpriority. Release note: ensure new GX page group JSON is set to noindex (not draft) on Origins before deploy. Stakeholders: Gabriel Cornoiu, Chloe Christie, Joshua Smith."
-    },
-    {
       "key": "GDCU-8847",
       "summary": "[GDC][DEV] Display rev share operator list to users marked as VIP in ktag",
       "assignee": "Nebojsa Stanic",
       "status": "In Product",
       "priority": "Medium",
-      "context": "Day 4 in Product (QA passed 08/05, updated 11/05 13:19). UK VIP feature — ktag vip_level ≥2 users see custom operator list (ranking 88847) via AdTech personalisation API. QA verified VIP/non-VIP oplist differentiation and filtered oplist integrity. Nebojsa provided test g_uuid values for level 5 and 10. Awaiting Mike's approval to ship. Stakeholders: Gabriel Cornoiu, Chloe Christie, Joshua Smith, Danilo Zdravkovic, Marcin Tazbir."
+      "context": "The only remaining In Product ticket — all others from Monday morning's batch have cleared. Touched again today (updated 13/05 13:19). UK market feature: custom revenue-share operator list for VIP users (ktag vip_level ≥2 via AdTech personalisation API or D1 database). Acceptance criteria: VIP users see new operator list, non-VIP see regular list, filters and show-more work. Stakeholders: Gabriel Cornoiu, Chloe Christie, Joshua Smith, Danilo Zdravkovic, Marcin Tazbir."
     },
     {
-      "key": "GDCU-8907",
-      "summary": "🔥 [GDC][DEV][GX] Implement the Betting Tips Hub Page",
-      "assignee": "Sanja Budic",
-      "status": "In QA",
-      "priority": "Blocked",
-      "context": "Day 6 blocked. Last Jira update 06/05. Sanja confirmed fix on 07/05 after European leagues returned but ticket has not been unblocked. Mike needs to confirm with Sanja that fix is deployed on QA, then update ticket priority from Blocked so QA can resume. Stakeholders: Gabriel Cornoiu, Michael Butlin, Dan Smullen, Miguel Migneco. Butlin is at GDCC meeting tomorrow."
-    },
-    {
-      "key": "GDCU-8810",
-      "summary": "[GDC][DEV] Set Up Organisation Level Developer Accounts for Apple/Google",
-      "assignee": "Harden Thomas Wallace",
+      "key": "GDCU-8924",
+      "summary": "[GDC][DEV] Implement feedback for Origins API integration",
+      "assignee": "Nebojsa Stanic",
       "status": "In Progress",
       "priority": "Blocked",
-      "context": "Day 6 blocked, no update since 06/05. Critical first step: contact RotoWire team to check if GDC Group already has org-level Apple/Google accounts and D-U-N-S number. If reusable, timeline shrinks from 6–8 weeks to ~1–2 weeks. GDCU-8806 (Age Gate) and GDCU-8936 (Ace Nav) are now Done — app pipeline is ready and waiting on accounts. Stakeholders: Gabriel Cornoiu, Chloe Christie, Carlos Blauth, Eoin McCarthy."
+      "context": "NEW since morning report — priority set to Blocked as of 12/05 14:42. Following the initial Origins API / DB replacement integration, a feedback document in Pubtech Confluence space lists items needing implementation. Acceptance criteria: publishes complete as expected, multiple sequential publishes without timeouts. Mike needs to identify what is blocking Nebojsa and remove the obstacle. Stakeholders: Chloe Christie, Dean Blackborough, Simon McLaughlin."
     }
   ],
   "_meta": {
-    "cleared_since_morning_report_11_05": [
-      { "key": "GDCU-8874", "summary": "Page Bloat SEO (Harden, High)", "status": "Done", "updated": "2026-05-11T14:46:53+0100" },
-      { "key": "GDCU-8936", "summary": "Ace Navigation Redesign (Carlos)", "status": "Done", "updated": "2026-05-11T16:48:58+0100" },
-      { "key": "GDCU-8806", "summary": "In-App Age Gate (Carlos)", "status": "Done", "updated": "2026-05-11T14:46:19+0100" },
-      { "key": "GDCU-8948", "summary": "Prize Boxes 5th Box (Jessica)", "status": "Done", "updated": "2026-05-11T11:47:08+0100" },
-      { "key": "GDCU-8959", "summary": "Duplicate Payment Methods IS/BE (Sanja)", "status": "Done", "updated": "2026-05-11T14:12:40+0100" },
-      { "key": "GDCU-8878", "summary": "CA/FR Oplist Redesign (Kelvin)", "status": "Done", "updated": "2026-05-12T10:33:52+0100", "note": "Completed today" },
-      { "key": "GDCU-8899", "summary": "VPN Block Research for FTP Games (Sanja)", "status": "Done", "updated": "2026-05-12T09:24:58+0100", "note": "Completed today" },
-      { "key": "GDCU-8894", "summary": "Refactor scoped styles Vue components (Novica)", "status": "Done", "updated": "2026-05-11T14:47:19+0100" }
-    ],
-    "slack_summary": {
-      "channels_checked": ["gdc-product-design-pod", "gdc-product-led-growth", "gdc-pdmt", "core-product", "gdc-pod", "gdc-f2p-apps", "gdc-high-agency"],
-      "activity_today": [
-        { "channel": "#gdc-pod", "from": "Chloe Christie", "time": "10:38 BST", "message": "Retro tomorrow — add points to Retrium", "url": "https://gdcgroup.slack.com/archives/G01DVQ3859D/p1778578711684069" },
-        { "channel": "#gdc-wcpredictor", "from": "Miguel Migneco", "time": "10:01 BST", "message": "WC Predictor Figma designs shared — 'the proper GDC versions are the ones in the dark grey sections'", "url": "https://gdcgroup.slack.com/archives/C0B2ETHTLB0/p1778576510665629" }
-      ],
-      "direct_reports_dm": "No messages today from Vic Dadson, Jessica Dordevic, or Ciara Carroll",
-      "stakeholders_dm": "No messages today from Colin Brannigan, Chloe Christie (outside Jira comments), or Gabriel Cornoiu",
-      "vic_dadson_status": "Day 21+ zero Slack activity — last seen 21/04/2026"
-    },
-    "confluence_note": "Zero pages modified in GDCU space today (12/05/2026). CQL query returned 0 results.",
-    "jira_note": "In Product query returned 3 active tickets. GDCU-8907 and GDCU-8810 carry Blocked priority but workflow statuses are In QA and In Progress respectively — not captured by status-name query, confirmed via direct key lookup. WC Predictor (GDCU-8935) remains In Progress in Jira despite design being shared on Slack today — Jira not updated by Miguel yet."
+    "jira_note": "In Product queue dramatically reduced since Monday morning — from 6 tickets to 1 (GDCU-8847 only). GDCU-8874, GDCU-8955, GDCU-8936, GDCU-8948, GDCU-8806 have all cleared In Product (approved/merged/moved). GDCU-8810 developer accounts blocker superseded by structured tickets GDCU-8981 and GDCU-8969. GDCU-8924 newly Blocked since 12/05. GDCU-8432 (HIGH, unassigned) re-touched today with no owner. Completed today: GDCU-8957 Local Nav (Carlos), GDCU-8925 CWV changes (Novica), GDCU-8928 IUJ Banners (Jessica). GDCU-8935 WC Predictor moved to In Progress (Miguel). Sprint query returned 7 active/updated tickets.",
+    "slack_note": "Active channels today: #gdc-product-design-pod (Snapchat landing page UX thread, Mike and Chloe tagged by Ciara — GDCU-8987 created), #gdc-pod (wheel slices DB issue fixed by Carlos, quick links hotfix merged by Novica, search arrow bug raised by Shane), #gdc-wcpredictor (spec alignment post-call, Miguel committed to prototype delivery today/tomorrow morning). Mike active in DMs: Miguel (WC Predictor calls), Carlos (app pipeline acknowledgement), Jessica (meeting invite — 'no obligation today'), David Mulero Pino ('talk tomorrow'). Group DM: Ekaterina Smolinova sent T&C copy at 13:20 — unresponded. Vic Dadson: Day 22+ silent, no change. No DMs from direct reports (Ciara, Jessica, Vic) today visible.",
+    "confluence_note": "No GDCU space pages modified today (13/05/2026). CQL query returned 0 results.",
+    "morning_crossref": "Morning report was 11/05/2026. Key progress since: WC Predictor now In Progress (aligned, prototype imminent), 5 of 6 In Product tickets cleared, IUJ Banners Done (Jessica), Local Nav Done (Carlos), CWV changes Done (Novica). Unresolved carries: Group Bets design confirmation (5+ days overdue), Vic Dadson escalation (Day 22+), Liam Caffrey interview confirmation, WC Cosmo sequencing with Ciara. New items afternoon: T&C review (Ekaterina), GDCU-8924 blocked, GDCU-8987 Snapchat UX, GDCU-8432 unassigned HIGH, search arrow bug, Cosmo asset spec request."
   }
 }
