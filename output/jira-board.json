@@ -1,130 +1,264 @@
 {
-  "generated_at": "2026-05-13T08:00:00Z",
-  "date": "13/05/2026",
+  "generated_at": "2026-05-14T12:35:00.000+0100",
+  "date": "14/05/2026",
   "sprint": {
-    "name": "GDCU Sprint9Q2",
-    "total_tickets": 48
+    "name": "GDCU Sprint10Q2",
+    "total": 0,
+    "note": "Sprint10Q2 exists in Jira but is not yet in open state — openSprints() returns 0. Board populated from live status queries."
   },
   "stats": {
-    "in_progress": 9,
-    "in_qa": 2,
-    "in_product": 3,
-    "backlog": 4,
-    "done": 20
+    "in_progress": 22,
+    "in_qa": 5,
+    "in_product": 2,
+    "backlog": 23,
+    "done": 18
   },
   "columns": {
     "in_progress": [
-      { "key": "GDCU-8619", "summary": "Operator List Redesign", "assignee": "Ciara Carroll", "priority": "High", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8619" },
-      { "key": "GDCU-8906", "summary": "Review Claude Generated Tables on Casino Strategy Page", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8906" },
-      { "key": "GDCU-8951", "summary": "Apply Feedback to the Learning Hub Phase 2", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8951" },
-      { "key": "GDCU-8904", "summary": "Group Bets Widget", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8904" },
-      { "key": "GDCU-8935", "summary": "World Cup Predictor Game", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935" },
-      { "key": "GDCU-8392", "summary": "Create a World Cup reskin for Cosmo Spins", "assignee": "Ciara Carroll", "priority": "Medium", "flags": ["flagged"], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8392" },
-      { "key": "GDCU-8902", "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902" },
-      { "key": "GDCU-8924", "summary": "Implement feedback for Origins API integration", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": ["blocked"], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8924" },
-      { "key": "GDCU-8810", "summary": "Set Up Organisation Level Developer Accounts for Apple/Google", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": ["blocked"], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810" }
+      { "key": "GDCU-8432", "summary": "🔥 Geo Locate Images on the Global HP", "assignee": "Novica Vukobratovic", "priority": "Blocked", "flags": ["blocked", "flagged"] },
+      { "key": "GDCU-8810", "summary": "Set Up Organisation Level Developer Accounts for Apple/Google", "assignee": "Harden Thomas Wallace", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-8924", "summary": "Implement feedback for Origins API integration", "assignee": "Nebojsa Stanic", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-8546", "summary": "Tinder Style Offer Match", "assignee": "Jessica Dordevic", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-5611", "summary": "Update CPK for CA Province Site Pages in Content", "assignee": "Kelvin Yee", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-3919", "summary": "Single Item Offer List POC PLACEHOLDER", "assignee": "Ciaran Reilly", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-8619", "summary": "Operator List Redesign", "assignee": "Ciara Carroll", "priority": "High", "flags": [] },
+      { "key": "GDCU-6988", "summary": "GDC-Regression Bugs 2025 [Manual][Automation]", "assignee": "Robin John", "priority": "High", "flags": [] },
+      { "key": "GDCU-5312", "summary": "Core Web Vitals 2.0", "assignee": "Unassigned", "priority": "High", "flags": [] },
+      { "key": "GDCU-8935", "summary": "World Cup Predictor Game", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8951", "summary": "Apply Feedback to the Learning Hub Phase 2", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8392", "summary": "🔥 Create a World Cup reskin for Cosmo Spins", "assignee": "Ciara Carroll", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8906", "summary": "Review Claude Generated Tables on Casino Strategy Page", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8904", "summary": "Group Bets Widget", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8980", "summary": "Track offer exit links with Gambling.com /go/ redirector parameters", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8982", "summary": "Rename Android package, iOS bundle, OAuth URL scheme, and app name to Cosmo Spins", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8193", "summary": "GDC AI Assistant", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8200", "summary": "Investigate why Slot Review pages / Site Feature Reviews pages are slow", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-6035", "summary": "Operator List/Offer refactor", "assignee": "Kelvin Yee", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-7961", "summary": "Raise Your Game Awards", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-7282", "summary": "Artificial Intelligence 2025", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-7195", "summary": "GDC Global Geo GX", "assignee": "Unassigned", "priority": "Medium", "flags": [] }
     ],
     "in_qa": [
-      { "key": "GDCU-8983", "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8983" },
-      { "key": "GDCU-8907", "summary": "Implement the Betting Tips Hub Page", "assignee": "Sanja Budic", "priority": "Medium", "flags": ["blocked", "flagged"], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8907" }
+      { "key": "GDCU-8907", "summary": "🔥 Implement the Betting Tips Hub Page", "assignee": "Unassigned", "priority": "Blocked", "flags": ["blocked", "flagged"] },
+      { "key": "GDCU-8792", "summary": "Implement Cloudflare Bot Management", "assignee": "Sanja Budic", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-8356", "summary": "QA for Deprecation of Direct Database Access for Origins – Use New APIs", "assignee": "Nebojsa Stanic", "priority": "Blocked", "flags": ["blocked"] },
+      { "key": "GDCU-8983", "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8795", "summary": "IUJ Update Refer a Friend CTA to Blue", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] }
     ],
     "in_product": [
-      { "key": "GDCU-8432", "summary": "Geo Locate Images on the Global HP", "assignee": "Ciara Carroll", "priority": "High", "flags": ["flagged"], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432" },
-      { "key": "GDCU-8957", "summary": "Enable Local Navigation on News Site Articles", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957" },
-      { "key": "GDCU-8847", "summary": "Display rev share operator list to users marked as VIP in ktag", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [], "url": "https://gdcgroup.atlassian.net/browse/GDCU-8847" }
+      { "key": "GDCU-8971", "summary": "Create How to Videos for Cosmo Spins Reskin", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8902", "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] }
     ],
     "done": [
-      { "key": "GDCU-8928", "updated": "2026-05-12", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928" },
-      { "key": "GDCU-8925", "updated": "2026-05-12", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-      { "key": "GDCU-8878", "updated": "2026-05-12", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8878" },
-      { "key": "GDCU-8899", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8899" },
-      { "key": "GDCU-8936", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936" },
-      { "key": "GDCU-8894", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8894" },
-      { "key": "GDCU-8874", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8874" },
-      { "key": "GDCU-8806", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8806" },
-      { "key": "GDCU-8959", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8959" },
-      { "key": "GDCU-8948", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948" },
-      { "key": "GDCU-8955", "updated": "2026-05-11", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8955" },
-      { "key": "GDCU-8956", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8956" },
-      { "key": "GDCU-8895", "updated": "2026-05-05", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8895" },
-      { "key": "GDCU-8879", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8879" },
-      { "key": "GDCU-8736", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8736" },
-      { "key": "GDCU-8733", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8733" },
-      { "key": "GDCU-8947", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8947" },
-      { "key": "GDCU-8877", "updated": "2026-05-07", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8877" },
-      { "key": "GDCU-8861", "updated": "2026-05-06", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8861" },
-      { "key": "GDCU-8834", "updated": "2026-05-06", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8834" }
+      { "key": "GDCU-8939", "summary": "Automation bug fixing and refactoring Sprint 9", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8938", "summary": "GDC Regression Testing GDCU Sprint 9", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8925", "summary": "Implement CWV changes recommended by Viktor AI", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8913", "summary": "Mobile Nav Bar Audit", "assignee": "Robin John", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8847", "summary": "Display rev share operator list to users marked as VIP in ktag", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8957", "summary": "Enable Local Navigation on News Site Articles", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8928", "summary": "IUJ Banners", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8187", "summary": "Remove Sign Up banner on BOFU pages / Fallback for Oplists", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8878", "summary": "🔥 Implement Oplist Redesign on Online Casinos Page", "assignee": "Kelvin Yee", "priority": "Medium", "flags": ["flagged"] },
+      { "key": "GDCU-8648", "summary": "Create Documentation on How to Reskin Cosmo Spins Game", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8425", "summary": "Streamline Process for Reverting/Reskin Cosmo Spins Versions", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8899", "summary": "How to Block Restricted Users Using VPN from Playing FTP Games", "assignee": "Sanja Budic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8801", "summary": "Oplist Redesign on CA/FR Casino Page", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8936", "summary": "Implement Redesign of Ace Navigation with Global Nav Bar", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8894", "summary": "Refactor scoped styles on Vue components", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-8874", "summary": "Page Bloat: Reduce HTML payload size across all markets", "assignee": "Harden Thomas Wallace", "priority": "High", "flags": [] },
+      { "key": "GDCU-4424", "summary": "GDC Brand Refresh", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
+      { "key": "GDCU-5038", "summary": "Dynamic CTA Components", "assignee": "Unassigned", "priority": "Medium", "flags": [] }
     ]
   },
-  "ticket_movements": [
-    { "key": "GDCU-8983", "from_status": "In Progress", "to_status": "In QA", "actor": "Harden Thomas Wallace", "timestamp": "2026-05-12T17:40:37.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8983" },
-    { "key": "GDCU-8983", "from_status": "Backlog", "to_status": "In Progress", "actor": "Harden Thomas Wallace", "timestamp": "2026-05-12T16:59:16.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8983" },
-    { "key": "GDCU-8928", "from_status": "In Progress", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-12T14:51:15.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928" },
-    { "key": "GDCU-8925", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-12T14:42:30.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8957", "from_status": "In QA", "to_status": "In Product", "actor": "Robin John", "timestamp": "2026-05-12T11:00:49.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957" },
-    { "key": "GDCU-8925", "from_status": "In QA", "to_status": "In Product", "actor": "Shane McGrath", "timestamp": "2026-05-12T10:38:51.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8957", "from_status": "In Progress", "to_status": "In QA", "actor": "Carlos Blauth", "timestamp": "2026-05-11T16:54:20.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957" },
-    { "key": "GDCU-8936", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T16:48:39.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936" },
-    { "key": "GDCU-8899", "from_status": "In QA", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T14:47:35.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8899" },
-    { "key": "GDCU-8894", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T14:47:16.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8894" },
-    { "key": "GDCU-8806", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T14:46:15.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8806" },
-    { "key": "GDCU-8959", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T14:12:36.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8959" },
-    { "key": "GDCU-8906", "from_status": "To Do", "to_status": "In Progress", "actor": "Jessica Dordevic", "timestamp": "2026-05-11T11:59:12.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8906" },
-    { "key": "GDCU-8948", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T11:26:31.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948" },
-    { "key": "GDCU-8955", "from_status": "In Product", "to_status": "Done", "actor": "Chloe Christie", "timestamp": "2026-05-11T11:16:24.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8955" },
-    { "key": "GDCU-8925", "from_status": "In Progress", "to_status": "In QA", "actor": "Novica Vukobratovic", "timestamp": "2026-05-11T12:26:14.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8959", "from_status": "In QA", "to_status": "In Product", "actor": "Robin John", "timestamp": "2026-05-11T10:51:53.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8959" },
-    { "key": "GDCU-8894", "from_status": "In QA", "to_status": "In Product", "actor": "Robin John", "timestamp": "2026-05-11T10:50:18.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8894" },
-    { "key": "GDCU-8928", "from_status": "Done", "to_status": "In Progress", "actor": "Chloe Christie", "timestamp": "2026-05-11T09:54:23.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928" }
+  "comments": [
+    {
+      "ticket_key": "GDCU-8971",
+      "ticket_summary": "Create How to Videos for Cosmo Spins Reskin",
+      "author": "Chloe Christie",
+      "text": "@Eoin McCarthy happy with the below? Thanks",
+      "timestamp": "2026-05-14T11:11:19.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8795",
+      "ticket_summary": "IUJ Update Refer a Friend CTA to Blue",
+      "author": "Novica Vukobratovic",
+      "text": "Can be tested on qa17",
+      "timestamp": "2026-05-14T10:45:11.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8938",
+      "ticket_summary": "GDC Regression Testing GDCU Sprint 9",
+      "author": "Automation for Jira",
+      "text": "The linked issue - GDCU-8938 has been resolved",
+      "timestamp": "2026-05-14T10:41:23.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8902",
+      "ticket_summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+      "author": "Jessica Dordevic",
+      "text": "Here you have the Figma file and Claude Prototype. @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
+      "timestamp": "2026-05-14T09:26:06.000+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket_key": "GDCU-8983",
+      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "author": "Chloe Christie",
+      "text": "Hey @Harden Thomas Wallace can you add SP for this? Thanks",
+      "timestamp": "2026-05-14T08:38:33.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8913",
+      "ticket_summary": "Mobile Nav Bar Audit",
+      "author": "Chloe Christie",
+      "text": "@Robin John to create bug ticket for the below but no other issues found fyi @Mike Pett",
+      "timestamp": "2026-05-14T08:30:42.000+0100",
+      "mentions_mike": true
+    },
+    {
+      "ticket_key": "GDCU-8971",
+      "ticket_summary": "Create How to Videos for Cosmo Spins Reskin",
+      "author": "Novica Vukobratovic",
+      "text": "There were 21 short and medium length videos created for this whole process and put into https://www.loom.com/spaces/Cosmo-Spins-45290483. Anyone on loom in our product delivery workspace should be able to join.",
+      "timestamp": "2026-05-14T08:13:02.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8983",
+      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "author": "Harden Thomas Wallace",
+      "text": "Issue Resolve. The game was looking at the production worker with staging login credentials. I've temporarily pointed the game to the staging worker.",
+      "timestamp": "2026-05-13T15:30:17.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8983",
+      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "author": "Harden Thomas Wallace",
+      "text": "Issue with the game starting play even with logged in as appeared and needs investigating. Pulled ticket back to in-progress",
+      "timestamp": "2026-05-13T14:32:48.000+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8983",
+      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "author": "Harden Thomas Wallace",
+      "text": "Ready for Review — https://ptest.gambling.com/games/cosmo-spins",
+      "timestamp": "2026-05-12T17:40:19.000+0100",
+      "mentions_mike": false
+    }
   ],
-  "recent_comments": [
-    { "key": "GDCU-8983", "author": "Harden Thomas Wallace", "body": "Ready for Review https://ptest.gambling.com/games/cosmo-spins", "created": "2026-05-12T17:40:19.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8983" },
-    { "key": "GDCU-8432", "author": "Ciara Carroll", "body": "replacing : 259165 @Joshua Smith @Chloe Christie", "created": "2026-05-12T16:26:32.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432" },
-    { "key": "GDCU-8925", "author": "Automation for Jira", "body": "The linked issue - has been resolved", "created": "2026-05-12T14:42:33.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8432", "author": "Ciara Carroll", "body": "for https://docs.google.com/... a lot of these brands do not have comments", "created": "2026-05-12T11:57:49.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432" },
-    { "key": "GDCU-8957", "author": "Chloe Christie", "body": "FYI @Michael Butlin @Dan Smullen local navs will be available for news articles on Thursday's release", "created": "2026-05-12T11:19:43.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957" },
-    { "key": "GDCU-8957", "author": "Robin John", "body": "Tested and Verified the changes and they look fine...", "created": "2026-05-12T11:00:47.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8957" },
-    { "key": "GDCU-8925", "author": "Chloe Christie", "body": "@Eoin McCarthy happy to close? Thanks", "created": "2026-05-12T10:44:16.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8925", "author": "Shane McGrath", "body": "QA Complete I think this is good...", "created": "2026-05-12T10:38:47.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8925" },
-    { "key": "GDCU-8878", "author": "Automation for Jira", "body": "The linked issue - has been resolved", "created": "2026-05-12T10:33:51.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8878" },
-    { "key": "GDCU-8878", "author": "Robin John", "body": "Tested and Verified and the changes looks good on both desktop and mobile.", "created": "2026-05-12T10:32:20.000+0000", "mentions_mike": false, "url": "https://gdcgroup.atlassian.net/browse/GDCU-8878" }
+  "ticket_movements": [
+    {
+      "key": "GDCU-8795",
+      "summary": "IUJ Update Refer a Friend CTA to Blue",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-14T10:45:27.000+0100"
+    },
+    {
+      "key": "GDCU-8938",
+      "summary": "GDC Regression Testing GDCU Sprint 9",
+      "assignee": "Unassigned",
+      "from": "Backlog",
+      "to": "Done",
+      "timestamp": "2026-05-14T10:41:20.000+0100"
+    },
+    {
+      "key": "GDCU-8902",
+      "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+      "assignee": "Jessica Dordevic",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-05-14T09:26:20.000+0100"
+    },
+    {
+      "key": "GDCU-8432",
+      "summary": "🔥 Geo Locate Images on the Global HP",
+      "assignee": "Novica Vukobratovic",
+      "from": "To Do",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T09:07:07.000+0100"
+    },
+    {
+      "key": "GDCU-8913",
+      "summary": "Mobile Nav Bar Audit",
+      "assignee": "Robin John",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-14T08:30:50.000+0100"
+    },
+    {
+      "key": "GDCU-8971",
+      "summary": "Create How to Videos for Cosmo Spins Reskin",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-05-14T08:10:45.000+0100"
+    },
+    {
+      "key": "GDCU-8983",
+      "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-13T15:30:19.000+0100"
+    },
+    {
+      "key": "GDCU-8925",
+      "summary": "Implement CWV changes recommended by Viktor AI",
+      "assignee": "Novica Vukobratovic",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-12T14:42:30.000+0100"
+    }
   ],
   "mike_mentions": [
-    { "key": "GDCU-8936", "author": "Carlos Blauth", "body": "@Mike Pett dark mode removed https://qa.gambling.com/ace", "created": "2026-05-11T12:11:35.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936" },
-    { "key": "GDCU-8936", "author": "Chloe Christie", "body": "@Mike Pett @Miguel Migneco happy with the below? Thanks", "created": "2026-05-08T11:54:19.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8936" },
-    { "key": "GDCU-8948", "author": "Jessica Dordevic", "body": "If you duplicate the 5th element into the code it will work...", "created": "2026-05-07T09:38:07.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8948" },
-    { "key": "GDCU-8928", "author": "Jessica Dordevic", "body": "Designs are ready here... Already discussed with @Mike Pett and @Ciara Carroll @Chloe Christie", "created": "2026-05-06T14:42:58.000+0000", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928" }
+    {
+      "ticket_key": "GDCU-8902",
+      "ticket_summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+      "author": "Jessica Dordevic",
+      "text": "Here you have the Figma file and Claude Prototype. @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
+      "timestamp": "2026-05-14T09:26:06.000+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902"
+    },
+    {
+      "ticket_key": "GDCU-8913",
+      "ticket_summary": "Mobile Nav Bar Audit",
+      "author": "Chloe Christie",
+      "text": "@Robin John to create bug ticket for the below but no other issues found fyi @Mike Pett",
+      "timestamp": "2026-05-14T08:30:42.000+0100",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8913"
+    }
   ],
   "upcoming_backlog": [
-    { "key": "GDCU-8966", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8966" },
-    { "key": "GDCU-8934", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8934" },
-    { "key": "GDCU-8789", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8789" },
-    { "key": "GDCU-8045", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8045" },
-    { "key": "GDCU-7706", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-7706" },
-    { "key": "GDCU-7612", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-7612" },
-    { "key": "GDCU-7573", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-7573" },
-    { "key": "GDCU-7068", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-7068" },
-    { "key": "GDCU-6988", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-6988" },
-    { "key": "GDCU-5312", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-5312" },
-    { "key": "GDCU-4960", "priority": "High", "url": "https://gdcgroup.atlassian.net/browse/GDCU-4960" },
-    { "key": "GDCU-8982", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8982" },
-    { "key": "GDCU-8981", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8981" },
-    { "key": "GDCU-8980", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8980" },
-    { "key": "GDCU-8978", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8978" },
-    { "key": "GDCU-8977", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8977" },
-    { "key": "GDCU-8976", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8976" },
-    { "key": "GDCU-8975", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8975" },
-    { "key": "GDCU-8974", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8974" },
-    { "key": "GDCU-8973", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8973" },
-    { "key": "GDCU-8972", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8972" },
-    { "key": "GDCU-8971", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8971" },
-    { "key": "GDCU-8970", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8970" },
-    { "key": "GDCU-8969", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8969" },
-    { "key": "GDCU-8967", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8967" },
-    { "key": "GDCU-8965", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8965" },
-    { "key": "GDCU-8964", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8964" },
-    { "key": "GDCU-8963", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8963" },
-    { "key": "GDCU-8962", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8962" },
-    { "key": "GDCU-8961", "priority": "Medium", "url": "https://gdcgroup.atlassian.net/browse/GDCU-8961" }
+    { "key": "GDCU-9003", "summary": "IUJ: exit_link_deposit event not firing in GA4", "assignee": "Unassigned", "priority": "High", "status": "To Do" },
+    { "key": "GDCU-9002", "summary": "IUJ: exit_link_deposit event not firing in GA4", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8996", "summary": "🔥 Build world cup predictor manager in admin panel", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8995", "summary": "🔥 Implement Database and API for World Cup Predictor", "assignee": "Kelvin Yee", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8934", "summary": "Updated paid landing page design test - Meta/Lead gen", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8789", "summary": "ACE AI - Embedded Betslips", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8396", "summary": "🔥 Implement Cosmo Spins World Cup Reskin", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-8045", "summary": "🔥 Dev support and implementation for Stable Stars game", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7706", "summary": "🔥 Integrate with generic styling option on components", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7612", "summary": "Identify most common publishing errors appearing troubleshooting channel", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7573", "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-7068", "summary": "GDC Email Brand Guidelines", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
+    { "key": "GDCU-9001", "summary": "GDC Regression Testing GDCU Sprint 10", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-9000", "summary": "Automation bug fixing and refactoring Sprint 10", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8998", "summary": "Implement CWV changes recommended by Viktor AI for Online Casinos Page", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8997", "summary": "Implement UI for world cup predictor", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8994", "summary": "Set up banner click tracking on homepage", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8992", "summary": "Investigate How to Use Netlify to Support Editorial UI Projects", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8991", "summary": "Betting Tips Hub Phase 2", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8990", "summary": "Add Sign in with Apple to satisfy App Store Review Guideline 4.8", "assignee": "Carlos Blauth", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8989", "summary": "Pre-launch readiness checklist — App Store / Play Store submission blockers and repo cleanup", "assignee": "Carlos Blauth", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8987", "summary": "Audit and Create Prototype for Social Landing / Email Confirmation Pages", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
+    { "key": "GDCU-8986", "summary": "GDC World Cup Predictor Game", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" }
   ]
 }
