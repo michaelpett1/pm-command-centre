@@ -1,243 +1,287 @@
 {
-  "generated_at": "2026-05-13T17:30:00.000+01:00",
-  "date": "13/05/2026",
+  "generated_at": "2026-05-14T17:15:00.000+01:00",
+  "date": "14/05/2026",
   "report_type": "evening",
-
   "achievements": [
     {
-      "description": "GDCU-8957 Local Navigation on News Site Articles shipped to Done — Carlos Blauth completed the full all-geos implementation at 08:59. Editors can now add local navigation to news-site article page types based on product type, verified across all geos and device types.",
-      "source": "jira",
+      "description": "Cycle 9 / Sprint 9 closed at 121.5 story points — Chloe Christie announced in #gdc-pod at 10:51. Strong sprint close ahead of Cycle 10 starting today.",
+      "source": "slack / #gdc-pod",
       "category": "completed"
     },
     {
-      "description": "In Product review queue cleared from 6 tickets (morning) to 1 — Mike worked through the accumulated backlog (GDCU-8955 Cool Tones P2, GDCU-8936 Ace Nav Redesign, GDCU-8806 Age Gate, GDCU-8874 Page Bloat SEO, GDCU-8948 Prize Boxes 5th Box all exited In Product). Only GDCU-8847 VIP Operator List remains.",
-      "source": "jira",
+      "description": "Cycle 10 Sprint Planning completed (14:30–16:00 BST) — full GDCU team planning session with Chloe Christie. Cycle 10 backlog loaded; sprint now active with mass stale ticket cleanup (~20 cancellations during planning).",
+      "source": "jira / calendar",
       "category": "completed"
     },
     {
-      "description": "GDCU-8983 Cosmo Spins Login Issues created and already in QA — Shane McGrath and Dean Ryan flagged persistent login/session problems; Harden Thomas Wallace produced a fix and moved it to In QA by 15:30. Rapid turnaround on a Dean-escalated issue.",
-      "source": "jira",
+      "description": "Two candidate first-round interviews completed today: Thibault Bougard (13:30 BST) and James Whelan (16:00 BST) — both 60-min sessions with Mike Pett, Gabriel Cornoiu, and recruiter Liam Caffrey. Greenhouse scorecards pending.",
+      "source": "calendar",
       "category": "completed"
     },
     {
-      "description": "Mobile app infrastructure backlog built out — Carlos Blauth created three new backlog tickets today: GDCU-8969 (Create app in GDC Trading Limited App Store Connect), GDCU-8981 (Migrate Firebase project to apps@gdcgroup.com), and GDCU-8809 (Implement Push Notifications via Bloomreach/OneSignal). These address the personal-account ownership risk and unblock the app submission pipeline.",
-      "source": "jira",
-      "category": "update"
-    },
-    {
-      "description": "GDCU-8923 Image Carousel Shortcode cancelled — a decision was made today to cancel this backlog feature (cancelled at 16:33).",
-      "source": "jira",
-      "category": "decision"
-    },
-    {
-      "description": "Mid Week Catchup held (Mike, Chloe Christie, Ciara Carroll, Gabriel Cornoiu, Eoin McCarthy, Shane McGrath, Shalini Kumar, Joshua Smith) — discussed Diana Thurmann's request to extend the Learning Hub to non-EN geos, sign-up fallback for geos with no offers (GDCU-8843/8187), and Ciara flagged tournament leaderboard update needed ahead of WC predictor leaderboard launch.",
-      "source": "confluence",
+      "description": "Roadmap Sync with Ciara Carroll completed (10:30 BST, 30 min) — Mike-organised session covering roadmap priorities ahead of sprint planning, GDCU-8392 WC Cosmo Spins Reskin, GDCU-8619 Operator List, and Jessica Figma file handover risk.",
+      "source": "calendar",
       "category": "meeting"
     },
     {
-      "description": "Ace dark mode decision confirmed — Mike reviewed the navigation bar contrast in dark mode on Ace and aligned with Ciara Carroll and Miguel Migneco: dark mode is kept as-is since the rest of the site does not support dark mode, one inconsistent page is undesirable.",
-      "source": "slack",
+      "description": "GDCU-8983: Cosmo Spins login issues investigated and all fixes applied by Harden — Done at 15:27. Resolves QA and user-reported login/session issues on the free-to-play game.",
+      "source": "jira / GDCU-8983",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8913: Mobile Nav Bar Audit completed by Robin John — Done at 08:30. UK sitewide bottom nav bar audit passed; no unwanted errors across popups, sticky items, or cookie banner interactions.",
+      "source": "jira / GDCU-8913",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8938 & GDCU-8939: Sprint 9 regression testing and automation bug-fixing both Done at 10:41 — sprint closure prerequisites cleared by QA team.",
+      "source": "jira / GDCU-8938, GDCU-8939",
+      "category": "completed"
+    },
+    {
+      "description": "GDCU-8619 Operator List Redesign unblocked — Ciara Carroll now In Progress (updated 10:57 after being Blocked for 21+ days since 16/04). Major unblock ahead of the 11 June deadline.",
+      "source": "jira / GDCU-8619",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8935 WC Predictor Game design In Progress — Miguel Migneco actively working (updated 14:38). Design missed 13/05 target but has started; 28 days remain to the 11 June hard deadline.",
+      "source": "jira / GDCU-8935",
+      "category": "update"
+    },
+    {
+      "description": "In Product review queue cleared from 6+ items (Monday) to 2 items: GDCU-8955, GDCU-8936, GDCU-8847, GDCU-8948, GDCU-8806, GDCU-8874 all progressed and approved earlier this week.",
+      "source": "jira",
+      "category": "completed"
+    },
+    {
+      "description": "Betting Tips ACE — IE market cache issue diagnosed and resolved by Carlos Blauth. Shane flagged at 11:31 Football Tips not showing for IE (La Liga tonight). Carlos confirmed Matrix API cache issue; not a product bug. Cleared by 12:08.",
+      "source": "slack / #gdc-pod",
+      "category": "update"
+    },
+    {
+      "description": "Apple Pay page publish error resolved — Harden identified content team had incorrectly filled in fields on gambling.com/uk/online-casinos/apple-pay. Page now publishable.",
+      "source": "slack / #gdc-pod",
+      "category": "update"
+    },
+    {
+      "description": "GDCU-8972 design system scope decision confirmed — Mike confirmed in #gdc-product-design-pod: 2 SPs max, does not need sprint planning inclusion. Ciara to gather stakeholder feedback and update design system.",
+      "source": "slack / #gdc-product-design-pod",
       "category": "decision"
     },
     {
-      "description": "GDCU-8432 Geo Locate Images on Global HP re-triaged to To Do — this HIGH priority cross-functional ticket (10 geos: IT, DE, RO, GR, NL, BE, DK, SE, ES, MX) was touched at 09:00 and moved to active To Do status, signalling intent to progress.",
-      "source": "jira",
-      "category": "update"
+      "description": "Jessica LinkedIn recommendation — HR (Lauren Bradshaw) confirmed at 15:57: Mike can write from his personal LinkedIn page. No HR restriction. Process is ongoing and no final decision on redundancy has been made.",
+      "source": "slack / DM",
+      "category": "decision"
     },
     {
-      "description": "Ciara Carroll published 'Improvement Spec: Claude Design System Folders' in the GDCC Confluence space — early-stage spec for organising Claude design system assets.",
-      "source": "confluence",
-      "category": "update"
-    },
-    {
-      "description": "Robin John published 'Global Navigation Test Suite for Gambling.com Across 26 Markets' in GDCC Confluence — QA automation coverage expanded to the global nav across all 26 markets via PR #22.",
-      "source": "confluence",
-      "category": "update"
-    },
-    {
-      "description": "Search arrow bug reported in #gdc-pod (Shane McGrath) and triaged — Chloe Christie directed Shane to raise a Jira ticket. Bug: search arrow broken on site.",
-      "source": "slack",
-      "category": "update"
-    },
-    {
-      "description": "Footer bugs flagged by Robin John: (1) GDC SE homepage footer Twitter icon redirects to SE homepage instead of Twitter; (2) GDC AU footer Quick Links section missing. Under investigation in a 9-reply thread.",
-      "source": "slack",
+      "description": "QA verified all live tickets — Robin John confirmed in #gdc-pod at 16:42 that QA verification of all releases today passed with no issues.",
+      "source": "slack / #gdc-pod",
       "category": "update"
     }
   ],
-
   "meeting_summaries": [
     {
-      "title": "Mid Week Catchup — 13th May 2026",
-      "time": "Morning (time TBC — not in Mike's calendar but confirmed via Confluence page and #6amigos Slack)",
-      "summary": "Regular midweek cross-functional sync. Participants: Mike Pett, Chloe Christie, Ciara Carroll, Gabriel Cornoiu, Eoin McCarthy, Shane McGrath, Shalini Kumar, Joshua Smith. Agenda captured on Confluence (6611304650). Chloe raised three items: (1) Diana Thurmann has asked whether the Learning Hub (gambling.com/learn) can be applied to non-EN geos — scope decision needed; (2) No fallback currently exists for sign-up flows in geos with no offers — GDCU-8843 and GDCU-8187 referenced — decision needed on whether to restore the previous fallback or show a 'no offers available' message; (3) All devs to ensure new tickets are created by EOD. Ciara flagged that tournament leaderboards need an update to accommodate the upcoming WC predictor leaderboard — requires design/dev action. Action items section of the Confluence page was left empty.",
+      "title": "Roadmap Sync — Mike & Ciara Carroll",
+      "time": "10:30–11:00 BST",
+      "summary": "Mike-organised 30-min roadmap review with Ciara Carroll ahead of afternoon sprint planning. Discussion focused on: WC 11 June deadline sequencing — GDCU-8392 (Cosmo Spins Reskin) and GDCU-8619 (Operator List) both In Progress with Ciara; Jessica Figma local file backup risk — Ciara flagged on 13/05 that Jessica's files in local Figma drafts risk permanent loss if account is removed during consultation. No Confluence notes found; inferred from calendar data and Slack context.",
       "decisions": [
-        "Search arrow bug to be ticketed by Shane McGrath (Chloe directive)",
-        "Ace dark mode kept as-is — confirmed by Mike, Ciara and Miguel in #gdc-product-led-growth",
-        "Image Carousel Shortcode (GDCU-8923) cancelled"
+        "GDCU-8392 and GDCU-8619 both carry into Cycle 10 with Ciara",
+        "Jessica Figma local drafts to be moved to shared Figma space by Ciara"
       ],
       "action_items_from_meeting": [
-        "Decide on Learning Hub rollout to non-EN geos — Diana Thurmann's request, needs Mike/Gabriel/Chloe alignment",
-        "Decide on sign-up fallback for geos with no offers — review GDCU-8843 and GDCU-8187",
-        "All devs to have new tickets raised by EOD today",
-        "Ciara to drive tournament leaderboard update spec ahead of WC predictor leaderboard launch"
+        "Confirm Jessica's Figma files are moved from local drafts to a shared space — must not wait until account removal",
+        "Align with Ciara on sequencing: which of GDCU-8392 (WC reskin) and GDCU-8619 (Operator List) takes priority given the 11 June constraint"
+      ]
+    },
+    {
+      "title": "Sprint Planning — Cycle 10 Kickoff",
+      "time": "14:30–16:00 BST",
+      "summary": "Full GDCU Assemble sprint planning session organised by Chloe Christie. Cycle 9 closed at 121.5 SP. Cycle 10 backlog loaded; sprint now active. WC 11 June deadline was the primary sequencing constraint. Significant backlog cleanup occurred (~20 additional ticket cancellations post-14:00 including GDCU-8045 Stable Stars HIGH, GDCU-8962 Hreflang, GDCU-7069 Email Components, GDCU-7068 Email Brand Guidelines). New work started immediately post-planning: GDCU-9007 Remove Cosmo Spins Rotation Block (Harden, In Progress 17:04), GDCU-8952 Variations Logic Links by Country Shortcode (Harden, In Progress 16:19), GDCU-8981 Firebase Migration (Carlos, In Progress 16:37). No Confluence sprint notes yet.",
+      "decisions": [
+        "Cycle 10 sprint committed and active",
+        "GDCU-9007 Remove Cosmo Spins Rotation Block created and started (Harden)",
+        "GDCU-8952 Variations Logic to Links by Country Shortcode started (Harden)",
+        "GDCU-8981 Firebase project migration to apps@gdcgroup.com started (Carlos)",
+        "GDCU-8045 Stable Stars dev support cancelled (HIGH — stale)",
+        "GDCU-8962 Hreflang Missing Return Links cancelled",
+        "GDCU-7069 Email Marketing Components cancelled",
+        "GDCU-7068 Email Brand Guidelines cancelled"
+      ],
+      "action_items_from_meeting": [
+        "Confirm GDCU-8907 Betting Tips Hub resolution path — still blocked and unassigned post-planning",
+        "Confirm Group Bets KO call timing with Chloe — was design target met?",
+        "Confirm GDCU-8906 NL Claude Tables reassignment given Jessica's consultation situation",
+        "Verify GDCU-8432 Geo Locate Images Global HP has a dev assigned in Cycle 10"
+      ]
+    },
+    {
+      "title": "Interview — Thibault Bougard (1st Round)",
+      "time": "13:30–14:30 BST",
+      "summary": "First-round interview with candidate Thibault Bougard. Panel: Mike Pett and Gabriel Cornoiu, organised by recruiter Liam Caffrey. 60-min Greenhouse session. Ran back-to-back with Sprint Planning starting at 14:30. No post-interview Slack discussion found. Greenhouse scorecard pending.",
+      "decisions": [],
+      "action_items_from_meeting": [
+        "Complete Greenhouse scorecard for Thibault Bougard before tomorrow's Mike/Gab sync at 09:30",
+        "Debrief with Gabriel Cornoiu and Liam Caffrey on both today's candidates",
+        "Confirm next stage for Bougard (advance / hold / decline)"
+      ]
+    },
+    {
+      "title": "Interview — James Whelan (1st Round)",
+      "time": "16:00–17:00 BST",
+      "summary": "Second first-round interview of the day with candidate James Whelan. Same panel: Mike Pett and Gabriel Cornoiu, organised by Liam Caffrey. Immediately followed Sprint Planning. No post-interview Slack discussion found. Greenhouse scorecard pending.",
+      "decisions": [],
+      "action_items_from_meeting": [
+        "Complete Greenhouse scorecard for James Whelan",
+        "Combined post-day debrief with Gabriel Cornoiu and Liam Caffrey on both Bougard and Whelan",
+        "Confirm next stage for Whelan (advance / hold / decline)"
       ]
     }
   ],
-
   "action_points": [
     {
-      "action": "REVIEW & APPROVE GDCU-8847 VIP REV SHARE OPERATOR LIST — The only ticket remaining in 'In Product'. Nebojsa Stanic's implementation: VIP users (level >=2 via ktag/AdTech personalisation API) see a custom operator list on UK. Non-VIP see regular list. Filters and show-more must work. Day 5 in product review (moved from QA 08/05). Clear this first thing tomorrow.",
-      "source": "jira",
+      "action": "JESSICA DORDEVIC — REDUNDANCY CONSULTATION. Jessica is in a ~1-month formal consultation process. She is emotionally impacted. Consultation meeting expected in ~7 days (per her DM at 09:55 today). Actions: (1) LinkedIn recommendation — Lauren (HR) confirmed you can write from your personal page, no restriction; (2) Figma local drafts — confirm with Ciara files are moved to shared space; (3) Agree a clear work plan for the consultation period — she is actively working (GDCU-8902 In Product, GDCU-8906 active); (4) Plan reassignment for her active tickets in case engagement drops; (5) Do NOT discuss externally — HR process ongoing, no final decision made.",
+      "source": "slack / DM",
       "priority": "high",
-      "emoji": "👑",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8847",
+      "emoji": "🚨",
       "carry_over": true
     },
     {
-      "action": "IUJ PRIZE WHEEL QA/PROD DISCREPANCY — Mike raised in #gdc-pod at 09:00 that the wheel-slices edit interface is available in QA Admin but missing in Prod. No dev responded today. Chase Harden, Eoin or Gabriel for an answer — Mike needs to update IUJ prize probabilities and is currently blocked from doing so.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "🎡",
-      "carry_over": false
-    },
-    {
-      "action": "WC PREDICTOR DESIGN — TARGET WAS YESTERDAY (12/05). No Jira or Slack update from Miguel Migneco visible today. GDCU-8935 still in Backlog. Confirm with Miguel first thing: has design started / is it done? If not, assess impact on 11 June hard deadline and plan recovery — full Figma design (entry flow, group stage, knockout, outrights, leaderboard, mobile-first, 3 breakpoints) required before dev handoff.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "🏆",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935",
-      "carry_over": true
-    },
-    {
-      "action": "GROUP BETS KO CALL — Design target was Thu 07/05. No confirmation seen in Slack or Jira — now Day 6 past target. Confirm with Miguel: is Group Bets design done? If yes, schedule KO call with Chloe and the dev team immediately — 11 June is the hard deadline.",
-      "source": "slack",
-      "priority": "high",
-      "emoji": "⚽",
-      "carry_over": true
-    },
-    {
-      "action": "SPRINT PLANNING PREP — Full team Sprint Planning tomorrow at 14:30 BST (Chloe Christie, whole team). Prepare sprint priorities before arriving: (1) WC work — Predictor (GDCU-8935) and Group Bets, 11 June deadline; (2) Cosmo Spins WC Reskin (GDCU-8392, Ciara, once GDCU-8619 finishes); (3) GDCU-8983 Cosmo Spins login fix likely completing QA; (4) Mobile app backlog (GDCU-8969, GDCU-8981, GDCU-8809); (5) GDCU-8432 Geo Locate Images HIGH needs assignee; (6) WC tournament leaderboard update (Ciara's mid-week catchup point); (7) Sign-up fallback for geos with no offers.",
+      "action": "INTERVIEW GREENHOUSE SCORECARDS — Two 1st-round interviews completed today: Thibault Bougard (13:30) and James Whelan (16:00). Complete both Greenhouse scorecards before tomorrow's Mike/Gab sync (09:30 BST). Debrief with Gabriel Cornoiu and Liam Caffrey. Agree next-stage decisions for both candidates.",
       "source": "calendar",
       "priority": "high",
       "emoji": "📋",
       "carry_over": false
     },
     {
-      "action": "INTERVIEW PREP — Two 1st interviews tomorrow: Thibault Bougard at 13:30 BST and James Whelan at 16:00 BST. Both organised by Liam Caffrey (recruiter), Gabriel Cornoiu also attending. Review Greenhouse interview kits (links in calendar invites) before tomorrow morning. Note: Sprint Planning (14:30 BST) fills the gap between interviews — leave on time.",
-      "source": "calendar",
-      "priority": "high",
-      "emoji": "🎙️",
-      "carry_over": false
-    },
-    {
-      "action": "ROADMAP SYNC WITH CIARA — Tomorrow 10:30 BST (Mike is organiser). Key topics: (1) WC Predictor leaderboard and tournament leaderboard update (Ciara flagged in today's mid-week catchup); (2) WC Cosmo Spins Reskin (GDCU-8392) sequencing — when does GDCU-8619 complete so she can start? (3) Improvement Spec for Claude Design System Folders (Ciara published today). Zoom agenda link is attached to the calendar invite.",
-      "source": "calendar",
-      "priority": "high",
-      "emoji": "🗺️",
-      "carry_over": false
-    },
-    {
-      "action": "LEARNING HUB NON-EN GEOS — Diana Thurmann requested during today's mid-week catchup. Needs a decision: extend gambling.com/learn to non-EN geos. Align with Gabriel Cornoiu and Chloe Christie — is this a sprint item or a roadmap item? Feed answer back to Diana.",
-      "source": "confluence",
-      "priority": "medium",
-      "emoji": "🌍",
-      "url": "https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6611304650/Mid+Week+Catchup+13th+May+2026",
-      "carry_over": false
-    },
-    {
-      "action": "SIGN-UP FALLBACK DECISION — Mid-week catchup flagged GDCU-8843 and GDCU-8187: no fallback for sign-up on geos with no offers. Decide: restore previous fallback, or implement a 'no offers available' message. Align with Chloe and Eoin before sprint planning.",
-      "source": "confluence",
-      "priority": "medium",
-      "emoji": "🔄",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8843",
-      "carry_over": false
-    },
-    {
-      "action": "COSMO SPINS LOGIN FIX — GDCU-8983 in QA (Harden's fix submitted 15:30). Monitor QA sign-off. Dean Ryan is closely tracking this (escalated multiple times). Ensure QA completes promptly and update Dean/Shane when live.",
+      "action": "GDCU-8907 BETTING TIPS HUB — Still Blocked/In QA, now unassigned (updated 12:22). Day 9+ blocked. IE cache issue was a separate problem resolved this afternoon. The original QA blocker from 06/05 is still standing. Escalate to Sanja and Gabriel first thing tomorrow: confirm fix deployed, unblock the ticket, restart QA. Cycle 10 has started — this cannot carry a second sprint blocked.",
       "source": "jira",
-      "priority": "medium",
-      "emoji": "🎰",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8983",
-      "carry_over": false
-    },
-    {
-      "action": "FOOTER BUGS — Robin John flagged today: (1) GDC SE footer Twitter icon redirects to SE homepage; (2) GDC AU footer Quick Links missing. Verify resolution from the 9-reply thread in #gdc-pod — content fix or dev ticket needed.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🔗",
-      "carry_over": false
-    },
-    {
-      "action": "GDCU-8432 GEO LOCATE IMAGES ON GLOBAL HP — Re-triaged to To Do today (HIGH, unassigned). 10 geos: IT, DE, RO, GR, NL, BE, BE/FR, DK, SE, ES, MX. Needs an assignee and sprint slot. Raise in tomorrow's sprint planning.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🌐",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432",
+      "priority": "high",
+      "emoji": "🔥",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8907",
       "carry_over": true
     },
     {
-      "action": "MOBILE APP BACKLOG — Carlos created GDCU-8969 (App Store Connect), GDCU-8981 (Firebase migration), GDCU-8809 (Push Notifications) today. All in Backlog. Sequence in sprint planning: GDCU-8982 (rebrand/rename) must land before GDCU-8981; GDCU-8981 must land before GDCU-8809 (APNs key dependency).",
+      "action": "WC PREDICTOR GAME (GDCU-8935) — Design In Progress (Miguel, updated 14:38). Missed 13/05 target. At tomorrow's Mike/Gab sync (09:30) and/or standup (14:30): confirm how far along Figma is, any blockers, and revised ETA for dev handoff. Full scope required: entry flow, 48-match group stage, knockout bracket, outrights, leaderboard, mobile-first 3 breakpoints. 11 June = 28 days.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "🎮",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935",
+      "carry_over": true
+    },
+    {
+      "action": "GROUP BETS KO CALL — Design target was 07/05 (8 days ago). No confirmation it was completed. With Cycle 10 now started, clarify with Miguel and Chloe: is Group Bets design done? If yes, schedule KO call with dev team immediately. 11 June = 28 days remaining. If no, assess scope viability.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "⚽",
+      "carry_over": true
+    },
+    {
+      "action": "GDCU-8902 SPORTS QUIZ DESIGN SYSTEM — In Product (Jessica Dordevic, updated 15:37). Jessica moved to In Product this morning and is actively working. Review and approve promptly — especially important given her consultation period. Output format is Claude Code prompts for fast codebase iteration, not a Figma doc.",
       "source": "jira",
       "priority": "medium",
-      "emoji": "📱",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8969",
+      "emoji": "🧩",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902",
       "carry_over": false
     },
     {
-      "action": "VIC DADSON RETURN — Vic is signed off until 16 May (Friday). No action until Friday. Ensure data engineering handoff plan (Nemanja reqs) is ready to resume w/c 18 May. Brief Colin Brannigan if coverage gap has grown.",
+      "action": "GDCU-8971 COSMO SPINS HOW-TO VIDEOS — In Product (Novica Vukobratovic, updated 11:11). Knowledge-sharing videos documenting the Cosmo Spins reskin process. Review and approve to unlock as team resources — directly enables the WC Cosmo Spins Reskin (GDCU-8392) by upskilling the wider team.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🎬",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8971",
+      "carry_over": false
+    },
+    {
+      "action": "GDCU-8810 DEVELOPER ACCOUNTS — Still Blocked (Harden, Day 9+, priority: Blocked, updated 10:57). Critical first step still outstanding: contact RotoWire team re existing GDC Group org accounts for Apple/Google — could collapse timeline from 6–8 weeks to ~1–2 weeks. Ask Harden tomorrow: has RotoWire been contacted?",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🍎",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810",
+      "carry_over": true
+    },
+    {
+      "action": "JESSICA FIGMA LOCAL FILES — Ciara flagged on 13/05 that Jessica's Figma drafts are in local files and could be permanently lost if her account is removed during/after consultation. Confirm with Ciara tomorrow that files have been moved to a shared Figma space.",
       "source": "slack",
-      "priority": "low",
+      "priority": "medium",
+      "emoji": "📁",
+      "carry_over": false
+    },
+    {
+      "action": "WC COSMO SPINS RESKIN (GDCU-8392) — Ciara is In Progress (updated 08:23 today). Monitor timeline vs 11 June. Full scope is significant (WC-themed symbols, animations, 3 audio tracks, background, frames, countdown clock, menu animation, banners). GDCU-8971 videos (once approved) will enable broader team support. Check progress at tomorrow's standup.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🌍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8392",
+      "carry_over": true
+    },
+    {
+      "action": "VIC DADSON — BACK AT WORK. Reintroduction call Monday 12/05 with Mike and Colin. Agree Cycle 10 data engineering plan: loop in Nemanja (Data Engineering) for requirements and knowledge sharing to reduce Vic's pain points. Hospital appointments may continue.",
+      "source": "slack",
+      "priority": "medium",
       "emoji": "👋",
       "carry_over": true
     },
     {
-      "action": "IUJ BANNERS DECISION — Jessica asked on 30/04 about banners (GDCU-8928). Still outstanding — Day 9+. Resolve tomorrow.",
+      "action": "IUJ PRIZE WHEEL QA vs PROD — Mike flagged on 13/05: wheel-slices edit interface in QA Admin but missing in Prod. No resolution confirmed yet. Follow up with dev team tomorrow: Prod permissions gap or missing deployment?",
       "source": "slack",
-      "priority": "low",
-      "emoji": "🎨",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8928",
+      "priority": "medium",
+      "emoji": "🎡",
       "carry_over": true
     },
     {
-      "action": "WC COSMO SPINS RESKIN — GDCU-8392 (Ciara, Backlog, still waiting on GDCU-8619). Confirm sequencing with Ciara in tomorrow's Roadmap Sync. Full reskin scope (symbols, animations, 3 audio tracks, countdown clock, banners) cannot start until operator list redesign is done. Hard deadline: 11 June.",
+      "action": "NL PAYSAFECARD 404 — gambling.com/nl/paysafecard returning 404, top-50 high-traffic URL. Chloe confirmed NL team has a new URL and will do a redirect. Verify the redirect has been actioned and a ticket raised if not already done.",
+      "source": "slack / #gdc-pod",
+      "priority": "medium",
+      "emoji": "🇳🇱",
+      "carry_over": false
+    },
+    {
+      "action": "GDCU-9003 GA4 EXIT LINK EVENT — New ticket: IUJ exit_link_deposit event not firing in GA4. Assign a dev owner in Cycle 10. Affects IUJ attribution tracking.",
       "source": "jira",
       "priority": "low",
-      "emoji": "🌍",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8392",
-      "carry_over": true
+      "emoji": "📊",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-9003",
+      "carry_over": false
+    },
+    {
+      "action": "GDCU-9006 SEARCH ICON NAV — Shane raised today: search icon no longer jumps to nav bar on scroll. GDCU-9006 created. Assign a dev owner in Cycle 10.",
+      "source": "slack / jira",
+      "priority": "low",
+      "emoji": "🔍",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-9006",
+      "carry_over": false
     }
   ],
-
   "calendar": {
     "next_working_day": [
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rFLvejAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACsngB3AAAEA==",
-        "title": "Roadmap Sync",
-        "time": "10:30 BST",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rCCk38AAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACZRjyawAAEA==",
+        "title": "Mike / Gab Weekly Sync",
+        "time": "09:30–10:00 BST",
         "duration": "30 min",
         "status": "confirmed",
-        "attendees": ["ciara.carroll@gdcgroup.com"],
+        "attendees": ["gabriel.cornoiu@gdcgroup.com", "michael.pett@gdcgroup.com"],
         "flags": {
-          "has_direct_reports": true,
+          "has_direct_reports": false,
           "has_manager": false,
           "needs_prep": true,
-          "has_agenda": true
+          "has_agenda": false
         },
-        "agenda_url": "https://docs.zoom.us/agenda/doc/31770c63-8525-4f2b-9c8e-3b3787c3d255?from=addon",
-        "synopsis": "Mike is the organiser. One-to-one with Ciara Carroll (direct report). Zoom with a Zoom agenda document attached.",
+        "agenda_url": null,
+        "synopsis": "Weekly 1-2-1 with Gabriel Cornoiu (SEO / data lead). Zoom meeting organised by Gabriel. Gabriel was also on both interview panels today — debrief is a key agenda item.",
         "discussion_topics": [
-          "WC predictor leaderboard and tournament leaderboard update — Ciara flagged this in today's mid-week catchup as needing a design update",
-          "WC Cosmo Spins Reskin (GDCU-8392) sequencing — when does GDCU-8619 Operator List Redesign complete so Ciara can start the full WC reskin?",
-          "Claude Design System Folders improvement spec — Ciara published an early draft in Confluence today",
-          "Ciara's current sprint capacity"
+          "Greenhouse scorecard debrief — Thibault Bougard and James Whelan 1st rounds completed today; agree next-stage decisions with Gabriel before communicating to Liam Caffrey",
+          "Betting Tips Hub (GDCU-8907) — Day 9+ blocked, still unassigned. Agree escalation plan with Gabriel before the weekend",
+          "WC Predictor data dependencies — confirm Matrix data (fixture dating & resulting) exposed via Karl. Check-in with Karl still outstanding",
+          "NL Paysafecard 404 — redirect confirmed by Chloe; verify actioned and confirm no further SEO impact",
+          "GDCU-8983 Cosmo Spins login fixes Done today — Gabriel is a stakeholder, confirm live status"
         ],
-        "prep_notes": "Review the Zoom agenda doc before the call. Pull up GDCU-8392 and GDCU-8619 current status. The WC leaderboard point from today's mid-week catchup is the most time-sensitive item — treat it as a decision item with a clear output. 11 June hard deadline for all WC work."
+        "prep_notes": "Complete Greenhouse scorecards for both candidates BEFORE this call — Gabriel needs to align on next-stage decisions. Have GDCU-8907 open; agree whether a direct Sanja escalation or Jira comment is sufficient before close of day. Bring GDCU-8935 WC Predictor status from Miguel if available."
       },
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rFLvejAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
-        "title": "Project (personal focus block)",
-        "time": "11:40 BST",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rIU6FKAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQABdR-WPQAAEA==",
+        "title": "Project (personal work block)",
+        "time": "11:40–13:00 BST",
         "duration": "80 min",
         "status": "confirmed",
         "attendees": [],
@@ -248,144 +292,67 @@
           "has_agenda": false
         },
         "agenda_url": null,
-        "synopsis": "Mike's own personal calendar block with no attendees. Protected focus/work time.",
+        "synopsis": "Mike-organised personal work block. No attendees or location set. Deep-work window mid-morning Friday.",
         "discussion_topics": [],
-        "prep_notes": "Use this window for GDCU-8847 In Product review, the IUJ prize wheel QA/Prod investigation, and sprint planning prep before the afternoon."
+        "prep_notes": "Use this window for: (1) Review GDCU-8902 (Sports Quiz, Jessica — In Product) and GDCU-8971 (Cosmo Spins videos, Novica — In Product); (2) Write LinkedIn recommendation for Jessica if you've decided to proceed; (3) Chase GDCU-8810 developer accounts with Harden; (4) Confirm Group Bets design status with Miguel."
       },
       {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAK5K4d0AAA=",
-        "title": "Interview — Thibault Bougard",
-        "time": "13:30 BST",
-        "duration": "60 min",
-        "status": "confirmed",
-        "attendees": ["liam.caffrey@gdcgroup.com", "gabriel.cornoiu@gdcgroup.com", "michael.pett@gdcgroup.com", "schedule@mint.greenhouse.io"],
-        "flags": {
-          "has_direct_reports": false,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "1st interview with candidate Thibault Bougard. Organised by Liam Caffrey (recruiter). Gabriel Cornoiu also attending. Greenhouse scorecard link provided in invite.",
-        "discussion_topics": [
-          "1st interview — use Greenhouse interview kit",
-          "Submit scorecard in Greenhouse after the session"
-        ],
-        "prep_notes": "Open the Greenhouse interview kit (link in calendar invite) before the interview. Align with Gabriel on question split. Sprint Planning follows immediately at 14:30 BST — leave the interview on time."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rFLvejAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACLOuUzAAAEA==",
-        "title": "Sprint Planning",
-        "time": "14:30 BST",
-        "duration": "90 min",
-        "status": "confirmed",
-        "attendees": [
-          "chloe.christie@gdcgroup.com", "shalini.kumar@gdcgroup.com", "carlos.blauth@gdcgroup.com",
-          "ciara.carroll@gdcgroup.com", "eoin.mccarthy@gdcgroup.com", "Harden.Wallace@gdcgroup.com",
-          "ionut.neculcea@gdcgroup.com", "kelvin.yee@gdcgroup.com", "gabriel.cornoiu@gdcgroup.com",
-          "robin.john@gdcgroup.com", "shane.mcgrath@gdcgroup.com", "tony.iannelli@gdcgroup.com",
-          "nebojsa.stanic@gdcgroup.com", "novica.vukobratovic@gdcgroup.com", "sanja.budic@gdcgroup.com",
-          "miguel.migneco@gdcgroup.com", "jessica.dordevic@gdcgroup.com", "milan.nikolic@gdcgroup.com",
-          "michael.pett@gdcgroup.com", "joshua.smith@gdcgroup.com", "victoria.dadson@gdcgroup.com"
-        ],
-        "flags": {
-          "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": true,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "Full team sprint planning organised by Chloe Christie. All GDCU team attending including Mike and direct reports Ciara Carroll, Jessica Dordevic, Miguel Migneco (Vic Dadson still on sick leave). Zoom: gdcgroup.zoom.us/j/4789482034. Note: GDCU Assemble Standup is also at 14:30 BST on the same Zoom link — likely the same session with two calendar invites.",
-        "discussion_topics": [
-          "WC sprint priorities — Predictor (GDCU-8935) and Group Bets with hard 11 June deadline",
-          "GDCU-8983 Cosmo Spins login fix — likely out of QA; plan release",
-          "Mobile app next sprint items — GDCU-8969, GDCU-8981, GDCU-8809 all in Backlog; sequence dependencies",
-          "GDCU-8432 Geo Locate Images on Global HP — HIGH, unassigned, needs sprint slot",
-          "WC tournament leaderboard update (Ciara's point from today's mid-week catchup)",
-          "Sign-up fallback for geos with no offers (GDCU-8843/8187)",
-          "Vic Dadson returns Friday 16 May — plan data engineering resumption w/c 18 May"
-        ],
-        "prep_notes": "Most important meeting of tomorrow. Prepare a ranked sprint priority list before arriving. Critical constraints: (1) 11 June WC hard deadline — all WC work must be in dev by end of next week at the latest; (2) Cosmo Spins Reskin (GDCU-8392) blocked until Ciara finishes GDCU-8619; (3) GDCU-8982 must land before GDCU-8981 (mobile). Check WC Predictor and Group Bets design status with Miguel before the meeting so you can speak to dev-readiness."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rFLvejAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
+        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwFRAAgI3rIU6FKAAEYAAAAAzpe4HNqf1EeSjuUGSf7KVwcACyIlEBTfFUmd9fd3qZjTwQAAAAABDQAACyIlEBTfFUmd9fd3qZjTwQACWetiMgAAEA==",
         "title": "GDCU Assemble Standup",
-        "time": "14:30 BST",
+        "time": "14:30–15:00 BST",
         "duration": "30 min",
         "status": "confirmed",
         "attendees": [
-          "chloe.christie@gdcgroup.com", "Harden.Wallace@gdcgroup.com", "kelvin.yee@gdcgroup.com",
-          "shalini.kumar@gdcgroup.com", "eoin.mccarthy@gdcgroup.com", "carlos.blauth@gdcgroup.com",
-          "robin.john@gdcgroup.com", "ionut.neculcea@gdcgroup.com", "shane.mcgrath@gdcgroup.com",
-          "nebojsa.stanic@gdcgroup.com", "novica.vukobratovic@gdcgroup.com", "sanja.budic@gdcgroup.com",
-          "jessica.dordevic@gdcgroup.com", "milan.nikolic@gdcgroup.com", "michael.pett@gdcgroup.com",
-          "joshua.smith@gdcgroup.com", "ciara.carroll@gdcgroup.com", "victoria.dadson@gdcgroup.com",
-          "miguel.migneco@gdcgroup.com", "gabriel.cornoiu@gdcgroup.com"
+          "chloe.christie@gdcgroup.com",
+          "Harden.Wallace@gdcgroup.com",
+          "kelvin.yee@gdcgroup.com",
+          "shalini.kumar@gdcgroup.com",
+          "eoin.mccarthy@gdcgroup.com",
+          "carlos.blauth@gdcgroup.com",
+          "robin.john@gdcgroup.com",
+          "ionut.neculcea@gdcgroup.com",
+          "shane.mcgrath@gdcgroup.com",
+          "gabriel.cornoiu@gdcgroup.com",
+          "istivan.spiteri@gdcgroup.com",
+          "sander.persons@gdcgroup.com",
+          "nebojsa.stanic@gdcgroup.com",
+          "novica.vukobratovic@gdcgroup.com",
+          "sanja.budic@gdcgroup.com",
+          "miguel.migneco@gdcgroup.com",
+          "jessica.dordevic@gdcgroup.com",
+          "milan.nikolic@gdcgroup.com",
+          "michael.pett@gdcgroup.com",
+          "joshua.smith@gdcgroup.com",
+          "ciara.carroll@gdcgroup.com",
+          "victoria.dadson@gdcgroup.com"
         ],
         "flags": {
           "has_direct_reports": true,
-          "has_manager": false,
-          "needs_prep": false,
-          "has_agenda": false
-        },
-        "agenda_url": null,
-        "synopsis": "SCHEDULE CONFLICT with Sprint Planning — both at 14:30 BST on the same Zoom link. Almost certainly the same session with duplicate calendar entries. The standup is likely the opening 30-minute segment of sprint planning.",
-        "discussion_topics": [],
-        "prep_notes": "Same session as Sprint Planning above. No additional prep needed."
-      },
-      {
-        "id": "AAMkAGUyZTY0NzFlLTllMzgtNGYzNC05ZTE3LTc0NjYwYTU1ZmU5NwBGAAAAAADOl7gc2p-UR5KO5QZJ-spXBwALIiUQFN8VSZ3193epmNPBAAAAAAENAAALIiUQFN8VSZ3193epmNPBAAK5K4d1AAA=",
-        "title": "Interview — James Whelan",
-        "time": "16:00 BST",
-        "duration": "60 min",
-        "status": "confirmed",
-        "attendees": ["liam.caffrey@gdcgroup.com", "gabriel.cornoiu@gdcgroup.com", "michael.pett@gdcgroup.com", "schedule@mint.greenhouse.io"],
-        "flags": {
-          "has_direct_reports": false,
           "has_manager": false,
           "needs_prep": true,
           "has_agenda": false
         },
         "agenda_url": null,
-        "synopsis": "1st interview with candidate James Whelan. Organised by Liam Caffrey (recruiter). Gabriel Cornoiu also attending. Greenhouse scorecard link in invite.",
+        "synopsis": "Full GDCU team standup — Day 2 of Cycle 10. Organised by Chloe Christie via Zoom. Direct reports present: Jessica Dordevic (consultation period — handle sensitively), Miguel Migneco, Ciara Carroll, Victoria Dadson (now back at work).",
         "discussion_topics": [
-          "1st interview — use Greenhouse interview kit",
-          "Submit scorecard in Greenhouse after the session"
+          "Cycle 10 Day 2 check-in — confirm sprint commitments and WC timeline (11 June = 28 days)",
+          "GDCU-8907 Betting Tips Hub — escalate 9-day block, confirm owner and resolution path for Cycle 10",
+          "GDCU-8935 WC Predictor — Miguel status update and ETA for dev handoff",
+          "GDCU-8392 WC Cosmo Spins Reskin — Ciara's progress and timeline vs 11 June",
+          "GDCU-8971 How-to Videos — Novica's videos are In Product; review and circulate",
+          "GDCU-9003 GA4 exit link event — assign a dev",
+          "GDCU-9006 Search icon nav — assign a dev"
         ],
-        "prep_notes": "Open the Greenhouse interview kit (link in calendar invite) before 16:00. This runs back-to-back with Sprint Planning — leave the planning session on time. Submit Thibault Bougard scorecard (interview 1) in the gap between the two sessions."
+        "prep_notes": "Come with the WC 11-June message clear: 28 days, three major deliverables still in early stages (WC Predictor design, Group Bets design, Cosmo Spins Reskin). Jessica is on the invite and is emotionally fragile — keep tone positive and focused on work. Do not reference her situation in group. Vic is back; a brief welcome acknowledgment is fine but don't over-focus given the team context."
       }
     ]
   },
-
   "_meta": {
-    "jira_done_today": ["GDCU-8957 (Local Navigation on News Site Articles, Carlos Blauth, Done 08:59)"],
-    "jira_status_changes_today": [
-      "GDCU-8957 Done (08:59, Carlos Blauth)",
-      "GDCU-8432 To Do (09:00, unassigned HIGH — Geo Locate Images)",
-      "GDCU-8809 Backlog (09:11, Carlos Blauth — new ticket, Push Notifications)",
-      "GDCU-8983 In QA (15:30, Harden Wallace — new ticket, Cosmo Spins Login Issues)",
-      "GDCU-8981 Backlog (15:04, Carlos Blauth — new ticket, Firebase migration)",
-      "GDCU-8969 Backlog (15:11, Carlos Blauth — new ticket, App Store Connect)",
-      "GDCU-8923 Cancelled (16:33 — Image Carousel Shortcode)"
-    ],
-    "in_product_at_eod": ["GDCU-8847 (VIP Rev Share Operator List, Nebojsa Stanic — Day 5)"],
-    "blocked_at_eod": "0 tickets in Blocked status — GDCU-8810 and GDCU-8907 no longer appearing as Blocked",
-    "confluence_relevant_pages_today": [
-      "Mid Week Catchup 13th May 2026 (GDCC, Chloe Christie) — https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6611304650/",
-      "Improvement Spec: Claude Design System Folders (GDCC, Ciara Carroll) — https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6612156759/",
-      "Global Navigation Test Suite for Gambling.com Across 26 Markets (GDCC, Robin John) — https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6612713491/",
-      "2026-05-13 - SMT Tuesday Agenda (GDCC, Colin Brannigan's meeting — not Mike's) — https://gdcgroup.atlassian.net/wiki/spaces/GDCC/pages/6612582582/"
-    ],
-    "slack_channels_checked": [
-      "#gdc-pod (active today — IUJ wheel bug, footer bugs, search arrow bug, Cosmo Spins login thread)",
-      "#gdc-product-design-pod (no activity today — last message 08/05)",
-      "#gdc-pdmt (no activity today — last message 01/05)",
-      "#gdc-product-led-growth (yesterday: All Hands Zoom issue, Ace dark mode decision)",
-      "#core-product (no activity today — last 05/05)",
-      "#gdc-f2p-apps (no activity today — last 15/04)",
-      "#gdc-high-agency (channel not found)",
-      "#6amigos (Chloe posted mid-week catchup agenda yesterday)"
-    ],
-    "calendar_note": "All calendar times converted from UTC to BST (UTC+1). Sprint Planning and GDCU Assemble Standup both at 14:30 BST on the same Zoom link — almost certainly the same session with duplicate calendar entries. Tomorrow is a demanding day: Roadmap Sync (10:30) then Focus block (11:40) then Interview 1 (13:30) then Sprint Planning (14:30) then Interview 2 (16:00)."
+    "jira_note": "Done query (today): 8 results — 4 genuine task completions (GDCU-8983 at 15:27, GDCU-8913 at 08:30, GDCU-8938 and GDCU-8939 at 10:41) plus 4 epic housekeeping closures. Status changes (all day): 50 items with 35+ sprint closure cancellations. Post-14:00 changes: 13 items — 4 cancellations from planning, 3 new In Progress (GDCU-9007, GDCU-8952, GDCU-8981), 1 Done (GDCU-8983), GDCU-8432 moved to To Do. Current In Product queue: 2 items (GDCU-8902, GDCU-8971). GDCU-8907 and GDCU-8810 remain blocked.",
+    "slack_note": "Active channels today: #gdc-pod (12 messages — sprint close 121.5 SP, QA live verification, betting tips IE cache resolved, Apple Pay publish error fixed, GDCU-9006 raised). #gdc-product-design-pod (6 messages — GDCU-8972 scope decision, sprint close queries). DMs: Lauren Bradshaw at 15:57 (HR LinkedIn confirmation), Jessica Dordevic at 09:55 (consultation timeline update). #gdc-pdmt, #gdc-product-led-growth, #core-product, #gdc-f2p-apps, #gdc-high-agency, #6amigos: no messages today.",
+    "confluence_note": "No GDCU space pages modified today. No agenda pages found for 14/05 or 15/05. Notable elsewhere: Project Kronos status report (today), Continuous Delivery Workflow Proposal (BonusFinder/Kinsta — deploys reduced from 2hr to 3min), GDC nonEn Country Leads Meeting for 15/05 (Mike not included).",
+    "calendar_note": "M365 calendar authenticated. Today (14/05): Roadmap Sync 10:30 (Ciara), Project block 11:40, Interview Bougard 13:30 (Gabriel + Liam Caffrey), Sprint Planning 14:30 (full team, 90 min), Interview Whelan 16:00 (Gabriel + Liam Caffrey). Tomorrow (15/05, Friday): Mike/Gab Weekly Sync 09:30 BST, Project block 11:40 BST, GDCU Assemble Standup 14:30 BST.",
+    "people_note": "Jessica Dordevic: formal redundancy consultation (~1 month); consultation meeting expected in ~7 days. Still actively working. HR (Lauren Bradshaw) cleared LinkedIn recommendation at 15:57. Figma file backup risk — Ciara must action. Vic Dadson: returned to work; reintroduction call Monday 12/05 with Mike and Colin. Hospital appointments may continue. Agree Cycle 10 data engineering plan with Nemanja.",
+    "wc_deadline_note": "11 June 2026 — 28 days remaining. Three WC deliverables still in early stages: GDCU-8935 WC Predictor (Miguel, In Progress — design not done), Group Bets (design target 07/05, completion status unknown), GDCU-8392 Cosmo Spins WC Reskin (Ciara, In Progress). All require design completion and dev handoff this week to hit the deadline comfortably."
   }
 }
