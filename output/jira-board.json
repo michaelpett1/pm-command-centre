@@ -1,106 +1,230 @@
 {
-  "generated_at": "2026-05-14T12:35:00.000+0100",
-  "date": "14/05/2026",
+  "generated_at": "2026-05-15T08:30:00.000+0100",
+  "date": "15/05/2026",
   "sprint": {
     "name": "GDCU Sprint10Q2",
-    "total": 0,
-    "note": "Sprint10Q2 exists in Jira but is not yet in open state — openSprints() returns 0. Board populated from live status queries."
+    "total": 37
   },
   "stats": {
-    "in_progress": 22,
+    "in_progress": 11,
     "in_qa": 5,
-    "in_product": 2,
-    "backlog": 23,
-    "done": 18
+    "in_product": 3,
+    "backlog": 17,
+    "done": 1
   },
   "columns": {
     "in_progress": [
-      { "key": "GDCU-8432", "summary": "🔥 Geo Locate Images on the Global HP", "assignee": "Novica Vukobratovic", "priority": "Blocked", "flags": ["blocked", "flagged"] },
-      { "key": "GDCU-8810", "summary": "Set Up Organisation Level Developer Accounts for Apple/Google", "assignee": "Harden Thomas Wallace", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-8924", "summary": "Implement feedback for Origins API integration", "assignee": "Nebojsa Stanic", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-8546", "summary": "Tinder Style Offer Match", "assignee": "Jessica Dordevic", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-5611", "summary": "Update CPK for CA Province Site Pages in Content", "assignee": "Kelvin Yee", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-3919", "summary": "Single Item Offer List POC PLACEHOLDER", "assignee": "Ciaran Reilly", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-8619", "summary": "Operator List Redesign", "assignee": "Ciara Carroll", "priority": "High", "flags": [] },
-      { "key": "GDCU-6988", "summary": "GDC-Regression Bugs 2025 [Manual][Automation]", "assignee": "Robin John", "priority": "High", "flags": [] },
-      { "key": "GDCU-5312", "summary": "Core Web Vitals 2.0", "assignee": "Unassigned", "priority": "High", "flags": [] },
-      { "key": "GDCU-8935", "summary": "World Cup Predictor Game", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8951", "summary": "Apply Feedback to the Learning Hub Phase 2", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8392", "summary": "🔥 Create a World Cup reskin for Cosmo Spins", "assignee": "Ciara Carroll", "priority": "Medium", "flags": ["flagged"] },
-      { "key": "GDCU-8906", "summary": "Review Claude Generated Tables on Casino Strategy Page", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8904", "summary": "Group Bets Widget", "assignee": "Miguel Migneco", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8980", "summary": "Track offer exit links with Gambling.com /go/ redirector parameters", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8982", "summary": "Rename Android package, iOS bundle, OAuth URL scheme, and app name to Cosmo Spins", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8193", "summary": "GDC AI Assistant", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8200", "summary": "Investigate why Slot Review pages / Site Feature Reviews pages are slow", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-6035", "summary": "Operator List/Offer refactor", "assignee": "Kelvin Yee", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-7961", "summary": "Raise Your Game Awards", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-7282", "summary": "Artificial Intelligence 2025", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-7195", "summary": "GDC Global Geo GX", "assignee": "Unassigned", "priority": "Medium", "flags": [] }
+      {
+        "key": "GDCU-8810",
+        "summary": "Set Up Organisation Level Developer Accounts for Apple/Google",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Blocked",
+        "flags": ["blocked"]
+      },
+      {
+        "key": "GDCU-8619",
+        "summary": "Operator List Redesign",
+        "assignee": "Ciara Carroll",
+        "priority": "High",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8392",
+        "summary": "Create a World Cup reskin for Cosmo Spins",
+        "assignee": "Ciara Carroll",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8998",
+        "summary": "Implement CWV changes recommended by Viktor AI for Online Casinos Page",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8958",
+        "summary": "Implement IUJ Banners",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8935",
+        "summary": "World Cup Predictor Game",
+        "assignee": "Miguel Migneco",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8906",
+        "summary": "Review Claude Generated Tables on Casino Strategy Page",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8904",
+        "summary": "Group Bets Widget",
+        "assignee": "Miguel Migneco",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8982",
+        "summary": "Rename Android package, iOS bundle, OAuth URL scheme, and app name to Cosmo Spins",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8980",
+        "summary": "Track offer exit links with Gambling.com /go/ redirector parameters",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8951",
+        "summary": "Apply Feedback to the Learning Hub Phase 2",
+        "assignee": "Carlos Blauth",
+        "priority": "Medium",
+        "flags": []
+      }
     ],
     "in_qa": [
-      { "key": "GDCU-8907", "summary": "🔥 Implement the Betting Tips Hub Page", "assignee": "Unassigned", "priority": "Blocked", "flags": ["blocked", "flagged"] },
-      { "key": "GDCU-8792", "summary": "Implement Cloudflare Bot Management", "assignee": "Sanja Budic", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-8356", "summary": "QA for Deprecation of Direct Database Access for Origins – Use New APIs", "assignee": "Nebojsa Stanic", "priority": "Blocked", "flags": ["blocked"] },
-      { "key": "GDCU-8983", "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues", "assignee": "Harden Thomas Wallace", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8795", "summary": "IUJ Update Refer a Friend CTA to Blue", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] }
+      {
+        "key": "GDCU-8952",
+        "summary": "Apply Variations Logic to Links by Country Shortcode and Add to Slot Review and Strategy Pages",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": ["flagged"]
+      },
+      {
+        "key": "GDCU-8927",
+        "summary": "Integrate Tabs Component Image Fields",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8961",
+        "summary": "Implement Brand Carousel Component Feedback",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8964",
+        "summary": "Reduce Oplist to 10 for Casino Bonus Page",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8795",
+        "summary": "IUJ Update Refer a friend CTA to Blue",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      }
     ],
     "in_product": [
-      { "key": "GDCU-8971", "summary": "Create How to Videos for Cosmo Spins Reskin", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8902", "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] }
+      {
+        "key": "GDCU-9007",
+        "summary": "Remove Rotation Block for Cosmo Spins",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8902",
+        "summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+        "assignee": "Jessica Dordevic",
+        "priority": "Medium",
+        "flags": []
+      },
+      {
+        "key": "GDCU-8971",
+        "summary": "Create How to Videos for Cosmo Spins Reskin",
+        "assignee": "Novica Vukobratovic",
+        "priority": "Medium",
+        "flags": []
+      }
     ],
     "done": [
-      { "key": "GDCU-8939", "summary": "Automation bug fixing and refactoring Sprint 9", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8938", "summary": "GDC Regression Testing GDCU Sprint 9", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8925", "summary": "Implement CWV changes recommended by Viktor AI", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8913", "summary": "Mobile Nav Bar Audit", "assignee": "Robin John", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8847", "summary": "Display rev share operator list to users marked as VIP in ktag", "assignee": "Nebojsa Stanic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8957", "summary": "Enable Local Navigation on News Site Articles", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8928", "summary": "IUJ Banners", "assignee": "Jessica Dordevic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8187", "summary": "Remove Sign Up banner on BOFU pages / Fallback for Oplists", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8878", "summary": "🔥 Implement Oplist Redesign on Online Casinos Page", "assignee": "Kelvin Yee", "priority": "Medium", "flags": ["flagged"] },
-      { "key": "GDCU-8648", "summary": "Create Documentation on How to Reskin Cosmo Spins Game", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8425", "summary": "Streamline Process for Reverting/Reskin Cosmo Spins Versions", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8899", "summary": "How to Block Restricted Users Using VPN from Playing FTP Games", "assignee": "Sanja Budic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8801", "summary": "Oplist Redesign on CA/FR Casino Page", "assignee": "Ciara Carroll", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8936", "summary": "Implement Redesign of Ace Navigation with Global Nav Bar", "assignee": "Carlos Blauth", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8894", "summary": "Refactor scoped styles on Vue components", "assignee": "Novica Vukobratovic", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-8874", "summary": "Page Bloat: Reduce HTML payload size across all markets", "assignee": "Harden Thomas Wallace", "priority": "High", "flags": [] },
-      { "key": "GDCU-4424", "summary": "GDC Brand Refresh", "assignee": "Unassigned", "priority": "Medium", "flags": [] },
-      { "key": "GDCU-5038", "summary": "Dynamic CTA Components", "assignee": "Unassigned", "priority": "Medium", "flags": [] }
+      {
+        "key": "GDCU-8983",
+        "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+        "assignee": "Harden Thomas Wallace",
+        "priority": "Medium",
+        "flags": []
+      }
     ]
   },
   "comments": [
     {
-      "ticket_key": "GDCU-8971",
-      "ticket_summary": "Create How to Videos for Cosmo Spins Reskin",
-      "author": "Chloe Christie",
-      "text": "@Eoin McCarthy happy with the below? Thanks",
-      "timestamp": "2026-05-14T11:11:19.000+0100",
+      "ticket_key": "GDCU-8927",
+      "ticket_summary": "Integrate Tabs Component Image Fields",
+      "author": "Harden Thomas Wallace",
+      "text": "Ready for Review https://qa6.gambling.com/component-test-page At the bottom of the component test page is one of each tab types with the images from Genesis being pulled in.",
+      "timestamp": "2026-05-14T21:28:18.521+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8961",
+      "ticket_summary": "Implement Brand Carousel Component Feedback",
+      "author": "Harden Thomas Wallace",
+      "text": "Ready for Review and QA @Michael Butlin https://ptest.gambling.com/uk/online-casinos",
+      "timestamp": "2026-05-14T19:53:30.852+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8964",
+      "ticket_summary": "Reduce Oplist to 10 for Casino Bonus Page",
+      "author": "Harden Thomas Wallace",
+      "text": "Ready for QA https://qa7.gambling.com/it/casino-online/bonus-casino",
+      "timestamp": "2026-05-14T19:46:36.508+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-9007",
+      "ticket_summary": "Remove Rotation Block for Cosmo Spins",
+      "author": "Harden Thomas Wallace",
+      "text": "Hotfix released to remove the blocking banner to rotate on mobile devices. https://www.gambling.com/games/cosmo-spins",
+      "timestamp": "2026-05-14T17:56:32.646+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8902",
+      "ticket_summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
+      "author": "Ciara Carroll",
+      "text": "@Jessica Dordevic the deployed link does not work for me? https://jessica-projects.netlify.app/gdcu-8903/quiz-hub",
+      "timestamp": "2026-05-14T15:37:34.865+0100",
+      "mentions_mike": false
+    },
+    {
+      "ticket_key": "GDCU-8983",
+      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "author": "Automation for Jira",
+      "text": "The linked issue - GDCU-8983 has been resolved",
+      "timestamp": "2026-05-14T15:27:47.364+0100",
       "mentions_mike": false
     },
     {
       "ticket_key": "GDCU-8795",
-      "ticket_summary": "IUJ Update Refer a Friend CTA to Blue",
+      "ticket_summary": "IUJ Update Refer a friend CTA to Blue",
       "author": "Novica Vukobratovic",
       "text": "Can be tested on qa17",
-      "timestamp": "2026-05-14T10:45:11.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8938",
-      "ticket_summary": "GDC Regression Testing GDCU Sprint 9",
-      "author": "Automation for Jira",
-      "text": "The linked issue - GDCU-8938 has been resolved",
-      "timestamp": "2026-05-14T10:41:23.000+0100",
+      "timestamp": "2026-05-14T10:45:11.074+0100",
       "mentions_mike": false
     },
     {
       "ticket_key": "GDCU-8902",
       "ticket_summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
       "author": "Jessica Dordevic",
-      "text": "Here you have the Figma file and Claude Prototype. @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
-      "timestamp": "2026-05-14T09:26:06.000+0100",
+      "text": "Here you have the Figma file: [Figma link] Claude Prototype: https://jessica-projects.netlify.app/gdcu-8903/quiz-hub @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
+      "timestamp": "2026-05-14T09:26:06.684+0100",
       "mentions_mike": true
     },
     {
@@ -108,23 +232,7 @@
       "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
       "author": "Chloe Christie",
       "text": "Hey @Harden Thomas Wallace can you add SP for this? Thanks",
-      "timestamp": "2026-05-14T08:38:33.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8913",
-      "ticket_summary": "Mobile Nav Bar Audit",
-      "author": "Chloe Christie",
-      "text": "@Robin John to create bug ticket for the below but no other issues found fyi @Mike Pett",
-      "timestamp": "2026-05-14T08:30:42.000+0100",
-      "mentions_mike": true
-    },
-    {
-      "ticket_key": "GDCU-8971",
-      "ticket_summary": "Create How to Videos for Cosmo Spins Reskin",
-      "author": "Novica Vukobratovic",
-      "text": "There were 21 short and medium length videos created for this whole process and put into https://www.loom.com/spaces/Cosmo-Spins-45290483. Anyone on loom in our product delivery workspace should be able to join.",
-      "timestamp": "2026-05-14T08:13:02.000+0100",
+      "timestamp": "2026-05-14T08:38:33.174+0100",
       "mentions_mike": false
     },
     {
@@ -132,42 +240,122 @@
       "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
       "author": "Harden Thomas Wallace",
       "text": "Issue Resolve. The game was looking at the production worker with staging login credentials. I've temporarily pointed the game to the staging worker.",
-      "timestamp": "2026-05-13T15:30:17.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8983",
-      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
-      "author": "Harden Thomas Wallace",
-      "text": "Issue with the game starting play even with logged in as appeared and needs investigating. Pulled ticket back to in-progress",
-      "timestamp": "2026-05-13T14:32:48.000+0100",
-      "mentions_mike": false
-    },
-    {
-      "ticket_key": "GDCU-8983",
-      "ticket_summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
-      "author": "Harden Thomas Wallace",
-      "text": "Ready for Review — https://ptest.gambling.com/games/cosmo-spins",
-      "timestamp": "2026-05-12T17:40:19.000+0100",
+      "timestamp": "2026-05-13T15:30:17.122+0100",
       "mentions_mike": false
     }
   ],
   "ticket_movements": [
     {
+      "key": "GDCU-8998",
+      "summary": "Implement CWV changes recommended by Viktor AI for Online Casinos Page",
+      "assignee": "Novica Vukobratovic",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-15T07:24:56.011+0100"
+    },
+    {
+      "key": "GDCU-8958",
+      "summary": "Implement IUJ Banners",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T21:29:44.503+0100"
+    },
+    {
+      "key": "GDCU-8927",
+      "summary": "Integrate Tabs Component Image Fields",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-14T21:28:45.972+0100"
+    },
+    {
+      "key": "GDCU-8927",
+      "summary": "Integrate Tabs Component Image Fields",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T19:58:50.627+0100"
+    },
+    {
+      "key": "GDCU-8961",
+      "summary": "Implement Brand Carousel Component Feedback",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-14T19:53:51.431+0100"
+    },
+    {
+      "key": "GDCU-8964",
+      "summary": "Reduce Oplist to 10 for Casino Bonus Page",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Progress",
+      "to": "In QA",
+      "timestamp": "2026-05-14T19:46:52.788+0100"
+    },
+    {
+      "key": "GDCU-8964",
+      "summary": "Reduce Oplist to 10 for Casino Bonus Page",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T19:01:34.348+0100"
+    },
+    {
+      "key": "GDCU-8961",
+      "summary": "Implement Brand Carousel Component Feedback",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T18:58:09.140+0100"
+    },
+    {
+      "key": "GDCU-9007",
+      "summary": "Remove Rotation Block for Cosmo Spins",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Progress",
+      "to": "In Product",
+      "timestamp": "2026-05-14T17:56:57.929+0100"
+    },
+    {
+      "key": "GDCU-9007",
+      "summary": "Remove Rotation Block for Cosmo Spins",
+      "assignee": "Harden Thomas Wallace",
+      "from": "Backlog",
+      "to": "In Progress",
+      "timestamp": "2026-05-14T17:04:04.553+0100"
+    },
+    {
+      "key": "GDCU-8983",
+      "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In Product",
+      "to": "Done",
+      "timestamp": "2026-05-14T15:27:44.785+0100"
+    },
+    {
+      "key": "GDCU-8983",
+      "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
+      "assignee": "Harden Thomas Wallace",
+      "from": "In QA",
+      "to": "In Product",
+      "timestamp": "2026-05-14T15:26:58.952+0100"
+    },
+    {
       "key": "GDCU-8795",
-      "summary": "IUJ Update Refer a Friend CTA to Blue",
+      "summary": "IUJ Update Refer a friend CTA to Blue",
       "assignee": "Novica Vukobratovic",
       "from": "In Progress",
       "to": "In QA",
-      "timestamp": "2026-05-14T10:45:27.000+0100"
+      "timestamp": "2026-05-14T10:45:27.344+0100"
     },
     {
-      "key": "GDCU-8938",
-      "summary": "GDC Regression Testing GDCU Sprint 9",
-      "assignee": "Unassigned",
+      "key": "GDCU-8795",
+      "summary": "IUJ Update Refer a friend CTA to Blue",
+      "assignee": "Novica Vukobratovic",
       "from": "Backlog",
-      "to": "Done",
-      "timestamp": "2026-05-14T10:41:20.000+0100"
+      "to": "In Progress",
+      "timestamp": "2026-05-14T09:49:59.076+0100"
     },
     {
       "key": "GDCU-8902",
@@ -175,47 +363,7 @@
       "assignee": "Jessica Dordevic",
       "from": "In Progress",
       "to": "In Product",
-      "timestamp": "2026-05-14T09:26:20.000+0100"
-    },
-    {
-      "key": "GDCU-8432",
-      "summary": "🔥 Geo Locate Images on the Global HP",
-      "assignee": "Novica Vukobratovic",
-      "from": "To Do",
-      "to": "In Progress",
-      "timestamp": "2026-05-14T09:07:07.000+0100"
-    },
-    {
-      "key": "GDCU-8913",
-      "summary": "Mobile Nav Bar Audit",
-      "assignee": "Robin John",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-14T08:30:50.000+0100"
-    },
-    {
-      "key": "GDCU-8971",
-      "summary": "Create How to Videos for Cosmo Spins Reskin",
-      "assignee": "Novica Vukobratovic",
-      "from": "In Progress",
-      "to": "In Product",
-      "timestamp": "2026-05-14T08:10:45.000+0100"
-    },
-    {
-      "key": "GDCU-8983",
-      "summary": "Investigate and Apply Fixes for Various Cosmo Spins Login Issues",
-      "assignee": "Harden Thomas Wallace",
-      "from": "In Progress",
-      "to": "In QA",
-      "timestamp": "2026-05-13T15:30:19.000+0100"
-    },
-    {
-      "key": "GDCU-8925",
-      "summary": "Implement CWV changes recommended by Viktor AI",
-      "assignee": "Novica Vukobratovic",
-      "from": "In Product",
-      "to": "Done",
-      "timestamp": "2026-05-12T14:42:30.000+0100"
+      "timestamp": "2026-05-14T09:26:20.809+0100"
     }
   ],
   "mike_mentions": [
@@ -223,42 +371,221 @@
       "ticket_key": "GDCU-8902",
       "ticket_summary": "Use Sports Quiz as a Pressure Test for the GDC Design System",
       "author": "Jessica Dordevic",
-      "text": "Here you have the Figma file and Claude Prototype. @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
-      "timestamp": "2026-05-14T09:26:06.000+0100",
+      "text": "Here you have the Figma file: [Figma link] Claude Prototype: https://jessica-projects.netlify.app/gdcu-8903/quiz-hub @Mike Pett @Chloe Christie @Ciara Carroll @Gabriel Cornoiu @Joshua Smith",
+      "timestamp": "2026-05-14T09:26:06.684+0100",
       "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902"
-    },
-    {
-      "ticket_key": "GDCU-8913",
-      "ticket_summary": "Mobile Nav Bar Audit",
-      "author": "Chloe Christie",
-      "text": "@Robin John to create bug ticket for the below but no other issues found fyi @Mike Pett",
-      "timestamp": "2026-05-14T08:30:42.000+0100",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8913"
     }
   ],
   "upcoming_backlog": [
-    { "key": "GDCU-9003", "summary": "IUJ: exit_link_deposit event not firing in GA4", "assignee": "Unassigned", "priority": "High", "status": "To Do" },
-    { "key": "GDCU-9002", "summary": "IUJ: exit_link_deposit event not firing in GA4", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8996", "summary": "🔥 Build world cup predictor manager in admin panel", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8995", "summary": "🔥 Implement Database and API for World Cup Predictor", "assignee": "Kelvin Yee", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8934", "summary": "Updated paid landing page design test - Meta/Lead gen", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8789", "summary": "ACE AI - Embedded Betslips", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8396", "summary": "🔥 Implement Cosmo Spins World Cup Reskin", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-8045", "summary": "🔥 Dev support and implementation for Stable Stars game", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-7706", "summary": "🔥 Integrate with generic styling option on components", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-7612", "summary": "Identify most common publishing errors appearing troubleshooting channel", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-7573", "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-7068", "summary": "GDC Email Brand Guidelines", "assignee": "Unassigned", "priority": "High", "status": "Backlog" },
-    { "key": "GDCU-9001", "summary": "GDC Regression Testing GDCU Sprint 10", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-9000", "summary": "Automation bug fixing and refactoring Sprint 10", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8998", "summary": "Implement CWV changes recommended by Viktor AI for Online Casinos Page", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8997", "summary": "Implement UI for world cup predictor", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8994", "summary": "Set up banner click tracking on homepage", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8992", "summary": "Investigate How to Use Netlify to Support Editorial UI Projects", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8991", "summary": "Betting Tips Hub Phase 2", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8990", "summary": "Add Sign in with Apple to satisfy App Store Review Guideline 4.8", "assignee": "Carlos Blauth", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8989", "summary": "Pre-launch readiness checklist — App Store / Play Store submission blockers and repo cleanup", "assignee": "Carlos Blauth", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8987", "summary": "Audit and Create Prototype for Social Landing / Email Confirmation Pages", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" },
-    { "key": "GDCU-8986", "summary": "GDC World Cup Predictor Game", "assignee": "Unassigned", "priority": "Medium", "status": "Backlog" }
+    {
+      "key": "GDCU-9003",
+      "summary": "IUJ: exit_link_deposit event not firing in GA4",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "To Do"
+    },
+    {
+      "key": "GDCU-9002",
+      "summary": "IUJ: exit_link_deposit event not firing in GA4",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8934",
+      "summary": "Updated paid landing page design test - Meta/Lead gen",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8789",
+      "summary": "ACE AI - Embedded Betslips",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-7706",
+      "summary": "Integrate with 'generic styling' option on components",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-7612",
+      "summary": "Identify most common publishing errors appearing troubleshooting channel",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-7573",
+      "summary": "Enhance Author Page Schema & Design for E-E-A-T and SEO",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-6988",
+      "summary": "GDC-Regression Bugs 2025 [Manual][Automation]",
+      "assignee": "Robin John",
+      "priority": "High",
+      "status": "In Progress"
+    },
+    {
+      "key": "GDCU-5312",
+      "summary": "Core Web Vitals 2.0",
+      "assignee": "Unassigned",
+      "priority": "High",
+      "status": "In Progress"
+    },
+    {
+      "key": "GDCU-9006",
+      "summary": "Search Icon is not appearing in the Nav bar when page is scrolled",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-9005",
+      "summary": "Search bar arrow to see more results is not working",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-9004",
+      "summary": "Casino pages have a Console Error",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8997",
+      "summary": "Implement UI for world cup predictor",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8994",
+      "summary": "Set up banner click tracking on homepage",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8991",
+      "summary": "Betting Tips Hub Phase 2",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8990",
+      "summary": "Add Sign in with Apple to satisfy App Store Review Guideline 4.8",
+      "assignee": "Carlos Blauth",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8989",
+      "summary": "Pre-launch readiness checklist - App Store / Play Store submission blockers and repo cleanup",
+      "assignee": "Carlos Blauth",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8987",
+      "summary": "Audit and Create Prototype for Social Landing/Email Confirmation Pages",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8986",
+      "summary": "GDC World Cup Predictor Game",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8985",
+      "summary": "Update Free Slots carousel to match Simple Banner",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8981",
+      "summary": "Migrate Firebase project to apps@gdcgroup.com account",
+      "assignee": "Carlos Blauth",
+      "priority": "Medium",
+      "status": "In Progress"
+    },
+    {
+      "key": "GDCU-8977",
+      "summary": "Add fact checkers to brand review pages",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8976",
+      "summary": "Add 'Last Updated' date on brand review pages",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8975",
+      "summary": "Research oplist payment provider behaviour",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8974",
+      "summary": "HYGIENE Research",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8973",
+      "summary": "Add hover tooltip on payment provider icons",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8970",
+      "summary": "QA for the Learning Hub",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8965",
+      "summary": "Update Ratio of Prize Boxes so a 5th Box Can Appear",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8963",
+      "summary": "Include Page Titles to Author's pages",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    },
+    {
+      "key": "GDCU-8960",
+      "summary": "Large delay when using oplist tabs",
+      "assignee": "Unassigned",
+      "priority": "Medium",
+      "status": "Backlog"
+    }
   ]
 }
