@@ -1,122 +1,131 @@
 {
-  "generated_at": "2026-05-14T14:00:00.000+01:00",
-  "date": "14/05/2026",
+  "generated_at": "2026-05-15T13:20:00.000+01:00",
+  "date": "15/05/2026",
   "report_type": "afternoon",
-  "_summary": "Cycle 9 closed this morning (121.5 SP). Six morning 'In Product' tickets cleared Mon/Tue — excellent throughput. Two tickets remain Blocked. Two new In Product tickets arrived today. Major people development: Jessica is in a formal consultation period (redundancy) — project/design continuity risk requires immediate action.",
+  "_sources_note": "Jira: 3 JQL queries (In Product/Blocked, sprint updated today, status changed today). Slack: #gdc-pod, #gdc-wcpredictor, #gdc-f2p-apps, #core-product, DMs with Vic Dadson, Jessica Dordevic, Ciara Carroll, Colin Brannigan, Chloe Christie, Gabriel Cornoiu. Confluence: GDCU space (0 pages modified today). Channels #gdc-product-design-pod, #gdc-product-led-growth, #gdc-pdmt, #gdc-high-agency not found/accessible. Cross-referenced against today's morning report (08:30 BST).",
+  "_morning_delta_note": "Key changes since this morning's 08:30 report: (1) GDCU-9007 Cosmo Rotation Block — now DONE (was In Product). (2) GDCU-8795 Refer-a-Friend CTA — now DONE (was In QA). (3) GDCU-8996 WC Predictor Admin Panel — now In Progress with Kelvin Yee (was unassigned Backlog — ownership gap resolved). (4) GDCU-8927 Tabs Component — now In Product (QA passed 11:22, new since morning report). (5) GDCU-8902 Sports Quiz prototype — fixed by Jessica at 12:35 (was broken per morning context). (6) WC Predictor design: Gabriel gave feedback at 08:56 (missing login CTA); Ciara sent Banners V2 via Claude Design at 12:33. (7) Eoin's 4 product questions in #gdc-wcpredictor (from 11/05) still unanswered — flagged as blocking now dev has started.",
+
   "action_items": [
     {
-      "action": "JESSICA CONSULTATION PERIOD — URGENT PEOPLE/PROJECT RISK. Jessica is in a formal redundancy consultation process (confirmed via DM exchange today). She is shocked and demotivated ('I feel lost'). Immediate actions: (1) Check with HR today re LinkedIn recommendation she requested — you said you need HR clearance first. (2) Confirm with Ciara that Jessica's local Figma drafts are being backed up NOW before any account removal — Ciara flagged the risk on 13/05. (3) Agree a clear work plan with Jessica for the consultation period — she moved GDCU-8902 to Product this morning and is actively working on GDCU-8906 (NL Tables), which is positive but her motivation is fragile. (4) Plan reassignment for her active tickets in case engagement drops. Consultation is ~1 month per DM exchange.",
+      "action": "REVIEW 3 IN PRODUCT TICKETS — BEFORE 14:30 STANDUP. (1) GDCU-8971 Cosmo Spins How-to Videos (Novica) — still open from morning report. 21 Loom videos created. Chloe asked if Eoin is satisfied (14/05). Quick approve or note specific gaps. (2) GDCU-8902 Sports Quiz Design System (Jessica) — prototype broken yesterday, Jessica fixed it today at 12:35 and confirmed Figma updates applied. Mike tagged directly in ticket. Now fully reviewable. (3) GDCU-8927 Tabs Component Image Fields (Harden) — NEW since morning report. QA passed at 11:22 (Shane confirmed), Pernilla (UX) gave visual thumbs-up at 11:53. Chloe asked Erica to do an editor-level test (11:49). Don't wait for Erica — Mike's product review needed in parallel. Test page: qa6.gambling.com/component-test-page. Note: GDCU-9007 (Cosmo Rotation Block) is already DONE — one down from this morning's list.",
+      "source": "jira",
+      "priority": "high",
+      "emoji": "📬",
+      "url": "https://gdcgroup.atlassian.net/issues?jql=project%20%3D%20GDCU%20AND%20status%20%3D%20%22In%20Product%22%20ORDER%20BY%20updated%20DESC",
+      "new_since_morning": false,
+      "morning_status": "partially resolved — GDCU-9007 done, GDCU-8927 added, GDCU-8902 now reviewable"
+    },
+    {
+      "action": "WC PREDICTOR — ANSWER EOIN'S 4 PRODUCT QUESTIONS (11/05 #gdc-wcpredictor, now 4 days old, dev STARTED TODAY). Eoin's questions at 11/05 11:12: (1) Golden Boot outright — all World Cup players selectable or a curated shortlist? (2) Knockout games to penalties — if user predicted a draw, do they get points at full time (technically correct score)? (3) Group-stage and knockout score predictions — single predictions screen or separate via the bracket UI? (4) Login CTA — how to handle users who predicted on mobile then visit on desktop? GDCU-8995 (DB/API, Kelvin) and GDCU-8996 (Admin Panel, Kelvin — now assigned) both kicked off today. These questions are actively blocking schema and API design. Post answers in #gdc-wcpredictor immediately.",
       "source": "slack",
       "priority": "high",
-      "emoji": "🚨"
+      "emoji": "🏗️",
+      "url": "https://gdcgroup.slack.com/archives/C0B2ETHTLB0",
+      "new_since_morning": true
     },
     {
-      "action": "GDCU-8907 BETTING TIPS HUB — STILL BLOCKED, NOW A LIVE INCIDENT. Ticket updated today at 12:22 but still Blocked/In QA (Day 9+). Shane flagged in #gdc-pod at 11:31 that ACE Football Tips are not showing for IE (La Liga games tonight). Carlos investigated and found tips not loading for IE at 11:47 — suspects cache issue. This is a live product issue affecting users ahead of tonight's games. Get a definitive status from Carlos/Sanja right now: is the original QA fix fully deployed? Is the IE cache issue a separate regression? Update the ticket and unblock QA.",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "🏙️",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8907"
-    },
-    {
-      "action": "WC PREDICTOR (GDCU-8935) — GET STATUS FROM MIGUEL TODAY. Design target was yesterday (13/05). Miguel's ticket updated this morning at 11:08 and is still 'In Progress'. Dev handoff is critical vs 11 June hard deadline. Scope: entry flow, 48-match group stage, knockout bracket, outrights, leaderboard, mobile-first at 3 breakpoints. If design is not on track, assess impact and update Chloe immediately as Cycle 10 planning begins.",
-      "source": "jira",
+      "action": "WC PREDICTOR DESIGN — CLOSE THE LOOP WITH MIGUEL TODAY. Gabriel flagged this morning at 08:56: Figma is missing the sign-in CTA for returning users on the overview screen. Miguel is holding off sending the full prototype to dev until he has Ciara's feedback. Ciara delivered Banners V2 via Claude Design at 12:33 — she's clearly engaged but has not visibly responded on the main design review. Confirm: (1) Has Ciara given Miguel her feedback? (2) Has Miguel added Gabriel's login CTA? GDCU-8995/8996 dev has started — design needs to be locked today. Do not let this drift over the weekend.",
+      "source": "slack",
       "priority": "high",
       "emoji": "🎮",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8935"
+      "url": "https://gdcgroup.slack.com/archives/C0B2ETHTLB0",
+      "new_since_morning": true
     },
     {
-      "action": "GDCU-8810 DEVELOPER ACCOUNTS — DAY 9 BLOCKED. Still Blocked/In Progress, updated today at 10:57. No evidence the critical first step (contact RotoWire team re existing org accounts) has been completed. Ask Harden directly today: has RotoWire been contacted? If GDC Group org accounts already exist under RotoWire, this collapses the timeline from 6–8 weeks to ~1–2 weeks. App submission pipeline is otherwise ready (GDCU-8806 and GDCU-8936 both Done).",
-      "source": "jira",
-      "priority": "high",
-      "emoji": "🍎",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810"
-    },
-    {
-      "action": "REVIEW GDCU-8902 Sports Quiz Design System Pressure Test (Jessica Dordevic, In Product, moved today at 10:57). NEW. Jessica moved this to In Product this morning and confirmed she worked on it. Task: UX audit of the Sports Quiz Vercel prototype (hungry-jepsen.vercel.app) to produce Claude Code prompts for dev iteration — not a Figma doc. Ciara gave initial positive feedback but hasn't formally confirmed. Mike's review needed today. A clear, prompt review will also support Jessica's engagement during a difficult time.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🧩",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902"
-    },
-    {
-      "action": "REVIEW GDCU-8971 Cosmo Spins How-To Videos (Novica Vukobratovic, In Product, updated today at 11:11). NEW since morning report. Novica has created knowledge-sharing videos documenting how to reskin Cosmo Spins game and banners for the dev team — enabling the wider team to complete the WC reskin (GDCU-8392). Stakeholders: Eoin McCarthy, Joshua Smith, Gabriel Cornoiu, Kelvin Yee. Review and approve to unlock these as team resources.",
-      "source": "jira",
-      "priority": "medium",
-      "emoji": "🎬",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8971"
-    },
-    {
-      "action": "CYCLE 9 CLOSED / CYCLE 10 STARTING. Chloe announced Cycle 9 closed at 10:51 with 121.5 SP completed. Cycle 10 is beginning. Confirm sprint priorities are correctly loaded, especially: WC Predictor dev handoff, Group Bets KO call, and any replanning needed due to Jessica's situation. Note: Chloe asked in #gdc-product-design-pod about GDCU-8972 (Claude Design placeholder) — you confirmed 2 SPs, does not need to be in planning (Ciara to define reqs from stakeholder feedback).",
+      "action": "JESSICA LINKEDIN RECOMMENDATION — STILL NEEDS HR CHECK. Carried from morning report (high). Mike told Jessica on 14/05: 'I don't have a problem but I need to check with HR first.' Jessica is in a formal redundancy consultation process (~7 days to consultation meeting per her DM). Check with HR now so you can give her a clear answer before end of day today. She's actively working (GDCU-8902 in Product, GDCU-8906 NL Tables) — a quick resolution here supports her engagement during a difficult period.",
       "source": "slack",
-      "priority": "medium",
-      "emoji": "🔄"
+      "priority": "high",
+      "emoji": "🔗",
+      "new_since_morning": false,
+      "morning_status": "outstanding — no HR check completed yet visible in data"
     },
     {
-      "action": "WC COSMO SPINS RESKIN (GDCU-8392) — CIARA ACTIVELY IN PROGRESS. Positive update: Ciara is now assigned and In Progress (updated today 10:57). Morning risk of this ticket being unstaffed is resolved. Monitor timeline vs 11 June — full scope is significant (symbols, animations, 3 audio tracks, background, frames, countdown clock, menu animation, banners). Check in with Ciara mid-week on progress.",
+      "action": "VIC REDUNDANCY — DATA KNOWLEDGE TRANSFER PLAN. Carried from morning (high). Vic is at risk of redundancy, likely gone within the month. Colin's advice: 'safer to utilise David.' Mike's own 14/05 analysis: Vic holds tracking + insights work (5 of 8 responsibilities not in original role), Bloomreach unconnected, no push reporting, data in silos, no handover plan. Immediate actions for this afternoon / early next week: (1) Agree a structured brain dump plan with Vic — prioritise tracking specs, Bloomreach API wiring, KPI definitions. (2) Align with David Mulero Pino on which requirements to take on. (3) Confirm Tableau access timeline with BI. Vic is listed as an attendee on today's 14:30 standup — confirm she is there and agree 1:1 this week.",
+      "source": "slack",
+      "priority": "high",
+      "emoji": "⚠️",
+      "new_since_morning": false,
+      "morning_status": "outstanding — plan not yet formalised"
+    },
+    {
+      "action": "WC PREDICTOR ADMIN PANEL (GDCU-8996) — OWNER ASSIGNED, CONFIRM SCOPE. Good news since morning: GDCU-8996 (WC Predictor Admin Panel, HIGH) is now In Progress with Kelvin Yee — the ownership gap flagged in the morning report is resolved. However: confirm Kelvin understands the scope (group game scores, knockout teams/scores, outrights management, point-total triggers on save). He's also on GDCU-8995 (DB/API) simultaneously. Check in with Gabriel/Eoin: is Kelvin double-banked here and does he need support?",
       "source": "jira",
       "priority": "medium",
       "emoji": "🌍",
-      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8392"
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8996",
+      "new_since_morning": false,
+      "morning_status": "partially resolved — owner now assigned (Kelvin), scope confirmation still needed"
     },
     {
-      "action": "JESSICA FIGMA FILES — BACK UP NOW. Ciara flagged in DM on 13/05 that Jessica's Figma drafts are in local files and may be lost if her account is removed. You confirmed she is in a ~1-month consultation period, so time exists — but action should happen now. Confirm with Ciara today that files are being moved from Jessica's local drafts to a shared Figma space before any account changes.",
+      "action": "GDCU-8810 DEVELOPER ACCOUNTS — STILL BLOCKED, DAY 9. Carried from morning report. Apple/Google org-level accounts (Harden, In Progress/Blocked). Primary shortcut: contact RotoWire team to verify if GDC Group org accounts already exist. Raise this explicitly at today's 14:30 standup — it has been blocked for 9 days and the app submission pipeline (Age Gate, Ace Nav — both approved this week) is queued behind it.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🍎",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810",
+      "new_since_morning": false,
+      "morning_status": "outstanding — no update seen"
+    },
+    {
+      "action": "GDCU-9006 SEARCH ICON NAV BUG — ASSIGN AT STANDUP. Shane filed this on 14/05 (Backlog, unassigned) and also flagged in #gdc-pod on 13/05 and 14/05. Search icon not appearing in nav on scroll. Possible regression from recent Ace Nav or CWV changes. Assign to appropriate dev at today's 14:30 standup and set Sprint 10 priority.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🐛",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-9006",
+      "new_since_morning": false,
+      "morning_status": "outstanding — still unassigned"
+    },
+    {
+      "action": "IUJ ENGAGEMENT — MONITOR ACTIVE FIXES. GDCU-8795 (Refer-a-Friend CTA Blue) is now DONE today (Novica). GDCU-8958 (IUJ Banners, Harden) is In Progress. Two short-term fixes are therefore in motion. Confirm: are these the right levers to move the 30/12,000 level-up conversion? If not, the next decision point (per Mike's note to Colin) is removing the feature. No immediate action today but keep on radar.",
+      "source": "jira",
+      "priority": "medium",
+      "emoji": "🎰",
+      "new_since_morning": false,
+      "morning_status": "progressing — GDCU-8795 done today, GDCU-8958 in progress"
+    },
+    {
+      "action": "NL PAYSAFECARD 404 — HIGH TRAFFIC, REDIRECT DECISION NEEDED. Robin John flagged in #gdc-pod on 14/05 09:54: gambling.com/nl/paysafecard is 404 and is in the top-50 highest-traffic URLs. No response visible from Mike or team. Live SEO and UX issue. Decide: redirect to NL homepage or a relevant NL payment methods page, then ensure a ticket is raised if not already done. NOT in this morning's report — new.",
       "source": "slack",
       "priority": "medium",
-      "emoji": "📁"
+      "emoji": "🌐",
+      "new_since_morning": true
     },
     {
-      "action": "PRIZE WHEEL QA vs PROD DISCREPANCY. You flagged in #gdc-pod at 09:00 on 13/05 that IUJ prize wheel slices are editable in QA admin panel (qa.gambling.com/admin/game-config/wheel-slices) but that interface is missing in Prod. No resolution seen. Follow up with the dev team today — is this a production permissions issue or a missing deployment?",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🎡"
-    },
-    {
-      "action": "NL PAYSAFECARD 404 — HIGH TRAFFIC URL. Robin John flagged in #gdc-pod this morning that gambling.com/nl/paysafecard is returning a 404 and is in the top 50 high-traffic URLs. Needs a redirect decision: to NL homepage or a relevant NL payment methods page. Live SEO and UX issue. Confirm who is actioning this and ensure a ticket is raised if not already done.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "🇳🇱"
-    },
-    {
-      "action": "VIC DADSON — RETURNING TO WORK. Vic had her reintroduction call with you Monday 12/05 at 4PM. Colin confirmed she seemed OK. Agree her data engineering plan for Cycle 10: specifically loop in Nemanja (Data Engineering) per your 23/04 message — clear requirements and knowledge sharing to reduce Vic's pain points.",
-      "source": "slack",
-      "priority": "medium",
-      "emoji": "👋"
-    },
-    {
-      "action": "LIAM CAFFREY INTERVIEW — Today 12–3pm was the confirmed slot. Confirm interview took place and note follow-up actions: feedback to Gabriel Cornoiu, next steps in Greenhouse.",
+      "action": "CANDIDATE DEBRIEF — AGREE DECLINE AND NEXT STEPS WITH GABRIEL. Carried from morning (low). Interview on 14/05: Gabriel — 'not hands-on, relies on others, exhausted listening to him.' Mike — 'smart but not advanced enough; could be a junior candidate.' Discussed briefly in DM during/after interview. Formally agree with Gabriel: decline for this role. Given Jessica's situation (redundancy consultation), discuss interim design resource strategy and whether to open a new search.",
       "source": "slack",
       "priority": "low",
-      "emoji": "📅"
+      "emoji": "👤",
+      "new_since_morning": false,
+      "morning_status": "outstanding"
     },
     {
-      "action": "GROUP BETS — STATUS STILL UNCLEAR. Morning report flagged design target was 07/05. No confirmation in any channel this week. With Cycle 10 now starting, clarify with Miguel/Chloe: is design done? If yes, schedule KO call with Chloe and dev team. 11 June deadline unchanged.",
+      "action": "GDCU-8972 CLAUDE DESIGN IMPROVEMENTS — ASSIGN TO CIARA. Carried from morning (low). Mike confirmed with Chloe on 14/05: 2 SPs, not needed in Sprint planning, Ciara to update design system from stakeholder feedback. Still in Backlog with no assignee. Assign to Ciara and confirm scope (update design system based on Claude Design sessions — Mike gave feedback on spacing vs images on 14/05).",
       "source": "jira",
       "priority": "low",
-      "emoji": "⚽"
+      "emoji": "🎨",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8972",
+      "new_since_morning": false,
+      "morning_status": "outstanding"
     },
     {
-      "action": "DUPLICATE PAYMENT METHODS (Icelandic EN) — Carried from morning report. Chloe raised 08/05 and asked Sanja to create a ticket. Verify the ticket exists, is assigned, and prioritised.",
-      "source": "slack",
+      "action": "GDCU-8432 GEO LOCATE IMAGES — DE-SCOPE OR ASSIGN DECISION. Carried from morning (medium). Long-standing blocked ticket, unassigned, for geo-located images on Global HP. Sprint 10 planning is starting now — decide today whether to carry this into Sprint 10 or formally de-scope.",
+      "source": "jira",
       "priority": "low",
-      "emoji": "💳"
+      "emoji": "🌐",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8432",
+      "new_since_morning": false,
+      "morning_status": "outstanding"
     }
   ],
+
   "needs_input": [
     {
-      "key": "GDCU-8907",
-      "summary": "🔥 [GDC][DEV][GX] Implement the Betting Tips Hub Page",
-      "assignee": "Unassigned",
-      "status": "In QA",
-      "priority": "Blocked",
-      "context": "Day 9+ Blocked. Updated today 12:22. LIVE INCIDENT: ACE Football Tips not loading for IE as of 11:31 today (Shane/Carlos). Carlos investigating cache issue. Ticket currently unassigned. Mike needs to escalate: confirm with Carlos/Sanja whether QA fix is fully deployed and whether IE issue is a separate regression needing a new bug ticket. Stakeholders: Gabriel, Miguel, Butlin, Diarmuid Nolan, Eoin, Joshua, Ciara, Dan Smullen."
-    },
-    {
-      "key": "GDCU-8810",
-      "summary": "[GDC][DEV] Set Up Organisation Level Developer Accounts for Apple/Google",
-      "assignee": "Harden Thomas Wallace",
-      "status": "In Progress",
-      "priority": "Blocked",
-      "context": "Day 9 Blocked. Updated today 10:57. Critical first step is still outstanding: contact RotoWire team to verify if GDC Group org accounts already exist for Apple/Google. If yes → timeline shrinks from 6–8 weeks to 1–2 weeks. App submission pipeline is otherwise unblocked (GDCU-8806 Age Gate and GDCU-8936 Ace Nav both Done). Mike needs to confirm with Harden: has RotoWire been contacted and what was the response?"
+      "key": "GDCU-8971",
+      "summary": "[GDC][DEV] -Create How to Video's for Cosmo Spins Reskin",
+      "assignee": "Novica Vukobratovic",
+      "status": "In Product",
+      "priority": "Medium",
+      "context": "Novica created 21 short/medium-length videos covering the full Cosmo Spins reskin process, uploaded to the Loom 'Cosmo Spins' space (loom.com/spaces/Cosmo-Spins). Chloe asked in the ticket whether Eoin McCarthy is satisfied with the quality and scope (14/05). Mike's approval needed to close the ticket. Stakeholders: Eoin, Novica, Joshua, Gabriel, Kelvin.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8971"
     },
     {
       "key": "GDCU-8902",
@@ -124,76 +133,34 @@
       "assignee": "Jessica Dordevic",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW today — moved to In Product at 10:57. UX audit of the Sports Quiz Hub Vercel prototype using the GDC Design System. Output format is Claude Code prompts for fast iteration in the codebase, not a Figma doc. Ciara gave initial positive feedback but needs to formally confirm. Mike's review and sign-off required. Sensitive context: Jessica is in a redundancy consultation period — a prompt, constructive review supports her engagement. Stakeholders: Chloe Christie, Gabriel Cornoiu, Joshua Smith."
+      "context": "Jessica completed UX audit of the Sports Quiz Vercel prototype against the GDC design system. Output: Claude Code prompts for codebase iteration. Prototype was broken (Ciara flagged 14/05), Jessica fixed it today at 12:35 and confirmed Figma updates applied. Mike is tagged directly in the Jira comment. Now fully reviewable. Prototype: jessica-projects.netlify.app/gdcu-8903/quiz-hub. Stakeholders: Chloe, Gabriel, Joshua.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8902"
     },
     {
-      "key": "GDCU-8971",
-      "summary": "[GDC][DEV] Create How to Video's for Cosmo Spins Reskin",
-      "assignee": "Novica Vukobratovic",
+      "key": "GDCU-8927",
+      "summary": "[GDC][DEV] Integrate Tabs Component Image Fields",
+      "assignee": "Harden Thomas Wallace",
       "status": "In Product",
       "priority": "Medium",
-      "context": "NEW today — moved to In Product at 11:11. Novica has documented the Cosmo Spins reskin process via video to enable broader team capability for the WC reskin. Mike's review and approval needed to share and activate these as team resources. Directly supports GDCU-8392 (WC Cosmo Spins Reskin, Ciara, In Progress). Stakeholders: Eoin McCarthy, Novica Vukobratovic, Joshua Smith, Gabriel Cornoiu, Kelvin Yee."
+      "context": "NEW since morning report — arrived In Product today after QA passed. Harden integrated Genesis image + alt text fields across all tabs component variations (horizontal, vertical, accordion). QA sign-off: Shane McGrath at 11:22 ('QA Complete'), Pernilla Hansson Soares at 11:53 ('Looking good to me'). Chloe asked Erica Schembri to test from an editor perspective (11:49). Mike's product review needed in parallel with Erica's test. Test page: qa6.gambling.com/component-test-page.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8927"
+    },
+    {
+      "key": "GDCU-8810",
+      "summary": "[GDC][DEV] Set Up Organisation Level Developer Accounts for Apple/Google",
+      "assignee": "Harden Thomas Wallace",
+      "status": "In Progress (Blocked)",
+      "priority": "Blocked",
+      "context": "Day 9+ blocked (since 06/05, last updated 14/05). Prerequisite for app store submission pipeline. Key shortcut: contact RotoWire team to check if GDC Group org accounts already exist — could collapse 6–8 weeks to 1–2 weeks. Age Gate and Ace Nav both approved this week; GDCU-8969 (create App Store Connect app, Carlos) is next in the pipeline. Raise at today's 14:30 standup.",
+      "url": "https://gdcgroup.atlassian.net/browse/GDCU-8810"
     }
   ],
-  "_resolved_since_morning": [
-    {
-      "key": "GDCU-8955",
-      "summary": "[GDC][UX][DEV] Implement Fixes for Cool Tones Phase 2",
-      "resolved_date": "2026-05-11",
-      "note": "Done — cleared Monday 11/05."
-    },
-    {
-      "key": "GDCU-8948",
-      "summary": "[GDC][UX] Update Ratio of Prize Boxes so a 5th Box Can Appear",
-      "resolved_date": "2026-05-11",
-      "note": "Done — Jessica cleared Monday 11/05."
-    },
-    {
-      "key": "GDCU-8936",
-      "summary": "[GDC][DEV] Implement Redesign of Ace Navigation with Global Nav Bar",
-      "resolved_date": "2026-05-11",
-      "note": "Done — approved Monday 11/05. Dark mode alignment confirmed with Ciara and Miguel."
-    },
-    {
-      "key": "GDCU-8874",
-      "summary": "[GDC][Dev][SEO] Page Bloat: Reduce HTML payload size across all markets",
-      "resolved_date": "2026-05-11",
-      "note": "Done — HIGH priority SEO task cleared Monday 11/05."
-    },
-    {
-      "key": "GDCU-8847",
-      "summary": "[GDC][DEV] Display rev share operator list to users marked as VIP in ktag",
-      "resolved_date": "2026-05-13",
-      "note": "Done — cleared this week."
-    },
-    {
-      "key": "GDCU-8806",
-      "summary": "[GDC][DEV] Implement In-App Age Gate (18+ Verification)",
-      "resolved_date": "2026-05-11",
-      "note": "Done — Apple/Google compliance gate cleared Monday 11/05."
-    }
+
+  "_resolved_since_morning_report": [
+    "GDCU-9007 Remove Rotation Block for Cosmo Spins — DONE today (Harden, was In Product this morning)",
+    "GDCU-8795 IUJ Update Refer a Friend CTA to Blue — DONE today (Novica, was In QA this morning)",
+    "GDCU-8996 WC Predictor Admin Panel — now In Progress with Kelvin Yee (was unassigned Backlog this morning)"
   ],
-  "_meta": {
-    "cycle_note": "Cycle 9 closed 14/05/2026 at 10:51 BST — 121.5 SP completed. Cycle 10 beginning.",
-    "jessica_note": "Jessica Dordevic is in a formal redundancy consultation period (~1 month). She is emotionally impacted. Still working actively today. Figma local file backup is an urgent risk flagged by Ciara. LinkedIn recommendation request pending HR clearance.",
-    "vic_note": "Vic Dadson had reintroduction call Monday 12/05. Returning to work. Hospital appointment ongoing.",
-    "wc_deadline": "11 June 2026 — 28 days remaining. WC Predictor (GDCU-8935), Group Bets, and Cosmo Spins WC Reskin (GDCU-8392) all targeting this date.",
-    "jira_sprint_note": "OpenSprints() JQL returned 0 results — sprint config issue persists. Used direct key/status queries. Status changes file showed mass backlog cleanup today (20 tickets Cancelled).",
-    "confluence_note": "No GDCU Confluence pages modified today. CQL returned 0 results for space=GDCU since 13/05.",
-    "gdc_high_agency_note": "Channel 'gdc-high-agency' not found — may be renamed, archived, or not yet created.",
-    "slack_channels_checked": [
-      "#gdc-product-design-pod",
-      "#gdc-product-led-growth",
-      "#gdc-pdmt",
-      "#core-product",
-      "#gdc-pod",
-      "#gdc-f2p-apps",
-      "DM: Gabriel Cornoiu",
-      "DM: Colin Brannigan",
-      "DM: Vic Dadson",
-      "DM: Jessica Dordevic",
-      "DM: Ciara Carroll",
-      "DM: Chloe Christie"
-    ]
-  }
+
+  "_standup_prep": "14:30 GDCU Assemble standup today. Priority talking points: (1) 3 In Product tickets still need Mike's sign-off before end of day (GDCU-8971, GDCU-8902, GDCU-8927). (2) WC Predictor: GDCU-8996 now with Kelvin — is he double-banked on 8995+8996? (3) GDCU-8810 developer accounts — Day 9 blocked, push Harden for RotoWire status. (4) GDCU-9006 search icon nav bug — assign now for Sprint 10. Vic Dadson is listed as attendee."
 }
