@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-05-15T07:40:36.000Z",
+  "date": "15/05/2026",
+  "covers_date": "14/05/2026",
+  "ai_overview": "Yesterday's Confluence activity centered on the Rollcard product launch, commercial workflow automation, and CRM infrastructure updates. Key product developments include the creation of a Rollcard Oversight Committee for governance, alpha testing preparations across mobile devices, and the drafting of several newsroom articles detailing high-limit transactions ($250k daily) and platform integrations. For your role as Product Manager, the \"Rollcard Alpha Testing/Setup\" and \"05/14 Rollcard Finance\" notes are critical as they detail functional validation and ACH return fee logic. Additionally, the new \"Brand Import\" and \"Offer Creation\" workflows in the Commercial space signal a shift toward automated onboarding that may impact product data ingestion. You should specifically review the \"Spotlight.vegas — New Page Type Opportunities 2026\" for upcoming SEO-driven product requirements and the \"HubSpot Object Schema & Property Design\" to ensure alignment with internal data structures.",
+  "stats": {
+    "total_pages": 50,
+    "active_spaces": 10,
+    "pages_created": 22,
+    "pages_updated": 28,
+    "meaningful_pages": 20
+  },
+  "highlights": [
+    {
+      "title": "Rollcard Alpha Testing/Setup Across Mobile Devices",
+      "space": "Rollcard",
+      "author": "Gary Munson",
+      "summary": "Alpha test plan to validate the Rollcard debit card setup flow end-to-end across iPhone (iOS), Google Pixel, and Samsung Galaxy (Android). Covers new card addition, identity verification, card activation, error handling, device-specific UI behavior, and push notification/SMS confirmations. Critical functional validation gate before wider rollout.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6584272989/Rollcard+Alpha+Testing+Setup+Across+Mobile+Devices",
+      "type": "highlight"
+    },
+    {
+      "title": "05/14 Rollcard Finance: continuing discussion",
+      "space": "Rollcard",
+      "author": "Gary Munson",
+      "summary": "Meeting notes on alpha testing preparations (~20 GDC employees across devices) and ACH return fee logic. Reserve accounts cover negative balances; CRB invoices for return fees. Open question on whether ACH return fees should be charged back to customers — to be clarified with Darren. Directly affects pricing and product decisions.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6612977512/05+14+Rollcard+Finance+continuing+discussion",
+      "type": "highlight"
+    },
+    {
+      "title": "Oversight Committee Governance Charter",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "summary": "Formal governance charter for the Rollcard, LLC Oversight Committee, established under authority delegated by Rollcard LLC management and parent GDC America, Inc. Defines authority, structure, and responsibilities for governance of the Rollcard Program in the absence of GDCA oversight. Foundational governance document.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6613010089/Oversight+Committee+Governance+Charter",
+      "type": "highlight"
+    },
+    {
+      "title": "Object Schema & Property Design",
+      "space": "HubSpot",
+      "author": "Gilbert Micallef",
+      "summary": "Defines HubSpot object structure, pipeline design, mandatory properties, and custom fields for the GDC Group CRM implementation. Must be agreed and configured before any team begins entering data. Notes that internal GDC entity profiles are maintained in Confluence and consumed by the Claude Entity Manager skill — aligns CRM with product data architecture.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/HubSpot/pages/6613042537/Object+Schema+Property+Design",
+      "type": "highlight"
+    },
+    {
+      "title": "Spotlight.vegas — New Page Type Opportunities 2026",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "summary": "Research dated 14 May 2026, using Ahrefs KE, GSC 90-day data, and internal vault inventory. Identifies unactioned gap queue items (build first) and net-new page types not previously surfaced for Spotlight.vegas. Key input for upcoming SEO-driven product requirements and content roadmap.",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613401602/Spotlight.vegas+New+Page+Type+Opportunities+2026",
+      "type": "highlight"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Week 19 — casinos.com NA Weekly Report — May 2026 — US",
+      "space": "Casino Core Team",
+      "author": "Danielle Kayla Drake",
+      "action": "created",
+      "timestamp": "2026-05-14T21:15:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/DARC/pages/6613010128/Week+19+casinos.com+NA+Weekly+Report+May+2026+US",
+      "summary": "US weekly SEO report for May 4–10, 2026. Organic clicks 5.5K (↑1.3%), impressions 975.7K, GA4 views 10.5K, exit click goals 620 (↓35.1%). Top converting pages: /us/social-casinos/free-sc-coins (27.9%), /us/bonus/200-no-deposit-bonus-200-free-spins (18.3%), /us/best-sites (14.3%)."
+    },
+    {
+      "title": "Daily Action Items — Week of March 14–18, 2026",
+      "space": "Commercial Team",
+      "author": "Michael Rasile",
+      "action": "updated",
+      "timestamp": "2026-05-14T00:47:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6562449371/Daily+Action+Items+Week+of+March+14+18+2026",
+      "summary": "AppsFlyer activation blocker for Caesars: registration submitted 3 days ago, activation email missing (not in spam), blocking high-value exclusive campaign go-live. Escalated to AF via Max/Kevin. Also covers Polymarket sub-affiliate strategy — $2.9M deal with $600K locked to 8K QP threshold; currently ~1K/8K QPs, trending mid-August to unlock."
+    },
+    {
+      "title": "Removed Partners",
+      "space": "Commercial Team",
+      "author": "Owen Watters",
+      "action": "updated",
+      "timestamp": "2026-05-14T16:47:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/952303681/Removed+Partners",
+      "summary": "Tracker for removed commercial partners. Requires finance contact points for all brands, BI notification when Adge accounts become dormant, Keeper record comments, and gdc-commercial channel update with Jira link for each removal. Also requires tagging relevant content employee per affected GEO."
+    },
+    {
+      "title": "How to Use the Offer Creation Workflow",
+      "space": "Commercial Team",
+      "author": "Simon Johan Widorson",
+      "action": "created",
+      "timestamp": "2026-05-14T16:29:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6612977413/How+to+Use+the+Offer+Creation+Workflow",
+      "summary": "Guide for creating new offers in Eve for already-onboarded brands. Covers welcome offers, enhanced offers, no deposit offers, and additional offer types. Automates creation of Offer, Site Offers, Operator Deals, and Site Destination URLs across all selected SBPs. For use when a deal change or campaign requires a new offer type."
+    },
+    {
+      "title": "How to Use the Brand Import Workflow",
+      "space": "Commercial Team",
+      "author": "Simon Johan Widorson",
+      "action": "created",
+      "timestamp": "2026-05-14T16:29:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/AMT/pages/6612977390/How+to+Use+the+Brand+Import+Workflow",
+      "summary": "Guide for importing new operators via completed onboarding form (.xlsx) into Eve. System auto-parses the form reducing manual data entry to near-zero. AdOps reviewer must confirm before any Eve records are created. New automated onboarding workflow replacing manual data entry for brand setup."
+    },
+    {
+      "title": "RotoWire — Entity Intelligence Brief",
+      "space": "HubSpot",
+      "author": "Gilbert Micallef",
+      "action": "created",
+      "timestamp": "2026-05-14T16:35:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/HubSpot/pages/6612977443/RotoWire+Entity+Intelligence+Brief",
+      "summary": "Intelligence brief for RotoWire — a content and data services provider to media companies, DFS/season-long fantasy operators, sportsbooks, and professional teams (player news, injury reports, projected stats, depth charts). ICP: mid-to-large US sportsbook/DFS/media company, live in 5+ regulated US states with active marketing and data budget."
+    },
+    {
+      "title": "Object Schema & Property Design",
+      "space": "HubSpot",
+      "author": "Gilbert Micallef",
+      "action": "created",
+      "timestamp": "2026-05-14T16:24:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/HubSpot/pages/6613042537/Object+Schema+Property+Design",
+      "summary": "Defines HubSpot object structure, pipeline design, mandatory properties, and custom fields for GDC Group CRM implementation. Must be agreed before any team enters data to prevent duplication and reporting failures. Internal GDC entity profiles are maintained separately in Confluence and consumed by the Claude Entity Manager skill."
+    },
+    {
+      "title": "Status Report - 2025 05 14",
+      "space": "Project Kronos",
+      "author": "Ross Ryan",
+      "action": "updated",
+      "timestamp": "2026-05-14T17:38:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PK/pages/6612647982/Status+Report+-+2025+05+14",
+      "summary": "Project Kronos status: Green. US Payroll go-live 7/1/2026, HR & Time 6/30/2026, Benefits 7/12/2026. Phase 2: Ireland/Serbia/Costa Rica 9/1/2026, UK & Malta 10/1/2026. Phase 2 UKG Ready modules lack committed delivery dates from vendor. No meeting this week — status report only."
+    },
+    {
+      "title": "Process Guides",
+      "space": "Ramp",
+      "author": "Sinead Crawford",
+      "action": "created",
+      "timestamp": "2026-05-14T20:06:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/Ramp/pages/6612977309/Process+Guides",
+      "summary": "Hub page for Ramp PO and Invoice Management process documentation. Covers four workflows: How to Raise a PO in Ramp, How to Handle a Rejected PO or Invoice, How to Approve a Purchase Request, and How to Process an Invoice in Bill Pay."
+    },
+    {
+      "title": "Rollcard Oversight & Operating Review Bi-Weekly Meeting Agenda Template",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-05-14T21:40:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6612977686/Rollcard+Oversight+Operating+Review+Bi-Weekly+Meeting+Agenda+Template",
+      "summary": "Template for the Rollcard Oversight & Operating Review bi-weekly meeting. Establishes governance meeting cadence and agenda structure for the Oversight Committee, including voting member roles (e.g. Lee Gwilliam, SVP Commercial Sales)."
+    },
+    {
+      "title": "Oversight Committee Governance Charter",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "created",
+      "timestamp": "2026-05-14T21:39:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6613010089/Oversight+Committee+Governance+Charter",
+      "summary": "Governance charter for the Rollcard, LLC Oversight Committee, established under authority from Rollcard LLC management and parent GDC America, Inc. Defines authority, structure, and responsibilities for governance of the Rollcard Program in GDCA's absence. Foundational governance document for the Rollcard entity."
+    },
+    {
+      "title": "Business Document Review & Approval Tracker",
+      "space": "Rollcard",
+      "author": "Richard Aponte",
+      "action": "updated",
+      "timestamp": "2026-05-14T20:20:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6568511427/Business+Document+Review+Approval+Tracker",
+      "summary": "Central governance register for all Rollcard business rules, guidelines, and policies requiring formal Governance Committee review and approval. Documents must be reviewed and approved by designated committee members before becoming active and enforceable. Page owner: Rollcard Project Manager."
+    },
+    {
+      "title": "Rollcard Alpha Testing/Setup Across Mobile Devices",
+      "space": "Rollcard",
+      "author": "Gary Munson",
+      "action": "updated",
+      "timestamp": "2026-05-14T17:41:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6584272989/Rollcard+Alpha+Testing+Setup+Across+Mobile+Devices",
+      "summary": "Alpha test plan validating the Rollcard debit card setup flow across iPhone (iOS), Google Pixel, and Samsung Galaxy (Android). Tests new card addition, identity verification, card activation, error handling, device-specific UI behavior, and push notification/SMS confirmations. Identifies defects early before wider rollout."
+    },
+    {
+      "title": "05/14 Rollcard Finance: continuing discussion",
+      "space": "Rollcard",
+      "author": "Gary Munson",
+      "action": "created",
+      "timestamp": "2026-05-14T16:52:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/PDL2/pages/6612977512/05+14+Rollcard+Finance+continuing+discussion",
+      "summary": "Meeting notes covering alpha testing preparations with ~20 GDC employees across devices, and ACH return fee policy. Reserve accounts cover negative balances; CRB invoices for return fees. Open question: whether return fees should be charged back to customers (to clarify with Darren). Also covers a task involving 35 papers."
+    },
+    {
+      "title": "Retrospective: Q2.2026.S9",
+      "space": "RotoWire",
+      "author": "Andrew Parr",
+      "action": "created",
+      "timestamp": "2026-05-14T20:48:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/RotoWire/pages/6613140018/Retrospective+Q2.2026.S9",
+      "summary": "Q2 Sprint 9 retrospective. Positives: Submit to Site workflow performing better than expected; good design collaboration between Dylan Ramsey and Nicholas Piovano. Improvement areas: Polymarket banner project needed more direction, and external stakeholder communication requires strengthening. Follow-up action items to be added."
+    },
+    {
+      "title": "Newsroom: Platform Integrations — Rollcard",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "action": "created",
+      "timestamp": "2026-05-14T04:11:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613499989/Newsroom+Platform+Integrations+Rollcard",
+      "summary": "Newsroom article on Rollcard's expanding acceptance across US casinos and sportsbooks as a Visa debit card. Title: 'Rollcard Casino Compatibility | Where Rollcard Is Accepted Online'. Target keyword: rollcard accepted casinos sportsbooks online. Schema: NewsArticle."
+    },
+    {
+      "title": "Newsroom: 24/7 Customer Support — Rollcard",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "action": "created",
+      "timestamp": "2026-05-14T04:10:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613368939/Newsroom+24+7+Customer+Support+Rollcard",
+      "summary": "Newsroom article on Rollcard's 24/7 customer support via phone (1-800-207-4109), email (help@support.rollcard.com), and in-app. Target keyword: rollcard customer support 24/7. Positions Rollcard as always-available for players who can't wait until business hours. Schema: NewsArticle."
+    },
+    {
+      "title": "Newsroom: Sportsbook Partnerships — Rollcard",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "action": "created",
+      "timestamp": "2026-05-14T04:09:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613499935/Newsroom+Sportsbook+Partnerships+Rollcard",
+      "summary": "Newsroom article on Rollcard as a direct Visa debit card accepted at US casinos and sportsbooks. Emphasises no e-wallet intermediary, no processing delays, no transfer minimums. Target keyword: rollcard accepted sportsbooks casinos. Schema: NewsArticle."
+    },
+    {
+      "title": "Newsroom: High-Limit Debit Card Transactions — Rollcard",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "action": "created",
+      "timestamp": "2026-05-14T04:09:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613368861/Newsroom+High-Limit+Debit+Card+Transactions+Rollcard",
+      "summary": "Newsroom article on Rollcard's $250,000 daily card spend limit at US casinos and sportsbooks. Addresses the problem of standard bank cards flagging high-stakes transactions. Target keyword: high limit debit card transactions. Schema: NewsArticle."
+    },
+    {
+      "title": "Spotlight.vegas — New Page Type Opportunities 2026",
+      "space": "Spotlight Vegas",
+      "author": "Luis Rafael Gonzalez",
+      "action": "created",
+      "timestamp": "2026-05-14T02:40:00.000Z",
+      "url": "https://gdcgroup.atlassian.net/wiki/spaces/SV1/pages/6613401602/Spotlight.vegas+New+Page+Type+Opportunities+2026",
+      "summary": "Research from 14 May 2026 using Ahrefs KE, GSC 90-day data, and internal vault inventory. Identifies two categories: unactioned gap queue items (already identified, build first) and net-new page types not previously surfaced. Key input for SEO-driven product and content roadmap for Spotlight.vegas."
+    }
+  ],
+  "spaces": [
+    {
+      "name": "AI Automation Project - Claude Adoption",
+      "key": "AAPCA",
+      "activity_count": 2,
+      "color": "indigo"
+    },
+    {
+      "name": "Casino Core Team",
+      "key": "DARC",
+      "activity_count": 6,
+      "color": "emerald"
+    },
+    {
+      "name": "Commercial Team",
+      "key": "AMT",
+      "activity_count": 11,
+      "color": "purple"
+    },
+    {
+      "name": "Content",
+      "key": "EL",
+      "activity_count": 1,
+      "color": "amber"
+    },
+    {
+      "name": "HubSpot",
+      "key": "HubSpot",
+      "activity_count": 4,
+      "color": "sky"
+    },
+    {
+      "name": "Project Kronos",
+      "key": "PK",
+      "activity_count": 1,
+      "color": "slate"
+    },
+    {
+      "name": "Ramp",
+      "key": "Ramp",
+      "activity_count": 1,
+      "color": "gray"
+    },
+    {
+      "name": "Rollcard",
+      "key": "PDL2",
+      "activity_count": 8,
+      "color": "rose"
+    },
+    {
+      "name": "RotoWire",
+      "key": "RotoWire",
+      "activity_count": 3,
+      "color": "blue"
+    },
+    {
+      "name": "Spotlight Vegas",
+      "key": "SV1",
+      "activity_count": 13,
+      "color": "cyan"
+    }
+  ]
+}
