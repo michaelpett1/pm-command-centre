@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-14T07:15:00.000Z",
-  "date": "14/05/2026",
+  "generated_at": "2026-05-15T07:10:00.000Z",
+  "date": "15/05/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 15,
-    "high_impact": 2,
-    "medium_impact": 13,
-    "low_impact": 0
+    "changes_detected": 12,
+    "high_impact": 4,
+    "medium_impact": 7,
+    "low_impact": 1
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 1 },
+    { "slug": "product_features", "label": "Product Features", "count": 3 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 14 },
+    { "slug": "seo_content", "label": "SEO & Content", "count": 1 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 8 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -34,7 +34,7 @@
       "flag": "🇺🇸",
       "color": "#E74C3C",
       "initials": "TL",
-      "last_scanned": "2026-05-12T07:05:56.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "New footer links added",
@@ -62,6 +62,15 @@
           "impact": "low",
           "detected_at": "2026-05-12T07:05:56.000Z",
           "url": "https://www.thelines.com/"
+        },
+        {
+          "title": "New footer links added",
+          "description": "New links: Best NHL Prop Bets & Anytime Goal Scorer Picks Today May 14, NHL Western Conference Finals Matchup is Set, Oilers Looking for New Bench Boss, Fire Knoblauch",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.thelines.com/"
         }
       ]
     },
@@ -75,7 +84,7 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -103,6 +112,15 @@
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
           "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: CFL",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -116,7 +134,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "Feature/tool presence changed",
@@ -197,6 +215,24 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Search bar disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 6 → 2",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
           "url": "https://www.vegasinsider.com/"
         }
       ]
@@ -338,6 +374,29 @@
       ]
     },
     {
+      "id": "legalsportsreport",
+      "name": "Legal Sports Report",
+      "domain": "legalsportsreport.com",
+      "url": "https://www.legalsportsreport.com/",
+      "segment": "sports_betting",
+      "segment_label": "Sports Betting",
+      "flag": "🇺🇸",
+      "color": "#A93226",
+      "initials": "LS",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
+      "changes": [
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Bally Bet, BetMGM, BetMGM Missouri Bonus, BetRivers, BetRivers Missouri Bonus, Caesars | Removed: ALBERTA, CANADA, MARYLAND, MASSACHUSETTS, MICHIGAN, MINNESOTA",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.legalsportsreport.com/"
+        }
+      ]
+    },
+    {
       "id": "bettingpros",
       "name": "Betting Pros",
       "domain": "bettingpros.com",
@@ -347,7 +406,7 @@
       "flag": "🇺🇸",
       "color": "#16A085",
       "initials": "BP",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -374,6 +433,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Tool ›",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
           "url": "https://www.bettingpros.com/"
         }
       ]
@@ -511,7 +579,7 @@
       "flag": "🇺🇸",
       "color": "#8E44AD",
       "initials": "PU",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "Page layout restructured",
@@ -538,6 +606,33 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
+          "url": "https://www.playusa.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online | Removed: BetMGM Casino, BetRivers Casino, Caesars Online Casino, Crown Coins Casino, DraftKings Casino",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.playusa.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Filter controls disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.playusa.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "accordion removed",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
           "url": "https://www.playusa.com/"
         }
       ]
@@ -639,6 +734,29 @@
       ]
     },
     {
+      "id": "playnj",
+      "name": "Play NJ",
+      "domain": "playnj.com",
+      "url": "https://www.playnj.com/",
+      "segment": "state_affiliate",
+      "segment_label": "State Affiliate",
+      "flag": "🇺🇸",
+      "color": "#7D3C98",
+      "initials": "NJ",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
+      "changes": [
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Sticky header appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.playnj.com/"
+        }
+      ]
+    },
+    {
       "id": "rotogrinders",
       "name": "Roto Grinders",
       "domain": "rotogrinders.com",
@@ -648,7 +766,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -693,6 +811,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Coming Saturday | Removed: Coming Friday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -784,7 +911,7 @@
       "flag": "🇬🇧",
       "color": "#34495E",
       "initials": "FB",
-      "last_scanned": "2026-05-14T07:05:06.000Z",
+      "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -821,6 +948,15 @@
           "impact": "medium",
           "detected_at": "2026-05-14T07:05:06.000Z",
           "url": "https://www.freebets.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Join Now, Show 47 results | Removed: Show 48 results, YSKAST",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.freebets.com/"
         }
       ]
     },
@@ -850,111 +986,99 @@
   ],
   "recent_changes": [
     {
+      "competitor_name": "Legal Sports Report",
+      "competitor_initials": "LS",
+      "competitor_color": "#A93226",
+      "title": "Navigation menu changed",
+      "description": "Added: Bally Bet, BetMGM, BetMGM Missouri Bonus, BetRivers, BetRivers Missouri Bonus, Caesars | Removed: ALBERTA, CANADA, MARYLAND, MASSACHUSETTS, MICHIGAN, MINNESOTA",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.legalsportsreport.com/"
+    },
+    {
       "competitor_name": "Covers",
       "competitor_initials": "CO",
       "competitor_color": "#C0392B",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Find my match, Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum | Removed: Claim $10, Claim $100, Claim $20, Claim $50, Continue with Google",
+      "description": "New CTAs: CFL",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://www.covers.com/"
+    },
+    {
+      "competitor_name": "The Lines",
+      "competitor_initials": "TL",
+      "competitor_color": "#E74C3C",
+      "title": "New footer links added",
+      "description": "New links: Best NHL Prop Bets & Anytime Goal Scorer Picks Today May 14, NHL Western Conference Finals Matchup is Set, Oilers Looking for New Bench Boss, Fire Knoblauch",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.thelines.com/"
     },
     {
       "competitor_name": "Vegas Insider",
       "competitor_initials": "VI",
       "competitor_color": "#3498DB",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: View Full Analysis",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.vegasinsider.com/"
-    },
-    {
-      "competitor_name": "Gaming Today",
-      "competitor_initials": "GT",
-      "competitor_color": "#F1C40F",
-      "title": "Navigation menu changed",
-      "description": "Added: MLB Betting Apps | Removed: Sports Betting",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.gamingtoday.com/"
-    },
-    {
-      "competitor_name": "Betting Pros",
-      "competitor_initials": "BP",
-      "competitor_color": "#16A085",
-      "title": "CTA/button text changed",
-      "description": "Removed: View Tool ›",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.bettingpros.com/"
-    },
-    {
-      "competitor_name": "Betting Pros",
-      "competitor_initials": "BP",
-      "competitor_color": "#16A085",
       "title": "Feature/tool presence changed",
       "description": "Search bar disappeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.bettingpros.com/"
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.vegasinsider.com/"
+    },
+    {
+      "competitor_name": "Vegas Insider",
+      "competitor_initials": "VI",
+      "competitor_color": "#3498DB",
+      "title": "Page layout restructured",
+      "description": "sections: 6 → 2",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.vegasinsider.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
-      "title": "Page layout restructured",
-      "description": "sections: 28 → 24",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: View Tool ›",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://www.bettingpros.com/"
     },
     {
-      "competitor_name": "Casino.org",
-      "competitor_initials": "CA",
-      "competitor_color": "#EC407A",
+      "competitor_name": "Play USA",
+      "competitor_initials": "PU",
+      "competitor_color": "#8E44AD",
       "title": "CTA/button text changed",
-      "description": "New CTAs: See all casinos to avoid | Removed: All Casino Game ShowsCS",
+      "description": "New CTAs: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online | Removed: BetMGM Casino, BetRivers Casino, Caesars Online Casino, Crown Coins Casino, DraftKings Casino",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.casino.org/"
-    },
-    {
-      "competitor_name": "Casino.org",
-      "competitor_initials": "CA",
-      "competitor_color": "#EC407A",
-      "title": "Page layout restructured",
-      "description": "articles: 3 → 0",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.casino.org/"
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.playusa.com/"
     },
     {
       "competitor_name": "Play USA",
       "competitor_initials": "PU",
       "competitor_color": "#8E44AD",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: BetMGM Casino, BetRivers Casino, Caesars Online Casino, Crown Coins Casino, DraftKings Casino | Removed: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "title": "Feature/tool presence changed",
+      "description": "Filter controls disappeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://www.playusa.com/"
     },
     {
@@ -962,71 +1086,47 @@
       "competitor_initials": "PU",
       "competitor_color": "#8E44AD",
       "title": "Page layout restructured",
-      "description": "accordion added",
+      "description": "accordion removed",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://www.playusa.com/"
     },
     {
-      "competitor_name": "Play Indiana",
-      "competitor_initials": "PN",
-      "competitor_color": "#FF7043",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Get 1.5M GC + 30 Free SC, On First $9.99 Purchase | Removed: 250,000 Gold Coins, 250,000 Gold Coins PLUS 25 Stake Cash",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.playindiana.com/"
-    },
-    {
-      "competitor_name": "Play Ohio",
-      "competitor_initials": "PO",
-      "competitor_color": "#D35400",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Filter By Sweepstakes CasinosSportsbooks | Removed: Filter BySweepstakes CasinosSportsbooks",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.playohio.com/"
+      "competitor_name": "Play NJ",
+      "competitor_initials": "NJ",
+      "competitor_color": "#7D3C98",
+      "title": "Feature/tool presence changed",
+      "description": "Sticky header appeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-05-15T07:05:26.000Z",
+      "url": "https://www.playnj.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "Removed: Coming Thursday",
+      "description": "New CTAs: Coming Saturday | Removed: Coming Friday",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://rotogrinders.com/"
-    },
-    {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Homepage headline (H1) changed",
-      "description": "Was: \"DBro's Dynasty Rookie Draft Primers\" → Now: \"Dynasty Players to Buy & Sell\"",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
-      "url": "https://www.fantasypros.com/"
     },
     {
       "competitor_name": "Free Bets",
       "competitor_initials": "FB",
       "competitor_color": "#34495E",
       "title": "CTA/button text changed",
-      "description": "New CTAs: YSKAST | Removed: Join Now",
+      "description": "New CTAs: Join Now, Show 47 results | Removed: Show 48 results, YSKAST",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-14T07:05:06.000Z",
+      "detected_at": "2026-05-15T07:05:26.000Z",
       "url": "https://www.freebets.com/"
     }
   ]
