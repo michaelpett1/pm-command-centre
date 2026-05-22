@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-20T07:30:00.000Z",
-  "date": "20/05/2026",
+  "generated_at": "2026-05-22T07:10:00.000Z",
+  "date": "22/05/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 15,
-    "high_impact": 7,
+    "changes_detected": 10,
+    "high_impact": 4,
     "medium_impact": 6,
-    "low_impact": 2
+    "low_impact": 0
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 4 },
+    { "slug": "product_features", "label": "Product Features", "count": 2 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 3 },
+    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
     { "slug": "ux_conversion", "label": "UX & Conversion", "count": 8 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
@@ -38,24 +38,6 @@
       "initials": "TL",
       "last_scanned": "2026-05-20T07:05:58.000Z",
       "changes": [
-        {
-          "title": "New footer links added",
-          "description": "New links: Best NBA Player Props Today: Wendell Carter Tops Card, Best NHL Prop Bets & Anytime Goal Scorer Picks Today, 04/19, Magic Shock Pistons in Game 1 to Shift East Playoff Series, Orlando Magic vs. Detroit Pistons Odds, Picks & Predictions",
-          "area": "seo_content",
-          "area_label": "SEO & Content",
-          "impact": "low",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.thelines.com/"
-        },
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Free-to-play element disappeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.thelines.com/"
-        },
         {
           "title": "New footer links added",
           "description": "New links: Best NBA Player Props Today: James Harden Shines Again, Colorado Looks to Restrict Sports Betting Ads, Is SpinQuest Giveaway Worth the Hype?`We Gave it a Try, Victor Wembanyama Avoids Suspension Ahead of Game 5",
@@ -104,7 +86,7 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -159,6 +141,15 @@
           "impact": "medium",
           "detected_at": "2026-05-20T07:05:58.000Z",
           "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Matchup",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -174,51 +165,6 @@
       "initials": "VI",
       "last_scanned": "2026-05-20T07:05:58.000Z",
       "changes": [
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Search bar disappeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
-        {
-          "title": "Page layout restructured",
-          "description": "sections: 6 → 2",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
-        {
-          "title": "CTA/button text changed",
-          "description": "Removed: View Full Analysis",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Search bar appeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
-        {
-          "title": "Page layout restructured",
-          "description": "sections: 2 → 6",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: View Full Analysis",
@@ -330,44 +276,8 @@
       "flag": "🇺🇸",
       "color": "#2ECC71",
       "initials": "PW",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
-        {
-          "title": "Page layout restructured",
-          "description": "sections: 5 → 8",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.pickswise.com/"
-        },
-        {
-          "title": "Structured data types changed",
-          "description": "New: SportsEvent",
-          "area": "seo_content",
-          "area_label": "SEO & Content",
-          "impact": "low",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.pickswise.com/"
-        },
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Ratings/scores appeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.pickswise.com/"
-        },
-        {
-          "title": "Page layout restructured",
-          "description": "sections: 8 → 12, main_divs: 4 → 8",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.pickswise.com/"
-        },
         {
           "title": "Page layout restructured",
           "description": "sections: 9 → 12, main_divs: 4 → 7",
@@ -393,6 +303,15 @@
           "area_label": "Product Features",
           "impact": "high",
           "detected_at": "2026-05-20T07:05:58.000Z",
+          "url": "https://www.pickswise.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Ratings/scores disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-22T07:05:20.000Z",
           "url": "https://www.pickswise.com/"
         }
       ]
@@ -516,7 +435,7 @@
       "flag": "🇺🇸",
       "color": "#16A085",
       "initials": "BP",
-      "last_scanned": "2026-05-15T07:05:26.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -552,6 +471,24 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: View Tool ›",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "tabs removed",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
           "url": "https://www.bettingpros.com/"
         }
       ]
@@ -618,15 +555,6 @@
       "initials": "OG",
       "last_scanned": "2026-05-19T07:06:03.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: 150% Boost: 250,000 GC + 25 SC + Elixir & Claw Credits | Removed: 150% extra gold",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.onlinegambling.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: Claim now | Removed: Play for real",
@@ -709,15 +637,6 @@
       "initials": "PU",
       "last_scanned": "2026-05-15T07:05:26.000Z",
       "changes": [
-        {
-          "title": "Page layout restructured",
-          "description": "sidebar added",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.playusa.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: BetMGM Casino, BetRivers Casino, Caesars Online Casino, Crown Coins Casino, DraftKings Casino | Removed: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online",
@@ -808,26 +727,7 @@
       "color": "#F39C12",
       "initials": "PI",
       "last_scanned": "2026-04-21T07:06:09.000Z",
-      "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: Bet $5 Get $250, Bet $5 Get $250 If Your Bet Wins, BetMGM Sportsbook Review | Removed: Caesars Sportsbook Review, Double Your Winnings, On Your Next 10 Wagers",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.playillinois.com/"
-        },
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: Caesars Sportsbook Review, Double Your Winnings, On Your Next 10 Wagers | Removed: Bet $5 Get $250, Bet $5 Get $250 If Your Bet Wins, BetMGM Sportsbook Review",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.playillinois.com/"
-        }
-      ]
+      "changes": []
     },
     {
       "id": "playohio",
@@ -841,15 +741,6 @@
       "initials": "PO",
       "last_scanned": "2026-05-14T07:05:06.000Z",
       "changes": [
-        {
-          "title": "Page layout restructured",
-          "description": "sidebar added",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.playohio.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: Filter By Sweepstakes CasinosSportsbooks | Removed: Filter BySweepstakes CasinosSportsbooks",
@@ -930,24 +821,6 @@
       "changes": [
         {
           "title": "CTA/button text changed",
-          "description": "New CTAs: Coming Friday, Coming Thursday, Coming Tuesday, Coming Wednesday | Removed: To Be Announced",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://rotogrinders.com/"
-        },
-        {
-          "title": "CTA/button text changed",
-          "description": "Removed: Coming Tuesday",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://rotogrinders.com/"
-        },
-        {
-          "title": "CTA/button text changed",
           "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Thursday",
           "area": "ux_conversion",
           "area_label": "UX & Conversion",
@@ -1021,35 +894,8 @@
       "flag": "🇺🇸",
       "color": "#E67E22",
       "initials": "FP",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
-        {
-          "title": "Homepage headline (H1) changed",
-          "description": "Was: \"Dream NFL Draft Landing Spots\" → Now: \"Erickson's NFL Mock Draft\"",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.fantasypros.com/"
-        },
-        {
-          "title": "Homepage headline (H1) changed",
-          "description": "Was: \"Erickson's NFL Mock Draft\" → Now: \"DBro's Top 100 Dynasty Rookie Rankings\"",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.fantasypros.com/"
-        },
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Video embed appeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-21T07:06:09.000Z",
-          "url": "https://www.fantasypros.com/"
-        },
         {
           "title": "Homepage headline (H1) changed",
           "description": "Was: \"DBro's Top 100 Dynasty Rookie Rankings\" → Now: \"50 Stats to Know: 2026 NFL Draft Class\"",
@@ -1112,6 +958,33 @@
           "impact": "medium",
           "detected_at": "2026-05-20T07:05:58.000Z",
           "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"Deep Dynasty Sleepers\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: NFL Draft Assistant, NFL Dynasty Rankings, NFL Trade Analyzer | Removed: NFL Consensus Rankings, NFL My Playbook, Waiver Assistant",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Video embed disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.fantasypros.com/"
         }
       ]
     },
@@ -1125,17 +998,8 @@
       "flag": "🇬🇧",
       "color": "#34495E",
       "initials": "FB",
-      "last_scanned": "2026-05-19T07:06:03.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: Join Now | Removed: ZSKAON",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-20T07:05:40.000Z",
-          "url": "https://www.freebets.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: YSKAST | Removed: Join Now",
@@ -1189,6 +1053,24 @@
           "impact": "medium",
           "detected_at": "2026-05-19T07:06:03.000Z",
           "url": "https://www.freebets.com/"
+        },
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Charlie McCann's Tips | Removed: Longest Travellers",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.freebets.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Join Now | Removed: YSKAST",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.freebets.com/"
         }
       ]
     },
@@ -1234,7 +1116,7 @@
       "flag": "🇬🇧",
       "color": "#607D8B",
       "initials": "BF",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
         {
           "title": "Navigation menu changed",
@@ -1270,6 +1152,15 @@
           "area_label": "UX & Conversion",
           "impact": "high",
           "detected_at": "2026-05-20T07:05:58.000Z",
+          "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Casino Apps | Removed: Mobile Casinos, Promo Codes",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-05-22T07:05:20.000Z",
           "url": "https://www.bonusfinder.com/"
         }
       ]
@@ -1389,176 +1280,116 @@
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
+      "detected_at": "2026-05-22T07:05:20.000Z",
       "url": "https://www.covers.com/"
-    },
-    {
-      "competitor_name": "The Lines",
-      "competitor_initials": "TL",
-      "competitor_color": "#E74C3C",
-      "title": "Navigation menu changed",
-      "description": "Added: FIFA World Cup Betting Bonuses, FIFA World Cup Betting Sites | Removed: College Football Betting Sites, March Madness Betting Sites",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.thelines.com/"
-    },
-    {
-      "competitor_name": "The Lines",
-      "competitor_initials": "TL",
-      "competitor_color": "#E74C3C",
-      "title": "Feature/tool presence changed",
-      "description": "Free-to-play element disappeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.thelines.com/"
-    },
-    {
-      "competitor_name": "Vegas Insider",
-      "competitor_initials": "VI",
-      "competitor_color": "#3498DB",
-      "title": "Feature/tool presence changed",
-      "description": "Search bar disappeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.vegasinsider.com/"
-    },
-    {
-      "competitor_name": "Vegas Insider",
-      "competitor_initials": "VI",
-      "competitor_color": "#3498DB",
-      "title": "Page layout restructured",
-      "description": "sections: 6 → 2",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.vegasinsider.com/"
     },
     {
       "competitor_name": "Pickswise",
       "competitor_initials": "PW",
       "competitor_color": "#2ECC71",
       "title": "Feature/tool presence changed",
-      "description": "Ratings/scores appeared",
+      "description": "Ratings/scores disappeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
+      "detected_at": "2026-05-22T07:05:20.000Z",
       "url": "https://www.pickswise.com/"
     },
     {
-      "competitor_name": "Roto Grinders",
-      "competitor_initials": "RG",
-      "competitor_color": "#1ABC9C",
+      "competitor_name": "Betting Pros",
+      "competitor_initials": "BP",
+      "competitor_color": "#16A085",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Wednesday",
+      "description": "Removed: View Tool ›",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://rotogrinders.com/"
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.bettingpros.com/"
+    },
+    {
+      "competitor_name": "Betting Pros",
+      "competitor_initials": "BP",
+      "competitor_color": "#16A085",
+      "title": "Page layout restructured",
+      "description": "tabs removed",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.bettingpros.com/"
     },
     {
       "competitor_name": "Fantasy Pros",
       "competitor_initials": "FP",
       "competitor_color": "#E67E22",
       "title": "Homepage headline (H1) changed",
-      "description": "Was: \"RB Handcuff Rankings\" → Now: \"Values in Every Round of Dynasty Startups\"",
+      "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"Deep Dynasty Sleepers\"",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
+      "detected_at": "2026-05-22T07:05:20.000Z",
       "url": "https://www.fantasypros.com/"
+    },
+    {
+      "competitor_name": "Fantasy Pros",
+      "competitor_initials": "FP",
+      "competitor_color": "#E67E22",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: NFL Draft Assistant, NFL Dynasty Rankings, NFL Trade Analyzer | Removed: NFL Consensus Rankings, NFL My Playbook, Waiver Assistant",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.fantasypros.com/"
+    },
+    {
+      "competitor_name": "Fantasy Pros",
+      "competitor_initials": "FP",
+      "competitor_color": "#E67E22",
+      "title": "Feature/tool presence changed",
+      "description": "Video embed disappeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.fantasypros.com/"
+    },
+    {
+      "competitor_name": "Free Bets",
+      "competitor_initials": "FB",
+      "competitor_color": "#34495E",
+      "title": "Navigation menu changed",
+      "description": "Added: Charlie McCann's Tips | Removed: Longest Travellers",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.freebets.com/"
+    },
+    {
+      "competitor_name": "Free Bets",
+      "competitor_initials": "FB",
+      "competitor_color": "#34495E",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: Join Now | Removed: YSKAST",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-22T07:05:20.000Z",
+      "url": "https://www.freebets.com/"
     },
     {
       "competitor_name": "Bonus Finder",
       "competitor_initials": "BF",
       "competitor_color": "#607D8B",
       "title": "Navigation menu changed",
-      "description": "Added: Kalshi",
+      "description": "Added: Casino Apps | Removed: Mobile Casinos, Promo Codes",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
+      "detected_at": "2026-05-22T07:05:20.000Z",
       "url": "https://www.bonusfinder.com/"
-    },
-    {
-      "competitor_name": "Bingo Sites",
-      "competitor_initials": "BS",
-      "competitor_color": "#A569BD",
-      "title": "Page title changed",
-      "description": "Was: \"WordPress › Error\" → Now: \"Best Bingo Sites UK | Trusted Bingo Reviews | May 2026\"",
-      "area": "seo_content",
-      "area_label": "SEO & Content",
-      "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.bingosites.co.uk/"
-    },
-    {
-      "competitor_name": "Bingo Sites",
-      "competitor_initials": "BS",
-      "competitor_color": "#A569BD",
-      "title": "Navigation structure changed",
-      "description": "Dropdown added; Mega menu added",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.bingosites.co.uk/"
-    },
-    {
-      "competitor_name": "Bingo Sites",
-      "competitor_initials": "BS",
-      "competitor_color": "#A569BD",
-      "title": "Feature/tool presence changed",
-      "description": "Ratings/scores appeared, Structured data (JSON-LD) appeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.bingosites.co.uk/"
-    },
-    {
-      "competitor_name": "Bingo Sites",
-      "competitor_initials": "BS",
-      "competitor_color": "#A569BD",
-      "title": "Page layout restructured",
-      "description": "sections: 0 → 12",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.bingosites.co.uk/"
-    },
-    {
-      "competitor_name": "Bingo Sites",
-      "competitor_initials": "BS",
-      "competitor_color": "#A569BD",
-      "title": "Footer navigation changed",
-      "description": "Link count: 0 → 27",
-      "area": "seo_content",
-      "area_label": "SEO & Content",
-      "impact": "low",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://www.bingosites.co.uk/"
-    },
-    {
-      "competitor_name": "iGaming Business",
-      "competitor_initials": "IB",
-      "competitor_color": "#27AE60",
-      "title": "New footer links added",
-      "description": "New links: - In-depth, - Slots news - Powered by SlotsMaker, Almighty Zeus Wilds by Microgaming, Bling Blitz Diamond Drop by BGaming",
-      "area": "seo_content",
-      "area_label": "SEO & Content",
-      "impact": "low",
-      "detected_at": "2026-05-20T07:05:58.000Z",
-      "url": "https://igamingbusiness.com/"
     }
   ]
 }
