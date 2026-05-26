@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-25T07:10:00.000Z",
-  "date": "25/05/2026",
+  "generated_at": "2026-05-26T07:10:00.000Z",
+  "date": "26/05/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 11,
-    "high_impact": 2,
-    "medium_impact": 9,
+    "changes_detected": 6,
+    "high_impact": 0,
+    "medium_impact": 6,
     "low_impact": 0
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 1 },
+    { "slug": "product_features", "label": "Product Features", "count": 0 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
     { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 10 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 6 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -70,7 +70,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-05-26T07:05:07.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -79,6 +79,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-25T07:05:55.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Unlock All Picks, View Full Analysis, View Less",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
           "url": "https://www.vegasinsider.com/"
         }
       ]
@@ -151,7 +160,7 @@
       "flag": "🇺🇸",
       "color": "#8E44AD",
       "initials": "PU",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-05-26T07:05:07.000Z",
       "changes": [
         {
           "title": "Homepage headline (H1) changed",
@@ -170,6 +179,15 @@
           "impact": "medium",
           "detected_at": "2026-05-25T07:05:55.000Z",
           "url": "https://www.playusa.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Free Slots, Online Blackjack, Online Casino Bonuses, Online Casino Power Rankings, Online Craps | Removed: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
+          "url": "https://www.playusa.com/"
         }
       ]
     },
@@ -183,7 +201,7 @@
       "flag": "🇬🇧",
       "color": "#6C3483",
       "initials": "BF",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-05-26T07:05:07.000Z",
       "changes": [
         {
           "title": "Navigation menu changed",
@@ -192,6 +210,15 @@
           "area_label": "UX & Conversion",
           "impact": "high",
           "detected_at": "2026-05-25T07:05:55.000Z",
+          "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: Match Me Up",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
           "url": "https://www.bonusfinder.com/"
         }
       ]
@@ -255,7 +282,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-05-26T07:05:07.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -264,6 +291,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-25T07:05:55.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Buy Now, Coming Friday, Coming Thursday, Coming Wednesday, GET THE PICKS | Removed: Coming Tuesday, Next event May 30th",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -278,7 +314,7 @@
       "flag": "🇺🇸",
       "color": "#E67E22",
       "initials": "FP",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-05-26T07:05:07.000Z",
       "changes": [
         {
           "title": "Homepage headline (H1) changed",
@@ -297,6 +333,15 @@
           "impact": "high",
           "detected_at": "2026-05-25T07:05:55.000Z",
           "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"WR3s with WR1 Potential\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
+          "url": "https://www.fantasypros.com/"
         }
       ]
     },
@@ -310,8 +355,18 @@
       "flag": "🇬🇧",
       "color": "#34495E",
       "initials": "FB",
-      "last_scanned": "2026-04-23T07:04:54.000Z",
-      "changes": []
+      "last_scanned": "2026-05-26T07:05:07.000Z",
+      "changes": [
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Expand | Removed: Join Now",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-05-26T07:05:07.000Z",
+          "url": "https://www.freebets.com/"
+        }
+      ]
     },
     {
       "id": "igamingbusiness",
@@ -329,99 +384,39 @@
   ],
   "recent_changes": [
     {
-      "competitor_name": "Covers",
-      "competitor_initials": "CO",
-      "competitor_color": "#C0392B",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Latest Betting News | Removed: Get More Picks, View Matchup",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.covers.com/"
-    },
-    {
       "competitor_name": "Vegas Insider",
       "competitor_initials": "VI",
       "competitor_color": "#3498DB",
       "title": "CTA/button text changed",
-      "description": "Removed: Unlock All Picks, View Full Analysis, View Less",
+      "description": "New CTAs: Unlock All Picks, View Full Analysis, View Less",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
+      "detected_at": "2026-05-26T07:05:07.000Z",
       "url": "https://www.vegasinsider.com/"
     },
     {
-      "competitor_name": "Betting Pros",
-      "competitor_initials": "BP",
-      "competitor_color": "#16A085",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: View Tool ›",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.bettingpros.com/"
-    },
-    {
-      "competitor_name": "Betting Pros",
-      "competitor_initials": "BP",
-      "competitor_color": "#16A085",
-      "title": "Page layout restructured",
-      "description": "tabs added",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.bettingpros.com/"
-    },
-    {
-      "competitor_name": "Play USA",
-      "competitor_initials": "PU",
-      "competitor_color": "#8E44AD",
-      "title": "Homepage headline (H1) changed",
-      "description": "Was: \"For Players, By Players\" → Now: \"Get the Most Out of Your Online Gambling Experience\"",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.playusa.com/"
-    },
-    {
       "competitor_name": "Play USA",
       "competitor_initials": "PU",
       "competitor_color": "#8E44AD",
       "title": "CTA/button text changed",
-      "description": "Removed: Responsible gambling",
+      "description": "New CTAs: Free Slots, Online Blackjack, Online Casino Bonuses, Online Casino Power Rankings, Online Craps | Removed: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
+      "detected_at": "2026-05-26T07:05:07.000Z",
       "url": "https://www.playusa.com/"
-    },
-    {
-      "competitor_name": "Play Indiana",
-      "competitor_initials": "PIN",
-      "competitor_color": "#117A8B",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Up to 2M GC + 32 Free SC | Removed: Up to 1.55M GC + 32 Free SC",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.playindiana.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Coming Tuesday | Removed: Buy Now, GET THE PICKS",
+      "description": "New CTAs: Buy Now, Coming Friday, Coming Thursday, Coming Wednesday, GET THE PICKS | Removed: Coming Tuesday, Next event May 30th",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
+      "detected_at": "2026-05-26T07:05:07.000Z",
       "url": "https://rotogrinders.com/"
     },
     {
@@ -429,35 +424,35 @@
       "competitor_initials": "FP",
       "competitor_color": "#E67E22",
       "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"Deep Dynasty Sleepers\"",
+      "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"WR3s with WR1 Potential\"",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-25T07:05:55.000Z",
+      "detected_at": "2026-05-26T07:05:07.000Z",
       "url": "https://www.fantasypros.com/"
     },
     {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Feature/tool presence changed",
-      "description": "Video embed appeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-05-25T07:05:55.000Z",
-      "url": "https://www.fantasypros.com/"
+      "competitor_name": "Free Bets",
+      "competitor_initials": "FB",
+      "competitor_color": "#34495E",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: Expand | Removed: Join Now",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-05-26T07:05:07.000Z",
+      "url": "https://www.freebets.com/"
     },
     {
       "competitor_name": "Bonus Finder",
       "competitor_initials": "BF",
       "competitor_color": "#6C3483",
-      "title": "Navigation menu changed",
-      "description": "Added: Apple Pay Casinos | Removed: Pay by Phone Casinos",
+      "title": "CTA/button text changed",
+      "description": "Removed: Match Me Up",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-25T07:05:55.000Z",
+      "impact": "medium",
+      "detected_at": "2026-05-26T07:05:07.000Z",
       "url": "https://www.bonusfinder.com/"
     }
   ]
