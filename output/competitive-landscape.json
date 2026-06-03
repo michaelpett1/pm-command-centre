@@ -1,29 +1,81 @@
 {
-  "generated_at": "2026-05-22T07:10:00.000Z",
-  "date": "22/05/2026",
+  "generated_at": "2026-06-03T07:10:00.000Z",
+  "date": "03/06/2026",
   "scan_summary": {
     "competitors_scanned": 43,
     "changes_detected": 10,
-    "high_impact": 4,
+    "high_impact": 3,
     "medium_impact": 6,
-    "low_impact": 0
+    "low_impact": 1
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 2 },
-    { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 8 },
-    { "slug": "market_launches", "label": "Market Launches", "count": 0 }
+    {
+      "slug": "product_features",
+      "label": "Product Features",
+      "count": 3
+    },
+    {
+      "slug": "pricing_models",
+      "label": "Pricing Models",
+      "count": 0
+    },
+    {
+      "slug": "seo_content",
+      "label": "SEO & Content",
+      "count": 1
+    },
+    {
+      "slug": "ux_conversion",
+      "label": "UX & Conversion",
+      "count": 6
+    },
+    {
+      "slug": "market_launches",
+      "label": "Market Launches",
+      "count": 0
+    }
   ],
   "segments": [
-    { "slug": "sports_betting", "label": "Sports Betting", "flag": "🇺🇸" },
-    { "slug": "casino", "label": "Casino", "flag": "🇺🇸" },
-    { "slug": "state_affiliate", "label": "State Affiliate", "flag": "🇺🇸" },
-    { "slug": "sports_data_fantasy", "label": "Sports Data/Fantasy", "flag": "🇺🇸" },
-    { "slug": "odds_comparison", "label": "Odds Comparison", "flag": "🇬🇧" },
-    { "slug": "news_hybrid", "label": "News/Hybrid", "flag": "🇬🇧" },
-    { "slug": "casino_bonus", "label": "Casino & Bonus", "flag": "🇬🇧" },
-    { "slug": "bingo", "label": "Bingo", "flag": "🇬🇧" }
+    {
+      "slug": "sports_betting",
+      "label": "Sports Betting",
+      "flag": "🇺🇸"
+    },
+    {
+      "slug": "casino",
+      "label": "Casino",
+      "flag": "🇺🇸"
+    },
+    {
+      "slug": "state_affiliate",
+      "label": "State Affiliate",
+      "flag": "🇺🇸"
+    },
+    {
+      "slug": "sports_data_fantasy",
+      "label": "Sports Data/Fantasy",
+      "flag": "🇺🇸"
+    },
+    {
+      "slug": "odds_comparison",
+      "label": "Odds Comparison",
+      "flag": "🇬🇧"
+    },
+    {
+      "slug": "news_hybrid",
+      "label": "News/Hybrid",
+      "flag": "🇬🇧"
+    },
+    {
+      "slug": "casino_bonus",
+      "label": "Casino & Bonus",
+      "flag": "🇬🇧"
+    },
+    {
+      "slug": "bingo",
+      "label": "Bingo",
+      "flag": "🇬🇧"
+    }
   ],
   "competitors": [
     {
@@ -36,7 +88,7 @@
       "flag": "🇺🇸",
       "color": "#E74C3C",
       "initials": "TL",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
         {
           "title": "New footer links added",
@@ -73,6 +125,15 @@
           "impact": "high",
           "detected_at": "2026-05-20T07:05:58.000Z",
           "url": "https://www.thelines.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Free-to-play element disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.thelines.com/"
         }
       ]
     },
@@ -86,17 +147,8 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-05-22T07:05:20.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: NBA Betting Forum, NCAAB Betting Forum | Removed: No Code Needed, View Matchup",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.covers.com/"
-        },
         {
           "title": "Navigation structure changed",
           "description": "Top-level items: 8 → 9",
@@ -150,6 +202,15 @@
           "impact": "medium",
           "detected_at": "2026-05-22T07:05:20.000Z",
           "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Claim $10, Claim $100, Claim $50, Claim Now, No Code Needed | Removed: Get More Picks, Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -165,15 +226,6 @@
       "initials": "VI",
       "last_scanned": "2026-05-20T07:05:58.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: View Full Analysis",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.vegasinsider.com/"
-        },
         {
           "title": "Feature/tool presence changed",
           "description": "Search bar appeared",
@@ -435,7 +487,7 @@
       "flag": "🇺🇸",
       "color": "#16A085",
       "initials": "BP",
-      "last_scanned": "2026-05-22T07:05:20.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -489,6 +541,24 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-22T07:05:20.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Search bar disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 28 → 25",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
           "url": "https://www.bettingpros.com/"
         }
       ]
@@ -553,17 +623,8 @@
       "flag": "🇺🇸",
       "color": "#9B59B6",
       "initials": "OG",
-      "last_scanned": "2026-05-19T07:06:03.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: Claim now | Removed: Play for real",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.onlinegambling.com/"
-        },
         {
           "title": "Navigation menu changed",
           "description": "Added: Big Pirate | Removed: SweepNext",
@@ -589,6 +650,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-19T07:06:03.000Z",
+          "url": "https://www.onlinegambling.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: 125,000 Coins + 10,000 FREE Entries, 127,000 GC + 62.5 SC, 150% Boost: 250,000 GC + 25 SC + Elixir & Claw Credits, 200% More Coins on First Purchase - 1,500,000 CC + 75 SC, 250,000 GC + 25 Free SC | Removed: Discover more casino bonus offers, Join for free now, Learn more about US gambling laws, Learn now for free, Meet all of our experts",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
           "url": "https://www.onlinegambling.com/"
         }
       ]
@@ -794,7 +864,7 @@
       "flag": "🇺🇸",
       "color": "#7D3C98",
       "initials": "NJ",
-      "last_scanned": "2026-05-15T07:05:26.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
         {
           "title": "Feature/tool presence changed",
@@ -803,6 +873,15 @@
           "area_label": "Product Features",
           "impact": "high",
           "detected_at": "2026-05-15T07:05:26.000Z",
+          "url": "https://www.playnj.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: 100PLAYNJ, 4.8 Rating, Copy promo code 100PLAYNJ, Draftkings Casino Review, Get 1,000 Spins New Player Bonus | Removed: $10 Bonus On Sign Up, 4.4 Rating, Caesars Palace Online Casino Review, Copy promo code PLAYNJLAUNCH, PLAYNJLAUNCH",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
           "url": "https://www.playnj.com/"
         }
       ]
@@ -817,17 +896,8 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Thursday",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://rotogrinders.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "Removed: Coming Tuesday",
@@ -881,6 +951,15 @@
           "impact": "medium",
           "detected_at": "2026-05-20T07:05:58.000Z",
           "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: Coming Wednesday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://rotogrinders.com/"
         }
       ]
     },
@@ -894,26 +973,8 @@
       "flag": "🇺🇸",
       "color": "#E67E22",
       "initials": "FP",
-      "last_scanned": "2026-05-22T07:05:20.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
-        {
-          "title": "Homepage headline (H1) changed",
-          "description": "Was: \"DBro's Top 100 Dynasty Rookie Rankings\" → Now: \"50 Stats to Know: 2026 NFL Draft Class\"",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.fantasypros.com/"
-        },
-        {
-          "title": "Feature/tool presence changed",
-          "description": "Video embed disappeared",
-          "area": "product_features",
-          "area_label": "Product Features",
-          "impact": "high",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.fantasypros.com/"
-        },
         {
           "title": "Homepage headline (H1) changed",
           "description": "Was: \"Early Rookie Predictions\" → Now: \"DBro's Dynasty Rookie Draft Primers\"",
@@ -985,6 +1046,24 @@
           "impact": "high",
           "detected_at": "2026-05-22T07:05:20.000Z",
           "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Updated Dynasty Trade Value Chart\" → Now: \"Updated Dynasty Trade Value Chart\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Video embed appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.fantasypros.com/"
         }
       ]
     },
@@ -1000,15 +1079,6 @@
       "initials": "FB",
       "last_scanned": "2026-05-22T07:05:20.000Z",
       "changes": [
-        {
-          "title": "CTA/button text changed",
-          "description": "New CTAs: YSKAST | Removed: Join Now",
-          "area": "ux_conversion",
-          "area_label": "UX & Conversion",
-          "impact": "medium",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://www.freebets.com/"
-        },
         {
           "title": "CTA/button text changed",
           "description": "New CTAs: Show 48 results, World Cup Betting Offers | Removed: Show 47 results, World Cup 2026 Hub",
@@ -1084,17 +1154,8 @@
       "flag": "🇬🇧",
       "color": "#27AE60",
       "initials": "IB",
-      "last_scanned": "2026-05-20T07:05:58.000Z",
+      "last_scanned": "2026-06-03T07:06:21.000Z",
       "changes": [
-        {
-          "title": "New footer links added",
-          "description": "New links: Analysis, Are virtual games the new heart of the lobby?, H2GC: Prediction markets – Overhyped and underperforming?",
-          "area": "seo_content",
-          "area_label": "SEO & Content",
-          "impact": "low",
-          "detected_at": "2026-04-23T07:04:54.000Z",
-          "url": "https://igamingbusiness.com/"
-        },
         {
           "title": "New footer links added",
           "description": "New links: - In-depth, - Slots news - Powered by SlotsMaker, Almighty Zeus Wilds by Microgaming, Bling Blitz Diamond Drop by BGaming",
@@ -1102,6 +1163,15 @@
           "area_label": "SEO & Content",
           "impact": "low",
           "detected_at": "2026-05-20T07:05:58.000Z",
+          "url": "https://igamingbusiness.com/"
+        },
+        {
+          "title": "New footer links added",
+          "description": "New links: Slots news - Powered by SlotsMaker, Instawin by Galaxsys, Soapranos by Peter & Sons",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-06-03T07:06:21.000Z",
           "url": "https://igamingbusiness.com/"
         }
       ]
@@ -1272,124 +1342,124 @@
   ],
   "recent_changes": [
     {
-      "competitor_name": "Covers",
-      "competitor_initials": "CO",
-      "competitor_color": "#C0392B",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: View Matchup",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.covers.com/"
-    },
-    {
-      "competitor_name": "Pickswise",
-      "competitor_initials": "PW",
-      "competitor_color": "#2ECC71",
+      "competitor_name": "The Lines",
+      "competitor_initials": "TL",
+      "competitor_color": "#E74C3C",
       "title": "Feature/tool presence changed",
-      "description": "Ratings/scores disappeared",
+      "description": "Free-to-play element disappeared",
       "area": "product_features",
       "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.pickswise.com/"
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.thelines.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
+      "title": "Feature/tool presence changed",
+      "description": "Search bar disappeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.bettingpros.com/"
+    },
+    {
+      "competitor_name": "Fantasy Pros",
+      "competitor_initials": "FP",
+      "competitor_color": "#E67E22",
+      "title": "Feature/tool presence changed",
+      "description": "Video embed appeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.fantasypros.com/"
+    },
+    {
+      "competitor_name": "Covers",
+      "competitor_initials": "CO",
+      "competitor_color": "#C0392B",
       "title": "CTA/button text changed",
-      "description": "Removed: View Tool ›",
+      "description": "New CTAs: Claim $10, Claim $100, Claim $50, Claim Now, No Code Needed | Removed: Get More Picks, Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.bettingpros.com/"
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.covers.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
       "title": "Page layout restructured",
-      "description": "tabs removed",
+      "description": "sections: 28 → 25",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
+      "detected_at": "2026-06-03T07:06:21.000Z",
       "url": "https://www.bettingpros.com/"
+    },
+    {
+      "competitor_name": "Online Gambling",
+      "competitor_initials": "OG",
+      "competitor_color": "#9B59B6",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: 125,000 Coins + 10,000 FREE Entries, 127,000 GC + 62.5 SC, 150% Boost: 250,000 GC + 25 SC + Elixir & Claw Credits, 200% More Coins on First Purchase - 1,500,000 CC + 75 SC, 250,000 GC + 25 Free SC | Removed: Discover more casino bonus offers, Join for free now, Learn more about US gambling laws, Learn now for free, Meet all of our experts",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.onlinegambling.com/"
+    },
+    {
+      "competitor_name": "Play NJ",
+      "competitor_initials": "NJ",
+      "competitor_color": "#7D3C98",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: 100PLAYNJ, 4.8 Rating, Copy promo code 100PLAYNJ, Draftkings Casino Review, Get 1,000 Spins New Player Bonus | Removed: $10 Bonus On Sign Up, 4.4 Rating, Caesars Palace Online Casino Review, Copy promo code PLAYNJLAUNCH, PLAYNJLAUNCH",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://www.playnj.com/"
+    },
+    {
+      "competitor_name": "Roto Grinders",
+      "competitor_initials": "RG",
+      "competitor_color": "#1ABC9C",
+      "title": "CTA/button text changed",
+      "description": "Removed: Coming Wednesday",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://rotogrinders.com/"
     },
     {
       "competitor_name": "Fantasy Pros",
       "competitor_initials": "FP",
       "competitor_color": "#E67E22",
       "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"Deep Dynasty Sleepers\"",
+      "description": "Was: \"Updated Dynasty Trade Value Chart\" → Now: \"Updated Dynasty Trade Value Chart\"",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
+      "detected_at": "2026-06-03T07:06:21.000Z",
       "url": "https://www.fantasypros.com/"
     },
     {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: NFL Draft Assistant, NFL Dynasty Rankings, NFL Trade Analyzer | Removed: NFL Consensus Rankings, NFL My Playbook, Waiver Assistant",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.fantasypros.com/"
-    },
-    {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Feature/tool presence changed",
-      "description": "Video embed disappeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.fantasypros.com/"
-    },
-    {
-      "competitor_name": "Free Bets",
-      "competitor_initials": "FB",
-      "competitor_color": "#34495E",
-      "title": "Navigation menu changed",
-      "description": "Added: Charlie McCann's Tips | Removed: Longest Travellers",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.freebets.com/"
-    },
-    {
-      "competitor_name": "Free Bets",
-      "competitor_initials": "FB",
-      "competitor_color": "#34495E",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Join Now | Removed: YSKAST",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.freebets.com/"
-    },
-    {
-      "competitor_name": "Bonus Finder",
-      "competitor_initials": "BF",
-      "competitor_color": "#607D8B",
-      "title": "Navigation menu changed",
-      "description": "Added: Casino Apps | Removed: Mobile Casinos, Promo Codes",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-05-22T07:05:20.000Z",
-      "url": "https://www.bonusfinder.com/"
+      "competitor_name": "iGaming Business",
+      "competitor_initials": "IB",
+      "competitor_color": "#27AE60",
+      "title": "New footer links added",
+      "description": "New links: Slots news - Powered by SlotsMaker, Instawin by Galaxsys, Soapranos by Peter & Sons",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-06-03T07:06:21.000Z",
+      "url": "https://igamingbusiness.com/"
     }
   ]
 }
