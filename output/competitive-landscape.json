@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-26T07:10:00.000Z",
-  "date": "26/05/2026",
+  "generated_at": "2026-06-05T07:06:39.000Z",
+  "date": "05/06/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 6,
-    "high_impact": 0,
+    "changes_detected": 9,
+    "high_impact": 3,
     "medium_impact": 6,
     "low_impact": 0
   },
   "monitoring_areas": [
     { "slug": "product_features", "label": "Product Features", "count": 0 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 6 },
+    { "slug": "seo_content", "label": "SEO & Content", "count": 1 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 8 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -34,8 +34,18 @@
       "flag": "🇺🇸",
       "color": "#E74C3C",
       "initials": "TL",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
-      "changes": []
+      "last_scanned": "2026-06-05T07:06:39.000Z",
+      "changes": [
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Best College Football Betting Sites, Best NFL Betting Sites, March Madness Betting Sites | Removed: NFL Betting Sites, bet365 Bonus Code, bet365 Sportsbook Review",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-06-05T07:06:39.000Z",
+          "url": "https://www.thelines.com/"
+        }
+      ]
     },
     {
       "id": "covers",
@@ -47,7 +57,7 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-06-05T07:06:39.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -56,6 +66,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-25T07:05:55.000Z",
+          "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Get More Picks, Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum | Removed: Claim $10, Claim $100, Claim $50, Claim Now, No Code Needed",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
           "url": "https://www.covers.com/"
         }
       ]
@@ -70,7 +89,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-05-26T07:05:07.000Z",
+      "last_scanned": "2026-06-05T07:06:39.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -88,6 +107,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-26T07:05:07.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Full Analysis",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
           "url": "https://www.vegasinsider.com/"
         }
       ]
@@ -201,7 +229,7 @@
       "flag": "🇬🇧",
       "color": "#6C3483",
       "initials": "BF",
-      "last_scanned": "2026-05-26T07:05:07.000Z",
+      "last_scanned": "2026-06-05T07:06:39.000Z",
       "changes": [
         {
           "title": "Navigation menu changed",
@@ -220,6 +248,33 @@
           "impact": "medium",
           "detected_at": "2026-05-26T07:05:07.000Z",
           "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "Page title changed",
+          "description": "Was: \"BonusFinder US | The #1 Guide to Casino Bonuses\" → Now: \"Compare Best Casino Bonuses and Latest Offers on BonusFinder\"",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
+          "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Find Your Next Bonus in <60s\" → Now: \"Compare Best Casino Bonuses and Latest Offers\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
+          "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 10 → 14, articles: 9 → 6",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
+          "url": "https://www.bonusfinder.com/"
         }
       ]
     },
@@ -233,8 +288,18 @@
       "flag": "🇺🇸",
       "color": "#F39C12",
       "initials": "PI",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
-      "changes": []
+      "last_scanned": "2026-06-05T07:06:39.000Z",
+      "changes": [
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Funrize Casino | Removed: Caesars Illinois",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-06-05T07:06:39.000Z",
+          "url": "https://www.playillinois.com/"
+        }
+      ]
     },
     {
       "id": "playohio",
@@ -259,7 +324,7 @@
       "flag": "🇺🇸",
       "color": "#117A8B",
       "initials": "PIN",
-      "last_scanned": "2026-05-25T07:05:55.000Z",
+      "last_scanned": "2026-06-05T07:06:39.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -268,6 +333,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-25T07:05:55.000Z",
+          "url": "https://www.playindiana.com/"
+        },
+        {
+          "title": "Navigation menu changed",
+          "description": "Added: Ultimate Texas Hold'em | Removed: Caesars Promo Code",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "high",
+          "detected_at": "2026-06-05T07:06:39.000Z",
           "url": "https://www.playindiana.com/"
         }
       ]
@@ -282,7 +356,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-05-26T07:05:07.000Z",
+      "last_scanned": "2026-06-05T07:06:39.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -300,6 +374,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-05-26T07:05:07.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Friday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-05T07:06:39.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -384,75 +467,111 @@
   ],
   "recent_changes": [
     {
+      "competitor_name": "The Lines",
+      "competitor_initials": "TL",
+      "competitor_color": "#E74C3C",
+      "title": "Navigation menu changed",
+      "description": "Added: Best College Football Betting Sites, Best NFL Betting Sites, March Madness Betting Sites | Removed: NFL Betting Sites, bet365 Bonus Code, bet365 Sportsbook Review",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.thelines.com/"
+    },
+    {
+      "competitor_name": "Covers",
+      "competitor_initials": "CO",
+      "competitor_color": "#C0392B",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: Get More Picks, Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum | Removed: Claim $10, Claim $100, Claim $50, Claim Now, No Code Needed",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.covers.com/"
+    },
+    {
       "competitor_name": "Vegas Insider",
       "competitor_initials": "VI",
       "competitor_color": "#3498DB",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Unlock All Picks, View Full Analysis, View Less",
+      "description": "New CTAs: View Full Analysis",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
+      "detected_at": "2026-06-05T07:06:39.000Z",
       "url": "https://www.vegasinsider.com/"
     },
     {
-      "competitor_name": "Play USA",
-      "competitor_initials": "PU",
-      "competitor_color": "#8E44AD",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Free Slots, Online Blackjack, Online Casino Bonuses, Online Casino Power Rankings, Online Craps | Removed: $1 Deposit Casinos, Free craps online, Free spins bonuses, Guide to Online Slots, How to play the Powerball online",
+      "competitor_name": "Play Illinois",
+      "competitor_initials": "PI",
+      "competitor_color": "#F39C12",
+      "title": "Navigation menu changed",
+      "description": "Added: Funrize Casino | Removed: Caesars Illinois",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
-      "url": "https://www.playusa.com/"
+      "impact": "high",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.playillinois.com/"
+    },
+    {
+      "competitor_name": "Play Indiana",
+      "competitor_initials": "PIN",
+      "competitor_color": "#117A8B",
+      "title": "Navigation menu changed",
+      "description": "Added: Ultimate Texas Hold'em | Removed: Caesars Promo Code",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "high",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.playindiana.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Buy Now, Coming Friday, Coming Thursday, Coming Wednesday, GET THE PICKS | Removed: Coming Tuesday, Next event May 30th",
+      "description": "New CTAs: Buy Now, GET THE PICKS | Removed: Coming Friday",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
+      "detected_at": "2026-06-05T07:06:39.000Z",
       "url": "https://rotogrinders.com/"
-    },
-    {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Deep Dynasty Sleepers\" → Now: \"WR3s with WR1 Potential\"",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
-      "url": "https://www.fantasypros.com/"
-    },
-    {
-      "competitor_name": "Free Bets",
-      "competitor_initials": "FB",
-      "competitor_color": "#34495E",
-      "title": "CTA/button text changed",
-      "description": "New CTAs: Expand | Removed: Join Now",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
-      "url": "https://www.freebets.com/"
     },
     {
       "competitor_name": "Bonus Finder",
       "competitor_initials": "BF",
       "competitor_color": "#6C3483",
-      "title": "CTA/button text changed",
-      "description": "Removed: Match Me Up",
+      "title": "Page title changed",
+      "description": "Was: \"BonusFinder US | The #1 Guide to Casino Bonuses\" → Now: \"Compare Best Casino Bonuses and Latest Offers on BonusFinder\"",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "medium",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.bonusfinder.com/"
+    },
+    {
+      "competitor_name": "Bonus Finder",
+      "competitor_initials": "BF",
+      "competitor_color": "#6C3483",
+      "title": "Homepage headline (H1) changed",
+      "description": "Was: \"Find Your Next Bonus in <60s\" → Now: \"Compare Best Casino Bonuses and Latest Offers\"",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-05-26T07:05:07.000Z",
+      "detected_at": "2026-06-05T07:06:39.000Z",
+      "url": "https://www.bonusfinder.com/"
+    },
+    {
+      "competitor_name": "Bonus Finder",
+      "competitor_initials": "BF",
+      "competitor_color": "#6C3483",
+      "title": "Page layout restructured",
+      "description": "sections: 10 → 14, articles: 9 → 6",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-05T07:06:39.000Z",
       "url": "https://www.bonusfinder.com/"
     }
   ]
