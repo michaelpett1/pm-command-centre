@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-09T07:05:03.000Z",
-  "date": "09/06/2026",
+  "generated_at": "2026-06-10T07:06:05.000Z",
+  "date": "10/06/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 11,
-    "high_impact": 3,
-    "medium_impact": 8,
+    "changes_detected": 9,
+    "high_impact": 0,
+    "medium_impact": 9,
     "low_impact": 0
   },
   "monitoring_areas": [
     {
       "slug": "product_features",
       "label": "Product Features",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "pricing_models",
@@ -22,7 +22,7 @@
     {
       "slug": "seo_content",
       "label": "SEO & Content",
-      "count": 1
+      "count": 0
     },
     {
       "slug": "ux_conversion",
@@ -174,7 +174,7 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-06-09T07:05:03.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "Navigation structure changed",
@@ -265,6 +265,15 @@
           "impact": "medium",
           "detected_at": "2026-06-09T07:05:03.000Z",
           "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Join the conversation, NBA Betting Forum, NCAAB Betting Forum, Start playing now | Removed: Claim $100, Claim $50, Claim Now, No Code Needed, View best betting sites",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -278,7 +287,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-06-08T07:05:53.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "Feature/tool presence changed",
@@ -386,6 +395,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-06-08T07:05:53.000Z",
+          "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Full Analysis",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
           "url": "https://www.vegasinsider.com/"
         }
       ]
@@ -613,7 +631,7 @@
       "flag": "🇺🇸",
       "color": "#16A085",
       "initials": "BP",
-      "last_scanned": "2026-06-09T07:05:03.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -749,6 +767,24 @@
           "impact": "medium",
           "detected_at": "2026-06-09T07:05:03.000Z",
           "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: P Premium FeatureUpgrade | Removed: View Tool ›",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "tabs removed",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://www.bettingpros.com/"
         }
       ]
     },
@@ -812,7 +848,7 @@
       "flag": "🇺🇸",
       "color": "#9B59B6",
       "initials": "OG",
-      "last_scanned": "2026-06-03T07:06:21.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "Navigation menu changed",
@@ -848,6 +884,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-06-03T07:06:21.000Z",
+          "url": "https://www.onlinegambling.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View all reviews | Removed: Claim now",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
           "url": "https://www.onlinegambling.com/"
         }
       ]
@@ -1131,7 +1176,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-06-09T07:05:03.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -1222,6 +1267,15 @@
           "impact": "medium",
           "detected_at": "2026-06-09T07:05:03.000Z",
           "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: Coming Wednesday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://rotogrinders.com/"
         }
       ]
     },
@@ -1235,7 +1289,7 @@
       "flag": "🇺🇸",
       "color": "#E67E22",
       "initials": "FP",
-      "last_scanned": "2026-06-09T07:05:03.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "Homepage headline (H1) changed",
@@ -1362,6 +1416,15 @@
           "impact": "medium",
           "detected_at": "2026-06-09T07:05:03.000Z",
           "url": "https://www.fantasypros.com/"
+        },
+        {
+          "title": "Homepage headline (H1) changed",
+          "description": "Was: \"Mid-Round Picks Experts Target\" → Now: \"Mid-Round Dynasty Rookies to Target\"",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://www.fantasypros.com/"
         }
       ]
     },
@@ -1479,7 +1542,7 @@
       "flag": "🇬🇧",
       "color": "#27AE60",
       "initials": "IB",
-      "last_scanned": "2026-06-09T07:05:03.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "New footer links added",
@@ -1507,6 +1570,15 @@
           "impact": "medium",
           "detected_at": "2026-06-09T07:05:03.000Z",
           "url": "https://igamingbusiness.com/"
+        },
+        {
+          "title": "Page layout restructured",
+          "description": "sections: 19 → 15, accordion removed",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
+          "url": "https://igamingbusiness.com/"
         }
       ]
     },
@@ -1520,7 +1592,7 @@
       "flag": "🇬🇧",
       "color": "#607D8B",
       "initials": "BF",
-      "last_scanned": "2026-06-08T07:05:53.000Z",
+      "last_scanned": "2026-06-10T07:06:05.000Z",
       "changes": [
         {
           "title": "Navigation menu changed",
@@ -1583,6 +1655,15 @@
           "area_label": "UX & Conversion",
           "impact": "high",
           "detected_at": "2026-06-08T07:05:53.000Z",
+          "url": "https://www.bonusfinder.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View All Authors",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-10T07:06:05.000Z",
           "url": "https://www.bonusfinder.com/"
         }
       ]
@@ -1697,36 +1778,36 @@
       "competitor_name": "Covers",
       "competitor_initials": "CO",
       "competitor_color": "#C0392B",
-      "title": "Navigation structure changed",
-      "description": "Top-level items: 8 → 9",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-09T07:05:03.000Z",
-      "url": "https://www.covers.com/"
-    },
-    {
-      "competitor_name": "Covers",
-      "competitor_initials": "CO",
-      "competitor_color": "#C0392B",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Get More Picks, NFL Betting Forum | Removed: Bet Now, View Matchup",
+      "description": "New CTAs: Join the conversation, NBA Betting Forum, NCAAB Betting Forum, Start playing now | Removed: Claim $100, Claim $50, Claim Now, No Code Needed, View best betting sites",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://www.covers.com/"
+    },
+    {
+      "competitor_name": "Vegas Insider",
+      "competitor_initials": "VI",
+      "competitor_color": "#3498DB",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: View Full Analysis",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-10T07:06:05.000Z",
+      "url": "https://www.vegasinsider.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
       "title": "CTA/button text changed",
-      "description": "New CTAs: View Tool › | Removed: P Premium FeatureUpgrade",
+      "description": "New CTAs: P Premium FeatureUpgrade | Removed: View Tool ›",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://www.bettingpros.com/"
     },
     {
@@ -1734,71 +1815,35 @@
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
       "title": "Page layout restructured",
-      "description": "tabs added",
+      "description": "tabs removed",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://www.bettingpros.com/"
     },
     {
-      "competitor_name": "Casino Reports",
-      "competitor_initials": "CR",
-      "competitor_color": "#795548",
-      "title": "Page title changed",
-      "description": "Was: \"US Online Casino News & iGaming | Casino Reports\" → Now: \"U.S. Online Casino News & iGaming\"",
-      "area": "seo_content",
-      "area_label": "SEO & Content",
-      "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
-      "url": "https://www.casinoreports.com/"
-    },
-    {
-      "competitor_name": "Casino Reports",
-      "competitor_initials": "CR",
-      "competitor_color": "#795548",
-      "title": "Navigation structure changed",
-      "description": "Top-level items: 7 → 0; Dropdown removed",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-09T07:05:03.000Z",
-      "url": "https://www.casinoreports.com/"
-    },
-    {
-      "competitor_name": "Casino Reports",
-      "competitor_initials": "CR",
-      "competitor_color": "#795548",
-      "title": "Feature/tool presence changed",
-      "description": "Newsletter signup disappeared, Search bar disappeared, Ratings/scores disappeared, AI feature/chatbot disappeared",
-      "area": "product_features",
-      "area_label": "Product Features",
-      "impact": "high",
-      "detected_at": "2026-06-09T07:05:03.000Z",
-      "url": "https://www.casinoreports.com/"
-    },
-    {
-      "competitor_name": "Casino Reports",
-      "competitor_initials": "CR",
-      "competitor_color": "#795548",
-      "title": "Page layout restructured",
-      "description": "articles: 27 → 19",
+      "competitor_name": "Online Gambling",
+      "competitor_initials": "OG",
+      "competitor_color": "#9B59B6",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: View all reviews | Removed: Claim now",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
-      "url": "https://www.casinoreports.com/"
+      "detected_at": "2026-06-10T07:06:05.000Z",
+      "url": "https://www.onlinegambling.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "Removed: Coming Tuesday",
+      "description": "Removed: Coming Wednesday",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://rotogrinders.com/"
     },
     {
@@ -1806,11 +1851,11 @@
       "competitor_initials": "FP",
       "competitor_color": "#E67E22",
       "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Early Bust Candidates Experts Avoid\" → Now: \"Mid-Round Picks Experts Target\"",
+      "description": "Was: \"Mid-Round Picks Experts Target\" → Now: \"Mid-Round Dynasty Rookies to Target\"",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://www.fantasypros.com/"
     },
     {
@@ -1818,12 +1863,24 @@
       "competitor_initials": "IB",
       "competitor_color": "#27AE60",
       "title": "Page layout restructured",
-      "description": "sections: 15 → 19, accordion added",
+      "description": "sections: 19 → 15, accordion removed",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-09T07:05:03.000Z",
+      "detected_at": "2026-06-10T07:06:05.000Z",
       "url": "https://igamingbusiness.com/"
+    },
+    {
+      "competitor_name": "Bonus Finder",
+      "competitor_initials": "BF",
+      "competitor_color": "#607D8B",
+      "title": "CTA/button text changed",
+      "description": "New CTAs: View All Authors",
+      "area": "ux_conversion",
+      "area_label": "UX & Conversion",
+      "impact": "medium",
+      "detected_at": "2026-06-10T07:06:05.000Z",
+      "url": "https://www.bonusfinder.com/"
     }
   ]
 }
