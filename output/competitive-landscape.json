@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-12T07:24:05.000Z",
-  "date": "12/06/2026",
+  "generated_at": "2026-06-15T07:10:00.000Z",
+  "date": "15/06/2026",
   "scan_summary": {
     "competitors_scanned": 43,
-    "changes_detected": 13,
-    "high_impact": 5,
-    "medium_impact": 8,
-    "low_impact": 0
+    "changes_detected": 8,
+    "high_impact": 2,
+    "medium_impact": 4,
+    "low_impact": 2
   },
   "monitoring_areas": [
-    { "slug": "product_features", "label": "Product Features", "count": 0 },
+    { "slug": "product_features", "label": "Product Features", "count": 2 },
     { "slug": "pricing_models", "label": "Pricing Models", "count": 0 },
-    { "slug": "seo_content", "label": "SEO & Content", "count": 0 },
-    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 13 },
+    { "slug": "seo_content", "label": "SEO & Content", "count": 2 },
+    { "slug": "ux_conversion", "label": "UX & Conversion", "count": 4 },
     { "slug": "market_launches", "label": "Market Launches", "count": 0 }
   ],
   "segments": [
@@ -75,7 +75,7 @@
       "flag": "🇺🇸",
       "color": "#C0392B",
       "initials": "CO",
-      "last_scanned": "2026-06-12T07:07:25.000Z",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -103,6 +103,15 @@
           "impact": "medium",
           "detected_at": "2026-06-12T07:07:25.000Z",
           "url": "https://www.covers.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Continue with Google | Removed: NBA",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.covers.com/"
         }
       ]
     },
@@ -116,7 +125,7 @@
       "flag": "🇺🇸",
       "color": "#3498DB",
       "initials": "VI",
-      "last_scanned": "2026-06-12T07:07:25.000Z",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -153,6 +162,15 @@
           "impact": "medium",
           "detected_at": "2026-06-12T07:07:25.000Z",
           "url": "https://www.vegasinsider.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: View Full Analysis",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.vegasinsider.com/"
         }
       ]
     },
@@ -166,8 +184,18 @@
       "flag": "🇺🇸",
       "color": "#2ECC71",
       "initials": "PW",
-      "last_scanned": "2026-04-21T07:06:09.000Z",
-      "changes": []
+      "last_scanned": "2026-06-15T07:08:19.000Z",
+      "changes": [
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Structured data (JSON-LD) appeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.pickswise.com/"
+        }
+      ]
     },
     {
       "id": "bettingpros",
@@ -179,7 +207,7 @@
       "flag": "🇺🇸",
       "color": "#16A085",
       "initials": "BP",
-      "last_scanned": "2026-06-12T07:07:25.000Z",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -224,6 +252,24 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-06-12T07:07:25.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "Removed: P Premium FeatureUpgrade",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.bettingpros.com/"
+        },
+        {
+          "title": "Footer navigation changed",
+          "description": "Link count: 42 → 36",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-06-15T07:08:19.000Z",
           "url": "https://www.bettingpros.com/"
         }
       ]
@@ -442,6 +488,29 @@
       ]
     },
     {
+      "id": "playmichigan",
+      "name": "Play Michigan",
+      "domain": "playmichigan.com",
+      "url": "https://www.playmichigan.com/",
+      "segment": "state_affiliate",
+      "segment_label": "State Affiliate",
+      "flag": "🇺🇸",
+      "color": "#CA6F1E",
+      "initials": "PM",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
+      "changes": [
+        {
+          "title": "Feature/tool presence changed",
+          "description": "Free-to-play element disappeared",
+          "area": "product_features",
+          "area_label": "Product Features",
+          "impact": "high",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.playmichigan.com/"
+        }
+      ]
+    },
+    {
       "id": "rotogrinders",
       "name": "Roto Grinders",
       "domain": "rotogrinders.com",
@@ -451,7 +520,7 @@
       "flag": "🇺🇸",
       "color": "#1ABC9C",
       "initials": "RG",
-      "last_scanned": "2026-06-12T07:07:25.000Z",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
       "changes": [
         {
           "title": "CTA/button text changed",
@@ -487,6 +556,15 @@
           "area_label": "UX & Conversion",
           "impact": "medium",
           "detected_at": "2026-06-12T07:07:25.000Z",
+          "url": "https://rotogrinders.com/"
+        },
+        {
+          "title": "CTA/button text changed",
+          "description": "New CTAs: Buy Now, Coming Friday, Coming Thursday, Coming Tuesday, Coming Wednesday | Removed: Coming Saturday",
+          "area": "ux_conversion",
+          "area_label": "UX & Conversion",
+          "impact": "medium",
+          "detected_at": "2026-06-15T07:08:19.000Z",
           "url": "https://rotogrinders.com/"
         }
       ]
@@ -538,6 +616,29 @@
           "impact": "medium",
           "detected_at": "2026-06-12T07:07:25.000Z",
           "url": "https://www.fantasypros.com/"
+        }
+      ]
+    },
+    {
+      "id": "numberfire",
+      "name": "NumberFire",
+      "domain": "numberfire.com",
+      "url": "https://www.numberfire.com/",
+      "segment": "sports_data_fantasy",
+      "segment_label": "Sports Data/Fantasy",
+      "flag": "🇺🇸",
+      "color": "#5D6D7E",
+      "initials": "NF",
+      "last_scanned": "2026-06-15T07:08:19.000Z",
+      "changes": [
+        {
+          "title": "New footer links added",
+          "description": "New links: CFB Playoff National Championship Odds, College Basketball, NBA, NHL, Super Bowl Odds",
+          "area": "seo_content",
+          "area_label": "SEO & Content",
+          "impact": "low",
+          "detected_at": "2026-06-15T07:08:19.000Z",
+          "url": "https://www.numberfire.com/"
         }
       ]
     },
@@ -602,156 +703,96 @@
       "competitor_initials": "CO",
       "competitor_color": "#C0392B",
       "title": "CTA/button text changed",
-      "description": "New CTAs: Join the conversation, NBA Betting Forum, NCAAB Betting Forum, NFL Betting Forum, Start playing now | Removed: Claim $100, Claim $50, Claim Now, No Code Needed, View Matchup",
+      "description": "New CTAs: Continue with Google | Removed: NBA",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
+      "detected_at": "2026-06-15T07:08:19.000Z",
       "url": "https://www.covers.com/"
-    },
-    {
-      "competitor_name": "The Lines",
-      "competitor_initials": "TL",
-      "competitor_color": "#E74C3C",
-      "title": "Navigation menu changed",
-      "description": "Added: Best MMA Betting Sites, Best UFC Betting Sites | Removed: Best World Cup Betting Sites, FIFA World Cup Betting Bonuses",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.thelines.com/"
-    },
-    {
-      "competitor_name": "The Lines",
-      "competitor_initials": "TL",
-      "competitor_color": "#E74C3C",
-      "title": "Navigation structure changed",
-      "description": "Top-level items: 8 → 9",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.thelines.com/"
     },
     {
       "competitor_name": "Vegas Insider",
       "competitor_initials": "VI",
       "competitor_color": "#3498DB",
       "title": "CTA/button text changed",
-      "description": "Removed: View Full Analysis",
+      "description": "New CTAs: View Full Analysis",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
+      "detected_at": "2026-06-15T07:08:19.000Z",
       "url": "https://www.vegasinsider.com/"
     },
     {
-      "competitor_name": "Betting Pros",
-      "competitor_initials": "BP",
-      "competitor_color": "#16A085",
-      "title": "Navigation menu changed",
-      "description": "Added: World Cup",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
+      "competitor_name": "Pickswise",
+      "competitor_initials": "PW",
+      "competitor_color": "#2ECC71",
+      "title": "Feature/tool presence changed",
+      "description": "Structured data (JSON-LD) appeared",
+      "area": "product_features",
+      "area_label": "Product Features",
       "impact": "high",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.bettingpros.com/"
+      "detected_at": "2026-06-15T07:08:19.000Z",
+      "url": "https://www.pickswise.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
       "title": "CTA/button text changed",
-      "description": "New CTAs: View Tool ›",
+      "description": "Removed: P Premium FeatureUpgrade",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
+      "detected_at": "2026-06-15T07:08:19.000Z",
       "url": "https://www.bettingpros.com/"
     },
     {
       "competitor_name": "Betting Pros",
       "competitor_initials": "BP",
       "competitor_color": "#16A085",
-      "title": "Page layout restructured",
-      "description": "tabs added",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
+      "title": "Footer navigation changed",
+      "description": "Link count: 42 → 36",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-06-15T07:08:19.000Z",
       "url": "https://www.bettingpros.com/"
+    },
+    {
+      "competitor_name": "Play Michigan",
+      "competitor_initials": "PM",
+      "competitor_color": "#CA6F1E",
+      "title": "Feature/tool presence changed",
+      "description": "Free-to-play element disappeared",
+      "area": "product_features",
+      "area_label": "Product Features",
+      "impact": "high",
+      "detected_at": "2026-06-15T07:08:19.000Z",
+      "url": "https://www.playmichigan.com/"
     },
     {
       "competitor_name": "Roto Grinders",
       "competitor_initials": "RG",
       "competitor_color": "#1ABC9C",
       "title": "CTA/button text changed",
-      "description": "Removed: Buy Now, Coming Friday, GET THE PICKS",
+      "description": "New CTAs: Buy Now, Coming Friday, Coming Thursday, Coming Tuesday, Coming Wednesday | Removed: Coming Saturday",
       "area": "ux_conversion",
       "area_label": "UX & Conversion",
       "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
+      "detected_at": "2026-06-15T07:08:19.000Z",
       "url": "https://rotogrinders.com/"
     },
     {
-      "competitor_name": "Fantasy Pros",
-      "competitor_initials": "FP",
-      "competitor_color": "#E67E22",
-      "title": "Homepage headline (H1) changed",
-      "description": "Was: \"Erickson's Top Picks to Target\" → Now: \"Dynasty Bust Candidates\"",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.fantasypros.com/"
-    },
-    {
-      "competitor_name": "Free Bets",
-      "competitor_initials": "FB",
-      "competitor_color": "#34495E",
-      "title": "Navigation menu changed",
-      "description": "Added: BetFinder App, How To Use BetFinder | Removed: Each Way Betting Calculator, Horse Racing Glossary",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.freebets.com/"
-    },
-    {
-      "competitor_name": "Free Bets",
-      "competitor_initials": "FB",
-      "competitor_color": "#34495E",
-      "title": "Navigation structure changed",
-      "description": "Top-level items: 10 → 11",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "high",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.freebets.com/"
-    },
-    {
-      "competitor_name": "Bonus Finder",
-      "competitor_initials": "BF",
-      "competitor_color": "#6C3483",
-      "title": "Page layout restructured",
-      "description": "articles: 8 → 5",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-06-12T07:07:25.000Z",
-      "url": "https://www.bonusfinder.com/"
-    },
-    {
-      "competitor_name": "Play Pennsylvania",
-      "competitor_initials": "PP",
-      "competitor_color": "#2980B9",
-      "title": "Page layout restructured",
-      "description": "tabs removed",
-      "area": "ux_conversion",
-      "area_label": "UX & Conversion",
-      "impact": "medium",
-      "detected_at": "2026-06-12T07:24:05.000Z",
-      "url": "https://www.playpennsylvania.com/"
+      "competitor_name": "NumberFire",
+      "competitor_initials": "NF",
+      "competitor_color": "#5D6D7E",
+      "title": "New footer links added",
+      "description": "New links: CFB Playoff National Championship Odds, College Basketball, NBA, NHL, Super Bowl Odds",
+      "area": "seo_content",
+      "area_label": "SEO & Content",
+      "impact": "low",
+      "detected_at": "2026-06-15T07:08:19.000Z",
+      "url": "https://www.numberfire.com/"
     }
   ]
 }
